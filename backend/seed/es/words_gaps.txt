@@ -1,0 +1,166 @@
+# Gap fill — high-frequency words placed back at their proper level (scores 1–6)
+@function-words
+1.05|pron|-|nada|没什么，什么都不|nothing|No quiero [nada].|我什么都不要。|I don't want anything.
+1.05|pron|-|algo|某事，某物|something|¿Quieres [algo]?|你想要点什么吗？|Do you want something?
+1.1|pron|-|nadie|没有人|nobody|No hay [nadie] en casa.|家里没人。|There's nobody at home.
+1.1|pron|-|alguien|某人|someone|Hay [alguien] en la puerta.|门口有人。|There's someone at the door.
+1.6|det|-|ningún|没有任何|no; not any|No tengo [ningún] problema.|我没有任何问题。|I have no problem.
+1.65|det|-|varios|几个|several|Tengo [varios] amigos aquí.|我在这里有几个朋友。|I have several friends here.
+2.2|det|-|ambos|两个都|both|[Ambos] son médicos.|他们俩都是医生。|They're both doctors.
+2.3|det|-|cualquier|任何|any|Ven [cualquier] día.|哪天来都行。|Come any day.
+2.35|adv|-|tan|如此|so|Es [tan] bonito.|真漂亮。|It's so beautiful.
+2.35|det|-|tanto|那么多|so much|Hay [tanto] trabajo.|有那么多工作。|There's so much work.
+2.4|adv|-|aún|还，仍|still; yet|[Aún] no ha llegado.|他还没到。|He hasn't arrived yet.
+2.45|adv|-|jamás|从不|never|[Jamás] lo olvidaré.|我永远不会忘记。|I'll never forget it.
+2.5|det|-|demás|其余的|the rest; other|Los [demás] ya se fueron.|其他人已经走了。|The others have already left.
+1.3|adv|-|arriba|上面，楼上|up; upstairs|El baño está [arriba].|洗手间在楼上。|The bathroom is upstairs.
+1.3|adv|-|abajo|下面，楼下|down; downstairs|Te espero [abajo].|我在楼下等你。|I'll wait for you downstairs.
+1.35|adv|-|delante|前面|in front|Siéntate [delante].|坐前面。|Sit in front.
+1.35|adv|-|detrás|后面|behind|El jardín está [detrás].|花园在后面。|The garden is behind.
+1.4|adv|-|dentro|里面|inside|Hace frío, vamos [dentro].|天冷，我们进去吧。|It's cold, let's go inside.
+1.4|adv|-|fuera|外面|outside|Los niños juegan [fuera].|孩子们在外面玩。|The children play outside.
+1.45|adv|-|encima|在上面|on top|Ponlo [encima].|把它放上面。|Put it on top.
+1.45|adv|-|debajo|在下面|underneath|El gato está [debajo].|猫在下面。|The cat is underneath.
+1.5|adv|-|enfrente|对面|opposite|El banco está [enfrente].|银行在对面。|The bank is opposite.
+1.55|adv|-|alrededor|周围|around|Hay árboles [alrededor].|周围有树。|There are trees around.
+1.6|adv|-|juntos|一起|together|Vivimos [juntos].|我们住在一起。|We live together.
+2.4|adv|-|adelante|向前|forward; ahead|¡[Adelante]!|请进！/向前！|Come in! / Go ahead!
+2.45|adv|-|atrás|向后|back; backwards|No mires [atrás].|别往后看。|Don't look back.
+2.55|adv|-|así|这样|like this|Hazlo [así].|这样做。|Do it like this.
+2.6|adv|-|igual|一样地|the same|Me da [igual].|我无所谓。|I don't mind.
+@core-verbs-gap
+1.05|v|-|pasar|经过；发生；度过|to pass; to happen; to spend|¿Qué va a [pasar]?|会发生什么？|What's going to happen?
+1.1|v|-|traer|带来|to bring|¿Puedes [traer] pan?|你能带点面包来吗？|Can you bring some bread?
+1.15|v|-|oír|听见|to hear|No te puedo [oír].|我听不见你说话。|I can't hear you.
+1.2|v|-|sacar|拿出；取出|to take out|Voy a [sacar] dinero.|我去取钱。|I'm going to take out some money.
+1.25|v|-|andar|走|to walk|Me gusta [andar] por el campo.|我喜欢在乡间散步。|I like walking in the countryside.
+1.3|v|-|parar|停|to stop|Tenemos que [parar] aquí.|我们得在这儿停下。|We have to stop here.
+1.35|v|-|meter|放进|to put in|Tienes que [meter] la ropa en la maleta.|你得把衣服放进行李箱。|You have to put the clothes in the suitcase.
+1.4|v|-|levantar|举起|to lift; to raise|No puedo [levantar] la caja.|我搬不动这个箱子。|I can't lift the box.
+1.45|v|-|caer|掉落|to fall|Cuidado, se va a [caer].|小心，要掉了。|Careful, it's going to fall.
+1.5|v|-|mover|移动|to move|Hay que [mover] el sofá.|得挪一下沙发。|The sofa needs moving.
+1.55|v|-|servir|服务；有用|to serve; to be useful|Esto no va a [servir].|这没用。|This isn't going to work.
+1.6|v|-|continuar|继续|to continue|Vamos a [continuar] mañana.|我们明天继续。|Let's continue tomorrow.
+1.65|v|-|tardar|花（时间）；耽搁|to take (time)|No voy a [tardar].|我不会耽搁太久。|I won't be long.
+1.7|v|-|durar|持续|to last|Va a [durar] dos horas.|会持续两个小时。|It's going to last two hours.
+1.75|v|-|resultar|结果是|to turn out|Puede [resultar] difícil.|这可能会很难。|It may turn out to be difficult.
+1.8|v|-|regalar|送（礼物）|to give (as a present)|Le quiero [regalar] un libro.|我想送他一本书。|I want to give him a book.
+1.85|v|-|recoger|拾起；接（人）|to pick up|Voy a [recoger] a los niños.|我去接孩子。|I'm going to pick up the children.
+1.9|v|-|mandar|寄；命令|to send; to order|Te voy a [mandar] una foto.|我给你发张照片。|I'll send you a photo.
+1.95|v|-|avisar|通知|to let know|Te voy a [avisar].|我会通知你的。|I'll let you know.
+2.05|v|-|apetecer|想要（西班牙）|to fancy|¿Te va a [apetecer] un café?|你会想喝杯咖啡吗？|Will you fancy a coffee?
+2.1|v|-|oler|闻；有……气味|to smell|Esto va a [oler] bien.|这会很香。|This is going to smell nice.
+2.15|v|-|sonar|响；听起来|to ring; to sound|Va a [sonar] el teléfono.|电话要响了。|The phone is going to ring.
+2.2|v|-|notar|察觉|to notice|No vas a [notar] la diferencia.|你察觉不到区别的。|You won't notice the difference.
+2.25|v|-|acercarse|靠近|to approach|No hay que [acercarse] al perro.|别靠近那只狗。|Don't go near the dog.
+2.3|v|-|alejarse|远离|to move away|Hay que [alejarse] del fuego.|要远离火。|You have to move away from the fire.
+2.35|v|-|cansarse|累|to get tired|Es fácil [cansarse] en verano.|夏天很容易累。|It's easy to get tired in summer.
+2.4|v|-|atender|接待；照顾|to serve; to attend to|¿Le puedo [atender]?|有什么可以帮您？|Can I help you?
+2.45|v|-|quemar|烧|to burn|Cuidado, te vas a [quemar].|小心，会烫到你。|Careful, you'll burn yourself.
+2.5|v|-|secar|弄干|to dry|Tengo que [secar] la ropa.|我得晾干衣服。|I have to dry the clothes.
+2.55|v|-|llenar|装满|to fill|Hay que [llenar] el depósito.|得加满油。|The tank needs filling.
+2.6|v|-|vaciar|倒空|to empty|Voy a [vaciar] la nevera.|我要清空冰箱。|I'm going to empty the fridge.
+2.65|v|-|empujar|推|to push|Hay que [empujar] la puerta.|要推门。|You have to push the door.
+2.7|v|-|atar|系，绑|to tie|Tienes que [atar] los zapatos.|你得系好鞋带。|You have to tie your shoes.
+2.75|v|-|coser|缝|to sew|Mi abuela sabe [coser].|我奶奶会缝纫。|My grandmother can sew.
+2.8|v|-|pesar|称重；重|to weigh|Hay que [pesar] la maleta.|要称一下行李箱。|The suitcase needs weighing.
+2.85|v|-|colocar|放置|to place|Hay que [colocar] los libros.|要把书摆好。|The books need putting away.
+2.9|v|-|echar|扔；倒；放|to throw; to pour; to put|¿Le vas a [echar] azúcar?|你要加糖吗？|Are you going to add sugar?
+2.95|v|-|preocupar|使担心|to worry|No te tiene que [preocupar].|你不必担心。|It needn't worry you.
+@jobs
+3.05|n|m|el bombero|消防员|firefighter|El [bombero] apagó el fuego.|消防员扑灭了火。|The firefighter put out the fire.
+3.1|n|m|el cartero|邮递员|postman|El [cartero] trae el correo.|邮递员送信来了。|The postman brings the post.
+3.15|n|m|el peluquero|理发师|hairdresser|Voy al [peluquero].|我去理发。|I'm going to the hairdresser's.
+3.2|n|m|el mecánico|机械师，修车工|mechanic|El [mecánico] arregló el coche.|修车工修好了车。|The mechanic fixed the car.
+3.3|n|m|el pintor|画家；油漆工|painter|El [pintor] pinta la casa.|油漆工在刷房子。|The painter is painting the house.
+3.35|n|m|el panadero|面包师|baker|El [panadero] se levanta temprano.|面包师起得很早。|The baker gets up early.
+3.4|n|m|el piloto|飞行员|pilot|El [piloto] habla por el altavoz.|机长在广播讲话。|The pilot is speaking over the speaker.
+3.45|n|m|el veterinario|兽医|vet|Llevo el perro al [veterinario].|我带狗去看兽医。|I'm taking the dog to the vet.
+3.5|n|m|el farmacéutico|药剂师|pharmacist|Pregunta al [farmacéutico].|问问药剂师。|Ask the pharmacist.
+3.55|n|m|el secretario|秘书|secretary|El [secretario] contesta el teléfono.|秘书接电话。|The secretary answers the phone.
+3.6|n|m|el traductor|翻译|translator|Trabajo como [traductor].|我当翻译。|I work as a translator.
+3.65|n|m|el obrero|工人|worker|El [obrero] trabaja en la obra.|工人在工地干活。|The worker works on the building site.
+3.7|n|m|el carpintero|木匠|carpenter|El [carpintero] hizo la mesa.|木匠做了这张桌子。|The carpenter made the table.
+3.75|n|m|el pescador|渔民|fisherman|El [pescador] vuelve al puerto.|渔民回到港口。|The fisherman returns to port.
+3.8|n|mf|el guía|导游|tour guide|El [guía] habla cuatro idiomas.|导游会说四种语言。|The guide speaks four languages.
+@shops-places
+2.6|n|f|la panadería|面包店|bakery|Compro pan en la [panadería].|我在面包店买面包。|I buy bread at the bakery.
+2.65|n|f|la carnicería|肉店|butcher's|Hay buena carne en la [carnicería].|肉店的肉很好。|There's good meat at the butcher's.
+2.7|n|f|la frutería|水果店|greengrocer's|Compro fruta en la [frutería].|我在水果店买水果。|I buy fruit at the greengrocer's.
+2.75|n|f|la pescadería|鱼店|fishmonger's|El pescado de esta [pescadería] es fresco.|这家鱼店的鱼很新鲜。|The fish at this fishmonger's is fresh.
+2.8|n|f|la librería|书店|bookshop|Compré el libro en una [librería].|我在书店买的这本书。|I bought the book at a bookshop.
+2.85|n|f|la peluquería|理发店|hairdresser's|Tengo cita en la [peluquería].|我约了理发。|I have a hairdresser's appointment.
+2.9|n|f|la papelería|文具店|stationer's|Compra un cuaderno en la [papelería].|去文具店买个本子。|Buy a notebook at the stationer's.
+2.95|n|m|el centro comercial|购物中心|shopping centre|Vamos al [centro comercial].|我们去购物中心吧。|Let's go to the shopping centre.
+3.0|n|m|el quiosco|报亭|kiosk|Compro el periódico en el [quiosco].|我在报亭买报纸。|I buy the newspaper at the kiosk.
+3.05|n|m|el puerto|港口|port|El barco sale del [puerto].|船从港口出发。|The boat leaves the port.
+3.1|n|f|la autopista|高速公路|motorway|Vamos por la [autopista].|我们走高速。|We'll take the motorway.
+3.15|n|m|el zoo|动物园|zoo|Llevamos a los niños al [zoo].|我们带孩子去动物园。|We're taking the children to the zoo.
+3.2|n|f|la granja|农场|farm|Mis tíos tienen una [granja].|我叔叔家有个农场。|My uncle and aunt have a farm.
+3.25|n|m|el taller|作坊；修车厂|workshop; garage|El coche está en el [taller].|车在修车厂。|The car is at the garage.
+3.3|n|m|el polideportivo|体育中心|sports centre|Juego al tenis en el [polideportivo].|我在体育中心打网球。|I play tennis at the sports centre.
+3.35|n|m|el camino|路，道路|path; way|Es un [camino] largo.|这是一条漫长的路。|It's a long way.
+@food-gap
+2.4|n|f|la pera|梨|pear|Me como una [pera].|我吃一个梨。|I'm eating a pear.
+2.45|n|f|la tortilla|土豆饼；（墨西哥）玉米饼|omelette; tortilla|La [tortilla] de patata es típica.|土豆饼是特色菜。|Potato omelette is typical.
+2.5|n|f|la paella|西班牙海鲜饭|paella|Hacemos [paella] los domingos.|我们周日做海鲜饭。|We make paella on Sundays.
+2.55|n|f|la hamburguesa|汉堡|hamburger|Quiero una [hamburguesa].|我要一个汉堡。|I'd like a hamburger.
+2.6|n|f|la pizza|披萨|pizza|Pedimos una [pizza].|我们点了个披萨。|We ordered a pizza.
+2.65|n|m|el refresco|汽水|soft drink|Un [refresco], por favor.|请来一杯汽水。|A soft drink, please.
+2.7|n|f|la tostada|吐司|toast|Desayuno una [tostada].|我早餐吃吐司。|I have toast for breakfast.
+2.75|n|f|la aceituna|橄榄|olive|Me encanta la [aceituna].|我很爱吃橄榄。|I love olives.
+2.8|n|m|el chorizo|西班牙辣香肠|chorizo|Un bocadillo de [chorizo].|一个辣香肠三明治。|A chorizo sandwich.
+2.85|n|f|la salchicha|香肠|sausage|Los niños comen una [salchicha].|孩子们吃香肠。|The children are eating a sausage.
+2.9|n|m|el churro|西班牙油条|churro|[Churro] con chocolate.|吉事果配热巧克力。|Churros with chocolate.
+2.95|n|f|la lenteja|扁豆|lentil|Hoy comemos sopa de [lenteja].|今天吃扁豆汤。|Today we're having lentil soup.
+3.0|n|m|el garbanzo|鹰嘴豆|chickpea|Me gusta el [garbanzo].|我喜欢鹰嘴豆。|I like chickpeas.
+3.05|n|f|la berenjena|茄子|aubergine|No me gusta la [berenjena].|我不喜欢茄子。|I don't like aubergine.
+3.1|n|m|el calabacín|西葫芦|courgette|Una crema de [calabacín].|一份西葫芦浓汤。|A cream of courgette soup.
+3.15|n|f|la almendra|杏仁|almond|Un pastel de [almendra].|一个杏仁蛋糕。|An almond cake.
+3.2|n|f|la nuez|核桃|walnut|Una [nuez] al día es sana.|每天一颗核桃有益健康。|A walnut a day is healthy.
+3.25|n|m|el cacahuete|花生|peanut|Tengo alergia al [cacahuete].|我对花生过敏。|I'm allergic to peanuts.
+3.3|n|m|el coco|椰子|coconut|Un helado de [coco].|一个椰子冰淇淋。|A coconut ice cream.
+3.35|n|f|la ciruela|李子|plum|Esta [ciruela] es dulce.|这个李子很甜。|This plum is sweet.
+3.4|n|f|la espinaca|菠菜|spinach|Una ensalada de [espinaca].|一份菠菜沙拉。|A spinach salad.
+3.45|n|m|el guisante|豌豆|pea|Arroz con [guisante].|豌豆饭。|Rice with peas.
+@home-gap
+2.4|n|m|el balcón|阳台|balcony|Tengo plantas en el [balcón].|我在阳台上养了植物。|I have plants on the balcony.
+2.45|n|m|el patio|院子|courtyard; patio|Los niños juegan en el [patio].|孩子们在院子里玩。|The children play in the courtyard.
+2.5|n|f|la planta|植物；楼层|plant; floor|Riego la [planta] cada día.|我每天给植物浇水。|I water the plant every day.
+2.55|n|m|el sillón|扶手椅|armchair|Mi abuelo duerme en el [sillón].|我爷爷在扶手椅上睡觉。|My grandfather sleeps in the armchair.
+2.6|n|m|el escritorio|书桌|desk|Trabajo en el [escritorio].|我在书桌上工作。|I work at the desk.
+2.65|n|f|la estantería|书架|bookcase|La [estantería] está llena de libros.|书架上满是书。|The bookcase is full of books.
+2.7|n|f|la bañera|浴缸|bath|Me gusta la [bañera].|我喜欢泡澡。|I like the bath.
+2.75|n|m|el timbre|门铃|doorbell|Suena el [timbre].|门铃响了。|The doorbell is ringing.
+2.8|n|m|el buzón|信箱|letterbox|Mira en el [buzón].|看看信箱。|Look in the letterbox.
+2.85|n|f|la vela|蜡烛|candle|Enciende la [vela].|点燃蜡烛。|Light the candle.
+2.9|n|m|el cojín|靠垫|cushion|El [cojín] es muy blando.|靠垫很软。|The cushion is very soft.
+2.95|n|m|el sobre|信封|envelope|Mete la carta en el [sobre].|把信放进信封。|Put the letter in the envelope.
+3.0|n|m|el humo|烟|smoke|Hay mucho [humo].|烟很大。|There's a lot of smoke.
+3.05|n|m|el polvo|灰尘|dust|Hay [polvo] en la mesa.|桌子上有灰。|There's dust on the table.
+3.1|n|f|la hierba|草|grass|Los niños juegan en la [hierba].|孩子们在草地上玩。|The children play on the grass.
+3.15|n|f|la rama|树枝|branch|Hay un pájaro en la [rama].|树枝上有只鸟。|There's a bird on the branch.
+@clothes-gap
+2.4|n|f|la blusa|女士衬衫|blouse|Lleva una [blusa] blanca.|她穿着一件白衬衫。|She's wearing a white blouse.
+2.45|n|f|la corbata|领带|tie|Mi padre lleva [corbata].|我爸爸系着领带。|My father wears a tie.
+2.5|n|m|el vaquero|牛仔裤|jeans|Llevo un [vaquero] azul.|我穿着一条蓝色牛仔裤。|I'm wearing blue jeans.
+2.55|n|f|la sudadera|卫衣|sweatshirt|Es una [sudadera] gris.|这是一件灰色卫衣。|It's a grey sweatshirt.
+2.6|n|f|la sandalia|凉鞋|sandal|Perdí una [sandalia].|我丢了一只凉鞋。|I lost a sandal.
+2.65|n|m|el pendiente|耳环|earring|Me regaló un [pendiente].|他送了我一只耳环。|He gave me an earring.
+@adjectives-gap
+2.3|adj|-|próximo|下一个的|next|El [próximo] tren sale a las cinco.|下一班火车五点出发。|The next train leaves at five.
+2.35|adj|-|siguiente|接下来的|following; next|Al día [siguiente] llovió.|第二天下雨了。|The following day it rained.
+2.4|adj|-|anterior|之前的|previous|El año [anterior] fue mejor.|前一年更好。|The previous year was better.
+2.45|adj|-|pasado|过去的；上一个|last; past|El año [pasado] fui a México.|去年我去了墨西哥。|Last year I went to Mexico.
+2.5|adj|-|igual|相同的|same; equal|Es [igual] que el mío.|和我的一样。|It's the same as mine.
+2.55|adj|-|distinto|不同的|different|Es un caso [distinto].|这是不同的情况。|It's a different case.
+2.6|adj|-|parecido|相似的|similar|Es un color [parecido].|这是个相似的颜色。|It's a similar colour.
+2.65|adj|-|contrario|相反的|opposite; contrary|Es el lado [contrario].|这是对面那一侧。|It's the opposite side.
+2.7|adj|-|entero|完整的，整个的|whole|Me comí el pastel [entero].|我吃了一整个蛋糕。|I ate the whole cake.
+2.75|adj|-|medio|一半的；中等的|half; average|Quiero [medio] kilo de queso.|我要半公斤奶酪。|I'd like half a kilo of cheese.
+2.8|adj|-|doble|双倍的|double|Una habitación [doble], por favor.|请给我一间双人房。|A double room, please.
+2.85|adj|-|mojado|湿的|wet|El suelo está [mojado].|地板是湿的。|The floor is wet.
+2.9|adj|-|lejano|遥远的|distant|Es un país [lejano].|这是一个遥远的国家。|It's a distant country.
+2.95|adj|-|solo|单独的，孤单的|alone|Vivo [solo].|我一个人住。|I live alone.
+3.05|adj|-|separado|分开的|separated; separate|Viven en un piso [separado].|他们住在另一套公寓里。|They live in a separate flat.
+3.1|adj|-|puro|纯的|pure|Es aire [puro].|这是纯净的空气。|It's pure air.

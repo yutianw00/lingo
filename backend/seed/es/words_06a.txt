@@ -1,0 +1,117 @@
+# Level 6a — media, culture, events, materials (B1+)
+@media
+5.05|n|m|el periodismo|新闻业|journalism|Estudia [periodismo].|他学新闻。|He studies journalism.
+5.05|n|m|el telediario|电视新闻|TV news|Veo el [telediario] cada noche.|我每晚看电视新闻。|I watch the TV news every night.
+5.1|n|f|la radio|收音机；广播|radio|Escucho la [radio] en el coche.|我在车里听广播。|I listen to the radio in the car.
+5.1|n|m|el canal|频道；运河|channel|Cambia de [canal].|换个台。|Change the channel.
+5.15|n|m|el anuncio|广告；公告|advert; announcement|Hay un [anuncio] en la tele.|电视上在放广告。|There's an advert on TV.
+5.15|n|f|la publicidad|广告（总称）|advertising|Hay demasiada [publicidad].|广告太多了。|There's too much advertising.
+5.2|n|m|el artículo|文章；物品|article|Leí un [artículo] interesante.|我读了一篇有意思的文章。|I read an interesting article.
+5.2|n|m|el titular|标题|headline|El [titular] es muy exagerado.|这个标题太夸张了。|The headline is very exaggerated.
+5.25|n|f|la entrevista|采访；面试|interview|Mañana tengo una [entrevista] de trabajo.|我明天有个面试。|I have a job interview tomorrow.
+5.25|n|m|el público|观众；公众|audience; public|El [público] aplaude.|观众在鼓掌。|The audience applauds.
+5.3|n|m|el medio de comunicación|媒体|media outlet|Es un [medio de comunicación] importante.|这是一家重要的媒体。|It's an important media outlet.
+5.3|n|f|la prensa|新闻界；报刊|press|La [prensa] habla del tema.|媒体在报道这件事。|The press is talking about it.
+5.35|n|m|el reportaje|报道|report; feature|Vi un [reportaje] sobre África.|我看了一篇关于非洲的报道。|I saw a feature about Africa.
+5.35|n|m|el locutor|播音员|presenter; announcer|El [locutor] tiene una voz grave.|播音员的声音很低沉。|The presenter has a deep voice.
+5.4|v|-|informar|通知；报道|to inform; to report|Te voy a [informar] mañana.|我明天通知你。|I'll let you know tomorrow.
+5.4|v|-|publicar|发表，出版|to publish|Quiere [publicar] un libro.|他想出一本书。|He wants to publish a book.
+5.45|v|-|anunciar|宣布|to announce|Van a [anunciar] los resultados.|他们要公布结果了。|They're going to announce the results.
+5.45|v|-|opinar|认为，发表意见|to think; to give an opinion|¿Qué vas a [opinar]?|你会怎么看？|What will you think?
+5.5|v|-|criticar|批评|to criticise|No hay que [criticar] tanto.|别老是批评。|You shouldn't criticise so much.
+5.5|v|-|comentar|评论；提到|to comment; to mention|Te lo quería [comentar].|我本来想跟你提一下。|I wanted to mention it to you.
+5.55|adj|-|actualizado|最新的|up to date|El mapa está [actualizado].|地图是最新的。|The map is up to date.
+5.55|adj|-|interesante|有趣的|interesting|Es un programa [interesante].|这是一个有意思的节目。|It's an interesting programme.
+@culture-events
+5.1|n|f|la cultura|文化|culture|Me interesa la [cultura] española.|我对西班牙文化感兴趣。|I'm interested in Spanish culture.
+5.1|n|f|la tradición|传统|tradition|Es una [tradición] muy antigua.|这是一个很古老的传统。|It's a very old tradition.
+5.15|n|f|la costumbre|习俗；习惯|custom; habit|Es una [costumbre] de aquí.|这是本地的习俗。|It's a local custom.
+5.15|n|f|la Navidad|圣诞节|Christmas|En [Navidad] vamos a casa de mis padres.|圣诞节我们回父母家。|At Christmas we go to my parents' house.
+5.2|n|f|la Semana Santa|圣周（复活节周）|Holy Week; Easter|En [Semana Santa] hay procesiones.|圣周有宗教游行。|There are processions in Holy Week.
+5.2|n|m|el festival|节，艺术节|festival|Vamos a un [festival] de música.|我们去一个音乐节。|We're going to a music festival.
+5.25|n|f|la celebración|庆祝|celebration|Es una gran [celebración].|这是一场盛大的庆祝。|It's a big celebration.
+5.25|v|-|celebrar|庆祝|to celebrate|Vamos a [celebrar] tu cumpleaños.|我们来庆祝你的生日。|Let's celebrate your birthday.
+5.3|n|m|el arte|艺术|art|Me encanta el [arte] moderno.|我很爱现代艺术。|I love modern art.
+5.3|n|mf|el artista|艺术家|artist|Es un [artista] famoso.|他是一位著名的艺术家。|He's a famous artist.
+5.35|n|m|el cuadro|画（作品）|painting|Es un [cuadro] de Goya.|这是戈雅的一幅画。|It's a painting by Goya.
+5.35|n|f|la exposición|展览|exhibition|Hay una [exposición] de fotos.|有一个摄影展。|There's a photo exhibition.
+5.4|n|m|el escritor|作家|writer|Es mi [escritor] favorito.|他是我最喜欢的作家。|He's my favourite writer.
+5.4|n|m|el actor|演员（男）|actor|El [actor] es muy guapo.|那个演员很帅。|The actor is very handsome.
+5.45|n|f|la actriz|女演员|actress|Es una [actriz] famosa.|她是一位著名的女演员。|She's a famous actress.
+5.45|n|mf|el cantante|歌手|singer|El [cantante] es colombiano.|那位歌手是哥伦比亚人。|The singer is Colombian.
+5.5|n|m|el escenario|舞台|stage|El [escenario] es enorme.|舞台很大。|The stage is huge.
+5.5|n|f|la obra|作品；工程|work; play|Es una [obra] de teatro.|这是一出戏剧。|It's a play.
+5.55|n|m|el personaje|角色，人物|character|Es mi [personaje] favorito.|这是我最喜欢的角色。|He's my favourite character.
+5.55|n|f|la escena|场景|scene|Es la [escena] más bonita.|这是最美的一幕。|It's the most beautiful scene.
+5.6|n|m|el éxito|成功|success|La película es un [éxito].|这部电影很成功。|The film is a success.
+5.6|n|m|el fracaso|失败|failure|Fue un [fracaso] total.|那是彻底的失败。|It was a total failure.
+5.65|n|m|el premio|奖|prize|Ganó un [premio].|他获了奖。|He won a prize.
+5.65|n|m|el invitado|客人|guest|Eres mi [invitado].|你是我的客人。|You're my guest.
+5.7|n|f|la invitación|邀请|invitation|Gracias por la [invitación].|谢谢你的邀请。|Thanks for the invitation.
+5.7|v|-|disfrutar|享受|to enjoy|Vamos a [disfrutar] del sol.|我们去享受阳光吧。|Let's enjoy the sun.
+5.75|v|-|aplaudir|鼓掌|to applaud|El público empieza a [aplaudir].|观众开始鼓掌。|The audience starts to applaud.
+5.75|v|-|actuar|表演；行动|to act; to perform|Le gusta [actuar].|他喜欢表演。|He likes acting.
+5.8|n|m|el estreno|首映|premiere|El [estreno] es el viernes.|首映在周五。|The premiere is on Friday.
+5.8|n|m|el disco|唱片|record; album|Su nuevo [disco] es genial.|他的新专辑很棒。|His new album is great.
+5.85|n|f|la religión|宗教|religion|Respeto tu [religión].|我尊重你的宗教。|I respect your religion.
+5.85|n|m|el dios|神|god|Cree en [dios].|他信神。|He believes in God.
+@materials-shapes
+5.1|n|f|la madera|木头|wood|La mesa es de [madera].|桌子是木头的。|The table is made of wood.
+5.15|n|m|el metal|金属|metal|Es una caja de [metal].|这是一个金属盒子。|It's a metal box.
+5.15|n|m|el plástico|塑料|plastic|Hay que reciclar el [plástico].|塑料要回收。|Plastic must be recycled.
+5.2|n|m|el vidrio|玻璃|glass (material)|La botella es de [vidrio].|瓶子是玻璃的。|The bottle is made of glass.
+5.2|n|m|el algodón|棉花；棉|cotton|La camiseta es de [algodón].|这件T恤是棉的。|The T-shirt is cotton.
+5.25|n|f|la lana|羊毛|wool|Un jersey de [lana].|一件羊毛衫。|A wool jumper.
+5.25|n|f|la seda|丝绸|silk|Es una camisa de [seda].|这是一件丝绸衬衫。|It's a silk shirt.
+5.3|n|m|el cuero|皮革|leather|Una chaqueta de [cuero].|一件皮夹克。|A leather jacket.
+5.3|n|m|el oro|金|gold|Es un anillo de [oro].|这是一枚金戒指。|It's a gold ring.
+5.35|n|f|la plata|银|silver|Un collar de [plata].|一条银项链。|A silver necklace.
+5.35|n|m|el hierro|铁|iron|Es una puerta de [hierro].|这是一扇铁门。|It's an iron door.
+5.4|n|m|el cartón|纸板|cardboard|Es una caja de [cartón].|这是一个纸箱。|It's a cardboard box.
+5.4|n|m|el círculo|圆|circle|Dibuja un [círculo].|画一个圆。|Draw a circle.
+5.45|n|m|el cuadrado|正方形|square|Es un [cuadrado] perfecto.|这是个完美的正方形。|It's a perfect square.
+5.45|n|m|el triángulo|三角形|triangle|Tiene forma de [triángulo].|它是三角形的。|It's triangle-shaped.
+5.5|n|f|la línea|线；线路|line|Toma la [línea] dos del metro.|坐地铁二号线。|Take metro line two.
+5.5|n|m|el punto|点；句号|point; dot|Es un buen [punto].|这是个好观点。|That's a good point.
+5.55|adj|-|redondo|圆的|round|Es un plato [redondo].|这是一个圆盘子。|It's a round plate.
+5.55|adj|-|cuadrado|方的|square|Es un plato [cuadrado].|这是一个方盘子。|It's a square plate.
+5.6|adj|-|ancho|宽的|wide|Es un río muy [ancho].|这条河很宽。|It's a very wide river.
+5.6|adj|-|estrecho|窄的|narrow|Es un pasillo [estrecho].|这是一条窄走廊。|It's a narrow corridor.
+5.65|adj|-|profundo|深的|deep|El lago es muy [profundo].|湖很深。|The lake is very deep.
+5.65|adj|-|plano|平的|flat|El terreno es [plano].|地面很平。|The ground is flat.
+5.7|adj|-|liso|光滑的；直（发）|smooth; straight|Tiene el pelo [liso].|她是直发。|She has straight hair.
+5.7|adj|-|rizado|卷曲的|curly|Tiene el pelo [rizado].|他是卷发。|He has curly hair.
+5.75|adj|-|transparente|透明的|transparent|Es un plástico [transparente].|这是透明塑料。|It's transparent plastic.
+5.75|adj|-|brillante|闪亮的；杰出的|shiny; brilliant|Es un estudiante [brillante].|他是个出色的学生。|He's a brilliant student.
+@work-b1
+5.1|n|m|el puesto|职位；摊位|position; stall|Busco un [puesto] de profesor.|我在找教师职位。|I'm looking for a teaching position.
+5.15|n|m|el currículum|简历|CV; résumé|Envía tu [currículum].|发送你的简历。|Send your CV.
+5.15|n|f|la experiencia|经验；经历|experience|No tengo [experiencia].|我没有经验。|I don't have experience.
+5.2|n|f|la formación|培训；教育背景|training|Tiene una buena [formación].|他受过良好的培训。|He has good training.
+5.2|n|m|el candidato|候选人|candidate|Es el mejor [candidato].|他是最佳人选。|He's the best candidate.
+5.25|n|f|la sede|总部|headquarters|La [sede] está en Madrid.|总部在马德里。|The headquarters is in Madrid.
+5.25|n|f|la carrera|职业生涯；大学专业；赛跑|career; degree; race|Tiene una [carrera] brillante.|他的职业生涯很辉煌。|He has a brilliant career.
+5.3|n|m|el departamento|部门；（拉美）公寓|department; (LatAm) flat|Trabajo en el [departamento] de ventas.|我在销售部工作。|I work in the sales department.
+5.3|n|f|la venta|销售|sale|La [venta] ha subido este mes.|这个月销售额上升了。|Sales have gone up this month.
+5.35|n|f|la tarea|任务；作业|task; homework|Es una [tarea] difícil.|这是个艰巨的任务。|It's a difficult task.
+5.35|n|m|el objetivo|目标|goal; objective|Mi [objetivo] es hablar bien español.|我的目标是说好西班牙语。|My goal is to speak Spanish well.
+5.4|n|m|el informe|报告|report|Tengo que terminar el [informe].|我得写完报告。|I have to finish the report.
+5.4|n|m|el plazo|期限|deadline; term|El [plazo] termina el lunes.|截止日期是周一。|The deadline is Monday.
+5.45|n|f|la huelga|罢工|strike|Hay [huelga] de metro.|地铁罢工了。|There's a metro strike.
+5.45|n|m|el sindicato|工会|trade union|Es miembro del [sindicato].|他是工会成员。|He's a union member.
+5.5|n|m|el autónomo|自由职业者|self-employed person|Trabajo como [autónomo].|我是自由职业者。|I'm self-employed.
+5.5|n|f|la jornada|工作日；一天|working day|Tengo [jornada] completa.|我是全职工作。|I work full-time.
+5.55|n|f|las prácticas|实习|internship|Hago [prácticas] en una empresa.|我在一家公司实习。|I'm doing an internship at a company.
+5.55|v|-|despedir|解雇；送别|to fire; to see off|Van a [despedir] a diez personas.|他们要解雇十个人。|They're going to fire ten people.
+5.6|v|-|dimitir|辞职|to resign|Quiere [dimitir].|他想辞职。|He wants to resign.
+5.6|v|-|solicitar|申请|to apply for|Voy a [solicitar] el puesto.|我要申请这个职位。|I'm going to apply for the job.
+5.65|v|-|organizar|组织|to organise|Tengo que [organizar] la reunión.|我得组织会议。|I have to organise the meeting.
+5.65|v|-|resolver|解决|to solve|Hay que [resolver] el problema.|得解决这个问题。|The problem has to be solved.
+5.7|v|-|mejorar|改善|to improve|Quiero [mejorar] mi español.|我想提高我的西班牙语。|I want to improve my Spanish.
+5.7|v|-|desarrollar|发展|to develop|Vamos a [desarrollar] una app.|我们要开发一个应用。|We're going to develop an app.
+5.75|v|-|dirigir|领导；指导|to manage; to direct|Va a [dirigir] la empresa.|他将管理这家公司。|He's going to run the company.
+5.75|v|-|producir|生产|to produce|La fábrica va a [producir] coches.|工厂将生产汽车。|The factory will produce cars.
+5.8|n|f|la fábrica|工厂|factory|Trabaja en una [fábrica].|他在一家工厂工作。|He works in a factory.
+5.8|n|m|el producto|产品|product|Es un [producto] nuevo.|这是一款新产品。|It's a new product.
+5.85|n|m|el servicio|服务|service|El [servicio] es excelente.|服务非常好。|The service is excellent.
+5.85|n|f|la calidad|质量|quality|Es de buena [calidad].|质量很好。|It's good quality.

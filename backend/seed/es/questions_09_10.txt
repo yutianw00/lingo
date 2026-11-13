@@ -1,0 +1,287 @@
+# Levels 9–10.
+# L9 grammar: present subjunctive (wishes, emotions, doubt, cuando + future), commands.
+# L10 grammar: imperfect subjunctive, si-clauses, formal connectors.
+
+# ---------- L9 word forms
+@f901 fill 9 subjunctive
+es Quiero que tú [vengas] a mi fiesta. | vienes, venir, vendrás
+zh 我想让你来参加我的派对。
+en I want you to come to my party.
+
+@f902 fill 9 subjunctive
+es Espero que [tengas] un buen viaje. | tienes, tener, tendrás
+zh 祝你旅途愉快。
+en I hope you have a good trip.
+
+@f903 fill 9 subjunctive
+es Es importante que los niños [duerman] bien. | duermen, dormir, dormirán
+zh 孩子们睡好很重要。
+en It's important that children sleep well.
+
+@f904 fill 9 subjunctive
+es Me alegro de que [estés] mejor. | estás, estar, estarás
+zh 我很高兴你好些了。
+en I'm glad you're feeling better.
+
+@f905 fill 9 subjunctive
+es No creo que él [sepa] la respuesta. | sabe, saber, sabrá
+zh 我不认为他知道答案。
+en I don't think he knows the answer.
+
+@f906 fill 9 subjunctive
+es Cuando [llegues] a casa, llámame. | llegas, llegarás, llegar
+zh 你到家后给我打电话。
+en When you get home, call me.
+
+@f907 fill 9 subjunctive
+es Te lo digo para que lo [sepas]. | sabes, saber, sabrás
+zh 我告诉你是为了让你知道。
+en I'm telling you so that you know.
+
+@f908 fill 9 subjunctive
+es Ojalá [haga] buen tiempo mañana. | hace, hacer, hará
+zh 但愿明天天气好。
+en I hope the weather's nice tomorrow.
+
+@f909 fill 9 subjunctive
+es Es una pena que no [puedas] venir. | puedes, poder, podrás
+zh 你来不了真可惜。
+en It's a pity you can't come.
+
+@f910 fill 9 subjunctive
+es Busco un piso que [tenga] terraza. | tiene, tener, tendrá
+zh 我在找一套带露台的公寓。
+en I'm looking for a flat with a terrace.
+
+@f911 fill 9 commands
+es Por favor, [abre] la ventana. | abras, abrir, abrirás
+zh 请打开窗户。
+en Please open the window.
+
+@f912 fill 9 commands
+es No [toques] eso, está caliente. | tocas, toca, tocar
+zh 别碰那个，很烫。
+en Don't touch that, it's hot.
+
+@f913 fill 9 commands
+es [Ven] aquí ahora mismo. | Vienes, Vengas, Venir
+zh 马上过来。
+en Come here right now.
+
+@f914 fill 9 commands
+es [Dime] la verdad. | Díceme, Me di, Dices
+zh 告诉我真相。
+en Tell me the truth.
+
+@f915 fill 9 commands
+es Señora, [siéntese] aquí, por favor. | siéntate, se sienta, sentarse
+zh 女士，请坐这里。
+en Madam, please sit here.
+
+@f916 fill 9 commands
+es No [os preocupéis], todo va a salir bien. | os preocupáis, preocuparos, os preocuparéis
+zh 你们别担心，一切都会好的。
+en Don't worry, everything will be fine.
+
+# ---------- L9 dialogues
+@d901 next 9 advice
+es Mi jefe no me valora nada. >> Te aconsejo que hables con él con calma.
+zh 我老板一点都不重视我。 >> 我建议你心平气和地跟他谈谈。
+en My boss doesn't value me at all. >> I suggest you talk to him calmly.
+
+@d902 next 9 opinion
+es ¿Qué opinas de trabajar desde casa? >> Me parece bien, siempre que haya buena comunicación.
+zh 你怎么看在家办公？ >> 我觉得不错，只要沟通良好。
+en What do you think about working from home? >> I think it's fine, as long as there's good communication.
+
+@d903 next 9 complaint
+es Este producto no funciona y quiero una solución. >> Lamento las molestias. Le cambiamos el aparato hoy mismo.
+zh 这个产品坏了，我要一个解决办法。 >> 很抱歉给您带来不便，我们今天就给您换。
+en This product doesn't work and I want a solution. >> Sorry for the inconvenience. We'll replace the device today.
+
+@d904 next 9 wishes
+es Mañana tengo la entrevista final. >> ¡Mucha suerte! Ojalá te den el puesto.
+zh 明天我有最终面试。 >> 祝你好运！希望你能拿到这个职位。
+en Tomorrow I have the final interview. >> Good luck! I hope they give you the job.
+
+@d905 next 9 doubt
+es Dicen que el precio de la vivienda va a bajar. >> Lo dudo mucho, no creo que baje pronto.
+zh 听说房价要降了。 >> 我很怀疑，我不认为会很快降。
+en They say house prices are going to fall. >> I doubt it, I don't think they'll fall soon.
+
+@d906 next 9 instructions
+es ¿Cómo se prepara este plato? >> Primero corta la cebolla y luego fríela con un poco de aceite.
+zh 这道菜怎么做？ >> 先把洋葱切好，然后用少许油炒。
+en How do you make this dish? >> First cut the onion and then fry it in a little oil.
+
+@d907 next 9 feelings
+es Me molesta que la gente hable tan alto en el tren. >> A mí también, sobre todo por la mañana.
+zh 我讨厌别人在火车上大声说话。 >> 我也是，特别是早上。
+en It annoys me when people talk so loudly on the train. >> Me too, especially in the morning.
+
+@d908 next 9 plans
+es ¿Me avisas cuando sepas algo? >> Claro, en cuanto tenga noticias te escribo.
+zh 你有消息的话通知我好吗？ >> 当然，一有消息就给你发信息。
+en Will you let me know when you hear anything? >> Of course, as soon as I have news I'll text you.
+
+@d909 next 9 health
+es El médico me ha dicho que deje de fumar. >> Tiene razón. Es mejor que lo dejes cuanto antes.
+zh 医生让我戒烟。 >> 他说得对，你最好尽快戒掉。
+en The doctor has told me to stop smoking. >> He's right. You'd better quit as soon as possible.
+
+@d910 next 9 housing
+es Busco un piso que esté cerca del metro. >> Tengo uno a dos minutos de la estación, ¿quiere verlo?
+zh 我在找一套离地铁近的公寓。 >> 我有一套离车站两分钟，您想看看吗？
+en I'm looking for a flat near the metro. >> I have one two minutes from the station, would you like to see it?
+
+@d911 next 9 environment
+es ¿Qué podemos hacer para contaminar menos? >> Usar más el transporte público y reciclar en casa.
+zh 我们能做些什么来减少污染？ >> 多坐公共交通，在家做好垃圾回收。
+en What can we do to pollute less? >> Use public transport more and recycle at home.
+
+@d912 next 9 apology
+es Siento mucho haber llegado tarde. >> No te preocupes, todavía no hemos empezado.
+zh 很抱歉我迟到了。 >> 别担心，我们还没开始。
+en I'm really sorry I'm late. >> Don't worry, we haven't started yet.
+
+# ---------- L10 word forms
+@f1001 fill 10 imperfect-subjunctive
+es Si yo [tuviera] más dinero, viajaría por el mundo. | tengo, tendría, tuve
+zh 如果我有更多钱，我会环游世界。
+en If I had more money, I'd travel the world.
+
+@f1002 fill 10 si-clauses
+es Si me lo hubieras dicho, te [habría ayudado]. | ayudé, ayude, ayudaré
+zh 你要是早告诉我，我就会帮你了。
+en If you had told me, I would have helped you.
+
+@f1003 fill 10 imperfect-subjunctive
+es Me pidió que [fuera] con él. | voy, iré, fui
+zh 他让我跟他一起去。
+en He asked me to go with him.
+
+@f1004 fill 10 imperfect-subjunctive
+es Ojalá [pudiera] quedarme más tiempo. | puedo, podré, pude
+zh 要是我能多待一会儿就好了。
+en I wish I could stay longer.
+
+@f1005 fill 10 imperfect-subjunctive
+es Habla como si lo [supiera] todo. | sabe, sabrá, supo
+zh 他说起话来好像什么都知道。
+en He talks as if he knew everything.
+
+@f1006 fill 10 imperfect-subjunctive
+es No esperaba que ellos [vinieran] tan pronto. | vienen, vendrán, vinieron
+zh 我没想到他们来得这么早。
+en I didn't expect them to come so soon.
+
+@f1007 fill 10 si-clauses
+es Si [llueve] mañana, nos quedaremos en casa. | lloviera, llovería, lloverá
+zh 如果明天下雨，我们就待在家里。
+en If it rains tomorrow, we'll stay at home.
+
+@f1008 fill 10 si-clauses
+es Si yo fuera tú, no lo [haría]. | hago, haga, haré
+zh 我要是你，就不会那么做。
+en If I were you, I wouldn't do it.
+
+@f1009 fill 10 connectors
+es [Aunque] llueva, iremos a la playa. | Porque, Ya que, Puesto que
+zh 即使下雨，我们也去海边。
+en Even if it rains, we'll go to the beach.
+
+@f1010 fill 10 connectors
+es No saldremos [a menos que] deje de llover. | porque, ya que, puesto que
+zh 除非雨停，否则我们不出门。
+en We won't go out unless it stops raining.
+
+@f1011 fill 10 connectors
+es El proyecto tuvo muchos problemas. [Sin embargo], los resultados fueron positivos. | Por eso, Así que, Por lo tanto
+zh 这个项目遇到了很多问题。然而，结果是积极的。
+en The project had many problems. However, the results were positive.
+
+@f1012 fill 10 connectors
+es [Dado que] es tarde, propongo terminar aquí. | Aunque, A pesar de, Sin que
+zh 鉴于时间已晚，我建议到此为止。
+en Given that it's late, I suggest we stop here.
+
+@f1013 fill 10 imperfect-subjunctive
+es Era necesario que todos [participaran]. | participan, participarán, participaron
+zh 所有人都必须参与。
+en It was necessary for everyone to take part.
+
+@f1014 fill 10 relatives
+es La empresa [cuyo] director dimitió está en crisis. | que, quien, cuya
+zh 那家总经理辞职的公司陷入了危机。
+en The company whose director resigned is in crisis.
+
+@f1015 fill 10 relatives
+es Esa es la razón por la [que] no vine. | cual, quien, cuyo
+zh 这就是我没来的原因。
+en That's the reason why I didn't come.
+
+@f1016 fill 10 passive
+es El puente [fue construido] en el siglo XIX. | fue construyendo, fue construida, fueron construidos
+zh 这座桥建于19世纪。
+en The bridge was built in the 19th century.
+
+# ---------- L10 dialogues
+@d1001 next 10 hypothetical
+es ¿Qué harías si te tocara la lotería? >> Dejaría de trabajar y me iría a vivir a una isla.
+zh 如果你中了彩票你会做什么？ >> 我会辞职，搬到一个岛上去住。
+en What would you do if you won the lottery? >> I'd stop working and go and live on an island.
+
+@d1002 next 10 regret
+es Si hubiera estudiado más, habría aprobado. >> Bueno, ya no tiene remedio. La próxima vez será.
+zh 要是我多学一点，就能考过了。 >> 好吧，已经没办法了，下次吧。
+en If I'd studied more, I would have passed. >> Well, it can't be helped now. Next time.
+
+@d1003 next 10 debate
+es En mi opinión, la tecnología nos aísla cada vez más. >> No estoy del todo de acuerdo; también nos permite estar en contacto.
+zh 我认为科技让我们越来越孤立。 >> 我不完全同意，它也让我们保持联系。
+en In my opinion, technology isolates us more and more. >> I don't entirely agree; it also lets us stay in touch.
+
+@d1004 next 10 formal
+es Le escribo para solicitar información sobre el máster. >> Le adjuntamos el folleto con los requisitos y los plazos.
+zh 我写信是想咨询硕士项目的信息。 >> 随信附上招生手册，其中包含要求和截止日期。
+en I'm writing to request information about the master's. >> Please find attached the brochure with the requirements and deadlines.
+
+@d1005 next 10 reported
+es ¿Qué te dijo el médico? >> Me dijo que descansara y que volviera dentro de una semana.
+zh 医生跟你说了什么？ >> 他让我休息，一周后再去复诊。
+en What did the doctor tell you? >> He told me to rest and to come back in a week.
+
+@d1006 next 10 negotiation
+es Es nuestra última oferta. >> Lo aceptaríamos si el plazo de entrega fuera más corto.
+zh 这是我们的最终报价。 >> 如果交货期能更短，我们就接受。
+en It's our final offer. >> We'd accept it if the delivery time were shorter.
+
+@d1007 next 10 society
+es ¿Crees que el teletrabajo cambiará las ciudades? >> Es probable que mucha gente se mude al campo.
+zh 你认为远程办公会改变城市吗？ >> 很可能很多人会搬到乡下去。
+en Do you think remote work will change cities? >> It's likely that many people will move to the countryside.
+
+@d1008 next 10 surprise
+es ¡No sabía que hablaras japonés! >> Viví cinco años en Tokio cuando era joven.
+zh 我不知道你会说日语！ >> 我年轻时在东京住过五年。
+en I didn't know you spoke Japanese! >> I lived in Tokyo for five years when I was young.
+
+@d1009 next 10 complaint-formal
+es Exijo que me devuelvan el importe íntegro. >> Entendemos su malestar; tramitaremos el reembolso de inmediato.
+zh 我要求全额退款。 >> 我们理解您的不满，将立即为您办理退款。
+en I demand a full refund. >> We understand your frustration; we'll process the refund immediately.
+
+@d1010 next 10 culture
+es ¿Por qué crees que el flamenco es tan famoso? >> Porque expresa emociones muy intensas que todo el mundo entiende.
+zh 你认为弗拉门戈为什么这么有名？ >> 因为它表达了人人都能理解的强烈情感。
+en Why do you think flamenco is so famous? >> Because it expresses very intense emotions everyone understands.
+
+@d1011 next 10 conditions
+es ¿Me prestas el coche este fin de semana? >> Te lo presto con tal de que me lo devuelvas con el depósito lleno.
+zh 这周末能借我车吗？ >> 可以，只要你还车时把油加满。
+en Can you lend me the car this weekend? >> I'll lend it to you provided you return it with a full tank.
+
+@d1012 next 10 ethics
+es ¿Está bien mentir para proteger a alguien? >> Depende; a veces una mentira piadosa evita mucho sufrimiento.
+zh 为了保护别人而撒谎可以吗？ >> 看情况，有时候善意的谎言能避免很多痛苦。
+en Is it OK to lie to protect someone? >> It depends; sometimes a white lie avoids a lot of suffering.

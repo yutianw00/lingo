@@ -6,6 +6,7 @@ import { Centered, LEVEL_COLOR, TabBar } from '../ui'
 
 type Filter = 'all' | Level | 'due'
 const FILTERS: Filter[] = ['all', 'new', 'learning', 'familiar', 'mastered', 'due']
+const PAGE = 150
 
 function dueLabel(w: WordCard, now: number, t: Strings): { text: string; now: boolean } {
   if (w.due === null) return { text: t.notLearned, now: false }
@@ -21,6 +22,8 @@ export default function Words() {
   const [err, setErr] = useState(false)
   const [filter, setFilter] = useState<Filter>('all')
   const [q, setQ] = useState('')
+  const [lv, setLv] = useState(0) // 0 = all difficulty levels
+  const [limit, setLimit] = useState(PAGE)
 
   useEffect(() => {
     api.words().then(setWords, () => setErr(true))
@@ -32,9 +35,11 @@ export default function Words() {
     const needle = q.trim().toLowerCase()
     return words.filter((w) => {
       if (filter === 'due' ? !(w.due !== null && w.due <= now) : filter !== 'all' && w.level !== filter) return false
+      if (lv && w.difficulty_level !== lv) return false
       return !needle || w.word.toLowerCase().includes(needle) || w.meaning.toLowerCase().includes(needle)
     })
-  }, [words, filter, q, now])
+  }, [words, filter, q, now, lv])
+  useEffect(() => setLimit(PAGE), [filter, q, lv])
 
   if (err) return <Centered>{t.error}</Centered>
   if (!words) return <Centered>{t.loading}</Centered>
@@ -49,7 +54,19 @@ export default function Words() {
           {t.langName[me.target]} · {t.total(words.length)}
         </span>
       </div>
-      <input className="search" placeholder={`🔍 ${t.search}`} value={q} onChange={(e) => setQ(e.target.value)} />
+      <div className="search-row">
+        <input className="search" placeholder={`🔍 ${t.search}`} value={q} onChange={(e) => setQ(e.target.value)} />
+        {words.some((w) => w.topic) && (
+          <select className="lv-select" value={lv} onChange={(e) => setLv(+e.target.value)} aria-label="level">
+            <option value={0}>{t.all}</option>
+            {Array.from({ length: 10 }, (_, i) => (
+              <option key={i + 1} value={i + 1}>
+                {t.lv(i + 1)}
+              </option>
+            ))}
+          </select>
+        )}
+      </div>
       <div className="chips">
         {FILTERS.map((f) => (
           <button key={f} className={`chip${filter === f ? ' on' : ''}`} onClick={() => setFilter(f)}>
@@ -59,13 +76,17 @@ export default function Words() {
       </div>
       <div className="list">
         {shown.length === 0 && <div className="row muted">{t.noMatch}</div>}
-        {shown.map((w) => {
+        {shown.slice(0, limit).map((w) => {
           const d = dueLabel(w, now, t)
           return (
             <div className="row" key={w.id} onClick={() => speak(w.word, me.target)}>
               <div className="grow">
                 <div className="w">{w.word}</div>
-                <div className="z">{w.meaning}</div>
+                <div className="z">
+                  {w.topic && <span className="lvtag">{t.lv(w.difficulty_level)}</span>}
+                  {w.gender && <span className={`gender g-${w.gender}`}>{w.gender === 'mf' ? 'm/f' : w.gender}</span>}
+                  {w.meaning}
+                </div>
               </div>
               <div className="r">
                 <div className="meter">
@@ -80,6 +101,11 @@ export default function Words() {
           )
         })}
       </div>
+      {shown.length > limit && (
+        <button className="btn ghost more" onClick={() => setLimit((l) => l + PAGE)}>
+          {t.showMore(shown.length - limit)}
+        </button>
+      )}
       <TabBar />
     </div>
   )

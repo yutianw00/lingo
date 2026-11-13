@@ -1,0 +1,95 @@
+# Level 9b — nuanced adjectives, abstract nouns, argument (C1)
+@adjectives-c1
+8.05|adj|-|exhaustivo|详尽的|exhaustive|Es un análisis [exhaustivo].|这是一份详尽的分析。|It's an exhaustive analysis.
+8.05|adj|-|minucioso|细致的|meticulous|Es un trabajo [minucioso].|这是一项细致的工作。|It's meticulous work.
+8.1|adj|-|escueto|简短的|brief; concise|Es un mensaje [escueto].|这是一条简短的消息。|It's a brief message.
+8.15|adj|-|conciso|简明的|concise|Es un resumen [conciso].|这是一份简明的总结。|It's a concise summary.
+8.15|adj|-|detallado|详细的|detailed|Es un informe [detallado].|这是一份详细的报告。|It's a detailed report.
+8.2|adj|-|superficial|表面的；肤浅的|superficial|Es un análisis [superficial].|这是肤浅的分析。|It's a superficial analysis.
+8.25|adj|-|contundente|有力的|forceful; convincing|Es un argumento [contundente].|这是一个有力的论据。|It's a convincing argument.
+8.25|adj|-|convincente|令人信服的|convincing|No es muy [convincente].|这不太令人信服。|It's not very convincing.
+8.3|adj|-|dudoso|可疑的|doubtful|Es un resultado [dudoso].|这是一个可疑的结果。|It's a doubtful result.
+8.3|adj|-|fiable|可靠的|reliable|Es un dato [fiable].|这是可靠的数据。|It's a reliable piece of data.
+8.35|adj|-|veraz|真实的|truthful|Es un relato [veraz].|这是真实的叙述。|It's a truthful account.
+8.35|adj|-|engañoso|有欺骗性的|misleading|Es un anuncio [engañoso].|这是虚假广告。|It's a misleading advert.
+8.4|adj|-|ambicioso|有雄心的|ambitious|Es un proyecto [ambicioso].|这是一个雄心勃勃的项目。|It's an ambitious project.
+8.4|adj|-|modesto|谦虚的；朴素的|modest|Es un hombre muy [modesto].|他是个很谦虚的人。|He's a very modest man.
+8.45|adj|-|arrogante|傲慢的|arrogant|Es un jefe [arrogante].|他是个傲慢的老板。|He's an arrogant boss.
+8.45|adj|-|humilde|谦卑的；卑微的|humble|Viene de un origen [humilde].|他出身卑微。|He comes from a humble background.
+8.5|adj|-|terco|固执的|stubborn|Es muy [terco].|他很固执。|He's very stubborn.
+8.5|adj|-|tenaz|坚韧的|tenacious|Es un luchador [tenaz].|他是个坚韧的斗士。|He's a tenacious fighter.
+8.55|adj|-|sensato|明智的|sensible|Es un consejo muy [sensato].|这是个很明智的建议。|It's very sensible advice.
+8.55|adj|-|prudente|谨慎的|prudent; careful|Hay que ser [prudente].|要谨慎。|You have to be careful.
+8.6|adj|-|imprudente|鲁莽的|reckless|Es un conductor [imprudente].|他是个鲁莽的司机。|He's a reckless driver.
+8.6|adj|-|ingenuo|天真的|naive|No seas [ingenuo].|别天真了。|Don't be naive.
+8.65|adj|-|astuto|狡猾的，精明的|cunning; shrewd|Es un negociador [astuto].|他是个精明的谈判者。|He's a shrewd negotiator.
+8.65|adj|-|hábil|熟练的|skilful|Es muy [hábil] con las manos.|他手很巧。|He's very skilful with his hands.
+8.7|adj|-|torpe|笨拙的|clumsy|Soy muy [torpe].|我很笨手笨脚。|I'm very clumsy.
+8.7|adj|-|ágil|敏捷的|agile|Es un gato muy [ágil].|这只猫很敏捷。|It's a very agile cat.
+8.75|adj|-|inquieto|不安的；好动的|restless|Es un niño muy [inquieto].|他是个很好动的孩子。|He's a very restless child.
+8.75|adj|-|sereno|平静的|serene; calm|Tiene un rostro [sereno].|他面容平静。|He has a serene face.
+8.8|adj|-|apasionado|热情的|passionate|Es un profesor [apasionado].|他是个充满热情的老师。|He's a passionate teacher.
+8.8|adj|-|indiferente|冷漠的|indifferent|Me es [indiferente].|我无所谓。|I'm indifferent to it.
+8.85|adj|-|insoportable|难以忍受的|unbearable|El calor es [insoportable].|热得受不了。|The heat is unbearable.
+8.85|adj|-|entrañable|亲切的|endearing; dear|Es un recuerdo [entrañable].|这是一段温馨的回忆。|It's a fond memory.
+8.9|adj|-|llamativo|引人注目的|striking|Es un color muy [llamativo].|这个颜色很显眼。|It's a very striking colour.
+8.9|adj|-|discreto|低调的；谨慎的|discreet|Es un hombre [discreto].|他是个低调的人。|He's a discreet man.
+8.95|adj|-|insólito|罕见的|unusual|Es un caso [insólito].|这是罕见的案例。|It's an unusual case.
+8.95|adj|-|inédito|未发表的；前所未有的|unpublished; unprecedented|Es un libro [inédito].|这是一本未出版的书。|It's an unpublished book.
+9.0|adj|-|efímero|短暂的|ephemeral|Es un éxito [efímero].|这是昙花一现的成功。|It's a fleeting success.
+@abstract-c1
+8.05|n|m|el matiz|细微差别|nuance|Hay un [matiz] importante.|这里有个重要的细微差别。|There's an important nuance.
+8.1|n|m|el planteamiento|思路；提法|approach|Es un [planteamiento] interesante.|这是个有趣的思路。|It's an interesting approach.
+8.1|n|f|la premisa|前提|premise|Parte de una [premisa] falsa.|这基于一个错误的前提。|It starts from a false premise.
+8.15|n|m|el argumento|论据；情节|argument; plot|Es un buen [argumento].|这是个好论据。|It's a good argument.
+8.15|n|f|la hipótesis|假设|hypothesis|Es solo una [hipótesis].|这只是一个假设。|It's just a hypothesis.
+8.2|n|f|la teoría|理论|theory|En [teoría], funciona.|理论上可行。|In theory, it works.
+8.2|n|f|la práctica|实践|practice|En la [práctica], no.|实际上不行。|In practice, no.
+8.25|n|m|el contexto|背景，语境|context|Depende del [contexto].|取决于语境。|It depends on the context.
+8.25|n|m|el marco|框架；画框|framework; frame|Es el [marco] legal.|这是法律框架。|It's the legal framework.
+8.3|n|f|la postura|立场；姿势|position; stance|¿Cuál es tu [postura]?|你的立场是什么？|What's your stance?
+8.3|n|m|el prejuicio|偏见|prejudice|Es un [prejuicio].|这是偏见。|It's a prejudice.
+8.35|n|m|el estereotipo|刻板印象|stereotype|Es un [estereotipo].|这是刻板印象。|It's a stereotype.
+8.35|n|m|el tópico|老生常谈|cliché|Es un [tópico].|这是陈词滥调。|It's a cliché.
+8.4|n|f|la paradoja|悖论|paradox|Es una [paradoja].|这是个悖论。|It's a paradox.
+8.4|n|m|el dilema|两难|dilemma|Tengo un [dilema].|我左右为难。|I'm in a dilemma.
+8.45|n|f|la contradicción|矛盾|contradiction|Es una [contradicción].|这自相矛盾。|It's a contradiction.
+8.45|n|f|la coherencia|一致性|coherence; consistency|Falta [coherencia].|缺乏一致性。|It lacks consistency.
+8.5|n|f|la ética|伦理|ethics|Es una cuestión de [ética].|这是伦理问题。|It's a question of ethics.
+8.5|n|f|la moral|道德；士气|morals; morale|La [moral] del equipo es alta.|团队士气高涨。|Team morale is high.
+8.55|n|f|la conciencia|良心；意识|conscience; awareness|Tengo la [conciencia] tranquila.|我问心无愧。|My conscience is clear.
+8.55|n|f|la sensibilidad|敏感；感受力|sensitivity|Tiene mucha [sensibilidad].|他很敏感细腻。|He's very sensitive.
+8.6|n|f|la incertidumbre|不确定性|uncertainty|Hay mucha [incertidumbre].|有很多不确定性。|There's a lot of uncertainty.
+8.65|n|f|la iniciativa|主动性；倡议|initiative|Tiene mucha [iniciativa].|他很主动。|He shows a lot of initiative.
+8.65|n|m|el esfuerzo|努力|effort|Valoro tu [esfuerzo].|我看重你的努力。|I value your effort.
+8.7|n|m|el logro|成就|achievement|Es un gran [logro].|这是一项伟大的成就。|It's a great achievement.
+8.75|n|f|la trayectoria|经历；轨迹|career path; trajectory|Tiene una larga [trayectoria].|他资历深厚。|He has a long track record.
+8.75|n|f|la vocación|使命感；志向|vocation; calling|Tiene [vocación] de médico.|他立志当医生。|He has a calling to be a doctor.
+8.8|n|f|la madurez|成熟|maturity|Muestra mucha [madurez].|他表现得很成熟。|He shows a lot of maturity.
+8.8|n|f|la autonomía|自主性|autonomy|Valoro mi [autonomía].|我看重自己的自主权。|I value my autonomy.
+8.85|n|m|el bienestar|福祉，幸福感|well-being|Busco el [bienestar].|我追求身心健康。|I'm seeking well-being.
+8.85|n|m|el equilibrio|平衡|balance|Busco el [equilibrio].|我在寻求平衡。|I'm looking for balance.
+8.9|n|f|la armonía|和谐|harmony|Viven en [armonía].|他们和睦相处。|They live in harmony.
+8.95|n|f|la cohesión|凝聚力|cohesion|Falta [cohesión] social.|缺乏社会凝聚力。|There's a lack of social cohesion.
+9.0|n|f|la idiosincrasia|特质|idiosyncrasy; character|Es parte de nuestra [idiosincrasia].|这是我们的民族特质。|It's part of our character.
+@discourse-c1
+8.1|adv|-|no obstante|然而|nevertheless|[No obstante], seguimos adelante.|然而我们继续前进。|Nevertheless, we carry on.
+8.15|adv|-|por consiguiente|因此|consequently|[Por consiguiente], no iremos.|因此我们不去了。|Consequently, we won't go.
+8.2|adv|-|por lo tanto|所以|therefore|[Por lo tanto], es imposible.|所以这是不可能的。|Therefore, it's impossible.
+8.25|adv|-|en cuanto a|至于|as for|[En cuanto a] tu pregunta, no sé.|至于你的问题，我不知道。|As for your question, I don't know.
+8.3|adv|-|en definitiva|总之|in short|[En definitiva], fue un éxito.|总之，这很成功。|In short, it was a success.
+8.35|adv|-|en resumen|总之|in summary|[En resumen], todo bien.|总之一切都好。|In summary, everything's fine.
+8.4|adv|-|a grandes rasgos|大体上|broadly speaking|[A grandes rasgos], estoy de acuerdo.|大体上我同意。|Broadly speaking, I agree.
+8.45|adv|-|en primer lugar|首先|firstly|[En primer lugar], gracias.|首先，谢谢大家。|Firstly, thank you.
+8.5|adv|-|por último|最后|lastly|[Por último], una pregunta.|最后，一个问题。|Lastly, a question.
+8.55|adv|-|asimismo|同样地|likewise|[Asimismo], hay que añadir algo.|同样，还要补充一点。|Likewise, something must be added.
+8.6|adv|-|de igual modo|同样|in the same way|[De igual modo], te ayudaré.|同样，我会帮你。|In the same way, I'll help you.
+8.7|conj|-|puesto que|既然|since|[Puesto que] llueve, no salgo.|既然下雨，我就不出门了。|Since it's raining, I'm not going out.
+8.75|conj|-|ya que|既然；因为|since|[Ya que] estás aquí, ayúdame.|既然你在这儿，帮帮我。|Since you're here, help me.
+8.8|conj|-|dado que|鉴于|given that|[Dado que] es tarde, me voy.|既然很晚了，我走了。|Given that it's late, I'm leaving.
+8.85|conj|-|a no ser que|除非|unless|Iré, [a no ser que] llueva.|我会去，除非下雨。|I'll go, unless it rains.
+8.9|conj|-|con tal de que|只要|provided that|Te lo presto [con tal de que] me lo devuelvas.|只要你还我，我就借给你。|I'll lend it to you provided you give it back.
+8.95|conj|-|siempre que|只要；每当|as long as; whenever|Puedes venir [siempre que] quieras.|你想来随时来。|You can come whenever you want.
+9.0|conj|-|de modo que|所以；以便|so that|Habla alto, [de modo que] te oigan.|大声说，好让他们听见。|Speak up so that they can hear you.
+8.1|adj|-|meticuloso|一丝不苟的|meticulous|Es un trabajador [meticuloso].|他是个一丝不苟的员工。|He's a meticulous worker.
+8.2|adj|-|hondo|深的|deep|Es un pozo muy [hondo].|这口井很深。|It's a very deep well.

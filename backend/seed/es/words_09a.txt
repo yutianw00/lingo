@@ -1,0 +1,95 @@
+# Level 9a — formal register, business, administration (C1)
+@business-c1
+8.05|n|mf|el accionista|股东|shareholder|Es [accionista] de la empresa.|他是公司股东。|He's a shareholder in the company.
+8.1|n|f|la acción|行动；股票|action; share|Compró una [acción] de Inditex.|他买了一股Inditex的股票。|He bought a share in Inditex.
+8.15|n|m|el balance|结算；资产负债表|balance; balance sheet|El [balance] es positivo.|结算是正面的。|The balance is positive.
+8.15|n|f|la facturación|营业额|turnover|La [facturación] creció un diez por ciento.|营业额增长了百分之十。|Turnover grew by ten per cent.
+8.2|n|m|el coste|成本|cost|El [coste] es demasiado alto.|成本太高了。|The cost is too high.
+8.25|n|f|la subvención|补贴|subsidy; grant|Recibimos una [subvención].|我们获得了一笔补贴。|We received a grant.
+8.3|n|m|el patrocinador|赞助商|sponsor|Buscamos un [patrocinador].|我们在找赞助商。|We're looking for a sponsor.
+8.3|n|f|la quiebra|破产|bankruptcy|La empresa está en [quiebra].|公司破产了。|The company is bankrupt.
+8.35|n|f|la fusión|合并；融合|merger; fusion|Anunciaron una [fusión].|他们宣布了合并。|They announced a merger.
+8.35|n|f|la sucursal|分公司，分行|branch|Abrieron una [sucursal] en Lima.|他们在利马开了分公司。|They opened a branch in Lima.
+8.4|n|m|el proveedor|供应商|supplier|Cambiamos de [proveedor].|我们换了供应商。|We changed supplier.
+8.4|n|f|la negociación|谈判|negotiation|La [negociación] fue dura.|谈判很艰难。|The negotiation was tough.
+8.45|n|m|el rendimiento|业绩；效率|performance; yield|Su [rendimiento] ha mejorado.|他的表现有所提高。|His performance has improved.
+8.45|n|f|la productividad|生产率|productivity|Queremos aumentar la [productividad].|我们想提高生产率。|We want to increase productivity.
+8.5|n|f|la rentabilidad|盈利能力|profitability|Analizamos la [rentabilidad].|我们分析盈利能力。|We analyse profitability.
+8.55|v|-|emprender|创业；着手|to undertake; to start a business|Quiere [emprender] su propio negocio.|他想自己创业。|He wants to start his own business.
+8.55|v|-|liderar|领导|to lead|Va a [liderar] el equipo.|他将带领团队。|He's going to lead the team.
+8.6|v|-|rentabilizar|使盈利|to make profitable|Hay que [rentabilizar] la inversión.|要让投资产生回报。|The investment has to be made to pay.
+8.6|v|-|recaudar|募集；征收|to raise; to collect|Quieren [recaudar] fondos.|他们想募集资金。|They want to raise funds.
+8.65|v|-|subcontratar|外包|to outsource|Van a [subcontratar] el servicio.|他们要把这项服务外包。|They're going to outsource the service.
+8.65|v|-|cotizar|报价；缴纳（社保）|to quote; to pay contributions|Hay que [cotizar] a la Seguridad Social.|要缴纳社保。|You have to pay Social Security contributions.
+8.7|adj|-|empresarial|企业的|business|Tiene visión [empresarial].|他有商业眼光。|He has business vision.
+8.7|adj|-|comercial|商业的|commercial|Es un centro [comercial].|这是一个购物中心。|It's a shopping centre.
+8.75|adj|-|fiscal|税务的；财政的|fiscal; tax|Es un año [fiscal] difícil.|这是艰难的财年。|It's a difficult fiscal year.
+8.75|adj|-|lucrativo|有利可图的|lucrative|Es un negocio [lucrativo].|这是一门赚钱的生意。|It's a lucrative business.
+@administration
+8.05|n|f|la administración|管理；行政机构|administration|Trabaja en la [administración] pública.|他在公共行政部门工作。|He works in public administration.
+8.1|n|m|el funcionario|公务员|civil servant|Es [funcionario] del Estado.|他是国家公务员。|He's a civil servant.
+8.1|n|m|el organismo|机构；有机体|body; organisation|Es un [organismo] público.|这是一个公共机构。|It's a public body.
+8.15|n|f|la institución|机构|institution|Es una [institución] prestigiosa.|这是一家声望很高的机构。|It's a prestigious institution.
+8.15|n|m|el reglamento|规章|regulations|Lee el [reglamento].|读一下规章。|Read the regulations.
+8.2|n|f|la normativa|规定（总称）|regulations|La [normativa] ha cambiado.|规定变了。|The regulations have changed.
+8.2|n|m|el decreto|法令|decree|Aprobaron un nuevo [decreto].|他们通过了一项新法令。|They passed a new decree.
+8.25|n|m|el certificado|证书|certificate|Necesito un [certificado] médico.|我需要一份医疗证明。|I need a medical certificate.
+8.25|n|m|el permiso|许可；假期|permission; leave|Necesitas un [permiso] de trabajo.|你需要工作许可。|You need a work permit.
+8.3|n|f|la licencia|执照；许可|licence|Tiene [licencia] de pesca.|他有钓鱼执照。|He has a fishing licence.
+8.35|n|f|la renovación|更新；续签|renewal|La [renovación] del pasaporte tarda.|护照续签要花时间。|Passport renewal takes time.
+8.35|n|f|la tramitación|办理（手续）|processing|La [tramitación] es lenta.|办理速度很慢。|The processing is slow.
+8.4|n|f|la fotocopia|复印件|photocopy|Trae una [fotocopia] del DNI.|带一份身份证复印件。|Bring a photocopy of your ID.
+8.45|n|m|el empadronamiento|户籍登记|registration (of residence)|Necesito el [empadronamiento].|我需要居住登记证明。|I need proof of registration.
+8.45|n|f|la nacionalidad|国籍|nationality|Tiene doble [nacionalidad].|他有双重国籍。|He has dual nationality.
+8.5|n|f|la residencia|居留；住所|residence|Tengo permiso de [residencia].|我有居留许可。|I have a residence permit.
+8.5|v|-|tramitar|办理|to process; to handle|Tengo que [tramitar] el visado.|我得办签证。|I have to process my visa.
+8.55|v|-|renovar|更新，续签|to renew|Hay que [renovar] el carné.|要换证件了。|The card needs renewing.
+8.55|v|-|autorizar|授权，批准|to authorise|No te puedo [autorizar].|我无法批准你。|I can't authorise you.
+8.6|v|-|regular|调节；规范|to regulate|Hay que [regular] el sector.|必须规范这个行业。|The sector needs to be regulated.
+8.6|v|-|registrar|登记；搜查|to register; to search|Hay que [registrar] la empresa.|要注册公司。|The company has to be registered.
+8.65|v|-|cumplimentar|填写（正式）|to complete (a form)|Debe [cumplimentar] el impreso.|您须填写表格。|You must complete the form.
+8.65|v|-|adjuntar|附上|to attach|No olvides [adjuntar] el archivo.|别忘了附上文件。|Don't forget to attach the file.
+8.7|v|-|vigilar|看守；监视|to watch over; to monitor|Hay que [vigilar] la entrada.|要看好入口。|The entrance must be watched.
+8.7|adj|-|vigente|现行的；有效的|in force; valid|La ley [vigente] lo prohíbe.|现行法律禁止这样做。|The law in force prohibits it.
+8.75|adj|-|caducado|过期的|expired|Tu pasaporte está [caducado].|你的护照过期了。|Your passport has expired.
+8.75|adj|-|administrativo|行政的|administrative|Es un trámite [administrativo].|这是行政手续。|It's an administrative procedure.
+@formal-verbs
+8.05|v|-|constituir|构成|to constitute|Esto va a [constituir] un precedente.|这将构成先例。|This will set a precedent.
+8.05|v|-|conllevar|带来；包含|to entail|El cambio va a [conllevar] riesgos.|这一变化将带来风险。|The change will entail risks.
+8.1|v|-|derivar|源于；导致|to derive; to lead to|Puede [derivar] en un conflicto.|这可能导致冲突。|It may lead to a conflict.
+8.1|v|-|desempeñar|担任；履行|to perform; to play (a role)|Va a [desempeñar] un papel clave.|他将起关键作用。|He'll play a key role.
+8.15|v|-|ejercer|行使；从事|to exercise; to practise|Quiere [ejercer] la medicina.|他想行医。|He wants to practise medicine.
+8.15|v|-|ejecutar|执行|to execute; to carry out|Hay que [ejecutar] el plan.|必须执行计划。|The plan must be carried out.
+8.2|v|-|elaborar|制定；制作|to draw up; to make|Vamos a [elaborar] un informe.|我们要起草一份报告。|We're going to draw up a report.
+8.2|v|-|emitir|发出；播出|to issue; to broadcast|Van a [emitir] el partido.|他们将转播比赛。|They're going to broadcast the match.
+8.25|v|-|optar|选择|to opt|Puedes [optar] por otra solución.|你可以选择其他办法。|You can opt for another solution.
+8.25|v|-|prescindir|放弃，不用|to do without|No podemos [prescindir] de él.|我们离不开他。|We can't do without him.
+8.3|v|-|recurrir|求助于；上诉|to resort to; to appeal|Vamos a [recurrir] la sentencia.|我们要上诉。|We're going to appeal the ruling.
+8.3|v|-|atribuir|归因于|to attribute|Es difícil [atribuir] la culpa.|很难归咎于谁。|It's hard to attribute blame.
+8.35|v|-|aportar|贡献；提供|to contribute; to provide|Puede [aportar] mucho al equipo.|他能为团队贡献很多。|He can contribute a lot to the team.
+8.35|v|-|abordar|处理；着手解决|to tackle; to address|Hay que [abordar] el problema.|必须着手解决这个问题。|The problem must be tackled.
+8.4|v|-|afrontar|面对|to face; to confront|Hay que [afrontar] la crisis.|必须面对危机。|The crisis must be faced.
+8.4|v|-|agravar|使恶化|to aggravate|Esto puede [agravar] la situación.|这可能使形势恶化。|This could make the situation worse.
+8.45|v|-|atenuar|减轻|to lessen; to attenuate|Quieren [atenuar] el impacto.|他们想减轻影响。|They want to lessen the impact.
+8.45|v|-|potenciar|增强|to boost; to enhance|Queremos [potenciar] el turismo.|我们想促进旅游业。|We want to boost tourism.
+8.5|v|-|impulsar|推动|to drive; to promote|Van a [impulsar] la economía.|他们将推动经济。|They're going to boost the economy.
+8.5|v|-|frenar|刹车；遏制|to brake; to curb|Hay que [frenar] la inflación.|必须遏制通胀。|Inflation must be curbed.
+8.55|v|-|agilizar|加快|to speed up|Quieren [agilizar] los trámites.|他们想加快手续办理。|They want to speed up the paperwork.
+8.55|v|-|simplificar|简化|to simplify|Hay que [simplificar] el proceso.|要简化流程。|The process must be simplified.
+8.6|v|-|evidenciar|表明|to show; to make evident|Los datos van a [evidenciar] el problema.|数据将揭示问题。|The data will make the problem evident.
+8.6|v|-|reflejar|反映|to reflect|Los resultados van a [reflejar] el esfuerzo.|结果将反映出努力。|The results will reflect the effort.
+8.65|v|-|percibir|感知；领取|to perceive; to receive|Es difícil [percibir] la diferencia.|很难察觉差别。|It's hard to perceive the difference.
+8.65|v|-|plantearse|考虑|to consider; to think about|Hay que [plantearse] otras opciones.|要考虑其他选择。|Other options must be considered.
+8.7|v|-|replantear|重新考虑|to rethink|Hay que [replantear] la estrategia.|要重新考虑策略。|The strategy needs rethinking.
+8.7|v|-|matizar|细说；修饰|to qualify; to nuance|Quiero [matizar] lo que dije.|我想补充说明一下我说的话。|I'd like to qualify what I said.
+8.75|v|-|precisar|明确；需要|to specify; to need|¿Puede [precisar] la fecha?|您能确定一下日期吗？|Could you specify the date?
+8.75|v|-|subrayar|强调；划线|to underline; to stress|Quiero [subrayar] este punto.|我想强调这一点。|I want to stress this point.
+8.8|v|-|enfatizar|强调|to emphasise|Quiero [enfatizar] la importancia del tema.|我想强调这个话题的重要性。|I want to emphasise the importance of the topic.
+8.8|v|-|sostener|支撑；主张|to hold; to maintain|Es difícil [sostener] esa idea.|很难坚持那个观点。|It's hard to maintain that idea.
+8.85|v|-|argumentar|论证|to argue|Hay que [argumentar] bien.|论证要充分。|You need to argue well.
+8.85|v|-|refutar|反驳|to refute|Es fácil [refutar] ese argumento.|那个论点很容易反驳。|That argument is easy to refute.
+8.9|v|-|cuestionarse|自问；质疑|to wonder; to question|Es sano [cuestionarse] las cosas.|对事物提出质疑是健康的。|It's healthy to question things.
+8.9|v|-|concluir|得出结论；结束|to conclude|Podemos [concluir] que funciona.|我们可以得出结论：它有效。|We can conclude that it works.
+8.95|v|-|deducir|推断|to deduce|Es fácil [deducir] la respuesta.|答案不难推断。|The answer is easy to deduce.
+8.95|v|-|inferir|推断|to infer|No se puede [inferir] nada.|无法推断出任何东西。|Nothing can be inferred.
+9.0|v|-|corroborar|证实|to corroborate|Hay que [corroborar] los datos.|必须核实数据。|The data must be corroborated.

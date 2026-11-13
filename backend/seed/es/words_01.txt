@@ -1,0 +1,159 @@
+# Level 1 — survival Spanish (A1, first ~150 words)
+@greetings
+0.1|interj|-|hola|你好|hello|¡[Hola], María!|你好，玛丽亚！|Hello, María!
+0.1|phr|-|gracias|谢谢|thank you|Muchas [gracias] por la comida.|非常感谢你的饭菜。|Thanks a lot for the food.
+0.1|adv|-|sí|是，对|yes|[Sí], soy de China.|是的，我是中国人。|Yes, I'm from China.
+0.1|adv|-|no|不，没有|no; not|[No] hablo francés.|我不会说法语。|I don't speak French.
+0.15|phr|-|por favor|请|please|Un café, [por favor].|请来一杯咖啡。|A coffee, please.
+0.15|interj|-|adiós|再见|goodbye|[Adiós], hasta mañana.|再见，明天见。|Goodbye, see you tomorrow.
+0.2|phr|-|buenos días|早上好|good morning|[Buenos días], señora.|早上好，女士。|Good morning, madam.
+0.2|phr|-|buenas noches|晚上好；晚安|good evening; good night|[Buenas noches], hasta mañana.|晚安，明天见。|Good night, see you tomorrow.
+0.25|phr|-|de nada|不客气|you're welcome|—Gracias. —[De nada].|“谢谢。”“不客气。”|"Thanks." "You're welcome."
+0.25|phr|-|lo siento|对不起，抱歉|I'm sorry|[Lo siento], no tengo tiempo.|抱歉，我没有时间。|Sorry, I don't have time.
+0.25|phr|-|perdón|对不起；打扰一下|sorry; excuse me|[Perdón], ¿dónde está el baño?|打扰一下，洗手间在哪里？|Excuse me, where is the bathroom?
+0.3|phr|-|hasta luego|回头见|see you later|Me voy. ¡[Hasta luego]!|我走了，回头见！|I'm off. See you later!
+0.3|phr|-|mucho gusto|很高兴认识你|nice to meet you|Me llamo Ana, [mucho gusto].|我叫安娜，很高兴认识你。|My name is Ana, nice to meet you.
+0.3|adv|-|bien|好，很好|well; fine|Estoy muy [bien], gracias.|我很好，谢谢。|I'm very well, thanks.
+@pronouns
+0.2|pron|-|yo|我|I|[Yo] soy estudiante.|我是学生。|I am a student.
+0.2|pron|-|tú|你|you (informal)|¿[Tú] eres de Madrid?|你是马德里人吗？|Are you from Madrid?
+0.25|pron|-|él|他|he|[Él] es mi hermano.|他是我的哥哥。|He is my brother.
+0.25|pron|-|ella|她|she|[Ella] es mi madre.|她是我的妈妈。|She is my mother.
+0.3|pron|-|usted|您|you (formal)|¿Cómo está [usted]?|您好吗？|How are you (formal)?
+0.35|pron|-|nosotros|我们|we|[Nosotros] vivimos en Pekín.|我们住在北京。|We live in Beijing.
+0.4|pron|-|ellos|他们|they|[Ellos] son mis amigos.|他们是我的朋友。|They are my friends.
+0.45|pron|-|vosotros|你们（西班牙用法）|you all (Spain)|¿[Vosotros] sois de aquí?|你们是本地人吗？|Are you all from here?
+0.45|pron|-|ustedes|你们；诸位|you all (formal / Latin America)|¿[Ustedes] quieren café?|你们要咖啡吗？|Would you all like coffee?
+0.5|pron|-|me|我（宾格）|me|[Me] llamo Carlos.|我叫卡洛斯。|My name is Carlos.
+0.5|pron|-|te|你（宾格）|you (object)|¿Cómo [te] llamas?|你叫什么名字？|What's your name?
+0.6|det|-|mi|我的|my|Esta es [mi] casa.|这是我的家。|This is my house.
+0.6|det|-|tu|你的|your|¿Es [tu] libro?|这是你的书吗？|Is it your book?
+0.65|det|-|su|他的；她的；您的|his; her; your (formal)|Esta es [su] maleta, señor.|先生，这是您的行李箱。|This is your suitcase, sir.
+@core-verbs
+0.2|v|-|ser|是（本质、身份）|to be (identity)|Quiero [ser] médico.|我想当医生。|I want to be a doctor.
+0.2|v|-|estar|在；处于（状态、位置）|to be (state, location)|Me gusta [estar] en casa.|我喜欢待在家里。|I like being at home.
+0.25|v|-|tener|有|to have|Quiero [tener] un perro.|我想养一只狗。|I want to have a dog.
+0.25|v|-|ir|去|to go|Quiero [ir] a España.|我想去西班牙。|I want to go to Spain.
+0.3|v|-|querer|想要；爱|to want; to love|¿Qué vas a [querer]?|你要点什么？|What will you have?
+0.3|v|-|hablar|说，讲|to speak|Quiero [hablar] español.|我想说西班牙语。|I want to speak Spanish.
+0.35|v|-|llamarse|叫（名字）|to be called|Va a [llamarse] Lucía.|她将会叫露西娅。|She's going to be called Lucía.
+0.35|v|-|comer|吃|to eat|Vamos a [comer] a las dos.|我们两点吃饭。|We're going to eat at two.
+0.35|v|-|beber|喝|to drink|Hay que [beber] mucha agua.|要多喝水。|You have to drink lots of water.
+0.4|v|-|vivir|住，生活|to live|Quiero [vivir] en Barcelona.|我想住在巴塞罗那。|I want to live in Barcelona.
+0.4|v|-|hay|有（存在）|there is / there are|[Hay] un gato en la mesa.|桌子上有一只猫。|There's a cat on the table.
+0.45|v|-|poder|能，可以|can; to be able to|No voy a [poder] ir.|我去不了了。|I won't be able to go.
+0.45|v|-|hacer|做|to do; to make|¿Qué vas a [hacer] hoy?|你今天要做什么？|What are you going to do today?
+0.5|v|-|necesitar|需要|to need|Vas a [necesitar] un abrigo.|你会需要一件外套。|You're going to need a coat.
+0.5|v|-|gustar|喜欢（令人喜欢）|to like (to please)|Te va a [gustar] mucho.|你会很喜欢的。|You're going to like it a lot.
+0.55|v|-|saber|知道；会|to know (facts); can|Quiero [saber] la verdad.|我想知道真相。|I want to know the truth.
+0.55|v|-|entender|懂，理解|to understand|No puedo [entender] esto.|我看不懂这个。|I can't understand this.
+0.6|v|-|trabajar|工作|to work|Tengo que [trabajar] mañana.|我明天得工作。|I have to work tomorrow.
+0.6|v|-|estudiar|学习|to study|Voy a [estudiar] español.|我要学西班牙语。|I'm going to study Spanish.
+0.65|v|-|venir|来|to come|¿Quieres [venir] a mi casa?|你想来我家吗？|Do you want to come to my house?
+0.65|v|-|ver|看，看见|to see; to watch|Vamos a [ver] una película.|我们去看电影吧。|Let's watch a film.
+0.7|v|-|dar|给|to give|Te quiero [dar] un regalo.|我想送你一个礼物。|I want to give you a present.
+0.7|v|-|decir|说，告诉|to say; to tell|¿Qué quieres [decir]?|你想说什么？|What do you mean?
+@numbers
+0.3|num|-|uno|一|one|Solo tengo [uno].|我只有一个。|I only have one.
+0.3|num|-|dos|二|two|Tengo [dos] hermanos.|我有两个兄弟。|I have two brothers.
+0.35|num|-|tres|三|three|Son las [tres].|现在三点。|It's three o'clock.
+0.35|num|-|cuatro|四|four|Somos [cuatro] en mi familia.|我家有四口人。|There are four of us in my family.
+0.4|num|-|cinco|五|five|Tengo [cinco] euros.|我有五欧元。|I have five euros.
+0.4|num|-|seis|六|six|Me levanto a las [seis].|我六点起床。|I get up at six.
+0.45|num|-|siete|七|seven|Una semana tiene [siete] días.|一周有七天。|A week has seven days.
+0.45|num|-|ocho|八|eight|Ceno a las [ocho].|我八点吃晚饭。|I have dinner at eight.
+0.5|num|-|nueve|九|nine|Mi hija tiene [nueve] años.|我女儿九岁。|My daughter is nine.
+0.5|num|-|diez|十|ten|Espera [diez] minutos.|等十分钟。|Wait ten minutes.
+0.55|num|-|cero|零|zero|Hace [cero] grados.|零度。|It's zero degrees.
+@family
+0.4|n|f|la madre|母亲|mother|Mi [madre] es profesora.|我妈妈是老师。|My mother is a teacher.
+0.4|n|m|el padre|父亲|father|Mi [padre] trabaja mucho.|我爸爸工作很多。|My father works a lot.
+0.45|n|m|el hermano|兄弟|brother|Tengo un [hermano].|我有一个兄弟。|I have a brother.
+0.45|n|f|la hermana|姐妹|sister|Mi [hermana] vive en Lima.|我姐姐住在利马。|My sister lives in Lima.
+0.5|n|m|el hijo|儿子|son|Su [hijo] tiene cinco años.|他的儿子五岁。|His son is five.
+0.5|n|f|la hija|女儿|daughter|Tienen una [hija].|他们有一个女儿。|They have a daughter.
+0.55|n|f|la familia|家庭，家人|family|Mi [familia] es grande.|我的家庭很大。|My family is big.
+0.55|n|m|el amigo|朋友（男）|friend (male)|Es mi mejor [amigo].|他是我最好的朋友。|He's my best friend.
+0.55|n|f|la amiga|朋友（女）|friend (female)|Es mi [amiga] Laura.|这是我的朋友劳拉。|This is my friend Laura.
+0.6|n|m|el niño|男孩，孩子|boy; child|El [niño] tiene hambre.|孩子饿了。|The child is hungry.
+0.6|n|f|la niña|女孩|girl|La [niña] está en el parque.|女孩在公园里。|The girl is in the park.
+0.65|n|m|el hombre|男人|man|Ese [hombre] es mi vecino.|那个男人是我的邻居。|That man is my neighbour.
+0.65|n|f|la mujer|女人；妻子|woman; wife|Esa [mujer] es médica.|那个女人是医生。|That woman is a doctor.
+0.7|n|f|la persona|人|person|Es una [persona] muy simpática.|他是一个很友善的人。|He's a very nice person.
+@food
+0.3|n|f|el agua|水|water|Un vaso de [agua], por favor.|请给我一杯水。|A glass of water, please.
+0.35|n|m|el café|咖啡|coffee|Tomo un [café] cada mañana.|我每天早上喝一杯咖啡。|I have a coffee every morning.
+0.45|n|m|el pan|面包|bread|Compro [pan] todos los días.|我每天买面包。|I buy bread every day.
+0.5|n|f|la leche|牛奶|milk|Un café con [leche], por favor.|请来一杯牛奶咖啡。|A coffee with milk, please.
+0.55|n|m|el té|茶|tea|¿Quieres un [té]?|你想喝茶吗？|Would you like a tea?
+0.6|n|f|la comida|食物；饭菜|food; meal|La [comida] está muy rica.|饭菜很好吃。|The food is delicious.
+0.65|n|f|la manzana|苹果|apple|Me como una [manzana].|我吃一个苹果。|I'm eating an apple.
+0.7|n|m|el arroz|米饭|rice|Me gusta el [arroz] con pollo.|我喜欢鸡肉饭。|I like rice with chicken.
+0.7|n|f|la cerveza|啤酒|beer|Una [cerveza] bien fría, por favor.|请来一杯冰啤酒。|A nice cold beer, please.
+0.75|n|m|el vino|葡萄酒|wine|Una copa de [vino] tinto.|一杯红葡萄酒。|A glass of red wine.
+0.75|n|f|la fruta|水果|fruit|Como [fruta] todos los días.|我每天吃水果。|I eat fruit every day.
+0.8|n|f|la carne|肉|meat|No como [carne].|我不吃肉。|I don't eat meat.
+0.8|n|m|el pescado|鱼（食物）|fish (food)|El [pescado] está fresco.|鱼很新鲜。|The fish is fresh.
+@things-places
+0.4|n|f|la casa|房子；家|house; home|Estoy en [casa].|我在家。|I'm at home.
+0.5|n|m|el baño|洗手间；浴室|bathroom|¿Dónde está el [baño]?|洗手间在哪里？|Where is the bathroom?
+0.55|n|m|el dinero|钱|money|No tengo [dinero].|我没有钱。|I don't have money.
+0.6|n|m|el nombre|名字|name|¿Cuál es tu [nombre]?|你叫什么名字？|What's your name?
+0.6|n|m|el día|天，日子|day|Hoy es un buen [día].|今天是个好日子。|Today is a good day.
+0.65|n|m|el libro|书|book|Leo un [libro].|我在读一本书。|I'm reading a book.
+0.65|n|m|el teléfono|电话；手机|telephone; phone|¿Tienes [teléfono]?|你有电话吗？|Do you have a phone?
+0.7|n|f|la calle|街道|street|Vivo en esta [calle].|我住在这条街上。|I live on this street.
+0.7|n|f|la ciudad|城市|city|Madrid es una [ciudad] grande.|马德里是一座大城市。|Madrid is a big city.
+0.75|n|m|el país|国家|country|¿De qué [país] eres?|你是哪个国家的？|Which country are you from?
+0.75|n|m|el hotel|酒店|hotel|El [hotel] está cerca.|酒店在附近。|The hotel is nearby.
+0.8|n|m|el restaurante|餐厅|restaurant|Vamos a un [restaurante] chino.|我们去一家中餐馆。|Let's go to a Chinese restaurant.
+0.8|n|f|la cuenta|账单|bill; check|La [cuenta], por favor.|请结账。|The bill, please.
+0.85|n|m|el español|西班牙语|Spanish (language)|Estudio [español].|我学西班牙语。|I study Spanish.
+0.85|n|m|el chino|中文|Chinese (language)|Hablo [chino] e inglés.|我会说中文和英语。|I speak Chinese and English.
+0.85|n|m|el inglés|英语|English (language)|¿Hablas [inglés]?|你会说英语吗？|Do you speak English?
+@questions
+0.3|pron|-|qué|什么|what|¿[Qué] es esto?|这是什么？|What is this?
+0.35|adv|-|dónde|哪里|where|¿[Dónde] vives?|你住在哪里？|Where do you live?
+0.4|adv|-|cómo|怎样，如何|how|¿[Cómo] estás?|你好吗？|How are you?
+0.5|pron|-|quién|谁|who|¿[Quién] es ella?|她是谁？|Who is she?
+0.55|adv|-|cuándo|什么时候|when|¿[Cuándo] llegas?|你什么时候到？|When do you arrive?
+0.6|adj|-|cuánto|多少|how much|¿[Cuánto] cuesta?|多少钱？|How much is it?
+0.65|adv|-|por qué|为什么|why|¿[Por qué] estudias español?|你为什么学西班牙语？|Why are you learning Spanish?
+0.7|pron|-|cuál|哪个|which; what|¿[Cuál] prefieres?|你更喜欢哪个？|Which one do you prefer?
+@basic-adjectives
+0.5|adj|-|bueno|好的|good|Es un libro muy [bueno].|这是一本很好的书。|It's a very good book.
+0.55|adj|-|malo|坏的，不好的|bad|Es un día [malo].|今天是糟糕的一天。|It's a bad day.
+0.6|adj|-|grande|大的|big|Tengo un perro [grande].|我有一只大狗。|I have a big dog.
+0.6|adj|-|pequeño|小的|small|Vivo en un piso [pequeño].|我住在一套小公寓里。|I live in a small flat.
+0.65|adj|-|nuevo|新的|new|Es mi coche [nuevo].|这是我的新车。|It's my new car.
+0.7|adj|-|cansado|累的|tired|Estoy muy [cansado].|我很累。|I'm very tired.
+0.75|adj|-|contento|高兴的|happy; pleased|Estoy [contento] de verte.|见到你我很高兴。|I'm happy to see you.
+0.8|adj|-|rico|好吃的；富有的|tasty; rich|El pastel está muy [rico].|蛋糕很好吃。|The cake is delicious.
+@little-words
+0.15|conj|-|y|和|and|Café [y] leche.|咖啡和牛奶。|Coffee and milk.
+0.2|prep|-|de|的；来自|of; from|Soy [de] Shanghái.|我来自上海。|I'm from Shanghai.
+0.2|prep|-|en|在……里|in; at; on|Estoy [en] el hotel.|我在酒店。|I'm at the hotel.
+0.25|prep|-|a|到，向|to; at|Voy [a] Madrid.|我去马德里。|I'm going to Madrid.
+0.3|prep|-|con|和……一起；带有|with|Café [con] leche.|加牛奶的咖啡。|Coffee with milk.
+0.35|conj|-|o|或者|or|¿Té [o] café?|茶还是咖啡？|Tea or coffee?
+0.35|conj|-|pero|但是|but|Es caro, [pero] es bueno.|很贵，但是很好。|It's expensive, but it's good.
+0.4|adv|-|muy|很，非常|very|Es [muy] bonito.|很漂亮。|It's very pretty.
+0.4|adv|-|aquí|这里|here|Vivo [aquí].|我住在这里。|I live here.
+0.45|prep|-|para|为了；给|for; in order to|Es [para] ti.|这是给你的。|It's for you.
+0.5|adv|-|también|也|also; too|Yo [también].|我也是。|Me too.
+0.55|adv|-|mucho|很多；非常|a lot|Te quiero [mucho].|我非常爱你。|I love you a lot.
+0.6|adv|-|ahora|现在|now|Estoy ocupado [ahora].|我现在很忙。|I'm busy now.
+0.6|adv|-|hoy|今天|today|[Hoy] hace calor.|今天很热。|It's hot today.
+0.65|adv|-|mañana|明天|tomorrow|Nos vemos [mañana].|明天见。|See you tomorrow.
+0.7|adv|-|allí|那里|there|El banco está [allí].|银行在那里。|The bank is over there.
+0.7|prep|-|sin|没有，不带|without|Café [sin] azúcar.|不加糖的咖啡。|Coffee without sugar.
+0.75|adv|-|poco|一点，少|a little; not much|Hablo un [poco] de español.|我会说一点西班牙语。|I speak a little Spanish.
+0.8|conj|-|porque|因为|because|Como [porque] tengo hambre.|我吃东西是因为我饿了。|I'm eating because I'm hungry.
+0.8|adv|-|siempre|总是|always|[Siempre] llego tarde.|我总是迟到。|I'm always late.
+0.85|adv|-|nunca|从不|never|[Nunca] bebo café.|我从不喝咖啡。|I never drink coffee.
+0.85|det|-|este|这个|this|Quiero [este] libro.|我要这本书。|I want this book.
+0.9|det|-|ese|那个|that|¿Cuánto cuesta [ese] reloj?|那块表多少钱？|How much is that watch?
+0.9|adv|-|más|更多；更|more|Quiero [más] pan.|我还要面包。|I want more bread.
+0.95|adv|-|menos|更少|less|Necesito trabajar [menos].|我需要少工作一些。|I need to work less.
+0.95|det|-|otro|另一个|another; other|Quiero [otro] café.|我还要一杯咖啡。|I'd like another coffee.
+1.0|det|-|todo|全部，所有|all; everything|Me gusta [todo].|我什么都喜欢。|I like everything.

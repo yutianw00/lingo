@@ -1,0 +1,95 @@
+# Level 9c — expressive verbs, idioms, concrete C1 nouns
+@expressive-verbs
+8.05|v|-|anhelar|渴望|to long for|Es humano [anhelar] la libertad.|渴望自由是人之常情。|It's human to long for freedom.
+8.05|v|-|añorar|怀念|to miss; to yearn for|Es normal [añorar] tu país.|想念祖国很正常。|It's normal to miss your country.
+8.1|v|-|ansiar|渴求|to crave|Empieza a [ansiar] el éxito.|他开始渴求成功。|He's starting to crave success.
+8.1|v|-|despreciar|鄙视|to despise|No hay que [despreciar] a nadie.|不应鄙视任何人。|You shouldn't despise anyone.
+8.15|v|-|envidiar|嫉妒，羡慕|to envy|No hay que [envidiar] a los demás.|不要羡慕别人。|You shouldn't envy others.
+8.15|v|-|admirar|钦佩|to admire|Te quiero [admirar] siempre.|我想永远仰慕你。|I want to always admire you.
+8.2|v|-|apreciar|欣赏；感激|to appreciate|Sé [apreciar] un buen vino.|我懂得品鉴好酒。|I know how to appreciate a good wine.
+8.2|v|-|conmover|感动|to move (emotionally)|La película te va a [conmover].|这部电影会让你感动的。|The film will move you.
+8.25|v|-|emocionarse|激动；感动|to get emotional|Es fácil [emocionarse] en una boda.|在婚礼上很容易激动落泪。|It's easy to get emotional at a wedding.
+8.25|v|-|desahogarse|发泄|to let off steam|A veces es bueno [desahogarse].|有时发泄一下是好事。|Sometimes it's good to let off steam.
+8.3|v|-|agobiarse|感到压力大|to get overwhelmed|No hay que [agobiarse].|别给自己太大压力。|Don't get overwhelmed.
+8.3|v|-|desanimarse|气馁|to get discouraged|No hay que [desanimarse].|不要气馁。|Don't get discouraged.
+8.35|v|-|ilusionarse|满怀期待|to get one's hopes up|Es fácil [ilusionarse] demasiado.|很容易期望过高。|It's easy to get your hopes up too much.
+8.35|v|-|desilusionarse|失望|to become disillusioned|Es triste [desilusionarse].|幻灭是令人难过的。|It's sad to become disillusioned.
+8.4|v|-|resignarse|认命|to resign oneself|Es triste [resignarse] a una vida aburrida.|甘于无聊的生活是可悲的。|It's sad to resign yourself to a boring life.
+8.4|v|-|desesperarse|绝望|to despair|No hay que [desesperarse].|不要绝望。|Don't despair.
+8.45|v|-|enorgullecerse|自豪|to be proud|Puedes [enorgullecerse] de tu trabajo.|你可以为你的工作感到自豪。|You can be proud of your work.
+8.45|v|-|avergonzar|使羞愧|to embarrass|No me quieras [avergonzar].|别让我难堪。|Don't embarrass me.
+8.5|v|-|halagar|奉承；使高兴|to flatter|No me tienes que [halagar].|你不必奉承我。|You don't need to flatter me.
+8.5|v|-|ofender|冒犯|to offend|No te quiero [ofender].|我不想冒犯你。|I don't want to offend you.
+8.55|v|-|herir|伤害|to hurt; to wound|No quiero [herir] tus sentimientos.|我不想伤你的心。|I don't want to hurt your feelings.
+8.55|v|-|consolar|安慰|to console|Intenta [consolar] a su amiga.|她试图安慰她的朋友。|She tries to console her friend.
+8.6|v|-|tranquilizar|使平静|to reassure; to calm|Te quiero [tranquilizar].|我想让你安心。|I want to reassure you.
+8.6|v|-|alentar|鼓励|to encourage|Hay que [alentar] a los jóvenes.|要鼓励年轻人。|Young people must be encouraged.
+8.65|v|-|reprochar|责备|to reproach|No te voy a [reprochar] nada.|我不会责怪你什么。|I won't reproach you for anything.
+8.65|v|-|regañar|训斥|to scold|Mi madre me va a [regañar].|我妈会骂我的。|My mum is going to tell me off.
+8.7|v|-|burlarse|嘲笑|to make fun|No está bien [burlarse] de nadie.|嘲笑别人是不对的。|It's not right to make fun of anyone.
+8.7|v|-|presumir|炫耀|to show off|Le encanta [presumir].|他很爱炫耀。|He loves showing off.
+8.75|v|-|fingir|假装|to pretend|No hace falta [fingir].|不必假装。|There's no need to pretend.
+8.75|v|-|disimular|掩饰|to hide; to disguise|No sabe [disimular].|他不会掩饰。|He can't hide his feelings.
+8.8|v|-|sonreír|微笑|to smile|Me hace [sonreír].|他让我微笑。|He makes me smile.
+8.8|v|-|suspirar|叹气|to sigh|No dejas de [suspirar].|你一直在叹气。|You keep sighing.
+8.85|v|-|susurrar|低语|to whisper|Me gusta [susurrar] secretos.|我喜欢悄悄说秘密。|I like whispering secrets.
+8.85|v|-|gritar|喊叫|to shout|No hace falta [gritar].|不用大喊。|There's no need to shout.
+8.9|v|-|murmurar|嘟囔；说闲话|to mutter; to gossip|No está bien [murmurar].|背后说闲话不好。|Gossiping isn't nice.
+8.9|v|-|cotillear|八卦|to gossip|Le encanta [cotillear].|他很爱八卦。|He loves gossiping.
+8.95|v|-|bromear|开玩笑|to joke|Me gusta [bromear].|我喜欢开玩笑。|I like joking.
+9.0|v|-|exagerar|夸张|to exaggerate|No hace falta [exagerar].|没必要夸大。|There's no need to exaggerate.
+@idioms
+8.1|phr|-|echar una mano|帮一把|to lend a hand|¿Me puedes [echar una mano]?|你能帮我一把吗？|Can you lend me a hand?
+8.15|phr|-|tomar el pelo|开玩笑，捉弄|to pull someone's leg|¿Me estás [tomando el pelo]?|你在逗我吗？|Are you pulling my leg?
+8.2|phr|-|meter la pata|说错话；做错事|to put your foot in it|He vuelto a [meter la pata].|我又搞砸了。|I've put my foot in it again.
+8.25|phr|-|estar en las nubes|走神|to have your head in the clouds|Siempre [está en las nubes].|他总是心不在焉。|He always has his head in the clouds.
+8.3|phr|-|costar un ojo de la cara|贵得要命|to cost an arm and a leg|Este coche [cuesta un ojo de la cara].|这辆车贵得要命。|This car costs an arm and a leg.
+8.35|phr|-|no tener pelos en la lengua|心直口快|to not mince words|Mi abuela [no tiene pelos en la lengua].|我奶奶说话直来直去。|My grandmother doesn't mince her words.
+8.4|phr|-|ponerse las pilas|打起精神|to get one's act together|Tienes que [ponerte las pilas].|你得打起精神来。|You need to get your act together.
+8.45|phr|-|dar la lata|烦人|to pester|Deja de [dar la lata].|别烦人了。|Stop pestering.
+8.5|phr|-|ser pan comido|小菜一碟|to be a piece of cake|El examen [es pan comido].|这考试小菜一碟。|The exam is a piece of cake.
+8.55|phr|-|estar hasta las narices|受够了|to be fed up|[Estoy hasta las narices] del ruido.|我受够了这噪音。|I'm fed up with the noise.
+8.6|phr|-|tirar la toalla|认输|to throw in the towel|No vamos a [tirar la toalla].|我们不会认输。|We're not going to throw in the towel.
+8.65|phr|-|ir al grano|开门见山|to get to the point|Vamos a [ir al grano].|我们开门见山吧。|Let's get to the point.
+8.7|phr|-|quedarse en blanco|大脑一片空白|to go blank|En el examen me [quedé en blanco].|考试时我脑子一片空白。|I went blank in the exam.
+8.75|phr|-|llover a cántaros|倾盆大雨|to rain cats and dogs|Está [lloviendo a cántaros].|下着倾盆大雨。|It's raining cats and dogs.
+8.8|phr|-|tener mala leche|脾气坏；心眼坏|to be bad-tempered|Ese tío [tiene mala leche].|那家伙脾气很坏。|That guy is bad-tempered.
+8.85|phr|-|hacer la vista gorda|睁一只眼闭一只眼|to turn a blind eye|El jefe [hace la vista gorda].|老板睁一只眼闭一只眼。|The boss turns a blind eye.
+8.9|phr|-|consultar con la almohada|考虑一晚|to sleep on it|Déjame [consultarlo con la almohada].|让我考虑一晚。|Let me sleep on it.
+8.95|phr|-|a duras penas|勉强地|with great difficulty|Llegamos [a duras penas].|我们好不容易才到。|We barely made it.
+9.0|phr|-|de buenas a primeras|突然|all of a sudden|[De buenas a primeras] se fue.|他突然就走了。|All of a sudden he left.
+@concrete-c1
+8.05|n|m|el andamio|脚手架|scaffolding|Hay un [andamio] en la fachada.|外墙搭着脚手架。|There's scaffolding on the façade.
+8.1|n|f|la fachada|外墙，正面|façade|La [fachada] es barroca.|外立面是巴洛克风格。|The façade is Baroque.
+8.1|n|m|el tejado|屋顶（瓦）|roof|Hay un gato en el [tejado].|屋顶上有只猫。|There's a cat on the roof.
+8.15|n|f|la chimenea|壁炉；烟囱|fireplace; chimney|Encendimos la [chimenea].|我们点燃了壁炉。|We lit the fireplace.
+8.2|n|m|el umbral|门槛|threshold|Se paró en el [umbral].|他停在门口。|He stopped on the threshold.
+8.2|n|f|la cerradura|锁|lock|La [cerradura] está rota.|锁坏了。|The lock is broken.
+8.25|n|m|el picaporte|门把手|door handle|El [picaporte] no funciona.|门把手坏了。|The door handle doesn't work.
+8.25|n|f|la persiana|百叶窗|blind; shutter|Baja la [persiana].|把百叶窗放下来。|Pull down the blind.
+8.3|n|m|el azulejo|瓷砖|tile|Cambiamos cada [azulejo] del baño.|我们换了浴室的每块瓷砖。|We replaced every bathroom tile.
+8.3|n|m|el desván|阁楼|attic|Hay cosas viejas en el [desván].|阁楼里有旧东西。|There are old things in the attic.
+8.35|n|f|la manguera|水管|hose|Riega con la [manguera].|用水管浇水。|Water with the hose.
+8.35|n|m|el destornillador|螺丝刀|screwdriver|Pásame el [destornillador].|把螺丝刀递给我。|Pass me the screwdriver.
+8.4|n|m|el tornillo|螺丝|screw|Falta un [tornillo].|少了一颗螺丝。|A screw is missing.
+8.4|n|m|el clavo|钉子|nail|Necesito un [clavo].|我需要一颗钉子。|I need a nail.
+8.45|n|f|la cuerda|绳子|rope|Ata la caja con una [cuerda].|用绳子把箱子绑上。|Tie the box with a rope.
+8.5|n|f|la escoba|扫帚|broom|Coge la [escoba] y barre.|拿扫帚扫地。|Take the broom and sweep.
+8.5|n|f|la fregona|拖把|mop|La [fregona] está en la terraza.|拖把在阳台上。|The mop is on the balcony.
+8.55|n|m|el trapo|抹布|cloth; rag|Limpia la mesa con un [trapo].|用抹布擦桌子。|Wipe the table with a cloth.
+8.55|n|m|el detergente|洗涤剂|detergent|Se acabó el [detergente].|洗涤剂用完了。|The detergent has run out.
+8.6|n|f|la percha|衣架|hanger|Cuelga la camisa en una [percha].|把衬衫挂在衣架上。|Hang the shirt on a hanger.
+8.6|n|m|el botón|纽扣；按钮|button|Se me cayó un [botón].|我掉了一颗扣子。|I lost a button.
+8.65|n|f|la cremallera|拉链|zip|La [cremallera] está rota.|拉链坏了。|The zip is broken.
+8.65|n|m|el bolsillo|口袋|pocket|Lo tengo en el [bolsillo].|在我口袋里。|It's in my pocket.
+8.7|n|f|la manga|袖子|sleeve|La [manga] es muy larga.|袖子太长了。|The sleeve is too long.
+8.75|n|m|el cinturón|腰带|belt|Ponte el [cinturón].|系上腰带（安全带）。|Put your belt on.
+8.75|n|f|la bufanda|围巾|scarf|Llevo una [bufanda] de lana.|我围着一条羊毛围巾。|I'm wearing a wool scarf.
+8.8|n|m|el guante|手套|glove|Perdí un [guante].|我丢了一只手套。|I lost a glove.
+8.8|n|f|la gorra|鸭舌帽|cap|Lleva una [gorra] roja.|他戴着一顶红色鸭舌帽。|He's wearing a red cap.
+8.85|n|m|el calcetín|袜子|sock|Tengo un [calcetín] roto.|我有只袜子破了。|I have a hole in my sock.
+8.85|n|f|la zapatilla|运动鞋；拖鞋|trainer; slipper|Busco mi [zapatilla].|我在找我的鞋。|I'm looking for my trainer.
+8.9|n|f|la bota|靴子|boot|Esta [bota] me aprieta.|这只靴子挤脚。|This boot is tight.
+8.9|n|m|el pijama|睡衣|pyjamas|Ponte el [pijama].|穿上睡衣。|Put your pyjamas on.
+8.95|n|m|el bañador|泳衣|swimsuit|Olvidé el [bañador].|我忘带泳衣了。|I forgot my swimsuit.
+9.0|n|m|el traje|西装；服装|suit|Lleva un [traje] gris.|他穿着一套灰色西装。|He's wearing a grey suit.

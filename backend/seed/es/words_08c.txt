@@ -1,0 +1,82 @@
+# Level 8c — history, geography, everyday B2
+@history-geography
+7.05|n|m|el siglo|世纪|century|Es un edificio del [siglo] XV.|这是一座15世纪的建筑。|It's a 15th-century building.
+7.05|n|f|la época|时代，时期|era; period|Fue una [época] difícil.|那是一个艰难的时期。|It was a difficult period.
+7.1|n|m|el imperio|帝国|empire|El [imperio] romano era enorme.|罗马帝国非常庞大。|The Roman Empire was huge.
+7.1|n|f|la civilización|文明|civilisation|Es una [civilización] antigua.|这是一个古老的文明。|It's an ancient civilisation.
+7.15|n|f|la batalla|战役|battle|Ganaron la [batalla].|他们赢了这场战役。|They won the battle.
+7.15|n|m|el soldado|士兵|soldier|El [soldado] volvió a casa.|士兵回家了。|The soldier came home.
+7.2|n|f|la revolución|革命|revolution|La [revolución] cambió el país.|革命改变了国家。|The revolution changed the country.
+7.2|n|f|la independencia|独立|independence|Celebran la [independencia].|他们庆祝独立。|They celebrate independence.
+7.25|n|f|la colonia|殖民地|colony|Fue una [colonia] española.|这里曾是西班牙殖民地。|It was a Spanish colony.
+7.25|n|m|el descubridor|发现者|discoverer|Fue un gran [descubridor].|他是一位伟大的探险家。|He was a great explorer.
+7.3|n|m|el territorio|领土|territory|Es un [territorio] enorme.|这是一片广阔的领土。|It's a huge territory.
+7.3|n|f|la región|地区|region|Es una [región] montañosa.|这是一个山区。|It's a mountainous region.
+7.35|n|f|la provincia|省|province|Vivo en la [provincia] de Málaga.|我住在马拉加省。|I live in the province of Málaga.
+7.35|n|f|la capital|首都|capital|Madrid es la [capital] de España.|马德里是西班牙首都。|Madrid is the capital of Spain.
+7.4|n|m|el continente|大陆，洲|continent|África es un [continente] enorme.|非洲是一片广阔的大陆。|Africa is a huge continent.
+7.4|n|m|el norte|北|north|Vivo en el [norte].|我住在北方。|I live in the north.
+7.45|n|m|el sur|南|south|El [sur] es más caluroso.|南方更热。|The south is hotter.
+7.45|n|m|el este|东|east|El sol sale por el [este].|太阳从东方升起。|The sun rises in the east.
+7.5|n|m|el oeste|西|west|Viajamos hacia el [oeste].|我们向西旅行。|We travelled west.
+7.55|n|f|la herencia|遗产；继承|inheritance; heritage|Recibió una [herencia].|他继承了一笔遗产。|He received an inheritance.
+7.6|n|m|el patrimonio|遗产（文化）|heritage|Es [patrimonio] de la humanidad.|这是世界遗产。|It's a World Heritage Site.
+7.6|n|f|la ruina|废墟|ruin|Visitamos una [ruina] romana.|我们参观了一处罗马遗址。|We visited a Roman ruin.
+7.65|n|m|el antepasado|祖先|ancestor|Mi [antepasado] era gallego.|我的祖先是加利西亚人。|My ancestor was Galician.
+7.65|n|f|la generación|一代人|generation|Es otra [generación].|那是另一代人。|It's another generation.
+7.7|adj|-|medieval|中世纪的|medieval|Es un castillo [medieval].|这是一座中世纪城堡。|It's a medieval castle.
+7.7|adj|-|indígena|土著的|indigenous|Es un idioma [indígena].|这是一种土著语言。|It's an indigenous language.
+7.75|adj|-|oficial|官方的|official|Es un documento [oficial].|这是官方文件。|It's an official document.
+7.75|adj|-|geográfico|地理的|geographical|Es un mapa [geográfico].|这是一张地理地图。|It's a geographical map.
+@everyday-b2
+7.1|n|m|el detalle|细节；心意|detail; nice gesture|¡Qué [detalle]!|你真有心！|How thoughtful!
+7.1|n|m|el asunto|事情|matter; affair|Es un [asunto] privado.|这是私事。|It's a private matter.
+7.15|n|m|el lío|麻烦；混乱|mess; trouble|¡Qué [lío]!|真乱！|What a mess!
+7.15|n|m|el rollo|麻烦事；卷|drag; roll|¡Qué [rollo]!|真烦人！|What a drag!
+7.2|n|f|la tontería|蠢事；小事|silly thing|Es una [tontería].|这是件小事。|It's a silly thing.
+7.2|n|m|el chiste|笑话|joke|Cuéntame un [chiste].|给我讲个笑话。|Tell me a joke.
+7.25|n|f|la broma|玩笑|joke; prank|Es una [broma].|开玩笑的。|It's a joke.
+7.25|n|m|el secreto|秘密|secret|Es un [secreto].|这是个秘密。|It's a secret.
+7.3|n|m|el consejo|建议；委员会|piece of advice; council|Te doy un [consejo].|我给你一个建议。|I'll give you some advice.
+7.3|n|f|la queja|抱怨，投诉|complaint|Tengo una [queja].|我要投诉。|I have a complaint.
+7.35|n|f|la excusa|借口|excuse|No hay [excusa].|没有借口。|There's no excuse.
+7.35|n|f|la disculpa|道歉|apology|Te debo una [disculpa].|我欠你一个道歉。|I owe you an apology.
+7.4|n|m|el aviso|通知；警告|notice; warning|Hay un [aviso] en la puerta.|门上贴了个通知。|There's a notice on the door.
+7.4|n|f|la señal|标志；信号|sign; signal|No hay [señal].|没有信号。|There's no signal.
+7.45|n|m|el cartel|海报；标牌|poster; sign|Lee el [cartel].|看看那个标牌。|Read the sign.
+7.45|n|f|la etiqueta|标签|label; tag|Mira la [etiqueta].|看看标签。|Look at the label.
+7.5|n|m|el envase|包装容器|container; packaging|Recicla el [envase].|回收这个包装。|Recycle the container.
+7.5|n|m|el aparato|器具|appliance; device|Este [aparato] no funciona.|这个设备坏了。|This device doesn't work.
+7.55|n|m|el mando|遥控器；指挥|remote control; command|¿Dónde está el [mando]?|遥控器在哪儿？|Where's the remote?
+7.55|n|m|el auricular|耳机|earphone|Perdí un [auricular].|我丢了一只耳机。|I lost an earphone.
+7.6|n|m|el despertador|闹钟|alarm clock|No sonó el [despertador].|闹钟没响。|The alarm clock didn't go off.
+7.6|n|m|el recado|跑腿的事；口信|errand; message|Tengo que hacer un [recado].|我得去办点事。|I have to run an errand.
+7.65|n|f|la limpieza|清洁|cleaning|Hoy toca [limpieza].|今天要大扫除。|Today it's cleaning day.
+7.65|n|m|el desorden|凌乱|mess; disorder|Hay mucho [desorden].|很乱。|It's very messy.
+7.7|n|f|la manía|怪癖|obsession; quirk|Tiene una [manía] rara.|他有个奇怪的癖好。|He has a strange quirk.
+7.7|n|f|la rutina|日常，惯例|routine|Necesito una [rutina].|我需要规律的作息。|I need a routine.
+7.75|v|-|madrugar|早起|to get up early|No me gusta [madrugar].|我不喜欢早起。|I don't like getting up early.
+7.75|v|-|trasnochar|熬夜|to stay up late|No debes [trasnochar].|你不应该熬夜。|You shouldn't stay up late.
+7.8|v|-|bostezar|打哈欠|to yawn|No puedo dejar de [bostezar].|我哈欠连天。|I can't stop yawning.
+7.8|v|-|estornudar|打喷嚏|to sneeze|Me hace [estornudar].|这让我打喷嚏。|It makes me sneeze.
+7.85|v|-|tropezar|绊倒|to trip|Cuidado, puedes [tropezar].|小心，你可能会绊倒。|Careful, you might trip.
+7.85|v|-|caerse|摔倒|to fall over|Es fácil [caerse] en el hielo.|在冰上很容易摔倒。|It's easy to fall on the ice.
+7.9|v|-|mojarse|弄湿|to get wet|Sin paraguas es fácil [mojarse].|没有伞很容易淋湿。|Without an umbrella it's easy to get wet.
+7.9|v|-|ensuciar|弄脏|to make dirty|No quiero [ensuciar] la alfombra.|我不想弄脏地毯。|I don't want to get the rug dirty.
+7.95|v|-|derramar|洒出|to spill|Cuidado, vas a [derramar] el café.|小心，你会把咖啡洒了。|Careful, you're going to spill the coffee.
+7.95|v|-|colgar|挂；挂断|to hang; to hang up|Voy a [colgar] el cuadro.|我去把画挂上。|I'm going to hang the picture.
+8.0|v|-|enchufar|插上电源|to plug in|Hay que [enchufar] el cargador.|要插上充电器。|You need to plug in the charger.
+@food-b2
+7.1|n|m|el aperitivo|开胃菜|appetiser|Tomamos un [aperitivo].|我们吃了点开胃小菜。|We had an appetiser.
+7.25|n|f|la sobremesa|饭后闲聊时光|after-meal chat|La [sobremesa] dura horas.|饭后闲聊持续几个小时。|The after-dinner chat lasts hours.
+7.3|n|m|el bocado|一口|bite; mouthful|Solo un [bocado].|就吃一口。|Just one bite.
+7.4|n|f|la especia|香料|spice|Uso mucha [especia].|我用很多香料。|I use a lot of spice.
+7.5|v|-|aliñar|调味（沙拉）|to dress (salad)|Hay que [aliñar] la ensalada.|要给沙拉调味。|The salad needs dressing.
+7.55|v|-|picar|切碎；吃点零食|to chop; to nibble|Vamos a [picar] algo.|我们吃点东西吧。|Let's have a nibble.
+7.6|v|-|rallar|擦碎|to grate|Hay que [rallar] el queso.|要把奶酪擦碎。|The cheese needs grating.
+7.65|v|-|batir|打（蛋）|to beat; to whisk|Hay que [batir] los huevos.|要打鸡蛋。|You have to beat the eggs.
+7.7|v|-|hornear|烘焙|to bake|Me gusta [hornear] pan.|我喜欢烤面包。|I like baking bread.
+7.75|adj|-|jugoso|多汁的|juicy|El filete está [jugoso].|牛排很多汁。|The steak is juicy.
+7.8|adj|-|crujiente|酥脆的|crunchy; crispy|El pan está [crujiente].|面包很脆。|The bread is crispy.
+7.85|adj|-|sabroso|美味的|tasty|Es un plato muy [sabroso].|这道菜很美味。|It's a very tasty dish.
+7.9|adj|-|soso|淡而无味的|bland|El arroz está [soso].|米饭没味道。|The rice is bland.

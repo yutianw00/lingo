@@ -1,0 +1,104 @@
+# Level 7a — economy, education, housing (B2)
+@economy
+6.05|n|f|la economía|经济|economy|La [economía] está creciendo.|经济正在增长。|The economy is growing.
+6.1|n|f|la inflación|通货膨胀|inflation|La [inflación] ha subido.|通胀上升了。|Inflation has gone up.
+6.1|n|m|el beneficio|利润；好处|profit; benefit|La empresa tuvo un gran [beneficio].|公司获得了巨额利润。|The company made a big profit.
+6.15|n|f|la pérdida|损失|loss|Fue una [pérdida] de tiempo.|那是浪费时间。|It was a waste of time.
+6.15|n|m|el comercio|贸易；商业|trade; commerce|El [comercio] online crece.|网上商业在增长。|Online commerce is growing.
+6.2|n|f|la inversión|投资|investment|Es una buena [inversión].|这是一项好投资。|It's a good investment.
+6.2|v|-|invertir|投资|to invest|Quiere [invertir] en vivienda.|他想投资房地产。|He wants to invest in property.
+6.25|n|m|el presupuesto|预算|budget|No tenemos [presupuesto].|我们没有预算。|We don't have a budget.
+6.25|n|f|la deuda|债务|debt|Tiene mucha [deuda].|他欠了很多债。|He has a lot of debt.
+6.3|n|m|el consumo|消费|consumption|El [consumo] ha bajado.|消费下降了。|Consumption has fallen.
+6.3|n|m|el consumidor|消费者|consumer|El [consumidor] tiene derechos.|消费者有权利。|The consumer has rights.
+6.35|n|f|la competencia|竞争；能力|competition; competence|Hay mucha [competencia].|竞争很激烈。|There's a lot of competition.
+6.4|n|m|el crecimiento|增长|growth|Hay un [crecimiento] lento.|增长缓慢。|There's slow growth.
+6.4|n|m|el desarrollo|发展|development|Es un país en [desarrollo].|这是一个发展中国家。|It's a developing country.
+6.45|n|f|la industria|工业|industry|La [industria] del turismo es clave.|旅游业是关键产业。|The tourism industry is key.
+6.45|n|m|el sector|行业；部门|sector|Trabajo en el [sector] público.|我在公共部门工作。|I work in the public sector.
+6.5|n|f|la exportación|出口|export|La [exportación] de vino ha aumentado.|葡萄酒出口增加了。|Wine exports have increased.
+6.5|n|f|la importación|进口|import|La [importación] de coches bajó.|汽车进口下降了。|Car imports fell.
+6.55|n|m|el empresario|企业家|businessman|Es un [empresario] de éxito.|他是一位成功的企业家。|He's a successful businessman.
+6.55|n|m|el socio|合伙人；会员|partner; member|Es mi [socio] en el negocio.|他是我的生意伙伴。|He's my business partner.
+6.6|n|f|la ganancia|收益|earnings; gain|La [ganancia] fue pequeña.|收益很少。|The gain was small.
+6.6|n|f|la demanda|需求|demand|Hay mucha [demanda] de pisos.|公寓需求很大。|There's a lot of demand for flats.
+6.65|v|-|financiar|资助，融资|to finance|El banco va a [financiar] el proyecto.|银行将为项目融资。|The bank will finance the project.
+6.65|v|-|gestionar|管理；办理|to manage; to handle|Sabe [gestionar] el dinero.|他懂得理财。|He knows how to manage money.
+6.7|v|-|negociar|谈判|to negotiate|Hay que [negociar] el precio.|价格要谈。|The price has to be negotiated.
+6.7|v|-|ofrecer|提供|to offer|Te quieren [ofrecer] un puesto.|他们想给你一个职位。|They want to offer you a job.
+6.75|adj|-|rentable|有利可图的|profitable|Es un negocio [rentable].|这是一门赚钱的生意。|It's a profitable business.
+6.75|adj|-|financiero|金融的|financial|Tiene problemas de tipo [financiero].|他有财务问题。|He has financial problems.
+6.8|adj|-|laboral|劳动的，工作的|work-related|Es un problema [laboral].|这是一个劳动问题。|It's a work-related problem.
+6.8|adj|-|mensual|每月的|monthly|Es un pago [mensual].|这是按月付款。|It's a monthly payment.
+6.85|adj|-|anual|每年的|annual|Es un informe [anual].|这是年度报告。|It's an annual report.
+@education
+6.05|n|f|la educación|教育|education|La [educación] es un derecho.|教育是一项权利。|Education is a right.
+6.1|n|f|la enseñanza|教学|teaching|Trabaja en la [enseñanza].|他从事教育工作。|He works in teaching.
+6.1|n|m|el alumno|学生（中小学）|pupil|Es un [alumno] muy aplicado.|他是个很用功的学生。|He's a very hard-working pupil.
+6.15|n|m|el título|学位；标题|degree; title|Tiene un [título] en derecho.|他有法学学位。|He has a law degree.
+6.15|n|m|el máster|硕士|master's degree|Hago un [máster] en Madrid.|我在马德里读硕士。|I'm doing a master's in Madrid.
+6.2|n|m|el doctorado|博士学位|PhD|Está haciendo el [doctorado].|他在读博士。|He's doing his PhD.
+6.2|n|f|la beca|奖学金|scholarship|Tengo una [beca] para estudiar.|我有一笔奖学金。|I have a scholarship to study.
+6.25|n|f|la matrícula|注册；学费；车牌|enrolment; fees; licence plate|La [matrícula] es muy cara.|学费很贵。|The fees are very expensive.
+6.25|n|f|la facultad|学院；能力|faculty|Estudio en la [facultad] de medicina.|我在医学院读书。|I study at the faculty of medicine.
+6.3|n|m|el catedrático|教授（正教授）|professor|Es [catedrático] de historia.|他是历史学教授。|He's a professor of history.
+6.3|n|f|la investigación|研究；调查|research; investigation|Hace [investigación] sobre el cáncer.|他从事癌症研究。|He does cancer research.
+6.35|n|m|el investigador|研究员|researcher|Es un [investigador] famoso.|他是一位著名的研究员。|He's a famous researcher.
+6.35|n|m|el conocimiento|知识|knowledge|El [conocimiento] es poder.|知识就是力量。|Knowledge is power.
+6.4|n|f|la ciencia|科学|science|Me interesa la [ciencia].|我对科学感兴趣。|I'm interested in science.
+6.4|n|f|la tesis|论文|thesis|Estoy escribiendo la [tesis].|我在写论文。|I'm writing my thesis.
+6.45|n|f|la asistencia|出勤；协助|attendance; assistance|La [asistencia] es obligatoria.|必须出勤。|Attendance is compulsory.
+6.5|n|m|el apunte|笔记|note (lecture)|Me falta un [apunte] de la clase de ayer.|我缺昨天课上的一份笔记。|I'm missing a note from yesterday's class.
+6.55|v|-|matricularse|注册入学|to enrol|El plazo para [matricularse] termina hoy.|报名截止日期是今天。|The deadline to enrol ends today.
+6.55|v|-|graduarse|毕业|to graduate|Va a [graduarse] en junio.|他六月毕业。|He's graduating in June.
+6.6|v|-|investigar|研究；调查|to research; to investigate|La policía va a [investigar] el caso.|警方将调查此案。|The police will investigate the case.
+6.6|v|-|memorizar|记住，背诵|to memorise|Tengo que [memorizar] los verbos.|我得背动词。|I have to memorise the verbs.
+6.65|v|-|corregir|改正；批改|to correct|El profesor va a [corregir] los exámenes.|老师要批改试卷。|The teacher is going to mark the exams.
+6.65|v|-|evaluar|评估|to assess|Hay que [evaluar] los resultados.|要评估结果。|The results need to be assessed.
+6.7|adj|-|obligatorio|必须的|compulsory|El uso de casco es [obligatorio].|必须戴头盔。|Wearing a helmet is compulsory.
+6.7|adj|-|optativo|选修的|optional|Es un curso [optativo].|这是一门选修课。|It's an optional course.
+6.75|adj|-|académico|学术的|academic|Es un año [académico] difícil.|这是艰难的一学年。|It's a difficult academic year.
+6.75|adj|-|aplicado|用功的|diligent|Es un alumno muy [aplicado].|他是个很用功的学生。|He's a very diligent student.
+@housing
+6.05|n|f|la vivienda|住房|housing; dwelling|El precio de la [vivienda] sube.|房价在上涨。|Housing prices are rising.
+6.1|n|m|el inquilino|租客|tenant|El [inquilino] paga el alquiler.|租客付房租。|The tenant pays the rent.
+6.1|n|m|el propietario|房东；业主|owner; landlord|El [propietario] es muy amable.|房东人很好。|The landlord is very kind.
+6.15|n|f|la hipoteca|房贷|mortgage|Pagamos la [hipoteca] cada mes.|我们每月还房贷。|We pay the mortgage every month.
+6.15|n|f|la fianza|押金|deposit|Hay que pagar una [fianza].|要付押金。|You have to pay a deposit.
+6.2|n|f|la comunidad de vecinos|业主委员会|residents' association|La [comunidad de vecinos] se reúne hoy.|业主委员会今天开会。|The residents' association meets today.
+6.25|n|m|el portero|门卫|doorman; caretaker|El [portero] recoge los paquetes.|门卫代收包裹。|The doorman collects the parcels.
+6.3|n|m|el ático|顶层公寓|penthouse; attic flat|Viven en un [ático] con terraza.|他们住在带露台的顶层公寓。|They live in a penthouse with a terrace.
+6.3|n|m|el sótano|地下室|basement|El [sótano] está lleno de cajas.|地下室堆满了箱子。|The basement is full of boxes.
+6.35|n|f|la reforma|装修；改革|renovation; reform|Estamos de [reforma] en casa.|我们家在装修。|We're renovating our home.
+6.35|n|m|el fontanero|水管工|plumber|Llama al [fontanero].|叫水管工来。|Call the plumber.
+6.4|n|mf|el electricista|电工|electrician|El [electricista] viene mañana.|电工明天来。|The electrician is coming tomorrow.
+6.4|n|f|la avería|故障|breakdown; fault|Hay una [avería] en la luz.|电路出了故障。|There's a fault with the electricity.
+6.45|n|f|la mudanza|搬家|house move|La [mudanza] es el sábado.|搬家定在周六。|The move is on Saturday.
+6.45|v|-|compartir piso|合租|to share a flat|Prefiero [compartir piso].|我更喜欢合租。|I'd rather share a flat.
+6.5|v|-|reformar|装修；改革|to renovate; to reform|Queremos [reformar] la cocina.|我们想重新装修厨房。|We want to renovate the kitchen.
+6.5|v|-|decorar|装饰|to decorate|Me gusta [decorar] la casa.|我喜欢装饰房子。|I like decorating the house.
+6.55|v|-|independizarse|独立生活|to become independent|Es difícil [independizarse] con un sueldo bajo.|工资低很难独立生活。|It's hard to move out on a low salary.
+6.55|adj|-|amueblado|带家具的|furnished|Es un piso [amueblado].|这是一套带家具的公寓。|It's a furnished flat.
+6.6|adj|-|luminoso|明亮的|bright; full of light|Es un salón muy [luminoso].|客厅很明亮。|It's a very bright living room.
+6.6|adj|-|céntrico|靠近市中心的|central|Es un piso muy [céntrico].|这套公寓位置很中心。|It's a very central flat.
+6.65|adj|-|ruidoso|吵闹的|noisy|Es un barrio [ruidoso].|这个街区很吵。|It's a noisy neighbourhood.
+6.65|adj|-|espacioso|宽敞的|spacious|Es un salón [espacioso].|客厅很宽敞。|It's a spacious living room.
+@relationships-b2
+6.1|n|m|el compromiso|承诺；订婚|commitment; engagement|No tiene miedo al [compromiso].|他不怕承诺。|He's not afraid of commitment.
+6.2|n|f|la ruptura|分手；决裂|break-up|La [ruptura] fue difícil.|分手很艰难。|The break-up was hard.
+6.25|n|m|el divorcio|离婚|divorce|Pidió el [divorcio].|他申请了离婚。|He asked for a divorce.
+6.3|n|f|la convivencia|共同生活|living together|La [convivencia] no es fácil.|共同生活并不容易。|Living together isn't easy.
+6.35|n|m|el apoyo|支持|support|Gracias por tu [apoyo].|谢谢你的支持。|Thanks for your support.
+6.4|n|m|el malentendido|误会|misunderstanding|Fue un [malentendido].|那是个误会。|It was a misunderstanding.
+6.45|n|f|la discusión|争吵；讨论|argument; discussion|Tuvimos una [discusión].|我们吵了一架。|We had an argument.
+6.5|v|-|reconciliarse|和好|to make up|Es hora de [reconciliarse].|是时候和好了。|It's time to make up.
+6.55|v|-|pelearse|吵架；打架|to fight|No hay que [pelearse] por eso.|不该为这个吵架。|There's no need to fight about that.
+6.6|v|-|enfrentarse|面对；对抗|to face; to confront|Hay que [enfrentarse] a los problemas.|要直面问题。|You have to face your problems.
+6.65|v|-|perdonar|原谅|to forgive|Te voy a [perdonar].|我会原谅你的。|I'll forgive you.
+6.7|v|-|cuidar de|照顾|to take care of|Tiene que [cuidar de] su madre.|他得照顾他妈妈。|He has to take care of his mother.
+6.75|v|-|criar|养育|to bring up|Es difícil [criar] a tres hijos.|养三个孩子很难。|It's hard to bring up three children.
+6.8|v|-|educar|教育|to bring up; to educate|Hay que [educar] con paciencia.|教育孩子要有耐心。|You have to bring children up with patience.
+6.85|adj|-|fiel|忠诚的|faithful; loyal|Es un perro muy [fiel].|这是一只很忠诚的狗。|It's a very loyal dog.
+6.85|adj|-|cercano|亲近的；附近的|close; nearby|Es un amigo muy [cercano].|他是个很亲近的朋友。|He's a very close friend.
+6.9|adj|-|comprensivo|善解人意的|understanding|Mi jefe es muy [comprensivo].|我的老板很善解人意。|My boss is very understanding.
+6.9|adj|-|independiente|独立的|independent|Es un chico muy [independiente].|他是个很独立的男孩。|He's a very independent boy.

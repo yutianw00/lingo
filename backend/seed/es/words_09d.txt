@@ -1,0 +1,78 @@
+# Level 9d — nature, science, body and society in detail (C1)
+@nature-c1
+8.05|n|m|el ecosistema|生态系统|ecosystem|Es un [ecosistema] frágil.|这是一个脆弱的生态系统。|It's a fragile ecosystem.
+8.05|n|f|la biodiversidad|生物多样性|biodiversity|Hay que proteger la [biodiversidad].|必须保护生物多样性。|Biodiversity must be protected.
+8.1|n|f|la fauna|动物群|fauna|La [fauna] es muy rica.|这里动物种类丰富。|The wildlife is very rich.
+8.1|n|f|la flora|植物群|flora|La [flora] es mediterránea.|这里的植物是地中海型的。|The flora is Mediterranean.
+8.15|n|m|el hábitat|栖息地|habitat|Están destruyendo su [hábitat].|它们的栖息地正在被破坏。|Their habitat is being destroyed.
+8.15|n|f|la extinción|灭绝|extinction|Está en peligro de [extinción].|它濒临灭绝。|It's in danger of extinction.
+8.2|n|f|la deforestación|森林砍伐|deforestation|La [deforestación] avanza.|森林砍伐在加剧。|Deforestation is advancing.
+8.2|n|m|el vertedero|垃圾填埋场|landfill|El [vertedero] está lleno.|垃圾填埋场满了。|The landfill is full.
+8.25|n|f|la emisión|排放；播出|emission; broadcast|Hay que reducir cada [emisión] de CO2.|必须减少二氧化碳排放。|CO2 emissions must be reduced.
+8.25|n|m|el combustible|燃料|fuel|El [combustible] es caro.|燃料很贵。|Fuel is expensive.
+8.3|n|m|el petróleo|石油|oil (petroleum)|El precio del [petróleo] sube.|油价上涨。|The price of oil is rising.
+8.3|n|m|el carbón|煤|coal|Cierran las minas de [carbón].|煤矿正在关闭。|The coal mines are closing.
+8.35|adj|-|renovable|可再生的|renewable|Es una fuente [renovable].|这是可再生资源。|It's a renewable source.
+8.4|n|m|el aerogenerador|风力发电机|wind turbine|Hay un [aerogenerador] en la colina.|山上有一台风力发电机。|There's a wind turbine on the hill.
+8.4|n|f|la placa solar|太阳能板|solar panel|Pusimos una [placa] solar.|我们装了一块太阳能板。|We installed a solar panel.
+8.45|n|f|la marea|潮汐|tide|La [marea] está alta.|涨潮了。|The tide is high.
+8.45|n|f|la ola|浪|wave|Hay una [ola] enorme.|有一个巨浪。|There's a huge wave.
+8.5|n|f|la orilla|岸边|shore; bank|Paseamos por la [orilla].|我们沿着岸边散步。|We walk along the shore.
+8.5|n|m|el acantilado|悬崖|cliff|El [acantilado] es muy alto.|悬崖很高。|The cliff is very high.
+8.55|n|f|la cumbre|山顶；峰会|summit|Llegamos a la [cumbre].|我们登上了山顶。|We reached the summit.
+8.55|n|f|la llanura|平原|plain|Es una [llanura] inmensa.|这是一片广阔的平原。|It's an immense plain.
+8.6|n|m|el glaciar|冰川|glacier|El [glaciar] se está derritiendo.|冰川正在融化。|The glacier is melting.
+8.6|n|f|la cascada|瀑布|waterfall|Vimos una [cascada] preciosa.|我们看到了一个美丽的瀑布。|We saw a beautiful waterfall.
+8.65|n|m|el arroyo|小溪|stream|Hay un [arroyo] cerca.|附近有条小溪。|There's a stream nearby.
+8.65|n|f|la niebla|雾|fog|Hay mucha [niebla].|雾很大。|It's very foggy.
+8.7|n|m|el relámpago|闪电|lightning|Vi un [relámpago].|我看到一道闪电。|I saw a flash of lightning.
+8.7|n|m|el trueno|雷|thunder|El perro tiene miedo al [trueno].|狗怕打雷。|The dog is scared of thunder.
+8.75|n|m|el granizo|冰雹|hail|Cayó [granizo] ayer.|昨天下了冰雹。|It hailed yesterday.
+8.8|v|-|derretirse|融化|to melt|El hielo empieza a [derretirse].|冰开始融化了。|The ice is starting to melt.
+8.8|v|-|evaporarse|蒸发|to evaporate|El agua va a [evaporarse].|水会蒸发。|The water will evaporate.
+8.85|v|-|regar|浇水|to water|Tengo que [regar] las plantas.|我得浇花。|I have to water the plants.
+8.85|v|-|sembrar|播种|to sow|Vamos a [sembrar] tomates.|我们要种西红柿。|We're going to sow tomatoes.
+8.9|v|-|cosechar|收获|to harvest|Es hora de [cosechar].|该收获了。|It's time to harvest.
+8.9|n|f|la cosecha|收成|harvest|La [cosecha] fue buena.|收成很好。|The harvest was good.
+8.95|n|m|el agricultor|农民|farmer|Es un [agricultor] de olivos.|他是种橄榄的农民。|He's an olive farmer.
+8.95|n|f|la agricultura|农业|agriculture|La [agricultura] es importante aquí.|农业在这里很重要。|Agriculture is important here.
+9.0|n|f|la ganadería|畜牧业|livestock farming|Vive de la [ganadería].|他以畜牧为生。|He makes a living from livestock.
+@body-c1
+8.1|n|f|la frente|额头|forehead|Tiene fiebre, toca su [frente].|他发烧了，摸摸他的额头。|He has a fever, touch his forehead.
+8.15|n|f|la ceja|眉毛|eyebrow|Levantó una [ceja].|他扬起一边眉毛。|He raised an eyebrow.
+8.2|n|f|la pestaña|睫毛；标签页|eyelash; tab|Tienes una [pestaña] en la cara.|你脸上有根睫毛。|You have an eyelash on your face.
+8.25|n|f|la mejilla|脸颊|cheek|Le dio un beso en la [mejilla].|他亲了她的脸颊。|He kissed her on the cheek.
+8.3|n|m|el labio|嘴唇|lip|Tengo el [labio] seco.|我嘴唇干。|My lip is dry.
+8.35|n|f|la mandíbula|下巴，颌|jaw|Me duele la [mandíbula].|我下巴疼。|My jaw hurts.
+8.4|n|f|la muñeca|手腕；玩偶|wrist; doll|Me duele la [muñeca].|我手腕疼。|My wrist hurts.
+8.45|n|m|el codo|手肘|elbow|Me golpeé el [codo].|我撞到手肘了。|I hit my elbow.
+8.5|n|m|el tobillo|脚踝|ankle|Me torcí el [tobillo].|我崴了脚踝。|I twisted my ankle.
+8.55|n|m|el talón|脚跟|heel|Me duele el [talón].|我脚后跟疼。|My heel hurts.
+8.6|n|f|la uña|指甲|nail|Me corto la [uña].|我剪指甲。|I'm cutting my nail.
+8.65|n|f|la cintura|腰|waist|Tiene la [cintura] estrecha.|她腰很细。|She has a narrow waist.
+8.7|n|m|el pecho|胸|chest|Me duele el [pecho].|我胸口疼。|My chest hurts.
+8.75|n|m|el riñón|肾|kidney|Le operaron del [riñón].|他做了肾脏手术。|He had a kidney operation.
+8.8|n|m|el hígado|肝|liver|El alcohol daña el [hígado].|酒精伤肝。|Alcohol damages the liver.
+8.85|n|m|el músculo|肌肉|muscle|Me duele un [músculo].|我有块肌肉疼。|One of my muscles hurts.
+8.9|n|f|la vena|静脉|vein|Le sacaron sangre de la [vena].|从他的静脉抽了血。|They took blood from his vein.
+8.95|n|m|el esqueleto|骨骼|skeleton|El [esqueleto] tiene más de doscientos huesos.|骨骼有两百多块骨头。|The skeleton has over two hundred bones.
+9.0|n|m|el sudor|汗|sweat|Tiene la camisa llena de [sudor].|他的衬衫被汗湿透了。|His shirt is soaked with sweat.
+@society-c1
+8.05|n|f|la globalización|全球化|globalisation|La [globalización] tiene ventajas.|全球化有优势。|Globalisation has advantages.
+8.1|n|m|el consumismo|消费主义|consumerism|Critica el [consumismo].|他批评消费主义。|He criticises consumerism.
+8.15|n|f|la sostenibilidad|可持续性|sustainability|Apostamos por la [sostenibilidad].|我们致力于可持续发展。|We're committed to sustainability.
+8.2|n|m|el envejecimiento|老龄化|ageing|El [envejecimiento] de la población es un reto.|人口老龄化是一项挑战。|Population ageing is a challenge.
+8.25|n|f|la natalidad|出生率|birth rate|La [natalidad] es muy baja.|出生率很低。|The birth rate is very low.
+8.3|n|f|la emigración|移民（迁出）|emigration|La [emigración] de jóvenes preocupa.|年轻人外流令人担忧。|The emigration of young people is worrying.
+8.35|n|f|la integración|融合|integration|La [integración] lleva tiempo.|融入需要时间。|Integration takes time.
+8.4|n|f|la discriminación|歧视|discrimination|Luchan contra la [discriminación].|他们反对歧视。|They fight discrimination.
+8.45|n|m|el machismo|大男子主义|sexism; machismo|El [machismo] sigue existiendo.|大男子主义依然存在。|Sexism still exists.
+8.5|n|m|el feminismo|女权主义|feminism|El [feminismo] ha avanzado mucho.|女权运动取得了很大进展。|Feminism has made great progress.
+8.55|n|f|la solidaridad|团结；互助|solidarity|Gracias por tu [solidaridad].|谢谢你的支持。|Thanks for your solidarity.
+8.6|n|m|el voluntariado|志愿服务|volunteering|Hago [voluntariado] los sábados.|我周六做志愿者。|I volunteer on Saturdays.
+8.65|n|f|la beneficencia|慈善|charity|Donó a la [beneficencia].|他向慈善机构捐款。|He donated to charity.
+8.8|n|f|la marginación|边缘化|marginalisation|Viven en la [marginación].|他们生活在社会边缘。|They live on the margins of society.
+8.85|n|m|el colectivo|群体|group; community|Es un [colectivo] vulnerable.|这是一个弱势群体。|It's a vulnerable group.
+8.9|adj|-|vulnerable|脆弱的|vulnerable|Es un grupo [vulnerable].|这是一个弱势群体。|It's a vulnerable group.
+8.95|adj|-|solidario|团结互助的|caring; supportive|Es un chico muy [solidario].|他是个很乐于助人的男孩。|He's a very caring boy.
+9.0|adj|-|multicultural|多元文化的|multicultural|Es una ciudad [multicultural].|这是一座多元文化的城市。|It's a multicultural city.

@@ -1,0 +1,97 @@
+# Level 6c — health, sport, food & travel extras (B1+)
+@health-b1
+5.1|n|m|el síntoma|症状|symptom|¿Qué [síntoma] tiene?|您有什么症状？|What symptom do you have?
+5.15|n|f|la enfermedad|疾病|illness|Es una [enfermedad] rara.|这是一种罕见病。|It's a rare illness.
+5.15|n|m|el tratamiento|治疗|treatment|El [tratamiento] dura un mes.|治疗持续一个月。|The treatment lasts a month.
+5.2|n|f|la operación|手术；操作|operation|La [operación] fue un éxito.|手术很成功。|The operation was a success.
+5.2|n|mf|el paciente|病人|patient|El [paciente] está mejor.|病人好些了。|The patient is better.
+5.25|n|f|la alergia|过敏|allergy|Tengo [alergia] al polen.|我对花粉过敏。|I'm allergic to pollen.
+5.25|n|f|la vacuna|疫苗|vaccine|¿Te pusiste la [vacuna]?|你打疫苗了吗？|Did you get the vaccine?
+5.3|n|f|la sangre|血|blood|Hay [sangre] en la camisa.|衬衫上有血。|There's blood on the shirt.
+5.3|n|m|el hueso|骨头|bone|Se rompió un [hueso].|他骨折了。|He broke a bone.
+5.35|n|m|el pulmón|肺|lung|Fumar daña el [pulmón].|吸烟伤肺。|Smoking damages the lungs.
+5.35|n|f|la piel|皮肤|skin|Tengo la [piel] muy seca.|我皮肤很干。|My skin is very dry.
+5.4|n|m|el cuello|脖子|neck|Me duele el [cuello].|我脖子疼。|My neck hurts.
+5.4|n|m|el hombro|肩膀|shoulder|Me duele el [hombro].|我肩膀疼。|My shoulder hurts.
+5.45|n|f|la rodilla|膝盖|knee|Me hice daño en la [rodilla].|我膝盖受伤了。|I hurt my knee.
+5.45|n|f|la garganta|喉咙|throat|Me duele la [garganta].|我嗓子疼。|I have a sore throat.
+5.5|n|m|el cerebro|大脑|brain|El [cerebro] necesita descanso.|大脑需要休息。|The brain needs rest.
+5.5|n|f|la dieta|饮食；节食|diet|Estoy a [dieta].|我在节食。|I'm on a diet.
+5.55|v|-|adelgazar|减肥|to lose weight|Quiero [adelgazar] un poco.|我想减点肥。|I want to lose a bit of weight.
+5.55|v|-|engordar|发胖|to put on weight|No quiero [engordar].|我不想发胖。|I don't want to put on weight.
+5.6|v|-|respirar|呼吸|to breathe|Me cuesta [respirar].|我呼吸困难。|I find it hard to breathe.
+5.6|v|-|recuperarse|康复|to recover|Va a [recuperarse] pronto.|他很快就会康复。|He'll recover soon.
+5.65|v|-|vomitar|呕吐|to vomit|Tengo ganas de [vomitar].|我想吐。|I feel like vomiting.
+5.65|v|-|fumar|吸烟|to smoke|Quiero dejar de [fumar].|我想戒烟。|I want to stop smoking.
+5.7|adj|-|embarazada|怀孕的|pregnant|Mi hermana está [embarazada].|我姐姐怀孕了。|My sister is pregnant.
+5.7|adj|-|herido|受伤的|injured|Hay un hombre [herido].|有一个男人受伤了。|There's an injured man.
+5.75|adj|-|mareado|头晕的|dizzy; sick|Estoy un poco [mareado].|我有点头晕。|I feel a bit dizzy.
+@sport-b1
+5.1|n|m|el jugador|运动员；球员|player|Es el mejor [jugador] del equipo.|他是队里最好的球员。|He's the best player on the team.
+5.15|n|m|el entrenador|教练|coach|El [entrenador] está enfadado.|教练生气了。|The coach is angry.
+5.15|n|m|el campeón|冠军|champion|Es el [campeón] del mundo.|他是世界冠军。|He's the world champion.
+5.2|n|m|el gol|进球|goal|¡Qué [gol] tan bonito!|多漂亮的进球！|What a beautiful goal!
+5.2|n|m|el estadio|体育场|stadium|El [estadio] está lleno.|体育场满了。|The stadium is full.
+5.25|n|m|el ciclismo|自行车运动|cycling|Me gusta el [ciclismo].|我喜欢骑行。|I like cycling.
+5.3|n|f|la natación|游泳（运动）|swimming|Hago [natación] dos veces por semana.|我每周游两次泳。|I swim twice a week.
+5.3|n|m|el esquí|滑雪|skiing|Vamos a hacer [esquí] en enero.|一月我们去滑雪。|We're going skiing in January.
+5.35|n|f|la pelota|球|ball|Pásame la [pelota].|把球传给我。|Pass me the ball.
+5.35|n|f|la medalla|奖牌|medal|Ganó una [medalla] de oro.|他赢得了一枚金牌。|He won a gold medal.
+5.4|n|m|el árbitro|裁判|referee|El [árbitro] pitó penalti.|裁判判了点球。|The referee gave a penalty.
+5.4|n|m|el aficionado|爱好者；球迷|fan|Es un gran [aficionado] al fútbol.|他是个铁杆球迷。|He's a big football fan.
+5.45|v|-|marcar|进（球）；标记|to score; to mark|Va a [marcar] un gol.|他要进球了。|He's going to score a goal.
+5.45|v|-|empatar|打平|to draw|Vamos a [empatar].|我们会打平的。|We're going to draw.
+5.5|v|-|competir|竞争；比赛|to compete|Va a [competir] en los Juegos Olímpicos.|他将参加奥运会。|He's going to compete in the Olympics.
+5.5|v|-|saltar|跳|to jump|El perro puede [saltar] muy alto.|这只狗能跳得很高。|The dog can jump very high.
+5.55|v|-|lanzar|投掷|to throw|Tienes que [lanzar] la pelota.|你得把球扔出去。|You have to throw the ball.
+5.55|v|-|escalar|攀登|to climb|Me gusta [escalar] montañas.|我喜欢登山。|I like climbing mountains.
+5.6|adj|-|deportista|爱运动的|sporty|Mi hermano es muy [deportista].|我哥哥很爱运动。|My brother is very sporty.
+@food-b1
+5.15|n|f|la pasta|意大利面|pasta|Cenamos [pasta].|我们晚饭吃意面。|We're having pasta for dinner.
+5.15|n|f|la salsa|酱汁|sauce|La [salsa] está buena.|酱汁很好吃。|The sauce is good.
+5.2|n|m|el filete|肉排|steak|Un [filete] poco hecho.|一份三分熟的牛排。|A rare steak.
+5.2|n|f|la ternera|小牛肉|veal; beef|Me gusta la [ternera].|我喜欢吃牛肉。|I like beef.
+5.25|n|m|el cordero|羊肉；羔羊|lamb|El [cordero] está muy tierno.|羊肉很嫩。|The lamb is very tender.
+5.25|n|f|la sardina|沙丁鱼|sardine|Comemos una [sardina] asada.|我们吃烤沙丁鱼。|We're eating a grilled sardine.
+5.3|n|m|el calamar|鱿鱼|squid|Un bocadillo de [calamar].|一个炸鱿鱼三明治。|A squid sandwich.
+5.3|n|m|el melocotón|桃子|peach|Este [melocotón] está maduro.|这个桃子熟了。|This peach is ripe.
+5.35|n|f|la piña|菠萝|pineapple|Me encanta la [piña].|我很爱吃菠萝。|I love pineapple.
+5.35|n|f|la sandía|西瓜|watermelon|En verano como [sandía].|夏天我吃西瓜。|In summer I eat watermelon.
+5.4|n|m|el melón|甜瓜|melon|De postre, [melón].|甜点是甜瓜。|Melon for dessert.
+5.4|n|f|la cereza|樱桃|cherry|Esta [cereza] es muy dulce.|这颗樱桃很甜。|This cherry is very sweet.
+5.45|n|m|el pepino|黄瓜|cucumber|El gazpacho lleva [pepino].|西班牙冷汤里有黄瓜。|Gazpacho has cucumber in it.
+5.45|n|f|la judía|豆子|bean|La [judía] verde es muy sana.|四季豆很健康。|Green beans are very healthy.
+5.5|n|m|el champiñón|蘑菇|mushroom|Una pizza con [champiñón].|一个蘑菇披萨。|A mushroom pizza.
+5.5|n|m|el yogur|酸奶|yogurt|Desayuno un [yogur].|我早餐吃一杯酸奶。|I have a yogurt for breakfast.
+5.55|n|f|la nata|奶油|cream|Fresas con [nata].|奶油草莓。|Strawberries and cream.
+5.55|n|f|la miel|蜂蜜|honey|Un té con [miel].|一杯蜂蜜茶。|A tea with honey.
+5.6|n|f|la pimienta|胡椒|pepper (spice)|Añade sal y [pimienta].|加盐和胡椒。|Add salt and pepper.
+5.6|n|m|el vinagre|醋|vinegar|Aceite y [vinagre] para la ensalada.|沙拉用油和醋。|Oil and vinegar for the salad.
+5.65|n|f|la ración|份|portion|Una [ración] de jamón, por favor.|请来一份火腿。|A portion of ham, please.
+5.65|n|f|la tapa|下酒小菜|tapa; snack|Con la cerveza te dan una [tapa].|点啤酒会送一份小吃。|They give you a tapa with your beer.
+5.7|adj|-|vegetariano|素食的|vegetarian|Soy [vegetariano].|我吃素。|I'm vegetarian.
+5.7|adj|-|maduro|成熟的|ripe; mature|El plátano está [maduro].|香蕉熟了。|The banana is ripe.
+5.75|adj|-|tierno|嫩的；温柔的|tender|El pollo está [tierno].|鸡肉很嫩。|The chicken is tender.
+5.75|adj|-|casero|自家做的|homemade|Es un pastel [casero].|这是自家做的蛋糕。|It's a homemade cake.
+@travel-b1
+5.15|n|f|la tarjeta de embarque|登机牌|boarding pass|Aquí tiene su [tarjeta de embarque].|这是您的登机牌。|Here's your boarding pass.
+5.15|n|f|la puerta de embarque|登机口|boarding gate|La [puerta de embarque] es la doce.|登机口是十二号。|The boarding gate is number twelve.
+5.2|n|m|el asiento|座位|seat|¿Está libre este [asiento]?|这个座位有人吗？|Is this seat free?
+5.2|n|m|el pasillo|走廊；过道|corridor; aisle|Prefiero el asiento de [pasillo].|我更喜欢靠过道的座位。|I prefer an aisle seat.
+5.25|n|f|la ventanilla|车窗；售票窗口|window (vehicle); ticket window|Me gusta ir en [ventanilla].|我喜欢坐靠窗的位置。|I like a window seat.
+5.25|n|m|el trayecto|路程|journey; route|El [trayecto] dura dos horas.|路程要两个小时。|The journey takes two hours.
+5.3|n|f|la ruta|路线|route|Es una [ruta] muy bonita.|这是一条很美的路线。|It's a very beautiful route.
+5.3|n|m|el crucero|游轮|cruise|Hicimos un [crucero] por el Caribe.|我们坐游轮游了加勒比海。|We went on a Caribbean cruise.
+5.35|n|f|la tienda de campaña|帐篷|tent|Dormimos en una [tienda de campaña].|我们睡在帐篷里。|We slept in a tent.
+5.35|n|m|el camping|露营地|campsite|El [camping] está cerca del río.|露营地在河边。|The campsite is near the river.
+5.4|n|f|la mochila|背包|backpack|Mi [mochila] pesa mucho.|我的背包很重。|My backpack is very heavy.
+5.4|n|m|el visado|签证|visa|Necesito un [visado].|我需要签证。|I need a visa.
+5.45|n|f|la oficina de turismo|旅游咨询处|tourist office|Pregunta en la [oficina de turismo].|去旅游咨询处问问。|Ask at the tourist office.
+5.45|v|-|facturar|托运（行李）|to check in (luggage)|Tengo que [facturar] la maleta.|我得托运行李箱。|I have to check in my suitcase.
+5.5|v|-|embarcar|登机，登船|to board|Vamos a [embarcar] ya.|我们马上要登机了。|We're about to board.
+5.5|v|-|cancelar|取消|to cancel|Van a [cancelar] el vuelo.|航班要取消了。|They're going to cancel the flight.
+5.55|v|-|confirmar|确认|to confirm|Quiero [confirmar] la reserva.|我想确认预订。|I'd like to confirm the booking.
+5.55|v|-|recorrer|游历，走遍|to travel around|Quiero [recorrer] Sudamérica.|我想走遍南美。|I want to travel around South America.
+5.6|v|-|alojarse|住宿|to stay (at a hotel)|Es mejor [alojarse] en el centro.|最好住在市中心。|It's best to stay in the centre.
+5.6|adj|-|disponible|可用的|available|No hay habitación [disponible].|没有空房了。|There's no room available.
+5.65|adj|-|incluido|包括在内的|included|El desayuno está [incluido].|含早餐。|Breakfast is included.

@@ -1,0 +1,288 @@
+# Levels 7–8.
+# L7 grammar: imperfect vs preterite, direct/indirect object pronouns.
+# L8 grammar: present perfect, future, conditional, por/para.
+# Distractors are always wrong in context (wrong person, mood or tense), never just "less likely".
+
+# ---------- L7 word forms
+@f701 fill 7 imperfect
+es Cuando yo era niño, [vivía] en el campo. | viviré, viva, vivían
+zh 我小时候住在乡下。
+en When I was a child, I lived in the countryside.
+
+@f702 fill 7 imperfect
+es Antes nosotros [íbamos] a la playa cada verano. | iremos, vayamos, iban
+zh 以前我们每年夏天都去海边。
+en We used to go to the beach every summer.
+
+@f703 fill 7 imperfect
+es Mi abuela [era] muy alta. | será, sea, eran
+zh 我奶奶以前个子很高。
+en My grandmother was very tall.
+
+@f704 fill 7 imperfect-preterite
+es Mientras yo [leía], sonó el teléfono. | leeré, lea, leían
+zh 我正在看书的时候，电话响了。
+en While I was reading, the phone rang.
+
+@f705 fill 7 imperfect-preterite
+es Yo dormía cuando mi hermano [llegó]. | llegará, llegue, llegaron
+zh 我哥哥到的时候我在睡觉。
+en I was asleep when my brother arrived.
+
+@f706 fill 7 imperfect
+es Hacía sol y los niños [jugaban] en el parque. | jugarán, jueguen, jugaba
+zh 天气晴朗，孩子们在公园里玩。
+en It was sunny and the children were playing in the park.
+
+@f707 fill 7 imperfect
+es De pequeña, ella [tenía] un perro. | tendrá, tenga, tenían
+zh 她小时候养过一只狗。
+en As a little girl, she had a dog.
+
+@f708 fill 7 object-pronoun
+es ¿Tienes el libro? Sí, [lo] tengo. | la, le, los
+zh 你有那本书吗？有，我有。
+en Do you have the book? Yes, I have it.
+
+@f709 fill 7 object-pronoun
+es ¿Ves a María? Sí, [la] veo. | lo, las, les
+zh 你看到玛丽亚了吗？看到了。
+en Can you see María? Yes, I can see her.
+
+@f710 fill 7 object-pronoun
+es Compré unas flores y [las] puse en la mesa. | los, la, les
+zh 我买了些花，把它们放在桌上。
+en I bought some flowers and put them on the table.
+
+@f711 fill 7 object-pronoun
+es [Le] escribí una carta a mi abuelo. | Lo, La, Les
+zh 我给我爷爷写了一封信。
+en I wrote a letter to my grandfather.
+
+@f712 fill 7 object-pronoun
+es ¿Les diste el regalo a tus padres? Sí, [se lo] di. | le lo, les lo, lo se
+zh 你把礼物给你父母了吗？给了。
+en Did you give the present to your parents? Yes, I gave it to them.
+
+@f713 fill 7 object-pronoun
+es ¿Me puedes ayudar? Claro, [te] ayudo. | me, se, nos
+zh 你能帮我吗？当然，我帮你。
+en Can you help me? Sure, I'll help you.
+
+@f714 fill 7 object-pronoun
+es Este jersey es precioso. ¿Puedo [probármelo]? | probármela, probarlolo, probarmelos
+zh 这件毛衣真漂亮。我能试一下吗？
+en This jumper is lovely. Can I try it on?
+
+@f715 fill 7 imperfect
+es Todos los días yo [me levantaba] a las seis. | me levanten, me levantar, se levantaba
+zh 我以前每天六点起床。
+en I used to get up at six every day.
+
+@f716 fill 7 imperfect-preterite
+es Ayer, cuando salí de casa, [llovía] mucho. | lloverá, llueva, llover
+zh 昨天我出门的时候，雨下得很大。
+en Yesterday, when I left home, it was raining hard.
+
+# ---------- L7 dialogues
+@d701 next 7 childhood
+es ¿Dónde vivías cuando eras pequeño? >> En un pueblo cerca de Sevilla, con mis abuelos.
+zh 你小时候住在哪里？ >> 在塞维利亚附近的一个小镇，和我爷爷奶奶一起住。
+en Where did you live when you were little? >> In a village near Seville, with my grandparents.
+
+@d702 next 7 childhood
+es ¿Qué querías ser de mayor? >> Quería ser piloto, me encantaban los aviones.
+zh 你小时候长大想做什么？ >> 我想当飞行员，我很喜欢飞机。
+en What did you want to be when you grew up? >> I wanted to be a pilot, I loved planes.
+
+@d703 next 7 accident
+es ¿Qué te pasó en la pierna? >> Me caí mientras corría por el parque.
+zh 你的腿怎么了？ >> 我在公园跑步时摔倒了。
+en What happened to your leg? >> I fell while I was running in the park.
+
+@d704 next 7 gift
+es ¿Ya le diste el regalo a Ana? >> Sí, se lo di ayer y le encantó.
+zh 你把礼物给安娜了吗？ >> 给了，昨天给的，她很喜欢。
+en Have you given Ana the present yet? >> Yes, I gave it to her yesterday and she loved it.
+
+@d705 next 7 lost-item
+es ¿Has visto mis gafas? >> Sí, las dejaste encima de la mesa.
+zh 你看到我的眼镜了吗？ >> 看到了，你把它放在桌子上了。
+en Have you seen my glasses? >> Yes, you left them on the table.
+
+@d706 next 7 story
+es ¿Y qué hiciste cuando viste al ladrón? >> Llamé a la policía inmediatamente.
+zh 你看到小偷时做了什么？ >> 我马上报了警。
+en And what did you do when you saw the thief? >> I called the police immediately.
+
+@d707 next 7 memories
+es ¿Cómo era tu ciudad hace veinte años? >> Era más pequeña y había menos tráfico.
+zh 二十年前你的城市是什么样的？ >> 更小，交通也没那么堵。
+en What was your city like twenty years ago? >> It was smaller and there was less traffic.
+
+@d708 next 7 work
+es ¿Por qué dejaste tu antiguo trabajo? >> Ganaba poco y trabajaba demasiadas horas.
+zh 你为什么辞掉以前的工作？ >> 工资低，工作时间又太长。
+en Why did you leave your old job? >> I earned little and worked too many hours.
+
+@d709 next 7 food
+es ¿Te comiste todo el pastel? >> No, solo un trozo. El resto lo guardé en la nevera.
+zh 你把整个蛋糕都吃了吗？ >> 没有，就吃了一块，剩下的放冰箱了。
+en Did you eat the whole cake? >> No, just a piece. I put the rest in the fridge.
+
+@d710 next 7 phone
+es ¿Por qué no me contestaste anoche? >> Estaba en el cine y tenía el móvil apagado.
+zh 你昨晚怎么没接我电话？ >> 我在电影院，手机关机了。
+en Why didn't you answer me last night? >> I was at the cinema and had my phone off.
+
+@d711 next 7 travel
+es ¿Qué tal tu primera vez en Madrid? >> Hacía mucho calor, pero lo pasé genial.
+zh 你第一次去马德里怎么样？ >> 天很热，但我玩得很开心。
+en How was your first time in Madrid? >> It was very hot, but I had a great time.
+
+@d712 next 7 family
+es ¿Tus padres te dejaban salir de noche? >> No, tenía que estar en casa a las diez.
+zh 你父母以前让你晚上出去吗？ >> 不让，我十点前必须到家。
+en Did your parents let you go out at night? >> No, I had to be home by ten.
+
+# ---------- L8 word forms
+@f801 fill 8 perfect
+es Este año yo [he viajado] mucho. | ha viajado, he viajar, haber viajado
+zh 今年我旅行了很多次。
+en I've travelled a lot this year.
+
+@f802 fill 8 perfect
+es ¿[Has visto] la nueva película? | Has veído, Ha visto, Haber visto
+zh 你看过那部新电影吗？
+en Have you seen the new film?
+
+@f803 fill 8 perfect
+es Nosotros todavía no [hemos comido]. | han comido, hemos comer, hemos comiendo
+zh 我们还没吃饭。
+en We haven't eaten yet.
+
+@f804 fill 8 perfect
+es ¿Quién [ha roto] el vaso? | ha rompido, han roto, he rompido
+zh 谁把杯子打碎了？
+en Who has broken the glass?
+
+@f805 fill 8 future
+es Mañana [lloverá] en el norte. | llueva, llover, lloviendo
+zh 明天北方会下雨。
+en It will rain in the north tomorrow.
+
+@f806 fill 8 future
+es El año que viene yo [tendré] treinta años. | teneré, tenga, tendrá
+zh 明年我就三十岁了。
+en Next year I'll be thirty.
+
+@f807 fill 8 future
+es Te prometo que nosotros [haremos] todo lo posible. | haceremos, hagamos, harán
+zh 我向你保证我们会尽一切努力。
+en I promise you we'll do everything possible.
+
+@f808 fill 8 future
+es ¿Crees que ellos [vendrán] a la boda? | venirán, vengan, vendrá
+zh 你觉得他们会来参加婚礼吗？
+en Do you think they'll come to the wedding?
+
+@f809 fill 8 conditional
+es Me [gustaría] un café, por favor. | gustaré, gusten, gustar
+zh 我想要一杯咖啡。
+en I'd like a coffee, please.
+
+@f810 fill 8 conditional
+es ¿[Podrías] ayudarme con esto? | Poderías, Puedas, Podiste
+zh 你能帮我弄一下这个吗？
+en Could you help me with this?
+
+@f811 fill 8 conditional
+es Yo en tu lugar [hablaría] con él. | hable, hablar, hablé
+zh 我要是你，就跟他谈谈。
+en If I were you, I'd talk to him.
+
+@f812 fill 8 por-para
+es Este regalo es [para] ti. | por, de, en
+zh 这个礼物是给你的。
+en This present is for you.
+
+@f813 fill 8 por-para
+es Gracias [por] tu ayuda. | para, de, con
+zh 谢谢你的帮助。
+en Thanks for your help.
+
+@f814 fill 8 por-para
+es Estudio español [para] trabajar en México. | por, de, en
+zh 我学西班牙语是为了去墨西哥工作。
+en I'm studying Spanish to work in Mexico.
+
+@f815 fill 8 por-para
+es Paseamos [por] el centro toda la tarde. | para, a, de
+zh 我们整个下午都在市中心闲逛。
+en We strolled around the centre all afternoon.
+
+@f816 fill 8 por-para
+es Te llamo [por] teléfono esta noche. | para, en, de
+zh 我今晚给你打电话。
+en I'll phone you tonight.
+
+# ---------- L8 dialogues
+@d801 next 8 polite-request
+es ¿Le importaría cerrar la ventana? >> No, en absoluto. Ahora mismo la cierro.
+zh 您介意关一下窗户吗？ >> 一点也不介意，我马上关。
+en Would you mind closing the window? >> Not at all. I'll close it right away.
+
+@d802 next 8 work
+es ¿Has terminado ya el informe? >> Casi, lo tendré listo antes del mediodía.
+zh 你报告写完了吗？ >> 快了，中午前就能写好。
+en Have you finished the report yet? >> Almost, I'll have it ready before midday.
+
+@d803 next 8 plans
+es ¿Qué harás cuando termines la carrera? >> Me gustaría hacer un máster en el extranjero.
+zh 你大学毕业后打算做什么？ >> 我想去国外读硕士。
+en What will you do when you finish your degree? >> I'd like to do a master's abroad.
+
+@d804 next 8 advice
+es No sé si aceptar el trabajo en Barcelona. >> Yo que tú lo aceptaría, es una gran oportunidad.
+zh 我不知道要不要接受巴塞罗那的工作。 >> 我要是你就接受，这是个好机会。
+en I don't know whether to accept the job in Barcelona. >> If I were you I'd take it, it's a great opportunity.
+
+@d805 next 8 experiences
+es ¿Has estado alguna vez en Argentina? >> Sí, he estado dos veces, la última en 2019.
+zh 你去过阿根廷吗？ >> 去过两次，最近一次是2019年。
+en Have you ever been to Argentina? >> Yes, I've been twice, most recently in 2019.
+
+@d806 next 8 restaurant
+es ¿Qué nos recomendaría de postre? >> La tarta de queso es la especialidad de la casa.
+zh 您推荐什么甜点？ >> 芝士蛋糕是本店的招牌。
+en What would you recommend for dessert? >> The cheesecake is the house speciality.
+
+@d807 next 8 complaint
+es Disculpe, la habitación no tiene agua caliente. >> Lo siento mucho, ahora mismo mando a alguien.
+zh 不好意思，房间里没有热水。 >> 非常抱歉，我马上派人过去。
+en Excuse me, there's no hot water in the room. >> I'm very sorry, I'll send someone right away.
+
+@d808 next 8 prediction
+es ¿Crees que aprobarás el examen? >> Creo que sí, he estudiado mucho esta semana.
+zh 你觉得你考试能过吗？ >> 我想能吧，这周我学了很多。
+en Do you think you'll pass the exam? >> I think so, I've studied a lot this week.
+
+@d809 next 8 bank
+es Quería abrir una cuenta, por favor. >> Muy bien. ¿Me deja su pasaporte?
+zh 我想开个账户。 >> 好的，能给我看一下您的护照吗？
+en I'd like to open an account, please. >> Very well. May I see your passport?
+
+@d810 next 8 health
+es Últimamente duermo muy mal. >> Deberías tomar menos café y hacer más ejercicio.
+zh 我最近睡得很不好。 >> 你应该少喝咖啡，多运动。
+en I've been sleeping badly lately. >> You should drink less coffee and exercise more.
+
+@d811 next 8 invitation
+es ¿Vendrás a mi cumpleaños el sábado? >> ¡Claro! ¿Quieres que lleve algo?
+zh 周六你会来我的生日会吗？ >> 当然！要我带点什么吗？
+en Will you come to my birthday on Saturday? >> Of course! Do you want me to bring anything?
+
+@d812 next 8 tech
+es Se me ha estropeado el portátil. >> Llévalo a la tienda, todavía tiene garantía.
+zh 我的笔记本电脑坏了。 >> 拿去店里吧，还在保修期内。
+en My laptop has broken. >> Take it to the shop, it's still under warranty.

@@ -1,0 +1,204 @@
+# Level 2 — everyday basics (A1)
+@numbers
+1.05|num|-|once|十一|eleven|Mi hijo tiene [once] años.|我儿子十一岁。|My son is eleven.
+1.05|num|-|doce|十二|twelve|Comemos a las [doce].|我们十二点吃饭。|We eat at twelve.
+1.1|num|-|quince|十五|fifteen|Cuesta [quince] euros.|十五欧元。|It costs fifteen euros.
+1.1|num|-|veinte|二十|twenty|Tengo [veinte] años.|我二十岁。|I'm twenty.
+1.15|num|-|treinta|三十|thirty|El mes tiene [treinta] días.|这个月有三十天。|The month has thirty days.
+1.2|num|-|cuarenta|四十|forty|Mi padre tiene [cuarenta] años.|我爸爸四十岁。|My father is forty.
+1.2|num|-|cincuenta|五十|fifty|Son [cincuenta] euros.|一共五十欧元。|That's fifty euros.
+1.25|num|-|cien|一百|one hundred|Hay [cien] personas.|有一百个人。|There are a hundred people.
+1.3|num|-|mil|一千|thousand|Cuesta [mil] euros.|要一千欧元。|It costs a thousand euros.
+1.3|adj|-|primero|第一的|first|Mi hermano es el [primero] de la clase.|我哥哥是班上第一名。|My brother is top of the class.
+1.35|adj|-|segundo|第二的|second|Es el [segundo] piso.|是二楼。|It's the second floor.
+1.4|adj|-|último|最后的|last|Es el [último] tren.|这是最后一班火车。|It's the last train.
+@time
+1.1|n|m|el lunes|星期一|Monday|El [lunes] trabajo.|星期一我上班。|On Monday I work.
+1.1|n|m|el martes|星期二|Tuesday|Tengo clase el [martes].|星期二我有课。|I have class on Tuesday.
+1.15|n|m|el miércoles|星期三|Wednesday|Nos vemos el [miércoles].|星期三见。|See you on Wednesday.
+1.15|n|m|el jueves|星期四|Thursday|El [jueves] voy al gimnasio.|星期四我去健身房。|On Thursday I go to the gym.
+1.2|n|m|el viernes|星期五|Friday|El [viernes] salimos.|星期五我们出去玩。|On Friday we go out.
+1.2|n|m|el sábado|星期六|Saturday|El [sábado] no trabajo.|星期六我不上班。|I don't work on Saturday.
+1.25|n|m|el domingo|星期天|Sunday|El [domingo] como con mi familia.|星期天我和家人吃饭。|On Sunday I eat with my family.
+1.3|n|f|la semana|星期，周|week|Trabajo cinco días a la [semana].|我一周工作五天。|I work five days a week.
+1.3|n|m|el mes|月|month|Voy a México el próximo [mes].|我下个月去墨西哥。|I'm going to Mexico next month.
+1.35|n|m|el año|年|year|Este [año] estudio español.|今年我学西班牙语。|This year I'm studying Spanish.
+1.35|n|f|la hora|小时；时间|hour; time|¿Qué [hora] es?|几点了？|What time is it?
+1.4|n|m|el minuto|分钟|minute|Espera un [minuto].|等一分钟。|Wait a minute.
+1.4|n|f|la mañana|早上，上午|morning|Trabajo por la [mañana].|我上午工作。|I work in the morning.
+1.45|n|f|la tarde|下午|afternoon; evening|Estudio por la [tarde].|我下午学习。|I study in the afternoon.
+1.45|n|f|la noche|夜晚|night|Leo por la [noche].|我晚上看书。|I read at night.
+1.5|n|m|el fin de semana|周末|weekend|¿Qué haces el [fin de semana]?|你周末做什么？|What do you do at the weekend?
+1.5|adv|-|ayer|昨天|yesterday|[Ayer] estuve en casa.|我昨天在家。|Yesterday I was at home.
+1.55|adv|-|temprano|早|early|Me levanto [temprano].|我起得早。|I get up early.
+1.55|adv|-|tarde|晚，迟|late|Siempre llegas [tarde].|你总是迟到。|You're always late.
+1.6|adv|-|después|之后|afterwards; later|Te llamo [después].|我待会儿给你打电话。|I'll call you later.
+1.6|adv|-|antes|之前|before|[Antes] vivía en Pekín.|我以前住在北京。|I used to live in Beijing.
+1.65|n|m|enero|一月|January|Mi cumpleaños es en [enero].|我的生日在一月。|My birthday is in January.
+1.65|n|m|febrero|二月|February|En [febrero] hace frío.|二月很冷。|It's cold in February.
+1.7|n|m|marzo|三月|March|Llego en [marzo].|我三月到。|I'm arriving in March.
+1.7|n|m|abril|四月|April|En [abril] llueve mucho.|四月雨很多。|It rains a lot in April.
+1.7|n|m|mayo|五月|May|Nos casamos en [mayo].|我们五月结婚。|We're getting married in May.
+1.75|n|m|junio|六月|June|Las clases terminan en [junio].|课程六月结束。|Classes end in June.
+1.75|n|m|julio|七月|July|En [julio] vamos a la playa.|七月我们去海边。|In July we go to the beach.
+1.75|n|m|agosto|八月|August|En [agosto] hace mucho calor.|八月非常热。|It's very hot in August.
+1.8|n|m|septiembre|九月|September|El curso empieza en [septiembre].|课程九月开始。|The course starts in September.
+1.8|n|m|octubre|十月|October|Mi madre nació en [octubre].|我妈妈十月出生。|My mother was born in October.
+1.8|n|m|noviembre|十一月|November|En [noviembre] hace fresco.|十一月天气凉爽。|It's cool in November.
+1.8|n|m|diciembre|十二月|December|En [diciembre] es Navidad.|十二月是圣诞节。|Christmas is in December.
+1.85|n|m|el verano|夏天|summer|En [verano] hace calor.|夏天很热。|It's hot in summer.
+1.85|n|m|el invierno|冬天|winter|En [invierno] hace frío.|冬天很冷。|It's cold in winter.
+1.9|n|f|la primavera|春天|spring|Me gusta la [primavera].|我喜欢春天。|I like spring.
+1.9|n|m|el otoño|秋天|autumn|En [otoño] caen las hojas.|秋天树叶飘落。|In autumn the leaves fall.
+@colours
+1.2|adj|-|rojo|红色的|red|Tengo un coche [rojo].|我有一辆红色的车。|I have a red car.
+1.25|adj|-|azul|蓝色的|blue|El cielo es [azul].|天空是蓝色的。|The sky is blue.
+1.25|adj|-|verde|绿色的|green|Me gusta el té [verde].|我喜欢绿茶。|I like green tea.
+1.3|adj|-|amarillo|黄色的|yellow|Es un taxi [amarillo].|这是一辆黄色的出租车。|It's a yellow taxi.
+1.3|adj|-|negro|黑色的|black|Tengo un gato [negro].|我有一只黑猫。|I have a black cat.
+1.35|adj|-|blanco|白色的|white|Quiero vino [blanco].|我要白葡萄酒。|I'd like white wine.
+1.4|adj|-|gris|灰色的|grey|Hoy el cielo está [gris].|今天天空灰蒙蒙的。|The sky is grey today.
+1.45|adj|-|marrón|棕色的|brown|Busco un bolso [marrón].|我在找一个棕色的包。|I'm looking for a brown bag.
+1.5|adj|-|rosa|粉色的|pink|Quiero un vestido [rosa].|我想要一条粉色的裙子。|I want a pink dress.
+1.5|adj|-|naranja|橙色的|orange (colour)|Lleva un jersey [naranja].|他穿着一件橙色毛衣。|He's wearing an orange jumper.
+1.55|n|m|el color|颜色|colour|¿Cuál es tu [color] favorito?|你最喜欢什么颜色？|What's your favourite colour?
+@home
+1.2|n|m|el piso|公寓；楼层|flat; floor|Vivo en un [piso] pequeño.|我住在一套小公寓里。|I live in a small flat.
+1.3|n|f|la habitación|房间|room; bedroom|Mi [habitación] es tranquila.|我的房间很安静。|My room is quiet.
+1.35|n|f|la cocina|厨房|kitchen|Mamá está en la [cocina].|妈妈在厨房。|Mum is in the kitchen.
+1.4|n|m|el salón|客厅|living room|Vemos la tele en el [salón].|我们在客厅看电视。|We watch TV in the living room.
+1.45|n|f|la puerta|门|door|Cierra la [puerta], por favor.|请关门。|Close the door, please.
+1.45|n|f|la ventana|窗户|window|Abre la [ventana].|打开窗户。|Open the window.
+1.5|n|f|la mesa|桌子|table|Las llaves están en la [mesa].|钥匙在桌子上。|The keys are on the table.
+1.5|n|f|la silla|椅子|chair|Esta [silla] es cómoda.|这把椅子很舒服。|This chair is comfortable.
+1.55|n|f|la cama|床|bed|Me voy a la [cama].|我去睡觉了。|I'm going to bed.
+1.55|n|m|el sofá|沙发|sofa|El gato duerme en el [sofá].|猫在沙发上睡觉。|The cat sleeps on the sofa.
+1.6|n|f|la llave|钥匙|key|No encuentro la [llave].|我找不到钥匙。|I can't find the key.
+1.6|n|f|la televisión|电视|television|No veo la [televisión].|我不看电视。|I don't watch TV.
+1.65|n|m|el ordenador|电脑（西班牙）|computer (Spain)|Trabajo con el [ordenador].|我用电脑工作。|I work on the computer.
+1.65|n|m|el móvil|手机（西班牙）|mobile phone|Mi [móvil] no tiene batería.|我的手机没电了。|My phone's out of battery.
+1.7|n|f|la luz|灯；光|light|Apaga la [luz].|关灯。|Turn off the light.
+1.7|n|m|el jardín|花园|garden|Los niños juegan en el [jardín].|孩子们在花园里玩。|The children play in the garden.
+@city
+1.3|n|m|el banco|银行；长椅|bank; bench|El [banco] abre a las nueve.|银行九点开门。|The bank opens at nine.
+1.35|n|f|la tienda|商店|shop|La [tienda] está cerrada.|商店关门了。|The shop is closed.
+1.4|n|m|el supermercado|超市|supermarket|Voy al [supermercado].|我去超市。|I'm going to the supermarket.
+1.45|n|m|el mercado|市场|market|Compro fruta en el [mercado].|我在市场买水果。|I buy fruit at the market.
+1.5|n|f|la escuela|学校|school|Mi hijo va a la [escuela].|我儿子去上学。|My son goes to school.
+1.55|n|m|el hospital|医院|hospital|¿Dónde está el [hospital]?|医院在哪里？|Where is the hospital?
+1.6|n|m|el parque|公园|park|Paseo por el [parque].|我在公园散步。|I walk in the park.
+1.6|n|f|la plaza|广场|square|Nos vemos en la [plaza].|我们在广场见。|See you in the square.
+1.65|n|m|el bar|酒吧；小餐馆|bar; café|Tomamos algo en el [bar].|我们在酒吧喝点东西。|We have a drink at the bar.
+1.65|n|f|la farmacia|药店|pharmacy|La [farmacia] está a la derecha.|药店在右边。|The pharmacy is on the right.
+1.7|n|f|la estación|车站|station|La [estación] está cerca.|车站很近。|The station is close.
+1.75|n|m|el aeropuerto|机场|airport|Voy al [aeropuerto] en taxi.|我坐出租车去机场。|I'm going to the airport by taxi.
+1.75|n|f|la playa|海滩|beach|Vamos a la [playa].|我们去海滩吧。|Let's go to the beach.
+1.8|n|m|el museo|博物馆|museum|El [museo] cierra los lunes.|博物馆周一闭馆。|The museum is closed on Mondays.
+1.8|n|f|la iglesia|教堂|church|La [iglesia] es muy antigua.|这座教堂很古老。|The church is very old.
+1.85|n|m|el cine|电影院|cinema|¿Vamos al [cine] esta noche?|今晚去看电影吗？|Shall we go to the cinema tonight?
+1.85|n|f|la oficina|办公室|office|Estoy en la [oficina].|我在办公室。|I'm at the office.
+1.9|n|f|la universidad|大学|university|Estudio en la [universidad].|我在上大学。|I study at university.
+@family-people
+1.3|n|m|el marido|丈夫|husband|Mi [marido] es cocinero.|我丈夫是厨师。|My husband is a cook.
+1.35|n|m|el abuelo|祖父，外祖父|grandfather|Mi [abuelo] tiene ochenta años.|我爷爷八十岁了。|My grandfather is eighty.
+1.35|n|f|la abuela|祖母，外祖母|grandmother|Mi [abuela] cocina muy bien.|我奶奶做饭很好吃。|My grandmother cooks very well.
+1.4|n|m|el tío|叔叔，舅舅|uncle|Mi [tío] vive en Valencia.|我叔叔住在瓦伦西亚。|My uncle lives in Valencia.
+1.4|n|f|la tía|阿姨，姑姑|aunt|Mi [tía] es enfermera.|我阿姨是护士。|My aunt is a nurse.
+1.45|n|m|el primo|堂（表）兄弟|cousin (male)|Mi [primo] juega al fútbol.|我表哥踢足球。|My cousin plays football.
+1.45|n|f|la prima|堂（表）姐妹|cousin (female)|Mi [prima] estudia medicina.|我表姐学医。|My cousin studies medicine.
+1.5|n|mf|el bebé|婴儿|baby|El [bebé] duerme.|宝宝在睡觉。|The baby is sleeping.
+1.55|n|m|el novio|男朋友；新郎|boyfriend; groom|Este es mi [novio].|这是我男朋友。|This is my boyfriend.
+1.55|n|f|la novia|女朋友；新娘|girlfriend; bride|Su [novia] es mexicana.|他的女朋友是墨西哥人。|His girlfriend is Mexican.
+1.6|n|m|el señor|先生|Mr; gentleman|El [señor] García es mi jefe.|加西亚先生是我的老板。|Mr García is my boss.
+1.6|n|f|la señora|女士，夫人|Mrs; lady|La [señora] López es muy amable.|洛佩斯女士很友善。|Mrs López is very kind.
+1.65|n|m|el chico|男孩，小伙子|boy; guy|Ese [chico] es mi hermano.|那个男孩是我弟弟。|That boy is my brother.
+1.65|n|f|la chica|女孩，姑娘|girl|La [chica] de la tienda es simpática.|店里的女孩很友善。|The girl at the shop is nice.
+1.7|n|m|el vecino|邻居|neighbour|Mi [vecino] tiene un perro.|我的邻居养了一只狗。|My neighbour has a dog.
+1.75|n|mf|el estudiante|学生|student|Soy [estudiante] de español.|我是学西班牙语的学生。|I'm a student of Spanish.
+1.75|n|m|el profesor|老师（男）|teacher (male)|El [profesor] es muy bueno.|老师很好。|The teacher is very good.
+1.8|n|m|el médico|医生|doctor|Tengo que ir al [médico].|我得去看医生。|I have to go to the doctor.
+@verbs
+1.1|v|-|llegar|到达|to arrive|Voy a [llegar] tarde.|我要迟到了。|I'm going to be late.
+1.15|v|-|salir|出去；离开|to go out; to leave|¿Quieres [salir] esta noche?|今晚想出去吗？|Do you want to go out tonight?
+1.2|v|-|volver|回来|to come back|Quiero [volver] a casa.|我想回家。|I want to go back home.
+1.2|v|-|comprar|买|to buy|Voy a [comprar] pan.|我去买面包。|I'm going to buy bread.
+1.25|v|-|pagar|付钱|to pay|¿Puedo [pagar] con tarjeta?|可以刷卡吗？|Can I pay by card?
+1.25|v|-|costar|花费，值|to cost|¿Cuánto va a [costar]?|要花多少钱？|How much will it cost?
+1.3|v|-|abrir|打开|to open|¿Puedes [abrir] la ventana?|你能打开窗户吗？|Can you open the window?
+1.3|v|-|cerrar|关上|to close|Tengo que [cerrar] la tienda.|我得关店了。|I have to close the shop.
+1.35|v|-|escuchar|听|to listen|Me gusta [escuchar] música.|我喜欢听音乐。|I like listening to music.
+1.35|v|-|leer|读|to read|Me gusta [leer] por la noche.|我喜欢晚上看书。|I like reading at night.
+1.4|v|-|escribir|写|to write|Tengo que [escribir] un correo.|我得写一封邮件。|I have to write an email.
+1.4|v|-|aprender|学会，学习|to learn|Quiero [aprender] a cocinar.|我想学做饭。|I want to learn to cook.
+1.45|v|-|dormir|睡觉|to sleep|Necesito [dormir] ocho horas.|我需要睡八个小时。|I need to sleep eight hours.
+1.45|v|-|esperar|等待；希望|to wait; to hope|¿Puedes [esperar] un momento?|你能等一下吗？|Can you wait a moment?
+1.5|v|-|buscar|寻找|to look for|Voy a [buscar] un piso.|我要找一套公寓。|I'm going to look for a flat.
+1.5|v|-|encontrar|找到|to find|No puedo [encontrar] mis gafas.|我找不到我的眼镜。|I can't find my glasses.
+1.55|v|-|llevar|带；穿|to take; to wear; to carry|Tienes que [llevar] el pasaporte.|你得带护照。|You have to take your passport.
+1.55|v|-|tomar|拿；喝；乘坐|to take; to have (drink)|¿Quieres [tomar] algo?|你想喝点什么吗？|Would you like something to drink?
+1.6|v|-|usar|使用|to use|¿Puedo [usar] tu teléfono?|我可以用你的电话吗？|Can I use your phone?
+1.6|v|-|ayudar|帮助|to help|¿Me puedes [ayudar]?|你能帮我吗？|Can you help me?
+1.65|v|-|preguntar|问|to ask|Voy a [preguntar] al camarero.|我去问服务员。|I'm going to ask the waiter.
+1.65|v|-|contestar|回答|to answer|No quiere [contestar].|他不想回答。|He doesn't want to answer.
+1.7|v|-|llamar|打电话；叫|to call|Te voy a [llamar] mañana.|我明天给你打电话。|I'll call you tomorrow.
+1.7|v|-|mirar|看|to look at|Me gusta [mirar] el mar.|我喜欢看海。|I like looking at the sea.
+1.75|v|-|pensar|想，认为|to think|Tengo que [pensar] un poco.|我得想一想。|I need to think a bit.
+1.75|v|-|creer|相信，认为|to believe; to think|No lo puedo [creer].|我简直不敢相信。|I can't believe it.
+1.8|v|-|conocer|认识；了解|to know (people, places)|Quiero [conocer] México.|我想去看看墨西哥。|I want to get to know Mexico.
+1.8|v|-|cocinar|做饭|to cook|Me gusta [cocinar].|我喜欢做饭。|I like cooking.
+1.85|v|-|viajar|旅行|to travel|Me encanta [viajar].|我超爱旅行。|I love travelling.
+1.85|v|-|caminar|走路|to walk|Me gusta [caminar] por la ciudad.|我喜欢在城里走走。|I like walking around the city.
+1.9|v|-|jugar|玩；打（球）|to play|Los niños quieren [jugar].|孩子们想玩。|The children want to play.
+1.9|v|-|empezar|开始|to start|Vamos a [empezar] la clase.|我们开始上课。|Let's start the class.
+1.95|v|-|terminar|结束，完成|to finish|Tengo que [terminar] el trabajo.|我得把工作做完。|I have to finish the work.
+1.95|v|-|poner|放；打开（电器）|to put; to turn on|¿Puedes [poner] la mesa?|你能摆一下餐桌吗？|Can you set the table?
+@adjectives
+1.2|adj|-|caro|贵的|expensive|Es un hotel muy [caro].|这是一家很贵的酒店。|It's a very expensive hotel.
+1.25|adj|-|barato|便宜的|cheap|Es un restaurante [barato].|这是一家便宜的餐厅。|It's a cheap restaurant.
+1.3|adj|-|bonito|漂亮的|pretty; nice|Es un pueblo muy [bonito].|这是一个很漂亮的小镇。|It's a very pretty town.
+1.35|adj|-|feo|丑的|ugly|El edificio es [feo].|这栋楼很丑。|The building is ugly.
+1.4|adj|-|alto|高的|tall; high|Mi hermano es muy [alto].|我哥哥很高。|My brother is very tall.
+1.4|adj|-|bajo|矮的；低的|short; low|Soy [bajo] como mi padre.|我和我爸爸一样矮。|I'm short like my father.
+1.45|adj|-|viejo|老的，旧的|old|Mi coche es muy [viejo].|我的车很旧。|My car is very old.
+1.45|adj|-|joven|年轻的|young|Mi profesor es [joven].|我的老师很年轻。|My teacher is young.
+1.5|adj|-|largo|长的|long|Es un viaje [largo].|这是一趟长途旅行。|It's a long trip.
+1.5|adj|-|corto|短的|short|Es un libro [corto].|这是一本短书。|It's a short book.
+1.55|adj|-|caliente|热的，烫的|hot (temperature)|El café está [caliente].|咖啡很烫。|The coffee is hot.
+1.55|adj|-|frío|冷的|cold|El vino está [frío].|葡萄酒是冰的。|The wine is cold.
+1.6|adj|-|fácil|容易的|easy|El español es [fácil].|西班牙语很简单。|Spanish is easy.
+1.6|adj|-|difícil|难的|difficult|El examen es [difícil].|考试很难。|The exam is difficult.
+1.65|adj|-|lleno|满的|full|El bar está [lleno].|酒吧满了。|The bar is full.
+1.65|adj|-|vacío|空的|empty|El vaso está [vacío].|杯子是空的。|The glass is empty.
+1.7|adj|-|abierto|开着的|open|El museo está [abierto].|博物馆开着。|The museum is open.
+1.7|adj|-|cerrado|关着的|closed|El banco está [cerrado].|银行关门了。|The bank is closed.
+1.75|adj|-|limpio|干净的|clean|El baño está [limpio].|洗手间很干净。|The bathroom is clean.
+1.75|adj|-|sucio|脏的|dirty|El suelo está [sucio].|地板很脏。|The floor is dirty.
+1.8|adj|-|simpático|友善的，讨人喜欢的|nice; friendly|Mi jefe es muy [simpático].|我的老板人很好。|My boss is very nice.
+1.8|adj|-|guapo|好看的，帅的|good-looking|Tu hermano es muy [guapo].|你哥哥很帅。|Your brother is very handsome.
+1.85|adj|-|ocupado|忙的；被占用的|busy; taken|Estoy muy [ocupado] hoy.|我今天很忙。|I'm very busy today.
+1.85|adj|-|libre|空闲的；自由的|free; available|¿Está [libre] esta silla?|这把椅子有人吗？|Is this chair free?
+1.9|adj|-|enfermo|生病的|ill; sick|Estoy [enfermo] hoy.|我今天病了。|I'm sick today.
+1.9|adj|-|feliz|幸福的，快乐的|happy|Soy muy [feliz] aquí.|我在这里很幸福。|I'm very happy here.
+1.95|adj|-|triste|难过的|sad|¿Por qué estás [triste]?|你为什么难过？|Why are you sad?
+1.95|adj|-|favorito|最喜欢的|favourite|Es mi libro [favorito].|这是我最喜欢的书。|It's my favourite book.
+@little-words
+1.1|prep|-|por|通过；因为；在……期间|by; through; for|Paseo [por] el parque.|我在公园里散步。|I walk through the park.
+1.15|prep|-|desde|从|from; since|Vivo aquí [desde] 2020.|我从2020年起住在这里。|I've lived here since 2020.
+1.2|prep|-|hasta|直到|until|Trabajo [hasta] las seis.|我工作到六点。|I work until six.
+1.25|prep|-|entre|在……之间|between|La farmacia está [entre] el banco y el bar.|药店在银行和酒吧之间。|The pharmacy is between the bank and the bar.
+1.3|prep|-|sobre|在……上面；关于|on; about|Es un libro [sobre] México.|这是一本关于墨西哥的书。|It's a book about Mexico.
+1.35|adv|-|cerca|附近|near|Vivo [cerca].|我住得很近。|I live nearby.
+1.4|adv|-|lejos|远|far|El aeropuerto está [lejos].|机场很远。|The airport is far.
+1.45|adv|-|bastante|相当；足够|quite; enough|Hablas [bastante] bien.|你说得相当好。|You speak quite well.
+1.5|adv|-|demasiado|太，过于|too much|Comes [demasiado].|你吃太多了。|You eat too much.
+1.55|adv|-|todavía|还，仍然|still; yet|[Todavía] estoy en casa.|我还在家。|I'm still at home.
+1.6|adv|-|ya|已经|already|[Ya] he comido.|我已经吃过了。|I've already eaten.
+1.65|adv|-|luego|然后，之后|then; later|Primero como y [luego] duermo.|我先吃饭然后睡觉。|First I eat and then I sleep.
+1.7|adv|-|pronto|很快，马上|soon|Nos vemos [pronto].|回头见。|See you soon.
+1.75|adv|-|mal|不好，糟糕|badly|Duermo [mal].|我睡得不好。|I sleep badly.
+1.8|adv|-|despacio|慢慢地|slowly|Habla más [despacio], por favor.|请说慢一点。|Speak more slowly, please.
+1.85|adv|-|rápido|快|quickly|Come muy [rápido].|他吃得很快。|He eats very quickly.
+1.9|conj|-|si|如果|if|[Si] llueve, no salgo.|如果下雨，我就不出门。|If it rains, I won't go out.
+1.95|conj|-|cuando|当……的时候|when|[Cuando] llego a casa, ceno.|我到家后吃晚饭。|When I get home, I have dinner.
+2.0|det|-|cada|每个|each; every|Voy al gimnasio [cada] día.|我每天去健身房。|I go to the gym every day.
+2.0|det|-|algún|某个|some; any|¿Hay [algún] problema?|有什么问题吗？|Is there any problem?

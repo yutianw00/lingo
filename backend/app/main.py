@@ -4,6 +4,7 @@ Auth is intentionally absent for now: the caller identifies itself with the
 `X-User-Id` header (default "demo"). Swapping in SSO later only means replacing
 `current_user` with a dependency that reads the verified identity.
 """
+import math
 import random
 import sqlite3
 import time
@@ -15,7 +16,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import db, logic, srs
+from . import db, logic, seed, srs
 
 Lang = Literal["zh", "en", "fr", "es"]
 LANGUAGES = [
@@ -95,21 +96,60 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         conn.commit()
         return me_payload(conn.execute("SELECT * FROM users WHERE id=?", (user["id"],)).fetchone())
 
+    # ------------------------------------------------------------ content selection
+
+    def course_of(target: str) -> str:
+        return target if target in seed.COURSES else "all"
+
+    def course_words(conn, target):
+        return conn.execute("SELECT * FROM words WHERE course=? ORDER BY rank", (course_of(target),)).fetchall()
+
+    def word_states(conn, user, rows) -> dict[str, srs.State]:
+        ids = {r["id"] for r in rows}
+        return {k: v for k, v in logic.all_states(conn, user["id"], "word", user["target"]).items() if k in ids}
+
+    def learner_level(rows, wstates) -> tuple[int, float]:
+        """The learner's level = the hardest word they have been introduced to (words come in level order)."""
+        scores = [r["score"] for r in rows if r["id"] in wstates]
+        top = max(scores, default=0.0)
+        return max(1, math.ceil(top)), top
+
+    def quiz_pool(conn, user):
+        """Questions available right now, plus the course's dialogue pool (for distractors).
+
+        Leveled courses gate questions: a vocab cloze unlocks once its word has been
+        introduced in the swipe deck; grammar and dialogue questions unlock at their level.
+        """
+        target = user["target"]
+        course = course_of(target)
+        rows = conn.execute("SELECT * FROM questions WHERE course=? ORDER BY rank", (course,)).fetchall()
+        next_pool = [r for r in rows if r["kind"] == "next"]
+        if course == "all":
+            return rows, next_pool
+        words = course_words(conn, target)
+        wstates = word_states(conn, user, words)
+        level, _ = learner_level(words, wstates)
+        pool = [r for r in rows if (r["word_id"] in wstates if r["skill"] == "vocab" else r["level"] <= level)]
+        return pool, next_pool
+
     # ------------------------------------------------------------ home
 
     @app.get("/api/home")
     def home(user: User, conn: Conn, tz: TzOffset = 0):
         now, lang = clock(), user["target"]
-        word_ids = [r["id"] for r in conn.execute("SELECT id FROM words")]
-        q_ids = [r["id"] for r in conn.execute("SELECT id FROM questions")]
-        ws = {k: v for k, v in logic.all_states(conn, user["id"], "word", lang).items() if k in set(word_ids)}
-        qs = {k: v for k, v in logic.all_states(conn, user["id"], "question", lang).items() if k in set(q_ids)}
+        words = course_words(conn, lang)
+        ws = word_states(conn, user, words)
+        pool, _ = quiz_pool(conn, user)
+        q_ids = {r["id"] for r in pool}
+        qs = {k: v for k, v in logic.all_states(conn, user["id"], "question", lang).items() if k in q_ids}
         streak, done = logic.streak_and_today(conn, user["id"], now, tz)
+        level, score = learner_level(words, ws)
         return {
             "native": user["native"], "target": user["target"],
+            "leveled": course_of(lang) != "all", "level": level, "level_score": round(score, 1),
             "streak": streak, "today": {"done": done, "goal": user["daily_goal"]},
-            "words": {"total": len(word_ids), "due": sum(1 for s in ws.values() if s.due <= now),
-                      "new": len(word_ids) - len(ws), "levels": logic.level_counts(ws, len(word_ids), now)},
+            "words": {"total": len(words), "due": sum(1 for s in ws.values() if s.due <= now),
+                      "new": len(words) - len(ws), "levels": logic.level_counts(ws, len(words), now)},
             "quiz": {"total": len(q_ids), "due": sum(1 for s in qs.values() if s.due <= now),
                      "new": len(q_ids) - len(qs),
                      "mistakes": sum(1 for s in qs.values() if s.lapses > 0 and s.due <= now),
@@ -127,8 +167,8 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
     @app.get("/api/words/session")
     def word_session(user: User, conn: Conn, size: int = Query(20, ge=1, le=100)):
         now, native, target = clock(), user["native"], user["target"]
-        rows = {r["id"]: r for r in conn.execute("SELECT * FROM words ORDER BY rank")}
-        states = {k: v for k, v in logic.all_states(conn, user["id"], "word", target).items() if k in rows}
+        rows = {r["id"]: r for r in course_words(conn, target)}
+        states = word_states(conn, user, rows.values())
         ids = logic.pick_session(states, list(rows), size, now, rng)
         return [logic.word_card(rows[i], native, target, states.get(i, srs.State()), now) for i in ids]
 
@@ -157,7 +197,7 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         states = logic.all_states(conn, user["id"], "word", target)
         out = []
         needle = (q or "").strip().lower()
-        for r in conn.execute("SELECT * FROM words ORDER BY rank"):
+        for r in course_words(conn, target):
             s = states.get(r["id"], srs.State())
             card = logic.word_card(r, native, target, s, now)
             if level == "due" and not (s.due is not None and s.due <= now):
@@ -181,11 +221,18 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
     def quiz_session(user: User, conn: Conn, size: int = Query(10, ge=1, le=50),
                      kind: Literal["fill", "next"] | None = None):
         now, native, target = clock(), user["native"], user["target"]
-        all_rows = conn.execute("SELECT * FROM questions ORDER BY rank").fetchall()
-        rows = {r["id"]: r for r in all_rows if kind is None or r["kind"] == kind}
-        next_pool = [r for r in all_rows if r["kind"] == "next"]
+        pool, next_pool = quiz_pool(conn, user)
+        rows = {r["id"]: r for r in pool if kind is None or r["kind"] == kind}
         states = {k: v for k, v in logic.all_states(conn, user["id"], "question", target).items() if k in rows}
-        ids = logic.pick_session(states, list(rows), size, now, rng, lapses_first=True)
+        # New questions: round-robin across skills (each in curriculum order), so thousands of
+        # vocabulary clozes never crowd out the grammar and dialogue questions.
+        by_skill: dict[str, list[str]] = {}
+        for qid, r in rows.items():
+            if qid not in states:
+                by_skill.setdefault(r["skill"], []).append(qid)
+        groups = list(by_skill.values())
+        new_order = [g[i] for i in range(max(map(len, groups), default=0)) for g in groups if i < len(g)]
+        ids = logic.pick_session(states, new_order, size, now, rng, lapses_first=True)
         return [logic.question_payload(rows[i], native, target, states.get(i, srs.State()), now, next_pool, rng)
                 for i in ids]
 

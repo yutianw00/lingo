@@ -1,0 +1,73 @@
+# Level 10a — Latin American variants & colloquial Spanish (C1)
+@latam
+9.05|n|m|el carro|汽车（拉美）|car (Latin America)|Voy a lavar el [carro].|我要去洗车。|I'm going to wash the car.
+9.05|n|f|la computadora|电脑（拉美）|computer (Latin America)|Mi [computadora] es lenta.|我的电脑很慢。|My computer is slow.
+9.05|n|m|el celular|手机（拉美）|mobile phone (Latin America)|Se me olvidó el [celular].|我忘带手机了。|I forgot my phone.
+9.1|n|m|el jugo|果汁（拉美）|juice (Latin America)|Un [jugo] de mango, por favor.|请来一杯芒果汁。|A mango juice, please.
+9.1|n|f|la papa|土豆（拉美）|potato (Latin America)|Me encanta la [papa] frita.|我爱吃炸薯条。|I love fries.
+9.1|n|m|el boleto|票（拉美）|ticket (Latin America)|Compré un [boleto] de avión.|我买了一张机票。|I bought a plane ticket.
+9.15|v|-|manejar|驾驶（拉美）；管理|to drive (Latin America); to handle|No sé [manejar].|我不会开车。|I can't drive.
+9.15|v|-|platicar|聊天（墨西哥）|to chat (Mexico)|Me gusta [platicar] contigo.|我喜欢和你聊天。|I like chatting with you.
+9.2|v|-|rentar|租（拉美）|to rent (Latin America)|Queremos [rentar] una casa.|我们想租一栋房子。|We want to rent a house.
+9.2|v|-|extrañar|想念（拉美）|to miss (Latin America)|Te voy a [extrañar].|我会想你的。|I'm going to miss you.
+9.25|n|m|el camión|卡车；公交（墨西哥）|lorry; bus (Mexico)|El [camión] llega tarde.|公交车晚点了。|The bus is late.
+9.25|n|m|el durazno|桃子（拉美）|peach (Latin America)|Me como un [durazno].|我吃一个桃子。|I'm eating a peach.
+9.25|n|f|la frutilla|草莓（南美）|strawberry (Southern Cone)|Un helado de [frutilla].|一个草莓冰淇淋。|A strawberry ice cream.
+9.3|n|m|el elote|玉米（墨西哥）|corn on the cob (Mexico)|Compré un [elote] en la calle.|我在街上买了一根玉米。|I bought corn on the cob in the street.
+9.3|n|m|el maíz|玉米|corn; maize|Las tortillas son de [maíz].|玉米饼是用玉米做的。|Tortillas are made of corn.
+9.3|n|m|el aguacate|牛油果|avocado|El guacamole lleva [aguacate].|鳄梨酱里有牛油果。|Guacamole has avocado in it.
+9.35|n|f|la cuadra|街区（拉美）|block (Latin America)|Vivo a una [cuadra] de aquí.|我住在离这里一个街区的地方。|I live a block from here.
+9.35|n|m|el apartamento|公寓|apartment|Vivo en un [apartamento] pequeño.|我住在一套小公寓里。|I live in a small apartment.
+9.4|n|m|el chamaco|小孩（墨西哥口语）|kid (Mexico, informal)|El [chamaco] juega afuera.|小孩在外面玩。|The kid is playing outside.
+9.4|n|m|el pibe|小伙子（阿根廷口语）|kid; lad (Argentina)|Es un [pibe] muy bueno.|他是个好小伙。|He's a really good kid.
+9.4|adj|-|chévere|很棒的（加勒比口语）|great (Caribbean, informal)|¡Qué [chévere]!|太棒了！|How cool!
+9.45|adj|-|padre|很棒的（墨西哥口语）|great (Mexico, informal)|¡Qué [padre] está tu casa!|你家真棒！|Your house is so cool!
+9.45|adj|-|bacán|很酷的（智利、秘鲁口语）|cool (Chile, Peru)|Es un tipo muy [bacán].|他是个很酷的家伙。|He's a really cool guy.
+9.45|adv|-|ahorita|马上（拉美）|right now (Latin America)|[Ahorita] voy.|我马上去。|I'm coming right now.
+9.5|phr|-|qué onda|怎么样（墨西哥打招呼）|what's up (Mexico)|¿[Qué onda], güey?|怎么样，哥们？|What's up, dude?
+9.5|v|-|enojarse|生气（拉美）|to get angry (Latin America)|No hay que [enojarse].|别生气。|Don't get angry.
+9.5|adj|-|enojado|生气的（拉美）|angry (Latin America)|Mi papá está [enojado].|我爸生气了。|My dad is angry.
+9.55|n|m|el saco|西装外套（拉美）；袋子|jacket (Latin America); sack|Ponte el [saco].|穿上外套。|Put your jacket on.
+9.55|n|f|la pileta|游泳池（阿根廷）|swimming pool (Argentina)|Vamos a la [pileta].|我们去游泳池吧。|Let's go to the pool.
+9.55|n|f|la alberca|游泳池（墨西哥）|swimming pool (Mexico)|La [alberca] está fría.|游泳池的水很凉。|The pool is cold.
+9.6|n|m|el refrigerador|冰箱（拉美）|refrigerator|La leche está en el [refrigerador].|牛奶在冰箱里。|The milk is in the fridge.
+9.6|n|f|la recámara|卧室（墨西哥）|bedroom (Mexico)|La [recámara] es grande.|卧室很大。|The bedroom is big.
+@colloquial-spain
+9.05|adj|-|guay|很酷的（西班牙口语）|cool (Spain, informal)|¡Qué [guay]!|太酷了！|How cool!
+9.1|adj|-|majo|讨人喜欢的（西班牙口语）|nice (Spain, informal)|Tu novio es muy [majo].|你男朋友人很好。|Your boyfriend is really nice.
+9.1|adj|-|chulo|很棒的；嚣张的（西班牙口语）|cool; cocky (Spain)|¡Qué piso más [chulo]!|这公寓真棒！|What a cool flat!
+9.1|v|-|currar|干活（西班牙口语）|to work (Spain, slang)|Mañana tengo que [currar].|我明天得上班。|I've got to work tomorrow.
+9.15|n|m|el curro|工作（西班牙口语）|job (Spain, slang)|Tengo un [curro] nuevo.|我找了份新工作。|I've got a new job.
+9.15|v|-|molar|很酷，喜欢（西班牙口语）|to be cool (Spain, slang)|Esta canción me va a [molar].|我会喜欢这首歌的。|I'm going to love this song.
+9.2|n|m|el pavo|欧元（西班牙俚语）|euro (Spain, slang)|Me queda solo un [pavo].|我只剩一欧了。|I've only got one euro left.
+9.2|n|m|el finde|周末（口语）|weekend (informal)|¿Qué haces este [finde]?|这周末干嘛？|What are you up to this weekend?
+9.2|n|m|el cole|学校（口语）|school (informal)|Los niños van al [cole].|孩子们去上学。|The kids go to school.
+9.25|n|f|la peli|电影（口语）|film (informal)|¿Vemos una [peli]?|看部电影吗？|Shall we watch a film?
+9.25|n|f|la tele|电视（口语）|TV (informal)|Apaga la [tele].|关掉电视。|Turn off the TV.
+9.25|n|m|el boli|圆珠笔（口语）|pen (informal)|¿Tienes un [boli]?|有笔吗？|Have you got a pen?
+9.3|n|f|la bici|自行车（口语）|bike (informal)|Voy en [bici].|我骑车去。|I'm going by bike.
+9.3|n|m|el wasap|WhatsApp消息（口语）|WhatsApp message (informal)|Mándame un [wasap].|给我发条WhatsApp。|Send me a WhatsApp.
+9.35|n|mf|el colega|哥们；同行|mate; colleague|Es un [colega] del curro.|他是我工作上的哥们。|He's a mate from work.
+9.35|n|f|la movida|事情；混乱（口语）|thing; fuss (informal)|¡Menuda [movida]!|多大的事啊！|What a fuss!
+9.35|n|m|el marrón|麻烦事（西班牙口语）|hassle (Spain, slang)|¡Qué [marrón]!|真倒霉！|What a pain!
+9.4|v|-|flipar|惊呆；很喜欢（西班牙口语）|to be amazed (Spain, slang)|Vas a [flipar] con la casa.|你会被这房子惊呆的。|You're going to be blown away by the house.
+9.4|v|-|pillar|抓住；碰到（口语）|to catch; to get (informal)|Te voy a [pillar].|我会抓住你的。|I'm going to catch you.
+9.4|v|-|mangar|偷（西班牙俚语）|to nick (Spain, slang)|Le van a [mangar] la bici.|他的自行车要被偷了。|His bike is going to get nicked.
+9.45|v|-|liarse|搞混；纠缠（口语）|to get muddled|Es fácil [liarse] con tantos datos.|这么多数据很容易搞混。|It's easy to get muddled with so much data.
+9.45|v|-|enrollarse|啰嗦；（口语）勾搭|to go on and on|No hace falta [enrollarse] tanto.|不用说那么多。|There's no need to go on so much.
+9.45|v|-|pasarse|过分|to go too far|No hay que [pasarse].|别太过分。|Don't go too far.
+9.5|v|-|cabrearse|发火（西班牙口语）|to get annoyed (Spain)|No vale la pena [cabrearse].|不值得发火。|It's not worth getting annoyed.
+9.5|adj|-|cutre|寒酸的（西班牙口语）|shabby; tacky (Spain)|Es un bar muy [cutre].|这是家很破的酒吧。|It's a really shabby bar.
+9.5|adj|-|pijo|装腔作势的富家子（西班牙口语）|posh (Spain)|Es un barrio muy [pijo].|这是个很高档的街区。|It's a very posh neighbourhood.
+9.55|adj|-|borde|无礼的（西班牙口语）|rude (Spain)|No seas [borde].|别那么冲。|Don't be rude.
+9.55|adj|-|plasta|烦人的（西班牙口语）|tiresome (Spain)|Es un tío muy [plasta].|他是个很烦人的家伙。|He's a really tiresome guy.
+9.6|phr|-|ni de coña|绝对不（西班牙俚语）|no way (Spain, slang)|¿Ir a pie? [Ni de coña].|走路去？门儿都没有。|Walk? No way.
+9.6|phr|-|qué fuerte|太夸张了（西班牙口语）|that's crazy (Spain)|¡[Qué fuerte]!|太离谱了！|That's crazy!
+9.6|phr|-|vale|好的（西班牙）|OK (Spain)|—¿Quedamos a las seis? —[Vale].|“六点见？”“好。”|"Meet at six?" "OK."
+9.65|phr|-|venga|来吧；好吧|come on; OK|¡[Venga], vámonos!|快，我们走吧！|Come on, let's go!
+9.65|phr|-|anda|哎呀；得了吧|come on; wow|¡[Anda], qué sorpresa!|哎呀，真惊喜！|Wow, what a surprise!
+9.65|phr|-|o sea|也就是说|I mean|[O sea], que no vienes.|也就是说你不来了。|So, you're not coming.
+9.7|phr|-|pues nada|好吧，那就这样|oh well|[Pues nada], me voy.|好吧，那我走了。|Oh well, I'm off.
+9.7|phr|-|es que|是这样的（解释）|the thing is|[Es que] no tengo tiempo.|是因为我没时间。|The thing is, I don't have time.
+9.7|phr|-|a ver|让我看看；那么|let's see|[A ver], ¿qué pasa?|好了，怎么回事？|Right, what's going on?
+9.6|n|m|los lentes|眼镜（拉美）|glasses (Latin America)|No veo nada sin los [lentes].|不戴眼镜我什么都看不见。|I can't see anything without my glasses.

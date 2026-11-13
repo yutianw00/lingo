@@ -1,0 +1,91 @@
+# Level 8a — politics, law, society (B2)
+@politics
+7.05|n|f|la política|政治；政策|politics; policy|No me interesa la [política].|我对政治不感兴趣。|I'm not interested in politics.
+7.05|n|m|el político|政治家|politician|Es un [político] honesto.|他是一位诚实的政治家。|He's an honest politician.
+7.1|n|f|las elecciones|选举|elections|Las [elecciones] son en mayo.|选举在五月。|The elections are in May.
+7.15|n|f|la campaña|运动；竞选活动|campaign|La [campaña] empieza hoy.|竞选活动今天开始。|The campaign starts today.
+7.2|n|m|el ministro|部长|minister|El [ministro] dio una rueda de prensa.|部长召开了新闻发布会。|The minister gave a press conference.
+7.2|n|m|el parlamento|议会|parliament|El [parlamento] aprobó la ley.|议会通过了这项法律。|Parliament passed the law.
+7.25|n|m|el diputado|议员|member of parliament|Es [diputado] desde 2015.|他自2015年起任议员。|He's been an MP since 2015.
+7.25|n|m|el alcalde|市长|mayor|El [alcalde] inauguró el parque.|市长为公园揭幕。|The mayor opened the park.
+7.3|n|m|el rey|国王|king|El [rey] dio un discurso.|国王发表了讲话。|The king gave a speech.
+7.3|n|f|la reina|王后；女王|queen|La [reina] visitó el hospital.|王后探访了医院。|The queen visited the hospital.
+7.35|n|f|la democracia|民主|democracy|La [democracia] es frágil.|民主是脆弱的。|Democracy is fragile.
+7.35|n|f|la dictadura|独裁|dictatorship|Vivieron bajo una [dictadura].|他们曾生活在独裁统治下。|They lived under a dictatorship.
+7.4|n|m|el poder|权力|power|El [poder] corrompe.|权力使人腐败。|Power corrupts.
+7.4|n|f|la oposición|反对派；反对|opposition|La [oposición] critica al gobierno.|反对党批评政府。|The opposition criticises the government.
+7.45|n|m|el debate|辩论|debate|Hubo un [debate] en la tele.|电视上有一场辩论。|There was a debate on TV.
+7.5|n|m|el acuerdo|协议；同意|agreement|Llegaron a un [acuerdo].|他们达成了协议。|They reached an agreement.
+7.5|n|m|el conflicto|冲突|conflict|Es un [conflicto] antiguo.|这是一场由来已久的冲突。|It's an old conflict.
+7.55|n|f|la inmigración|移民（迁入）|immigration|La [inmigración] es un tema clave.|移民是个关键议题。|Immigration is a key issue.
+7.6|n|m|el inmigrante|移民（人）|immigrant|Es un [inmigrante] argentino.|他是阿根廷移民。|He's an Argentine immigrant.
+7.6|n|m|el refugiado|难民|refugee|Ayudan a cada [refugiado].|他们帮助每一位难民。|They help every refugee.
+7.65|n|f|la igualdad|平等|equality|Luchamos por la [igualdad].|我们为平等而斗争。|We fight for equality.
+7.65|n|f|la desigualdad|不平等|inequality|Hay mucha [desigualdad].|不平等现象很严重。|There's a lot of inequality.
+7.7|n|m|el racismo|种族主义|racism|Hay que luchar contra el [racismo].|必须反对种族主义。|Racism must be fought.
+7.7|n|f|la corrupción|腐败|corruption|La [corrupción] es un problema.|腐败是个问题。|Corruption is a problem.
+7.75|v|-|gobernar|统治，执政|to govern|Es difícil [gobernar] un país.|治理国家很难。|It's hard to govern a country.
+7.8|v|-|protestar|抗议|to protest|Van a [protestar] mañana.|他们明天要抗议。|They're going to protest tomorrow.
+7.85|v|-|luchar|斗争|to fight|Hay que [luchar] por tus derechos.|要为自己的权利而斗争。|You have to fight for your rights.
+7.85|v|-|defender|保卫；辩护|to defend|Te voy a [defender].|我会为你辩护。|I'll defend you.
+7.9|adj|-|democrático|民主的|democratic|Es un país [democrático].|这是一个民主国家。|It's a democratic country.
+7.9|adj|-|conservador|保守的|conservative|Es muy [conservador].|他很保守。|He's very conservative.
+7.95|adj|-|progresista|进步的|progressive|Es un partido [progresista].|这是一个进步党派。|It's a progressive party.
+7.95|adj|-|polémico|有争议的|controversial|Es un tema [polémico].|这是个有争议的话题。|It's a controversial topic.
+@law
+7.1|n|m|el tribunal|法庭|court|El caso va al [tribunal].|案件提交法庭。|The case goes to court.
+7.15|n|f|la sentencia|判决|sentence; ruling|La [sentencia] fue dura.|判决很严厉。|The sentence was harsh.
+7.2|n|f|la prueba|证据；测试|evidence; test|No hay [prueba].|没有证据。|There's no evidence.
+7.25|n|m|el testigo|证人|witness|Es el único [testigo].|他是唯一的证人。|He's the only witness.
+7.3|n|f|la víctima|受害者|victim|La [víctima] está en el hospital.|受害者在医院。|The victim is in hospital.
+7.35|n|m|el sospechoso|嫌疑人|suspect|Detuvieron al [sospechoso].|他们逮捕了嫌疑人。|They arrested the suspect.
+7.4|n|m|el crimen|罪行（重罪）|crime|Fue un [crimen] terrible.|那是一桩可怕的罪行。|It was a terrible crime.
+7.45|n|m|el robo|盗窃|theft; robbery|Hubo un [robo] en el banco.|银行发生了抢劫案。|There was a robbery at the bank.
+7.5|n|m|el asesinato|谋杀|murder|Investigan un [asesinato].|他们在调查一起谋杀案。|They're investigating a murder.
+7.55|n|f|la denuncia|报案；控告|police report; complaint|Puse una [denuncia].|我报了案。|I filed a police report.
+7.65|v|-|denunciar|报案；控告|to report; to denounce|Voy a [denunciar] el robo.|我要报案。|I'm going to report the theft.
+7.7|v|-|detener|逮捕；停止|to arrest; to stop|La policía va a [detener] al ladrón.|警察要逮捕小偷。|The police are going to arrest the thief.
+7.75|v|-|acusar|指控|to accuse|No puedes [acusar] sin pruebas.|没有证据你不能指控。|You can't accuse without evidence.
+7.8|v|-|juzgar|审判；评判|to judge|No hay que [juzgar] a nadie.|不要评判任何人。|You shouldn't judge anyone.
+7.85|v|-|castigar|惩罚|to punish|No quiero [castigar] al niño.|我不想惩罚孩子。|I don't want to punish the child.
+7.9|v|-|cometer|犯（错误、罪）|to commit|Es humano [cometer] errores.|犯错是人之常情。|To make mistakes is human.
+7.95|adj|-|culpable|有罪的|guilty|Es [culpable].|他有罪。|He's guilty.
+7.95|adj|-|inocente|无辜的|innocent|Soy [inocente].|我是无辜的。|I'm innocent.
+8.0|adj|-|legal|合法的|legal|Es completamente [legal].|这完全合法。|It's completely legal.
+8.0|adj|-|ilegal|非法的|illegal|Es un negocio [ilegal].|这是非法生意。|It's an illegal business.
+@abstract-b2
+7.05|n|m|el concepto|概念|concept|Es un [concepto] difícil.|这是个难懂的概念。|It's a difficult concept.
+7.1|n|m|el aspecto|方面；外表|aspect; appearance|Es un [aspecto] importante.|这是一个重要方面。|It's an important aspect.
+7.1|n|m|el punto de vista|观点|point of view|Respeto tu [punto de vista].|我尊重你的观点。|I respect your point of view.
+7.15|n|m|el valor|价值；勇气|value; courage|Tiene mucho [valor].|他很有勇气。|He has a lot of courage.
+7.2|n|f|la responsabilidad|责任|responsibility|Es tu [responsabilidad].|这是你的责任。|It's your responsibility.
+7.2|n|m|el riesgo|风险|risk|Es un [riesgo] grande.|这是个很大的风险。|It's a big risk.
+7.25|n|m|el reto|挑战|challenge|Es un gran [reto].|这是个巨大的挑战。|It's a big challenge.
+7.25|n|m|el desafío|挑战|challenge|Es un [desafío] para todos.|这对所有人都是挑战。|It's a challenge for everyone.
+7.3|n|f|la ventaja|优势|advantage|Es una gran [ventaja].|这是一大优势。|It's a great advantage.
+7.3|n|f|la desventaja|劣势|disadvantage|Es una [desventaja] importante.|这是一个重要的劣势。|It's a significant disadvantage.
+7.35|n|f|la solución|解决办法|solution|No hay [solución].|没有办法。|There's no solution.
+7.35|n|f|la consecuencia|后果|consequence|Es una [consecuencia] lógica.|这是合乎逻辑的结果。|It's a logical consequence.
+7.4|n|m|el efecto|效果；影响|effect|El [efecto] fue inmediato.|效果立竿见影。|The effect was immediate.
+7.4|n|f|la influencia|影响|influence|Tiene mucha [influencia].|他很有影响力。|He has a lot of influence.
+7.45|n|m|el nivel|水平；层次|level|Tiene un buen [nivel] de inglés.|他的英语水平很好。|He has a good level of English.
+7.5|n|m|el proceso|过程|process|Es un [proceso] lento.|这是个缓慢的过程。|It's a slow process.
+7.5|n|m|el método|方法|method|Es un buen [método].|这是个好方法。|It's a good method.
+7.55|n|f|la estrategia|策略|strategy|Necesitamos una [estrategia].|我们需要一个策略。|We need a strategy.
+7.55|n|m|el recurso|资源；手段|resource|El agua es un [recurso] vital.|水是至关重要的资源。|Water is a vital resource.
+7.6|n|f|la propuesta|提议|proposal|Es una buena [propuesta].|这是个好提议。|It's a good proposal.
+7.6|n|f|la decisión|决定|decision|Es una [decisión] difícil.|这是个艰难的决定。|It's a difficult decision.
+7.65|n|f|la elección|选择|choice|Es tu [elección].|这是你的选择。|It's your choice.
+7.65|n|f|la posibilidad|可能性|possibility|Hay una [posibilidad].|有一种可能性。|There's a possibility.
+7.7|n|f|la necesidad|需要|need|Es una [necesidad] básica.|这是基本需要。|It's a basic need.
+7.7|n|f|la condición|条件；状况|condition|Con una [condición].|有一个条件。|On one condition.
+7.75|n|m|el requisito|要求，条件|requirement|Es un [requisito] obligatorio.|这是必要条件。|It's a compulsory requirement.
+7.75|n|m|el límite|限度|limit|Todo tiene un [límite].|凡事都有限度。|Everything has a limit.
+7.8|n|f|la norma|规范，规则|rule; norm|Es una [norma] de la empresa.|这是公司的规定。|It's a company rule.
+7.8|n|f|la regla|规则；尺子|rule; ruler|Hay una [regla] muy clara.|有一条很明确的规则。|There's a very clear rule.
+7.85|n|f|la tendencia|趋势|trend|Es una [tendencia] actual.|这是当前趋势。|It's a current trend.
+7.9|n|m|el fenómeno|现象|phenomenon|Es un [fenómeno] natural.|这是一种自然现象。|It's a natural phenomenon.
+7.9|n|m|el ámbito|领域|field; sphere|En el [ámbito] laboral.|在工作领域。|In the work sphere.
+7.95|n|f|la perspectiva|视角；前景|perspective; outlook|Desde otra [perspectiva].|从另一个角度看。|From another perspective.
+7.95|n|m|el criterio|标准；判断力|criterion; judgement|Tiene buen [criterio].|他有很好的判断力。|He has good judgement.
+8.0|n|m|el enfoque|方法，角度|approach; focus|Es un [enfoque] nuevo.|这是一种新思路。|It's a new approach.

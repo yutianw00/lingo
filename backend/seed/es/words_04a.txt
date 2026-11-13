@@ -1,0 +1,118 @@
+# Level 4a — work, school, health (A2)
+@work
+3.05|n|m|el trabajo|工作|work; job|Me gusta mi [trabajo].|我喜欢我的工作。|I like my job.
+3.05|n|m|el jefe|老板，上司|boss|Mi [jefe] es muy exigente.|我的老板要求很高。|My boss is very demanding.
+3.1|n|m|el compañero|同事；同学|colleague; classmate|Es mi [compañero] de trabajo.|他是我的同事。|He's my colleague.
+3.1|n|f|la empresa|公司|company|Trabajo en una [empresa] pequeña.|我在一家小公司工作。|I work at a small company.
+3.15|n|f|la reunión|会议|meeting|Tengo una [reunión] a las diez.|我十点有个会。|I have a meeting at ten.
+3.15|n|m|el sueldo|工资|salary|El [sueldo] es bueno.|工资不错。|The salary is good.
+3.2|n|f|la profesión|职业|profession|¿Cuál es tu [profesión]?|你的职业是什么？|What's your profession?
+3.2|n|m|el abogado|律师|lawyer|Mi hermana busca un [abogado].|我姐姐在找律师。|My sister is looking for a lawyer.
+3.2|n|m|el enfermero|护士（男）|nurse (male)|El [enfermero] es muy amable.|那位男护士很和蔼。|The nurse is very kind.
+3.25|n|m|el cocinero|厨师|cook; chef|El [cocinero] prepara la paella.|厨师在做海鲜饭。|The chef is making the paella.
+3.25|n|m|el ingeniero|工程师|engineer|Mi padre es [ingeniero].|我爸爸是工程师。|My father is an engineer.
+3.3|n|m|el policía|警察|police officer|Llama a un [policía].|叫警察。|Call a police officer.
+3.3|n|f|la policía|警察局；警方|the police|Hay que llamar a la [policía].|得报警。|We need to call the police.
+3.3|n|mf|el periodista|记者|journalist|Es [periodista] en un periódico.|他是一家报社的记者。|He's a journalist at a newspaper.
+3.35|n|m|el dependiente|店员|shop assistant|El [dependiente] me ayuda.|店员帮我。|The shop assistant helps me.
+3.35|n|m|el conductor|司机|driver|El [conductor] del autobús es simpático.|公交车司机人很好。|The bus driver is nice.
+3.4|n|m|el empleado|雇员，职员|employee|Es un [empleado] del banco.|他是银行职员。|He's a bank employee.
+3.4|n|m|el negocio|生意|business|Tiene un [negocio] de ropa.|他做服装生意。|He has a clothing business.
+3.4|n|m|el ordenador portátil|笔记本电脑|laptop|Necesito un [ordenador portátil].|我需要一台笔记本电脑。|I need a laptop.
+3.45|n|m|el correo|邮件；邮局|email; post|Te mando un [correo].|我给你发封邮件。|I'll send you an email.
+3.45|n|m|el horario|时间表；作息|timetable; schedule|Tengo un [horario] flexible.|我的工作时间很灵活。|I have a flexible schedule.
+3.5|n|m|el proyecto|项目|project|Es un [proyecto] importante.|这是一个重要的项目。|It's an important project.
+3.5|n|m|el contrato|合同|contract|Tengo que firmar el [contrato].|我得签合同。|I have to sign the contract.
+3.5|v|-|firmar|签名|to sign|Tienes que [firmar] aquí.|你得在这里签字。|You have to sign here.
+3.55|v|-|ganar dinero|赚钱|to earn money|Quiere [ganar dinero] rápido.|他想快速赚钱。|He wants to earn money fast.
+3.55|v|-|contratar|雇用|to hire|Van a [contratar] a dos personas.|他们要招两个人。|They're going to hire two people.
+3.6|n|m|el desempleo|失业|unemployment|El [desempleo] ha bajado.|失业率下降了。|Unemployment has gone down.
+3.6|adj|-|jubilado|退休的|retired|Mi abuelo está [jubilado].|我爷爷退休了。|My grandfather is retired.
+@school
+3.1|n|f|la clase|课；班级；教室|class|La [clase] empieza a las nueve.|课九点开始。|Class starts at nine.
+3.1|n|m|el colegio|学校（中小学）|school|Mis hijos van al [colegio].|我的孩子们上学去了。|My children go to school.
+3.15|n|m|el examen|考试|exam|Mañana tengo un [examen].|明天我有一场考试。|I have an exam tomorrow.
+3.15|n|f|la pregunta|问题|question|Tengo una [pregunta].|我有一个问题。|I have a question.
+3.2|n|f|la respuesta|答案，回答|answer|No sé la [respuesta].|我不知道答案。|I don't know the answer.
+3.2|n|m|el cuaderno|笔记本|notebook|Escribe en el [cuaderno].|写在本子上。|Write in your notebook.
+3.25|n|m|el bolígrafo|圆珠笔|pen|¿Me dejas un [bolígrafo]?|能借我一支笔吗？|Can you lend me a pen?
+3.25|n|m|el lápiz|铅笔|pencil|Escribo con [lápiz].|我用铅笔写。|I write in pencil.
+3.3|n|m|el papel|纸|paper|Necesito un [papel].|我需要一张纸。|I need a piece of paper.
+3.3|n|m|el diccionario|字典|dictionary|Busco la palabra en el [diccionario].|我在字典里查这个词。|I look the word up in the dictionary.
+3.35|n|f|la palabra|单词，词|word|No entiendo esta [palabra].|我不懂这个词。|I don't understand this word.
+3.35|n|f|la frase|句子|sentence|Lee la [frase] en voz alta.|大声读这个句子。|Read the sentence aloud.
+3.4|n|m|el idioma|语言|language|¿Qué [idioma] hablas?|你说什么语言？|What language do you speak?
+3.4|n|f|la lengua|语言；舌头|language; tongue|El español es mi segunda [lengua].|西班牙语是我的第二语言。|Spanish is my second language.
+3.45|n|f|la nota|成绩；笔记|grade; note|Saqué una buena [nota].|我考了个好成绩。|I got a good grade.
+3.45|n|m|el error|错误|mistake|Es un [error] común.|这是一个常见错误。|It's a common mistake.
+3.5|n|m|el ejercicio|练习；运动|exercise|Haz el [ejercicio] dos.|做第二题练习。|Do exercise two.
+3.5|n|m|el deber|义务；作业（复数）|duty; homework|Es mi [deber] ayudar.|帮忙是我的责任。|It's my duty to help.
+3.55|n|f|la asignatura|科目|school subject|Mi [asignatura] favorita es historia.|我最喜欢的科目是历史。|My favourite subject is history.
+3.55|n|f|las matemáticas|数学|maths|Las [matemáticas] son difíciles.|数学很难。|Maths is hard.
+3.6|n|f|la historia|历史；故事|history; story|Me encanta la [historia] de España.|我很喜欢西班牙的历史。|I love Spanish history.
+3.6|n|f|la biblioteca|图书馆|library|Estudio en la [biblioteca].|我在图书馆学习。|I study in the library.
+3.65|n|m|el curso|课程；学年|course; school year|Hago un [curso] de cocina.|我在上烹饪课。|I'm doing a cooking course.
+3.65|v|-|aprobar|通过（考试）|to pass (an exam)|Quiero [aprobar] el examen.|我想通过考试。|I want to pass the exam.
+3.7|v|-|suspender|不及格|to fail (an exam)|No quiero [suspender].|我不想挂科。|I don't want to fail.
+3.7|v|-|explicar|解释|to explain|¿Me lo puedes [explicar]?|你能给我解释一下吗？|Can you explain it to me?
+3.75|v|-|repetir|重复|to repeat|¿Puede [repetir], por favor?|您能重复一遍吗？|Could you repeat that, please?
+3.75|v|-|practicar|练习|to practise|Tengo que [practicar] más.|我得多练习。|I need to practise more.
+3.8|v|-|enseñar|教；展示|to teach; to show|Me gusta [enseñar] idiomas.|我喜欢教语言。|I like teaching languages.
+3.8|v|-|traducir|翻译|to translate|¿Puedes [traducir] esta frase?|你能翻译这句话吗？|Can you translate this sentence?
+@health
+3.2|n|f|la salud|健康|health|La [salud] es lo más importante.|健康最重要。|Health is the most important thing.
+3.2|n|m|el dolor|疼痛|pain|Tengo un [dolor] fuerte.|我疼得厉害。|I have a strong pain.
+3.25|v|-|doler|疼|to hurt|¿Me va a [doler]?|会疼吗？|Is it going to hurt?
+3.25|n|f|la fiebre|发烧|fever|Tengo [fiebre].|我发烧了。|I have a fever.
+3.3|n|m|el resfriado|感冒|cold|Tengo un [resfriado].|我感冒了。|I have a cold.
+3.3|n|f|la gripe|流感|flu|Tengo la [gripe].|我得了流感。|I have the flu.
+3.35|n|f|la tos|咳嗽|cough|Tengo mucha [tos].|我咳得很厉害。|I'm coughing a lot.
+3.35|n|f|la medicina|药；医学|medicine|Tómate la [medicina].|把药吃了。|Take your medicine.
+3.4|n|f|la pastilla|药片|pill; tablet|Una [pastilla] cada ocho horas.|每八小时一片。|One pill every eight hours.
+3.4|n|f|la receta|处方；菜谱|prescription; recipe|El médico me da una [receta].|医生给我开了处方。|The doctor gives me a prescription.
+3.45|n|f|la cita|预约；约会|appointment; date|Tengo [cita] con el dentista.|我约了牙医。|I have a dentist appointment.
+3.45|n|mf|el dentista|牙医|dentist|Voy al [dentista] mañana.|我明天去看牙医。|I'm going to the dentist tomorrow.
+3.5|n|f|la ambulancia|救护车|ambulance|¡Llamen una [ambulancia]!|快叫救护车！|Call an ambulance!
+3.5|n|f|la urgencia|急诊；紧急情况|emergency|Es una [urgencia].|这是紧急情况。|It's an emergency.
+3.55|n|m|el accidente|事故|accident|Hubo un [accidente] en la carretera.|公路上发生了事故。|There was an accident on the road.
+3.55|n|f|la herida|伤口|wound|La [herida] no es grave.|伤口不严重。|The wound isn't serious.
+3.6|adj|-|grave|严重的|serious|No es nada [grave].|没什么严重的。|It's nothing serious.
+3.6|adj|-|sano|健康的|healthy|Es un niño muy [sano].|他是个很健康的孩子。|He's a very healthy child.
+3.65|v|-|sentirse|感觉|to feel|Es normal [sentirse] así.|有这种感觉很正常。|It's normal to feel like this.
+3.65|v|-|cuidar|照顾|to look after|Tienes que [cuidar] tu salud.|你得注意身体。|You have to look after your health.
+3.7|v|-|toser|咳嗽|to cough|No puedo dejar de [toser].|我止不住咳嗽。|I can't stop coughing.
+3.7|v|-|romper|打破，弄坏|to break|No quiero [romper] nada.|我不想弄坏任何东西。|I don't want to break anything.
+3.75|v|-|curar|治愈|to cure; to heal|Esta crema va a [curar] la herida.|这个药膏能治好伤口。|This cream will heal the wound.
+3.75|n|m|el seguro|保险|insurance|¿Tienes [seguro] médico?|你有医疗保险吗？|Do you have health insurance?
+3.8|adj|-|harto|受够了的，厌烦的|fed up|Estoy [harto] de esperar.|我等烦了。|I'm fed up with waiting.
+3.8|v|-|morir|死|to die|No quiero [morir] joven.|我不想英年早逝。|I don't want to die young.
+3.85|v|-|nacer|出生|to be born|Va a [nacer] en mayo.|宝宝五月出生。|The baby will be born in May.
+3.85|n|f|la vida|生命；生活|life|La [vida] es bella.|生活是美好的。|Life is beautiful.
+3.9|n|f|la muerte|死亡|death|Fue una [muerte] tranquila.|他走得很安详。|It was a peaceful death.
+@emotions
+3.3|n|m|el miedo|害怕|fear|Tengo [miedo] a los perros.|我怕狗。|I'm afraid of dogs.
+3.3|n|m|el amor|爱，爱情|love|El [amor] es ciego.|爱情是盲目的。|Love is blind.
+3.35|n|f|la alegría|快乐，喜悦|joy|¡Qué [alegría] verte!|见到你真高兴！|What a joy to see you!
+3.35|n|f|la tristeza|悲伤|sadness|Siento una gran [tristeza].|我感到非常悲伤。|I feel great sadness.
+3.4|n|f|la suerte|运气|luck|¡Buena [suerte]!|祝你好运！|Good luck!
+3.4|n|m|el problema|问题，麻烦|problem|No hay [problema].|没问题。|No problem.
+3.45|n|f|la sorpresa|惊喜；惊讶|surprise|¡Qué [sorpresa]!|真是个惊喜！|What a surprise!
+3.45|n|f|la vergüenza|羞愧，难为情|embarrassment; shame|Me da [vergüenza].|我觉得难为情。|I'm embarrassed.
+3.5|n|f|la prisa|匆忙|hurry|Tengo [prisa].|我赶时间。|I'm in a hurry.
+3.5|n|m|el sueño|困；梦|sleepiness; dream|Tengo [sueño].|我困了。|I'm sleepy.
+3.55|n|f|el hambre|饥饿|hunger|Tengo mucha [hambre].|我很饿。|I'm very hungry.
+3.55|n|f|la sed|口渴|thirst|Tengo [sed].|我渴了。|I'm thirsty.
+3.6|v|-|odiar|讨厌，恨|to hate|Voy a [odiar] este trabajo.|我会讨厌这份工作的。|I'm going to hate this job.
+3.6|v|-|preferir|更喜欢|to prefer|¿Qué vas a [preferir]?|你会更喜欢哪个？|Which will you prefer?
+3.65|v|-|sentir|感到；遗憾|to feel; to be sorry|Lo vas a [sentir].|你会后悔的。|You'll be sorry.
+3.65|v|-|reír|笑|to laugh|Me hace [reír].|他让我发笑。|He makes me laugh.
+3.7|v|-|llorar|哭|to cry|No quiero [llorar].|我不想哭。|I don't want to cry.
+3.7|v|-|enamorarse|爱上|to fall in love|Es fácil [enamorarse] en París.|在巴黎很容易坠入爱河。|It's easy to fall in love in Paris.
+3.75|v|-|preocuparse|担心|to worry|No sirve de nada [preocuparse].|担心也没用。|There's no point worrying.
+3.75|v|-|enfadarse|生气|to get angry|No vale la pena [enfadarse].|不值得生气。|It's not worth getting angry.
+3.8|adj|-|orgulloso|骄傲的，自豪的|proud|Estoy [orgulloso] de ti.|我为你骄傲。|I'm proud of you.
+3.8|adj|-|celoso|嫉妒的|jealous|Es un novio muy [celoso].|他是个醋劲很大的男朋友。|He's a very jealous boyfriend.
+3.85|adj|-|tímido|害羞的|shy|Mi hijo es muy [tímido].|我儿子很害羞。|My son is very shy.
+3.85|adj|-|sorprendido|吃惊的|surprised|Estoy muy [sorprendido].|我很吃惊。|I'm very surprised.
+3.9|adj|-|asustado|害怕的|scared|El niño está [asustado].|孩子吓坏了。|The child is scared.
+3.9|adj|-|emocionado|激动的|excited|Estoy [emocionado] por el viaje.|我对这次旅行很兴奋。|I'm excited about the trip.

@@ -1,0 +1,144 @@
+# Level 4b — free time, nature, home (A2)
+@hobbies
+3.05|n|m|el deporte|运动|sport|Hago [deporte] tres veces por semana.|我每周运动三次。|I do sport three times a week.
+3.05|n|m|el fútbol|足球|football|Me gusta ver el [fútbol].|我喜欢看足球。|I like watching football.
+3.1|n|m|el baloncesto|篮球|basketball|Juego al [baloncesto] los sábados.|我周六打篮球。|I play basketball on Saturdays.
+3.1|n|m|el tenis|网球|tennis|¿Juegas al [tenis]?|你打网球吗？|Do you play tennis?
+3.15|n|m|el partido|比赛；政党|match; party|El [partido] empieza a las ocho.|比赛八点开始。|The match starts at eight.
+3.15|n|m|el equipo|队；设备|team; equipment|Es mi [equipo] favorito.|这是我最喜欢的球队。|It's my favourite team.
+3.2|n|m|el gimnasio|健身房|gym|Voy al [gimnasio] por la tarde.|我下午去健身房。|I go to the gym in the afternoon.
+3.2|n|f|la piscina|游泳池|swimming pool|El hotel tiene [piscina].|酒店有游泳池。|The hotel has a pool.
+3.25|n|f|la música|音乐|music|Escucho [música] en el metro.|我在地铁上听音乐。|I listen to music on the metro.
+3.25|n|f|la canción|歌曲|song|Es mi [canción] favorita.|这是我最喜欢的歌。|It's my favourite song.
+3.3|n|m|el concierto|音乐会|concert|Vamos a un [concierto] el sábado.|周六我们去听音乐会。|We're going to a concert on Saturday.
+3.3|n|f|la guitarra|吉他|guitar|Toco la [guitarra].|我弹吉他。|I play the guitar.
+3.35|n|m|el piano|钢琴|piano|Mi hija toca el [piano].|我女儿弹钢琴。|My daughter plays the piano.
+3.35|v|-|tocar|弹奏；触摸|to play (instrument); to touch|Quiero [tocar] el piano.|我想弹钢琴。|I want to play the piano.
+3.4|n|f|la película|电影|film|Es una [película] muy buena.|这是一部很好的电影。|It's a very good film.
+3.4|n|f|la serie|电视剧|series|Estoy viendo una [serie] coreana.|我在看一部韩剧。|I'm watching a Korean series.
+3.45|n|m|el juego|游戏|game|Es un [juego] para niños.|这是给孩子玩的游戏。|It's a game for children.
+3.45|n|m|el videojuego|电子游戏|video game|Le encanta este [videojuego].|他很爱这个电子游戏。|He loves this video game.
+3.5|n|f|la foto|照片|photo|¿Nos haces una [foto]?|能给我们拍张照吗？|Could you take a photo of us?
+3.5|n|f|la cámara|相机|camera|Tengo una [cámara] nueva.|我有一台新相机。|I have a new camera.
+3.55|n|m|el dibujo|画（素描）|drawing|Es un [dibujo] precioso.|这是一幅很漂亮的画。|It's a beautiful drawing.
+3.55|v|-|dibujar|画画|to draw|Me gusta [dibujar] animales.|我喜欢画动物。|I like drawing animals.
+3.6|v|-|pintar|画（油画）；刷漆|to paint|Voy a [pintar] la habitación.|我要粉刷房间。|I'm going to paint the room.
+3.6|n|m|el tiempo libre|空闲时间|free time|¿Qué haces en tu [tiempo libre]?|你空闲时间做什么？|What do you do in your free time?
+3.65|n|f|la fiesta|派对；节日|party; festival|Hay una [fiesta] en mi casa.|我家有个派对。|There's a party at my place.
+3.65|n|m|el cumpleaños|生日|birthday|Hoy es mi [cumpleaños].|今天是我的生日。|Today is my birthday.
+3.7|n|f|la revista|杂志|magazine|Leo una [revista] de viajes.|我在读一本旅游杂志。|I'm reading a travel magazine.
+3.7|n|m|el periódico|报纸|newspaper|Mi padre lee el [periódico].|我爸爸在看报纸。|My father reads the newspaper.
+3.75|n|f|la novela|小说|novel|Estoy leyendo una [novela].|我在读一本小说。|I'm reading a novel.
+3.75|n|m|el teatro|剧院；戏剧|theatre|Vamos al [teatro] esta noche.|今晚我们去看戏。|We're going to the theatre tonight.
+3.8|n|f|la entrada|门票；入口|ticket; entrance|Ya tengo la [entrada] para el concierto.|我已经有音乐会的票了。|I already have the ticket for the concert.
+3.8|v|-|divertirse|玩得开心|to have fun|Lo importante es [divertirse].|重要的是玩得开心。|The important thing is to have fun.
+3.85|n|m|el torneo|锦标赛|tournament|Ganamos el [torneo].|我们赢得了锦标赛。|We won the tournament.
+3.85|v|-|entrenar|训练|to train|Tengo que [entrenar] cada día.|我每天都得训练。|I have to train every day.
+3.9|n|m|el ajedrez|国际象棋|chess|¿Sabes jugar al [ajedrez]?|你会下国际象棋吗？|Do you know how to play chess?
+@animals
+3.1|n|m|el animal|动物|animal|¿Tienes algún [animal]?|你养动物吗？|Do you have any pets?
+3.1|n|m|el perro|狗|dog|Mi [perro] se llama Toby.|我的狗叫托比。|My dog is called Toby.
+3.15|n|m|el gato|猫|cat|El [gato] duerme mucho.|猫睡得很多。|The cat sleeps a lot.
+3.15|n|m|el pájaro|鸟|bird|Hay un [pájaro] en el árbol.|树上有一只鸟。|There's a bird in the tree.
+3.2|n|m|el pez|鱼（活的）|fish (live)|Tengo un [pez] rojo.|我养了一条红色的鱼。|I have a red fish.
+3.2|n|m|el caballo|马|horse|Monto a [caballo].|我骑马。|I ride horses.
+3.25|n|f|la vaca|奶牛|cow|La [vaca] da leche.|奶牛产奶。|The cow gives milk.
+3.25|n|m|el cerdo|猪；猪肉|pig; pork|El [cerdo] está en el campo.|猪在田野里。|The pig is in the field.
+3.3|n|f|la gallina|母鸡|hen|La [gallina] pone huevos.|母鸡下蛋。|The hen lays eggs.
+3.3|n|m|el ratón|老鼠；鼠标|mouse|Hay un [ratón] en la cocina.|厨房里有一只老鼠。|There's a mouse in the kitchen.
+3.35|n|m|el conejo|兔子|rabbit|Mi hija tiene un [conejo].|我女儿养了一只兔子。|My daughter has a rabbit.
+3.35|n|m|el oso|熊|bear|El [oso] vive en el bosque.|熊住在森林里。|The bear lives in the forest.
+3.4|n|m|el león|狮子|lion|El [león] es el rey de la selva.|狮子是丛林之王。|The lion is king of the jungle.
+3.4|n|m|el elefante|大象|elephant|El [elefante] es enorme.|大象非常大。|The elephant is huge.
+3.45|n|m|el mono|猴子|monkey|El [mono] come plátanos.|猴子吃香蕉。|The monkey eats bananas.
+3.45|n|f|la serpiente|蛇|snake|Tengo miedo a la [serpiente].|我怕蛇。|I'm scared of the snake.
+3.5|n|m|el insecto|昆虫|insect|Hay un [insecto] en la sopa.|汤里有只虫子。|There's an insect in the soup.
+3.5|n|f|la mosca|苍蝇|fly|Hay una [mosca] en la ventana.|窗户上有只苍蝇。|There's a fly on the window.
+3.55|n|f|la mascota|宠物|pet|¿Tienes [mascota]?|你养宠物吗？|Do you have a pet?
+@nature
+3.1|n|f|la naturaleza|自然|nature|Me encanta la [naturaleza].|我很爱大自然。|I love nature.
+3.15|n|m|el mar|海|sea|Vivo cerca del [mar].|我住在海边。|I live near the sea.
+3.15|n|f|la montaña|山|mountain|Subimos a la [montaña].|我们去爬山。|We climb the mountain.
+3.2|n|m|el río|河|river|El [río] es muy largo.|这条河很长。|The river is very long.
+3.2|n|m|el lago|湖|lake|Nadamos en el [lago].|我们在湖里游泳。|We swim in the lake.
+3.25|n|m|el árbol|树|tree|Hay un [árbol] enorme en el jardín.|花园里有一棵大树。|There's a huge tree in the garden.
+3.25|n|f|la flor|花|flower|Te traigo una [flor].|我给你带了一朵花。|I've brought you a flower.
+3.3|n|m|el bosque|森林|forest; woods|Paseamos por el [bosque].|我们在森林里散步。|We walk in the woods.
+3.3|n|m|el campo|乡下；田野|countryside; field|Mis abuelos viven en el [campo].|我爷爷奶奶住在乡下。|My grandparents live in the countryside.
+3.35|n|f|la isla|岛|island|Mallorca es una [isla] preciosa.|马略卡是一个美丽的岛。|Mallorca is a beautiful island.
+3.35|n|f|la luna|月亮|moon|Hay [luna] llena.|今天是满月。|There's a full moon.
+3.4|n|f|la estrella|星星|star|Veo una [estrella].|我看到一颗星星。|I can see a star.
+3.4|n|f|la tierra|土地；地球|land; earth|La [tierra] está seca.|土地很干。|The soil is dry.
+3.45|n|f|la piedra|石头|stone|Hay una [piedra] en mi zapato.|我鞋里有块石头。|There's a stone in my shoe.
+3.45|n|f|la arena|沙子|sand|La [arena] está caliente.|沙子很烫。|The sand is hot.
+3.5|n|f|la hoja|叶子；纸张|leaf; sheet|Cae una [hoja] del árbol.|一片叶子从树上落下。|A leaf falls from the tree.
+3.5|n|m|el aire|空气|air|Necesito [aire] fresco.|我需要新鲜空气。|I need fresh air.
+3.55|n|m|el fuego|火|fire|Hay [fuego] en el bosque.|森林着火了。|There's a fire in the forest.
+3.55|n|f|la costa|海岸|coast|Vivimos en la [costa].|我们住在海边。|We live on the coast.
+3.6|n|m|el paisaje|风景|landscape|¡Qué [paisaje] tan bonito!|多美的风景！|What a beautiful landscape!
+3.6|n|m|el pueblo|村镇；民族|village; people|Mi [pueblo] es muy pequeño.|我的家乡小镇很小。|My village is very small.
+@home-chores
+3.2|n|m|el lavabo|洗手池；洗手间|washbasin; toilet|El jabón está en el [lavabo].|肥皂在洗手池上。|The soap is on the washbasin.
+3.25|n|m|el dormitorio|卧室|bedroom|El [dormitorio] tiene una ventana grande.|卧室有一扇大窗户。|The bedroom has a big window.
+3.25|n|f|la escalera|楼梯|stairs|Subo por la [escalera].|我走楼梯上去。|I go up the stairs.
+3.3|n|m|el ascensor|电梯|lift; elevator|El [ascensor] no funciona.|电梯坏了。|The lift isn't working.
+3.3|n|m|el suelo|地板|floor; ground|El [suelo] está mojado.|地板是湿的。|The floor is wet.
+3.35|n|f|la pared|墙|wall|Hay un cuadro en la [pared].|墙上有一幅画。|There's a picture on the wall.
+3.35|n|m|el techo|天花板；屋顶|ceiling; roof|El [techo] es muy alto.|天花板很高。|The ceiling is very high.
+3.4|n|m|el armario|衣柜|wardrobe; cupboard|La ropa está en el [armario].|衣服在衣柜里。|The clothes are in the wardrobe.
+3.4|n|f|la nevera|冰箱|fridge|La leche está en la [nevera].|牛奶在冰箱里。|The milk is in the fridge.
+3.45|n|f|la lavadora|洗衣机|washing machine|La [lavadora] es nueva.|洗衣机是新的。|The washing machine is new.
+3.45|n|m|el horno|烤箱|oven|El pollo está en el [horno].|鸡在烤箱里。|The chicken is in the oven.
+3.5|n|m|el espejo|镜子|mirror|Me miro en el [espejo].|我照镜子。|I look in the mirror.
+3.5|n|f|la lámpara|灯（台灯）|lamp|Enciende la [lámpara].|打开台灯。|Turn on the lamp.
+3.55|n|f|la alfombra|地毯|rug; carpet|La [alfombra] es muy suave.|地毯很柔软。|The rug is very soft.
+3.55|n|f|la basura|垃圾|rubbish; trash|Saca la [basura], por favor.|请把垃圾拿出去。|Take out the rubbish, please.
+3.6|n|m|el vecindario|街坊，社区|neighbourhood|Es un [vecindario] tranquilo.|这是一个安静的社区。|It's a quiet neighbourhood.
+3.6|n|f|la terraza|露台|terrace; balcony|Comemos en la [terraza].|我们在露台吃饭。|We eat on the terrace.
+3.65|n|m|el alquiler|房租|rent|El [alquiler] es muy caro.|房租很贵。|The rent is very expensive.
+3.65|v|-|planchar|熨（衣服）|to iron|Odio [planchar] camisas.|我讨厌熨衬衫。|I hate ironing shirts.
+3.7|v|-|barrer|扫地|to sweep|Hay que [barrer] el suelo.|得扫地了。|The floor needs sweeping.
+3.7|v|-|ordenar|整理|to tidy|Tengo que [ordenar] mi habitación.|我得整理我的房间。|I have to tidy my room.
+3.75|v|-|encender|打开（灯、电器）|to turn on|¿Puedes [encender] la luz?|你能开下灯吗？|Can you turn on the light?
+3.75|v|-|apagar|关掉（灯、电器）|to turn off|No olvides [apagar] la luz.|别忘了关灯。|Don't forget to turn off the light.
+3.8|v|-|mudarse|搬家|to move house|Es cansado [mudarse] de casa.|搬家很累。|Moving house is tiring.
+3.8|v|-|arreglar|修理；整理|to fix; to tidy|Tengo que [arreglar] la bici.|我得修自行车。|I have to fix the bike.
+3.85|v|-|funcionar|运转，起作用|to work (function)|El ascensor va a [funcionar] mañana.|电梯明天就能用了。|The lift will work tomorrow.
+@time-frequency
+3.4|adv|-|a veces|有时|sometimes|[A veces] como en casa.|有时我在家吃饭。|Sometimes I eat at home.
+3.45|adv|-|normalmente|通常|usually|[Normalmente] me levanto a las siete.|我通常七点起床。|I usually get up at seven.
+3.5|adv|-|a menudo|经常|often|Voy [a menudo] al cine.|我经常去看电影。|I often go to the cinema.
+3.55|adv|-|casi|几乎|almost|Son [casi] las diez.|快十点了。|It's almost ten.
+3.6|adv|-|solo|只|only|[Solo] tengo cinco euros.|我只有五欧元。|I only have five euros.
+3.65|adv|-|enseguida|立刻，马上|right away|Vuelvo [enseguida].|我马上回来。|I'll be right back.
+3.7|adv|-|todavía no|还没有|not yet|[Todavía no] he terminado.|我还没做完。|I haven't finished yet.
+3.75|adv|-|de repente|突然|suddenly|[De repente] empezó a llover.|突然下起雨来。|Suddenly it started raining.
+3.8|adv|-|otra vez|再一次|again|Dilo [otra vez].|再说一遍。|Say it again.
+3.85|adv|-|al final|最后|in the end|[Al final] fuimos al cine.|最后我们去看了电影。|In the end we went to the cinema.
+3.9|adv|-|por fin|终于|at last|¡[Por fin] es viernes!|终于到周五了！|It's Friday at last!
+3.9|adv|-|mientras|与此同时|meanwhile; while|Cocino [mientras] escucho la radio.|我边听广播边做饭。|I cook while I listen to the radio.
+3.95|n|m|el rato|一会儿|while; short time|Espera un [rato].|等一会儿。|Wait a while.
+3.95|n|m|el momento|时刻；片刻|moment|Un [momento], por favor.|请稍等。|One moment, please.
+4.0|n|f|la vez|次|time (occasion)|Es la primera [vez] que vengo.|这是我第一次来。|It's my first time here.
+@verbs-a2
+3.5|v|-|intentar|尝试|to try|Voy a [intentar] llegar pronto.|我尽量早点到。|I'll try to arrive early.
+3.55|v|-|conseguir|获得；做到|to get; to manage|Quiero [conseguir] este trabajo.|我想得到这份工作。|I want to get this job.
+3.55|v|-|decidir|决定|to decide|Tienes que [decidir] hoy.|你今天得做决定。|You have to decide today.
+3.6|v|-|elegir|选择|to choose|Es difícil [elegir].|很难选。|It's hard to choose.
+3.6|v|-|mostrar|展示|to show|Te quiero [mostrar] algo.|我想给你看样东西。|I want to show you something.
+3.65|v|-|devolver|归还；退（货）|to give back; to return|Tengo que [devolver] el libro.|我得还书。|I have to return the book.
+3.65|v|-|prestar|借出|to lend|¿Me puedes [prestar] dinero?|你能借我点钱吗？|Can you lend me some money?
+3.7|v|-|faltar|缺少|to be missing|No puede [faltar] el pan.|不能没有面包。|There must be bread.
+3.7|v|-|sobrar|剩余|to be left over|Va a [sobrar] comida.|饭菜会剩下的。|There'll be food left over.
+3.75|v|-|acompañar|陪伴|to accompany|¿Te puedo [acompañar]?|我可以陪你吗？|Can I come with you?
+3.75|v|-|compartir|分享|to share|Vamos a [compartir] la pizza.|我们一起分这个披萨。|Let's share the pizza.
+3.8|v|-|charlar|聊天|to chat|Me gusta [charlar] con mis vecinos.|我喜欢和邻居聊天。|I like chatting with my neighbours.
+3.8|v|-|contar|数；讲述|to count; to tell|Te voy a [contar] un secreto.|我告诉你一个秘密。|I'm going to tell you a secret.
+3.85|v|-|dejar|留下；让|to leave; to let|¿Puedo [dejar] la maleta aquí?|我能把行李箱放这儿吗？|Can I leave my suitcase here?
+3.85|v|-|tirar|扔|to throw (away)|No hay que [tirar] comida.|不该浪费食物。|You shouldn't throw away food.
+3.9|v|-|saludar|打招呼|to greet|Quiero [saludar] a tus padres.|我想和你父母打个招呼。|I'd like to say hello to your parents.
+3.9|v|-|presentar|介绍|to introduce|Te quiero [presentar] a mi novia.|我想把我女朋友介绍给你。|I'd like to introduce you to my girlfriend.
+3.95|v|-|reservar|预订|to book|Quiero [reservar] una mesa.|我想订一张桌子。|I'd like to book a table.
+3.95|v|-|visitar|拜访；参观|to visit|Vamos a [visitar] el museo.|我们去参观博物馆。|Let's visit the museum.
+4.0|v|-|aceptar|接受|to accept|Tienes que [aceptar] la verdad.|你得接受现实。|You have to accept the truth.
+4.0|v|-|quejarse|抱怨|to complain|No sirve de nada [quejarse].|抱怨没有用。|Complaining is no use.

@@ -1,0 +1,150 @@
+# Level 6b — environment, objects, feelings, society basics (B1+)
+@environment
+5.05|n|m|el medio ambiente|环境|environment|Hay que cuidar el [medio ambiente].|要保护环境。|We must look after the environment.
+5.1|n|f|la contaminación|污染|pollution|La [contaminación] es un problema grave.|污染是个严重问题。|Pollution is a serious problem.
+5.1|v|-|reciclar|回收利用|to recycle|Es importante [reciclar].|回收很重要。|Recycling is important.
+5.15|n|m|el residuo|废物|waste|Separamos cada [residuo].|我们对每种垃圾进行分类。|We separate every type of waste.
+5.15|n|f|la energía|能源；精力|energy|Usamos [energía] solar.|我们用太阳能。|We use solar energy.
+5.2|n|m|el clima|气候|climate|El [clima] aquí es suave.|这里气候温和。|The climate here is mild.
+5.2|n|m|el calentamiento global|全球变暖|global warming|El [calentamiento global] es real.|全球变暖是真实存在的。|Global warming is real.
+5.25|n|f|la sequía|干旱|drought|Hay [sequía] en el sur.|南方有旱情。|There's a drought in the south.
+5.25|n|f|la tormenta|暴风雨|storm|Viene una [tormenta].|暴风雨要来了。|A storm is coming.
+5.3|n|m|el huracán|飓风|hurricane|El [huracán] destruyó muchas casas.|飓风摧毁了很多房屋。|The hurricane destroyed many houses.
+5.3|n|m|el terremoto|地震|earthquake|Hubo un [terremoto] en Chile.|智利发生了地震。|There was an earthquake in Chile.
+5.35|n|f|la inundación|洪水|flood|La [inundación] afectó al pueblo.|洪水影响了村镇。|The flood affected the village.
+5.35|n|m|el incendio|火灾|fire (blaze)|Hubo un [incendio] en el bosque.|森林发生了火灾。|There was a forest fire.
+5.4|n|f|la especie|物种|species|Es una [especie] en peligro.|这是濒危物种。|It's an endangered species.
+5.4|n|m|el planeta|星球|planet|Tenemos que salvar el [planeta].|我们必须拯救地球。|We have to save the planet.
+5.45|n|m|el océano|海洋|ocean|El [océano] Pacífico es enorme.|太平洋非常大。|The Pacific Ocean is huge.
+5.45|n|m|el desierto|沙漠|desert|Cruzamos el [desierto].|我们穿过了沙漠。|We crossed the desert.
+5.5|n|f|la selva|丛林，雨林|jungle|La [selva] amazónica es inmensa.|亚马孙雨林非常广阔。|The Amazon rainforest is immense.
+5.5|n|m|el volcán|火山|volcano|El [volcán] está activo.|这座火山是活火山。|The volcano is active.
+5.55|n|m|el valle|山谷|valley|Vivimos en un [valle].|我们住在山谷里。|We live in a valley.
+5.55|n|f|la colina|小山|hill|Subimos a la [colina].|我们爬上小山。|We climb the hill.
+5.6|n|f|la cueva|洞穴|cave|Hay una [cueva] cerca del mar.|海边有个洞穴。|There's a cave near the sea.
+5.6|v|-|proteger|保护|to protect|Hay que [proteger] los bosques.|必须保护森林。|We must protect the forests.
+5.65|v|-|contaminar|污染|to pollute|Los coches pueden [contaminar] mucho.|汽车会造成严重污染。|Cars can pollute a lot.
+5.65|v|-|ahorrar energía|节约能源|to save energy|Es fácil [ahorrar energía] en casa.|在家节能很容易。|It's easy to save energy at home.
+5.7|adj|-|ecológico|生态的；环保的|ecological; eco-friendly|Es un producto [ecológico].|这是一款环保产品。|It's an eco-friendly product.
+5.7|adj|-|natural|自然的|natural|Es un zumo [natural].|这是鲜榨果汁。|It's a fresh natural juice.
+5.75|adj|-|salvaje|野生的|wild|Es un animal [salvaje].|这是一只野生动物。|It's a wild animal.
+@objects
+5.1|n|f|la herramienta|工具|tool|Necesito una [herramienta].|我需要一个工具。|I need a tool.
+5.15|n|m|el martillo|锤子|hammer|Pásame el [martillo].|把锤子递给我。|Pass me the hammer.
+5.15|n|m|el garaje|车库|garage|El coche está en el [garaje].|车在车库里。|The car is in the garage.
+5.2|n|f|la tijera|剪刀|scissors|¿Dónde está la [tijera]?|剪刀在哪儿？|Where are the scissors?
+5.2|n|m|el pañuelo|手帕；纸巾|handkerchief; tissue|¿Tienes un [pañuelo]?|你有纸巾吗？|Do you have a tissue?
+5.25|n|f|la cartera|钱包；公文包|wallet; briefcase|Perdí la [cartera].|我丢了钱包。|I lost my wallet.
+5.3|n|m|el monedero|零钱包|purse|Mi [monedero] está vacío.|我的零钱包空了。|My purse is empty.
+5.3|n|m|el anillo|戒指|ring|Me regaló un [anillo].|他送了我一枚戒指。|He gave me a ring.
+5.35|n|m|el collar|项链|necklace|Es un [collar] precioso.|这是一条很漂亮的项链。|It's a beautiful necklace.
+5.35|n|f|la pulsera|手链|bracelet|Llevo una [pulsera] de plata.|我戴着一条银手链。|I'm wearing a silver bracelet.
+5.4|n|m|el cepillo de dientes|牙刷|toothbrush|Olvidé el [cepillo de dientes].|我忘带牙刷了。|I forgot my toothbrush.
+5.4|n|m|el jabón|肥皂|soap|Lávate con [jabón].|用肥皂洗。|Wash with soap.
+5.45|n|f|la toalla|毛巾|towel|¿Me das una [toalla]?|能给我一条毛巾吗？|Can you give me a towel?
+5.45|n|f|la almohada|枕头|pillow|Esta [almohada] es muy dura.|这个枕头很硬。|This pillow is very hard.
+5.5|n|f|la manta|毯子|blanket|Necesito otra [manta].|我还需要一条毯子。|I need another blanket.
+5.5|n|f|la sábana|床单|sheet|Cambio la [sábana] cada semana.|我每周换床单。|I change the sheet every week.
+5.55|n|m|el enchufe|插座；插头|socket; plug|No encuentro el [enchufe].|我找不到插座。|I can't find the socket.
+5.55|n|f|la bombilla|灯泡|light bulb|Hay que cambiar la [bombilla].|得换灯泡了。|The bulb needs changing.
+5.6|n|m|el grifo|水龙头|tap|Cierra el [grifo].|关上水龙头。|Turn off the tap.
+5.6|n|m|el cubo|桶|bucket; bin|Tira el papel al [cubo].|把纸扔进桶里。|Throw the paper in the bin.
+5.65|n|m|el estante|架子|shelf|El libro está en el [estante].|书在架子上。|The book is on the shelf.
+5.65|n|m|el cajón|抽屉|drawer|Las llaves están en el [cajón].|钥匙在抽屉里。|The keys are in the drawer.
+5.7|n|f|la cortina|窗帘|curtain|Abre la [cortina].|拉开窗帘。|Open the curtain.
+5.7|n|m|el mueble|家具|piece of furniture|Es un [mueble] antiguo.|这是一件古董家具。|It's an antique piece of furniture.
+5.75|n|f|la calefacción|暖气|heating|Enciende la [calefacción].|开暖气。|Turn on the heating.
+5.75|n|m|el aire acondicionado|空调|air conditioning|El [aire acondicionado] no funciona.|空调坏了。|The air conditioning doesn't work.
+5.8|n|m|el microondas|微波炉|microwave|Calienta la leche en el [microondas].|用微波炉热牛奶。|Heat the milk in the microwave.
+5.8|n|m|el lavavajillas|洗碗机|dishwasher|Pon el [lavavajillas].|把洗碗机打开。|Put the dishwasher on.
+@feelings-b1
+5.1|n|m|el sentimiento|感情|feeling|Es un [sentimiento] muy fuerte.|这是一种很强烈的感情。|It's a very strong feeling.
+5.15|n|f|la emoción|情感；激动|emotion; excitement|¡Qué [emoción]!|太激动了！|How exciting!
+5.15|n|f|la felicidad|幸福|happiness|Te deseo mucha [felicidad].|祝你幸福。|I wish you lots of happiness.
+5.2|n|f|la soledad|孤独|loneliness|No me gusta la [soledad].|我不喜欢孤独。|I don't like being alone.
+5.2|n|m|el estrés|压力|stress|Tengo mucho [estrés].|我压力很大。|I'm very stressed.
+5.25|n|f|la ansiedad|焦虑|anxiety|Sufre de [ansiedad].|他患有焦虑症。|He suffers from anxiety.
+5.25|n|f|la confianza|信任；信心|trust; confidence|Tengo [confianza] en ti.|我信任你。|I trust you.
+5.3|n|f|la paciencia|耐心|patience|Hay que tener [paciencia].|要有耐心。|You have to be patient.
+5.3|n|m|el respeto|尊重|respect|Hay que tratar a todos con [respeto].|要尊重每个人。|You have to treat everyone with respect.
+5.35|n|m|el orgullo|骄傲|pride|Es un [orgullo] para mí.|这对我来说是种荣幸。|It's an honour for me.
+5.35|n|f|la envidia|嫉妒|envy|Me da [envidia].|我好羡慕。|I'm jealous.
+5.4|n|m|el enfado|生气|anger|Se le pasó el [enfado].|他气消了。|His anger passed.
+5.4|n|f|la pena|遗憾；悲伤|pity; sorrow|¡Qué [pena]!|真可惜！|What a pity!
+5.45|n|m|el ánimo|情绪；勇气|spirits; courage|¡[Ánimo]! Tú puedes.|加油！你能行。|Come on! You can do it.
+5.45|n|f|la ilusión|期待；幻想|excitement; illusion|Me hace mucha [ilusión].|我很期待。|I'm really looking forward to it.
+5.5|n|m|el deseo|愿望|wish|Pide un [deseo].|许个愿吧。|Make a wish.
+5.5|n|f|la esperanza|希望|hope|No pierdas la [esperanza].|别失去希望。|Don't lose hope.
+5.55|v|-|alegrarse|高兴|to be glad|Es bueno [alegrarse] por los demás.|为别人高兴是件好事。|It's good to be glad for others.
+5.55|v|-|aburrirse|感到无聊|to get bored|Es fácil [aburrirse] aquí.|在这里很容易无聊。|It's easy to get bored here.
+5.6|v|-|asustarse|受惊|to get scared|No hay que [asustarse].|别害怕。|There's no need to be scared.
+5.6|v|-|tranquilizarse|冷静下来|to calm down|Tienes que [tranquilizarse].|你得冷静下来。|You need to calm down.
+5.65|v|-|sentirse solo|感到孤独|to feel lonely|Es normal [sentirse solo] al principio.|一开始感到孤独很正常。|It's normal to feel lonely at first.
+5.65|v|-|animar|鼓励|to cheer up; to encourage|Te quiero [animar].|我想给你打打气。|I want to cheer you up.
+5.7|v|-|avergonzarse|感到羞愧|to be ashamed|No tienes por qué [avergonzarse].|你没必要觉得丢脸。|There's no reason to be ashamed.
+5.7|v|-|arrepentirse|后悔|to regret|Ya es tarde para [arrepentirse].|现在后悔已经晚了。|It's too late to regret it now.
+5.75|adj|-|agradecido|感激的|grateful|Estoy muy [agradecido].|我非常感激。|I'm very grateful.
+5.75|adj|-|deprimido|沮丧的|depressed|Está un poco [deprimido].|他有点消沉。|He's a bit depressed.
+5.8|adj|-|estresado|压力大的|stressed|Estoy muy [estresado].|我压力很大。|I'm very stressed.
+5.8|adj|-|decepcionado|失望的|disappointed|Estoy [decepcionado] contigo.|我对你很失望。|I'm disappointed in you.
+5.85|adj|-|relajado|放松的|relaxed|Es un ambiente muy [relajado].|这里的氛围很放松。|It's a very relaxed atmosphere.
+@society-b1
+5.2|n|f|la sociedad|社会|society|Vivimos en una [sociedad] moderna.|我们生活在现代社会。|We live in a modern society.
+5.2|n|m|el gobierno|政府|government|El [gobierno] anunció nuevas medidas.|政府宣布了新措施。|The government announced new measures.
+5.25|n|m|el presidente|总统；主席|president|El [presidente] habla hoy.|总统今天讲话。|The president speaks today.
+5.25|n|f|la ley|法律|law|Es la [ley].|这是法律规定。|It's the law.
+5.3|n|m|el derecho|权利；法律（学）|right; law|Tienes [derecho] a opinar.|你有发表意见的权利。|You have the right to give your opinion.
+5.35|n|f|la población|人口|population|La [población] crece.|人口在增长。|The population is growing.
+5.35|n|m|el habitante|居民|inhabitant|Cada [habitante] tiene derecho a votar.|每个居民都有投票权。|Every inhabitant has the right to vote.
+5.4|n|f|la pobreza|贫穷|poverty|Hay mucha [pobreza].|贫困现象很严重。|There's a lot of poverty.
+5.4|n|m|el paro|失业（西班牙）|unemployment (Spain)|Mi hermano está en el [paro].|我哥哥失业了。|My brother is unemployed.
+5.45|n|f|la crisis|危机|crisis|Hay una [crisis] económica.|有经济危机。|There's an economic crisis.
+5.45|n|f|la guerra|战争|war|La [guerra] terminó en 1945.|战争在1945年结束。|The war ended in 1945.
+5.5|n|f|la paz|和平|peace|Queremos [paz].|我们要和平。|We want peace.
+5.5|n|f|la libertad|自由|freedom|La [libertad] es importante.|自由很重要。|Freedom is important.
+5.55|n|m|el voto|选票；投票|vote|Cada [voto] cuenta.|每一票都很重要。|Every vote counts.
+5.55|v|-|votar|投票|to vote|Voy a [votar] el domingo.|我周日去投票。|I'm going to vote on Sunday.
+5.6|n|f|la manifestación|游行，示威|demonstration|Hay una [manifestación] en el centro.|市中心有游行。|There's a demonstration in the centre.
+5.6|n|m|el ejército|军队|army|El [ejército] ayudó después del terremoto.|地震后军队提供了帮助。|The army helped after the earthquake.
+5.65|n|m|el delito|罪行|crime|Robar es un [delito].|偷窃是犯罪。|Stealing is a crime.
+5.65|n|m|el ladrón|小偷|thief|El [ladrón] escapó.|小偷逃跑了。|The thief escaped.
+5.7|v|-|robar|偷|to steal|Le van a [robar] la cartera.|他的钱包要被偷了。|His wallet is going to get stolen.
+5.7|n|m|el juez|法官|judge|El [juez] decidió ayer.|法官昨天做出了裁决。|The judge decided yesterday.
+5.75|n|m|el juicio|审判；判断力|trial; judgement|El [juicio] empieza mañana.|审判明天开始。|The trial starts tomorrow.
+5.75|n|f|la cárcel|监狱|prison|Está en la [cárcel].|他在坐牢。|He's in prison.
+5.8|adj|-|social|社会的|social|Es un problema [social].|这是个社会问题。|It's a social problem.
+5.8|adj|-|político|政治的|political|Es un tema [político].|这是个政治话题。|It's a political topic.
+5.85|adj|-|económico|经济的；便宜的|economic; cheap|Es un hotel [económico].|这是一家经济型酒店。|It's a budget hotel.
+5.85|adj|-|internacional|国际的|international|Es un aeropuerto [internacional].|这是一个国际机场。|It's an international airport.
+5.9|adj|-|nacional|国家的|national|Es una fiesta [nacional].|这是国家节日。|It's a national holiday.
+5.9|adj|-|local|当地的|local|Compro productos de comercio [local].|我买本地商家的产品。|I buy products from local shops.
+@verbs-b1plus
+5.3|v|-|construir|建造|to build|Van a [construir] un hospital.|他们要建一家医院。|They're going to build a hospital.
+5.3|v|-|destruir|摧毁|to destroy|El fuego puede [destruir] el bosque.|火会摧毁森林。|Fire can destroy the forest.
+5.35|v|-|crear|创造|to create|Quiero [crear] mi propia empresa.|我想创办自己的公司。|I want to create my own company.
+5.35|v|-|aumentar|增加|to increase|Van a [aumentar] los precios.|要涨价了。|Prices are going to rise.
+5.4|v|-|reducir|减少|to reduce|Hay que [reducir] el consumo.|得减少消费。|We need to reduce consumption.
+5.45|v|-|crecer|成长|to grow|Los niños van a [crecer] rápido.|孩子们会长得很快。|The children will grow fast.
+5.45|v|-|desaparecer|消失|to disappear|Muchas especies pueden [desaparecer].|很多物种可能会灭绝。|Many species could disappear.
+5.5|v|-|aparecer|出现|to appear|Va a [aparecer] en la tele.|他要上电视了。|He's going to appear on TV.
+5.5|v|-|depender|取决于|to depend|Va a [depender] del tiempo.|要看天气。|It'll depend on the weather.
+5.55|v|-|existir|存在|to exist|¿Puede [existir] vida en Marte?|火星上可能存在生命吗？|Can life exist on Mars?
+5.55|v|-|pertenecer|属于|to belong|Va a [pertenecer] al museo.|它将归博物馆所有。|It will belong to the museum.
+5.6|v|-|participar|参加|to take part|Quiero [participar] en el concurso.|我想参加比赛。|I want to take part in the contest.
+5.6|v|-|apoyar|支持|to support|Te voy a [apoyar].|我会支持你。|I'll support you.
+5.65|v|-|proponer|提议|to propose|Te quiero [proponer] algo.|我想向你提个建议。|I want to propose something to you.
+5.65|v|-|sugerir|建议|to suggest|¿Qué me puedes [sugerir]?|你能给我什么建议？|What can you suggest?
+5.7|v|-|convencer|说服|to convince|Te voy a [convencer].|我会说服你的。|I'm going to convince you.
+5.7|v|-|negar|否认；拒绝|to deny|No lo puedo [negar].|我无法否认。|I can't deny it.
+5.75|v|-|admitir|承认；接纳|to admit|Tengo que [admitir] que tienes razón.|我得承认你是对的。|I have to admit you're right.
+5.75|v|-|reconocer|认出；承认|to recognise; to admit|No te pude [reconocer].|我没认出你。|I couldn't recognise you.
+5.8|v|-|imaginar|想象|to imagine|No puedo [imaginar] mi vida sin ti.|我无法想象没有你的生活。|I can't imagine my life without you.
+5.8|v|-|suponer|假设；猜想|to suppose|Es fácil [suponer] lo que pasó.|不难猜到发生了什么。|It's easy to guess what happened.
+5.85|v|-|averiguar|查明|to find out|Voy a [averiguar] la verdad.|我会查明真相。|I'm going to find out the truth.
+5.85|v|-|comprobar|核实|to check|Tengo que [comprobar] los datos.|我得核对数据。|I have to check the data.
+5.9|v|-|comparar|比较|to compare|No hay que [comparar].|不要比较。|You shouldn't compare.
+5.9|v|-|describir|描述|to describe|¿Puedes [describir] al ladrón?|你能描述一下小偷吗？|Can you describe the thief?
+5.95|v|-|expresar|表达|to express|Es difícil [expresar] lo que siento.|很难表达我的感受。|It's hard to express what I feel.
+5.95|v|-|significar|意味着|to mean|¿Qué va a [significar] esto?|这意味着什么？|What will this mean?
+6.0|v|-|referirse|指的是|to refer|Es difícil [referirse] a todos los casos.|很难提及所有情况。|It's hard to refer to every case.
+6.0|v|-|tratarse de|涉及，关于|to be about|Va a [tratarse de] un tema serio.|这将涉及一个严肃的话题。|It's going to be about a serious topic.
