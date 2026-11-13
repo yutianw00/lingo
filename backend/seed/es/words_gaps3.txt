@@ -1,0 +1,35 @@
+# Gap fill 3 — numbers, ordinals, nationalities (levels 2–3)
+@numbers-2
+1.35|num|-|sesenta|六十|sixty|Mi abuela tiene [sesenta] años.|我奶奶六十岁。|My grandmother is sixty.
+1.35|num|-|setenta|七十|seventy|Cuesta [setenta] euros.|七十欧元。|It costs seventy euros.
+1.4|num|-|ochenta|八十|eighty|Mi abuelo tiene [ochenta] años.|我爷爷八十岁。|My grandfather is eighty.
+1.4|num|-|noventa|九十|ninety|Hay [noventa] alumnos.|有九十个学生。|There are ninety pupils.
+1.45|num|-|doscientos|两百|two hundred|Cuesta [doscientos] euros.|两百欧元。|It costs two hundred euros.
+1.5|num|-|quinientos|五百|five hundred|Son [quinientos] metros.|五百米。|It's five hundred metres.
+1.55|num|-|millón|百万|million|Hay un [millón] de personas.|有一百万人。|There are a million people.
+1.6|adj|-|tercero|第三的|third|Es el [tercero] de la lista.|他是名单上第三个。|He's third on the list.
+1.65|adj|-|cuarto|第四的|fourth|Es el [cuarto] intento.|这是第四次尝试。|It's the fourth attempt.
+1.7|adj|-|quinto|第五的|fifth|Vivo en el [quinto] piso.|我住在五楼。|I live on the fifth floor.
+1.75|adj|-|décimo|第十的|tenth|Es su [décimo] cumpleaños.|这是他的十岁生日。|It's his tenth birthday.
+1.8|n|m|el cuarto|四分之一；房间|quarter; room|Son las tres y [cuarto].|三点一刻。|It's quarter past three.
+1.85|n|f|la media|一半（时间：半）|half (past)|Son las dos y [media].|两点半。|It's half past two.
+@nationalities
+1.3|adj|-|español|西班牙的|Spanish|Es un vino [español].|这是西班牙葡萄酒。|It's a Spanish wine.
+1.35|adj|-|chino|中国的|Chinese|Es un restaurante [chino].|这是一家中餐馆。|It's a Chinese restaurant.
+1.4|adj|-|inglés|英国的|English|Es un té [inglés].|这是英国茶。|It's an English tea.
+1.45|adj|-|francés|法国的|French|Es un queso [francés].|这是法国奶酪。|It's a French cheese.
+1.5|adj|-|alemán|德国的|German|Es un coche [alemán].|这是一辆德国车。|It's a German car.
+1.55|adj|-|italiano|意大利的|Italian|Me encanta el café [italiano].|我很爱意大利咖啡。|I love Italian coffee.
+1.6|adj|-|mexicano|墨西哥的|Mexican|Es un plato [mexicano].|这是一道墨西哥菜。|It's a Mexican dish.
+1.65|adj|-|argentino|阿根廷的|Argentinian|Es un actor [argentino].|他是阿根廷演员。|He's an Argentinian actor.
+1.7|adj|-|estadounidense|美国的|American (US)|Es un turista [estadounidense].|他是美国游客。|He's an American tourist.
+1.75|adj|-|japonés|日本的|Japanese|Es un coche [japonés].|这是一辆日本车。|It's a Japanese car.
+1.8|adj|-|colombiano|哥伦比亚的|Colombian|El café [colombiano] es famoso.|哥伦比亚咖啡很有名。|Colombian coffee is famous.
+1.85|adj|-|peruano|秘鲁的|Peruvian|Es un plato [peruano].|这是一道秘鲁菜。|It's a Peruvian dish.
+1.9|adj|-|europeo|欧洲的|European|Es un país [europeo].|这是一个欧洲国家。|It's a European country.
+1.95|adj|-|latinoamericano|拉丁美洲的|Latin American|Es un escritor [latinoamericano].|他是拉美作家。|He's a Latin American writer.
+@weather-2
+2.2|adj|-|soleado|晴朗的|sunny|Es un día [soleado].|这是个晴天。|It's a sunny day.
+2.25|adj|-|caluroso|炎热的|hot|Es un verano muy [caluroso].|这是个很热的夏天。|It's a very hot summer.
+2.3|adj|-|lluvioso|多雨的|rainy|Es un mes muy [lluvioso].|这个月雨很多。|It's a very rainy month.
+2.35|adj|-|fresquito|凉快的（口语）|nice and cool|Hace un día [fresquito].|今天挺凉快的。|It's a nice cool day.

@@ -10,20 +10,34 @@ LANGS = ("zh", "en", "fr", "es")
 DEFAULT_DB = Path(__file__).resolve().parent.parent / "lingo.db"
 
 SCHEMA = """
-CREATE TABLE IF NOT EXISTS words (
+-- Content tables are rebuilt from the seed files on every start-up.
+DROP TABLE IF EXISTS words;
+DROP TABLE IF EXISTS questions;
+CREATE TABLE words (
     id TEXT PRIMARY KEY,
-    rank INTEGER NOT NULL,
+    course TEXT NOT NULL,         -- target language of a dedicated course, or 'all' (aligned content)
+    rank INTEGER NOT NULL,        -- curriculum order
+    score REAL NOT NULL,          -- difficulty 0–10
+    level INTEGER NOT NULL,       -- ceil(score), 1–10
     pos TEXT NOT NULL,
+    gender TEXT NOT NULL,         -- nouns: m / f / mf
+    topic TEXT NOT NULL,
     zh TEXT NOT NULL, en TEXT NOT NULL, fr TEXT NOT NULL, es TEXT NOT NULL,
     ex_zh TEXT NOT NULL, ex_en TEXT NOT NULL, ex_fr TEXT NOT NULL, ex_es TEXT NOT NULL
 );
-CREATE TABLE IF NOT EXISTS questions (
+CREATE INDEX idx_words_course ON words (course, rank);
+CREATE TABLE questions (
     id TEXT PRIMARY KEY,
+    course TEXT NOT NULL,
     rank INTEGER NOT NULL,
+    level INTEGER NOT NULL,
+    skill TEXT NOT NULL,          -- vocab (generated cloze) | form (grammar/variants) | context (dialogue)
+    word_id TEXT,                 -- vocab questions: the word they test
     kind TEXT NOT NULL CHECK (kind IN ('fill', 'next')),
     topic TEXT NOT NULL,
     data TEXT NOT NULL            -- JSON, keyed by language
 );
+CREATE INDEX idx_questions_course ON questions (course, rank);
 CREATE TABLE IF NOT EXISTS users (
     id TEXT PRIMARY KEY,
     native TEXT NOT NULL DEFAULT 'zh',

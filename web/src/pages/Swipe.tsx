@@ -101,7 +101,11 @@ function CardFace({ card }: { card: WordCard }) {
         </span>
       </div>
       <div className="word">{card.word}</div>
-      <div className="pos">{t.pos[card.pos] ?? card.pos}</div>
+      <div className="pos">
+        {t.pos[card.pos] ?? card.pos}
+        {card.gender && <span className={`gender g-${card.gender}`}>{t.gender[card.gender]}</span>}
+        {card.topic && <span className="lvtag">{t.lv(card.difficulty_level)}</span>}
+      </div>
     </>
   )
 }

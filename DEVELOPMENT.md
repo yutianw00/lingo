@@ -66,9 +66,22 @@ Sessions are ~70 % due reviews (most-forgotten first; for the quiz, previously-m
 
 ## Content
 
-All content is hand-written in `backend/seed/` — 270 words and 80 questions (40 fill-in, 40 next-sentence), each aligned across all four languages, so any of the 12 pairs works from one file. Formats are documented at the top of each file; the loader validates them (exactly one `[blank]`, 3 distinct distractors, all four languages present…). Content is upserted by stable id on start-up, so editing or adding lines never wipes progress.
+**Spanish course** (`backend/seed/es/`, see its README) — the course for actually learning Spanish:
 
-Next-sentence distractors are the correct answers of *other* questions whose `topic` differs, so put prompts whose answers could be swapped (e.g. all "what time…?" prompts) under the same topic.
+- 3019 words in 10 levels (≈ CEFR A1→C1), each with a difficulty score (0–10], part of speech, gender for every
+  noun (m / f / m-f), meanings in Chinese and English, and an example sentence with Chinese and English translations.
+- ~3000 vocabulary fill-in questions generated from the examples, plus 230 hand-written questions:
+  word-form questions (L3+, grammar on vocabulary from the level below) and dialogues (L3+, vocabulary two levels below).
+- Gating: a vocab question unlocks once its word has been introduced in the swipe deck; grammar and dialogue
+  questions unlock at the learner's level (= level of the hardest word they've met). Sessions round-robin across
+  the three question types so the thousands of vocab clozes never crowd out grammar and dialogues.
+
+**Other language pairs** (`backend/seed/*.txt`) — 270 words and 80 questions aligned across all four languages.
+
+The loader validates everything on start-up (field counts, one `[blank]`, 3 distinct distractors, nouns have a
+gender, no duplicates…) and upserts by stable id, so editing or adding lines never wipes progress.
+Next-sentence distractors are the answers of *other* dialogues on a different `topic` (and no harder), so prompts
+whose answers could be swapped share a topic.
 
 ## Auth
 

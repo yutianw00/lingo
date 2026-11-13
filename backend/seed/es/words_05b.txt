@@ -1,0 +1,134 @@
+# Level 5b — cooking, people, connectors (B1)
+@cooking
+4.1|v|-|cortar|切|to cut|Hay que [cortar] la cebolla.|要把洋葱切了。|You have to cut the onion.
+4.1|v|-|hervir|煮沸|to boil|Pon el agua a [hervir].|把水烧开。|Bring the water to the boil.
+4.15|v|-|freír|油炸，煎|to fry|Voy a [freír] unos huevos.|我去煎几个鸡蛋。|I'm going to fry some eggs.
+4.15|v|-|mezclar|混合|to mix|Hay que [mezclar] bien.|要搅拌均匀。|You need to mix it well.
+4.2|v|-|añadir|加入|to add|Hay que [añadir] sal.|要加盐。|You need to add salt.
+4.2|v|-|calentar|加热|to heat|Voy a [calentar] la leche.|我去热一下牛奶。|I'm going to heat the milk.
+4.25|v|-|asar|烤|to roast; to grill|Vamos a [asar] carne.|我们来烤肉吧。|Let's grill some meat.
+4.25|v|-|pelar|削皮|to peel|Tienes que [pelar] las patatas.|你得把土豆削皮。|You have to peel the potatoes.
+4.3|n|f|la cebolla|洋葱|onion|Corta la [cebolla].|切洋葱。|Cut the onion.
+4.3|n|m|el ajo|大蒜|garlic|Le pongo mucho [ajo].|我放很多蒜。|I put lots of garlic in it.
+4.35|n|f|la zanahoria|胡萝卜|carrot|El conejo come una [zanahoria].|兔子在吃胡萝卜。|The rabbit is eating a carrot.
+4.35|n|m|el pimiento|甜椒|pepper (vegetable)|Me gusta el [pimiento] rojo.|我喜欢红椒。|I like red pepper.
+4.4|n|f|la lechuga|生菜|lettuce|Una ensalada de [lechuga].|一份生菜沙拉。|A lettuce salad.
+4.4|n|m|el limón|柠檬|lemon|Un té con [limón].|一杯柠檬茶。|A tea with lemon.
+4.45|n|f|la fresa|草莓|strawberry|Me encanta el helado de [fresa].|我超爱草莓冰淇淋。|I love strawberry ice cream.
+4.45|n|f|la uva|葡萄|grape|Comemos una [uva] en cada campanada.|每响一声钟我们吃一颗葡萄。|We eat a grape on each chime.
+4.5|n|f|la carne de cerdo|猪肉|pork|No como [carne de cerdo].|我不吃猪肉。|I don't eat pork.
+4.5|n|m|el marisco|海鲜|seafood|Me encanta el [marisco].|我很爱吃海鲜。|I love seafood.
+4.55|n|f|la gamba|虾|prawn|La [gamba] roja es muy cara.|红虾很贵。|Red prawns are very expensive.
+4.55|n|m|el atún|金枪鱼|tuna|Un bocadillo de [atún].|一个金枪鱼三明治。|A tuna sandwich.
+4.6|n|m|el bocadillo|三明治（法棍）|sandwich (baguette)|Me hago un [bocadillo].|我给自己做个三明治。|I'm making myself a sandwich.
+4.6|n|f|la harina|面粉|flour|Necesito [harina] para el pastel.|做蛋糕我需要面粉。|I need flour for the cake.
+4.65|n|f|la mantequilla|黄油|butter|Pan con [mantequilla].|黄油面包。|Bread and butter.
+4.65|n|f|la sartén|平底锅|frying pan|Calienta la [sartén].|把平底锅烧热。|Heat the frying pan.
+4.7|n|f|la olla|锅|pot; pan|La sopa está en la [olla].|汤在锅里。|The soup is in the pot.
+4.7|n|m|el ingrediente|配料|ingredient|Es un [ingrediente] secreto.|这是秘方配料。|It's a secret ingredient.
+4.75|adj|-|crudo|生的|raw|El pescado está [crudo].|鱼是生的。|The fish is raw.
+4.75|adj|-|dulce|甜的|sweet|Este vino es muy [dulce].|这酒很甜。|This wine is very sweet.
+4.8|adj|-|salado|咸的|salty|El jamón está muy [salado].|火腿很咸。|The ham is very salty.
+4.8|adj|-|amargo|苦的|bitter|El café está [amargo].|咖啡很苦。|The coffee is bitter.
+4.85|adj|-|fresco|新鲜的；凉爽的|fresh; cool|El pescado es muy [fresco].|鱼很新鲜。|The fish is very fresh.
+4.85|adj|-|congelado|冷冻的|frozen|Compro pescado [congelado].|我买冷冻鱼。|I buy frozen fish.
+@people-relationships
+4.1|n|f|la pareja|伴侣；一对|partner; couple|Vivo con mi [pareja].|我和我的伴侣住在一起。|I live with my partner.
+4.15|n|m|el matrimonio|婚姻；夫妻|marriage; married couple|Es un [matrimonio] feliz.|这是一对幸福的夫妻。|They're a happy couple.
+4.15|n|f|la boda|婚礼|wedding|La [boda] es en junio.|婚礼在六月。|The wedding is in June.
+4.2|v|-|casarse|结婚|to get married|Quieren [casarse] el año que viene.|他们想明年结婚。|They want to get married next year.
+4.2|v|-|divorciarse|离婚|to get divorced|Decidieron [divorciarse].|他们决定离婚。|They decided to get divorced.
+4.25|adj|-|soltero|单身的|single|Mi hermano está [soltero].|我哥哥单身。|My brother is single.
+4.25|adj|-|casado|已婚的|married|Mi jefe está [casado].|我的老板结婚了。|My boss is married.
+4.3|n|m|el suegro|岳父；公公|father-in-law|Mi [suegro] es muy simpático.|我岳父人很好。|My father-in-law is very nice.
+4.3|n|m|el sobrino|侄子，外甥|nephew|Mi [sobrino] tiene tres años.|我侄子三岁。|My nephew is three.
+4.35|n|m|el nieto|孙子，外孙|grandson|Mi abuela adora a su [nieto].|我奶奶很疼她的孙子。|My grandmother adores her grandson.
+4.35|n|m|el yerno|女婿|son-in-law|Su [yerno] es médico.|他的女婿是医生。|His son-in-law is a doctor.
+4.4|n|f|la gente|人们|people|Hay mucha [gente] aquí.|这里人很多。|There are lots of people here.
+4.4|n|f|la relación|关系|relationship|Tenemos una buena [relación].|我们关系很好。|We have a good relationship.
+4.45|n|f|la amistad|友谊|friendship|Nuestra [amistad] es muy fuerte.|我们的友谊很深。|Our friendship is very strong.
+4.45|n|m|el conocido|熟人|acquaintance|Es solo un [conocido].|他只是个熟人。|He's just an acquaintance.
+4.5|v|-|llevarse bien|相处融洽|to get on well|Es fácil [llevarse bien] con ella.|和她相处很容易。|It's easy to get on with her.
+4.5|v|-|discutir|争吵；讨论|to argue; to discuss|No quiero [discutir] contigo.|我不想和你吵。|I don't want to argue with you.
+4.55|v|-|confiar|信任|to trust|Puedes [confiar] en mí.|你可以信任我。|You can trust me.
+4.55|v|-|besar|亲吻|to kiss|Quiere [besar] a su novia.|他想亲他的女朋友。|He wants to kiss his girlfriend.
+4.6|v|-|abrazar|拥抱|to hug|Te quiero [abrazar].|我想抱抱你。|I want to hug you.
+4.6|v|-|echar de menos|想念|to miss (someone)|Te voy a [echar de menos].|我会想你的。|I'm going to miss you.
+4.65|v|-|tener en cuenta|考虑到|to bear in mind|Hay que [tener en cuenta] el precio.|要考虑到价格。|You have to bear the price in mind.
+@personality
+4.2|adj|-|generoso|慷慨的|generous|Es un hombre muy [generoso].|他是个很大方的人。|He's a very generous man.
+4.2|adj|-|egoísta|自私的|selfish|No seas [egoísta].|别那么自私。|Don't be selfish.
+4.25|adj|-|trabajador|勤劳的|hard-working|Es un chico muy [trabajador].|他是个很勤劳的小伙子。|He's a very hard-working lad.
+4.25|adj|-|perezoso|懒惰的|lazy|Mi gato es muy [perezoso].|我的猫很懒。|My cat is very lazy.
+4.3|adj|-|sincero|真诚的|sincere; honest|Quiero ser [sincero] contigo.|我想对你坦诚。|I want to be honest with you.
+4.3|adj|-|educado|有礼貌的|polite|Es un niño muy [educado].|他是个很有礼貌的孩子。|He's a very polite child.
+4.35|adj|-|maleducado|没礼貌的|rude|No seas [maleducado].|别没礼貌。|Don't be rude.
+4.35|adj|-|gracioso|好笑的|funny|Es un chiste muy [gracioso].|这是个很好笑的笑话。|It's a very funny joke.
+4.4|adj|-|serio|严肃的；认真的|serious|Mi padre es muy [serio].|我爸爸很严肃。|My father is very serious.
+4.4|adj|-|alegre|开朗的|cheerful|Es un chico muy [alegre].|他是个很开朗的男孩。|He's a very cheerful boy.
+4.45|adj|-|valiente|勇敢的|brave|Es un bombero muy [valiente].|他是个非常勇敢的消防员。|He's a very brave firefighter.
+4.45|adj|-|cobarde|胆小的|cowardly|No seas [cobarde].|别那么胆小。|Don't be a coward.
+4.5|adj|-|responsable|负责任的|responsible|Es un chico [responsable].|他是个负责任的男孩。|He's a responsible boy.
+4.5|adj|-|paciente|有耐心的|patient|Hay que ser [paciente].|要有耐心。|You have to be patient.
+4.55|adj|-|optimista|乐观的|optimistic|Soy [optimista].|我是个乐观的人。|I'm an optimist.
+4.55|adj|-|pesimista|悲观的|pessimistic|No seas tan [pesimista].|别那么悲观。|Don't be so pessimistic.
+4.6|adj|-|creativo|有创造力的|creative|Es un diseñador muy [creativo].|他是个很有创意的设计师。|He's a very creative designer.
+4.6|adj|-|raro|奇怪的；罕见的|strange; rare|Es un nombre muy [raro].|这个名字很奇怪。|It's a very strange name.
+4.65|adj|-|famoso|著名的|famous|Es un actor muy [famoso].|他是个很有名的演员。|He's a very famous actor.
+4.65|adj|-|normal|正常的；普通的|normal|Es un día [normal].|这是平常的一天。|It's a normal day.
+4.7|adj|-|cariñoso|深情的，亲热的|affectionate|Mi perro es muy [cariñoso].|我的狗很黏人。|My dog is very affectionate.
+4.7|adj|-|exigente|要求严格的|demanding|Es un profesor [exigente].|他是个要求严格的老师。|He's a demanding teacher.
+@connectors
+4.3|conj|-|aunque|虽然|although|Salgo [aunque] llueva.|就算下雨我也出门。|I'm going out even if it rains.
+4.35|adv|-|además|而且，此外|besides; also|[Además], es barato.|而且很便宜。|Besides, it's cheap.
+4.4|adv|-|entonces|那么，于是|then; so|[Entonces], ¿vienes o no?|那你到底来不来？|So, are you coming or not?
+4.45|conj|-|así que|所以|so|Llueve, [así que] me quedo en casa.|下雨了，所以我待在家里。|It's raining, so I'm staying at home.
+4.5|adv|-|sin embargo|然而|however|Es caro. [Sin embargo], me lo compro.|很贵。不过我还是买了。|It's expensive. However, I'm buying it.
+4.5|adv|-|por eso|因此|that's why|Estoy cansado, [por eso] me acuesto.|我累了，所以去睡了。|I'm tired, that's why I'm going to bed.
+4.55|adv|-|por ejemplo|例如|for example|Me gusta la fruta, [por ejemplo] las fresas.|我喜欢水果，比如草莓。|I like fruit, for example strawberries.
+4.55|adv|-|en cambio|相反|on the other hand|Yo trabajo; él, [en cambio], descansa.|我在工作，他却在休息。|I work; he, on the other hand, rests.
+4.6|conj|-|ni|也不|nor|No bebo [ni] fumo.|我不喝酒也不抽烟。|I neither drink nor smoke.
+4.6|adv|-|tampoco|也不|neither|Yo [tampoco].|我也不。|Me neither.
+4.65|adv|-|por supuesto|当然|of course|—¿Me ayudas? —¡[Por supuesto]!|“你帮我吗？”“当然！”|"Will you help me?" "Of course!"
+4.65|adv|-|claro|当然|of course; sure|¡[Claro] que sí!|当然了！|Of course!
+4.7|adv|-|quizás|也许|perhaps|[Quizás] vaya mañana.|也许我明天去。|Perhaps I'll go tomorrow.
+4.7|adv|-|tal vez|或许|maybe|[Tal vez] tienes razón.|也许你是对的。|Maybe you're right.
+4.75|adv|-|de hecho|事实上|in fact|[De hecho], ya lo sabía.|事实上，我早就知道了。|In fact, I already knew.
+4.75|adv|-|en realidad|其实|actually|[En realidad], no me gusta.|其实我不喜欢。|Actually, I don't like it.
+4.8|prep|-|según|根据|according to|[Según] el médico, no es grave.|据医生说，不严重。|According to the doctor, it's not serious.
+4.8|prep|-|durante|在……期间|during|Duermo [durante] el viaje.|旅途中我睡觉。|I sleep during the trip.
+4.85|prep|-|hacia|朝向|towards|Camina [hacia] la puerta.|他朝门口走去。|He walks towards the door.
+4.85|prep|-|contra|反对；靠着|against|Estoy [contra] la guerra.|我反对战争。|I'm against war.
+4.9|prep|-|excepto|除了|except|Trabajo todos los días [excepto] el domingo.|我除了周日每天都工作。|I work every day except Sunday.
+4.9|prep|-|dentro de|在……之内|inside; within|Vuelvo [dentro de] una hora.|我一小时之内回来。|I'll be back within an hour.
+4.95|prep|-|fuera de|在……之外|outside|Vive [fuera de] la ciudad.|他住在城外。|He lives outside the city.
+4.95|prep|-|cerca de|在……附近|near|Vivo [cerca de] la playa.|我住在海滩附近。|I live near the beach.
+5.0|prep|-|lejos de|远离|far from|Está [lejos de] aquí.|离这里很远。|It's far from here.
+5.0|prep|-|al lado de|在……旁边|next to|El banco está [al lado de] la farmacia.|银行在药店旁边。|The bank is next to the pharmacy.
+@verbs-b1
+4.3|v|-|acabar|完成；刚刚（acabar de）|to finish|Tengo que [acabar] el informe.|我得写完报告。|I have to finish the report.
+4.35|v|-|cumplir|履行；满（岁）|to fulfil; to turn (age)|Voy a [cumplir] treinta años.|我快三十岁了。|I'm about to turn thirty.
+4.4|v|-|sorprender|使吃惊|to surprise|Te quiero [sorprender].|我想给你个惊喜。|I want to surprise you.
+4.4|v|-|molestar|打扰|to bother|No quiero [molestar].|我不想打扰。|I don't want to bother you.
+4.45|v|-|importar|在乎；重要|to matter; to mind|No me va a [importar].|我不会介意的。|I won't mind.
+4.45|v|-|interesar|使感兴趣|to interest|Te va a [interesar].|你会感兴趣的。|It'll interest you.
+4.5|v|-|suceder|发生|to happen|¿Qué va a [suceder]?|会发生什么？|What's going to happen?
+4.5|v|-|tratar|对待；试图|to treat; to try|Hay que [tratar] bien a los clientes.|要好好对待顾客。|You have to treat customers well.
+4.55|v|-|evitar|避免|to avoid|Quiero [evitar] el tráfico.|我想避开拥堵。|I want to avoid the traffic.
+4.55|v|-|permitir|允许|to allow|No te voy a [permitir] eso.|我不会允许你那样做。|I won't let you do that.
+4.6|v|-|prohibir|禁止|to forbid|Van a [prohibir] fumar aquí.|这里要禁烟了。|They're going to ban smoking here.
+4.6|v|-|prometer|承诺|to promise|Te lo quiero [prometer].|我想向你保证。|I want to promise you.
+4.65|v|-|cambiarse|换（衣服）|to get changed|Tengo que [cambiarse] de ropa antes de salir.|出门前我得换衣服。|I have to get changed before going out.
+4.65|v|-|darse cuenta|意识到|to realise|Es difícil [darse cuenta] del error.|很难发现错误。|It's hard to notice the mistake.
+4.7|v|-|acordarse|记得|to remember|Es difícil [acordarse] de todo.|很难记住一切。|It's hard to remember everything.
+4.7|v|-|olvidarse|忘记|to forget|Es fácil [olvidarse] de las llaves.|很容易忘带钥匙。|It's easy to forget your keys.
+4.75|v|-|equivocarse|弄错|to make a mistake|Es normal [equivocarse].|犯错很正常。|It's normal to make mistakes.
+4.75|v|-|irse|离开，走|to leave|Es hora de [irse].|该走了。|It's time to go.
+4.8|v|-|volver a|再做|to do again|Quiero [volver a] verte.|我想再见到你。|I want to see you again.
+4.8|v|-|dejar de|停止|to stop (doing)|Tengo que [dejar de] fumar.|我得戒烟。|I have to stop smoking.
+4.85|v|-|ponerse de acuerdo|达成一致|to agree|Es difícil [ponerse de acuerdo].|很难达成一致。|It's hard to agree.
+4.85|v|-|estar de acuerdo|同意|to agree|Voy a [estar de acuerdo] contigo.|我会同意你的。|I'll agree with you.
+4.9|v|-|tener razón|有道理，说得对|to be right|Puedes [tener razón].|你可能是对的。|You may be right.
+4.9|v|-|hacer falta|需要|to be needed|No va a [hacer falta].|不需要了。|It won't be needed.
+4.95|v|-|llevar a cabo|实施，完成|to carry out|Vamos a [llevar a cabo] el plan.|我们要执行这个计划。|We're going to carry out the plan.
+4.95|v|-|soler|通常（做）|to usually (do)|[Suelo] cenar a las nueve.|我通常九点吃晚饭。|I usually have dinner at nine.

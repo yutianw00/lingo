@@ -173,3 +173,21 @@ h3 { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
 .meter i { display: block; height: 100%; border-radius: 99px; }
 .due { font-size: 11px; color: var(--muted); font-weight: 600; }
 .due.now { color: var(--bad); }
+
+/* ---------- levels & gender */
+.gender { display: inline-block; font-size: 11px; font-weight: 800; padding: 1px 7px; border-radius: 6px; margin: 0 4px; vertical-align: 1px; }
+.g-m { background: #E3ECFF; color: #2F54C8; }
+.g-f { background: #FDE4EE; color: #B8336A; }
+.g-mf { background: #EDE6FB; color: #6B4BB8; }
+@media (prefers-color-scheme: dark) {
+  .g-m { background: #23345F; color: #A8C0FF; } .g-f { background: #4A2236; color: #F5A8C8; } .g-mf { background: #352A55; color: #CDB8FF; }
+}
+.lvtag { display: inline-block; font-size: 11px; font-weight: 800; padding: 1px 6px; border-radius: 6px; margin-right: 4px; background: var(--line); color: var(--muted); vertical-align: 1px; }
+.pos .lvtag { margin-left: 4px; }
+.lvbadge { font-weight: 800; font-size: 13px; padding: 4px 10px; border-radius: 99px; background: var(--soft); color: var(--primary); margin-left: auto; }
+.lvbadge + .streak { margin-left: 8px; }
+.type.lv { margin-left: 6px; background: var(--line); color: var(--muted); }
+.search-row { display: flex; gap: 8px; }
+.search-row .search { flex: 1; min-width: 0; }
+.lv-select { height: 48px; padding: 0 10px; border: 2px solid var(--line); border-radius: 14px; background: var(--card); color: var(--ink); font: inherit; font-weight: 700; }
+.btn.more { margin-top: 14px; }

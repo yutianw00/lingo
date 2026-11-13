@@ -20,10 +20,17 @@ export interface Progress {
   lapses: number
 }
 
+export type Gender = 'm' | 'f' | 'mf' | ''
+export type Skill = 'vocab' | 'form' | 'context'
+
 export interface WordCard extends Progress {
   id: string
   word: string
   pos: string
+  gender: Gender
+  difficulty: number
+  difficulty_level: number
+  topic: string
   meaning: string
   example: string
   example_translation: string
@@ -37,6 +44,8 @@ export interface Option {
 export interface Question extends Progress {
   id: string
   kind: 'fill' | 'next'
+  skill: Skill
+  difficulty_level: number
   prompt: string
   translation: string
   options: Option[]
@@ -61,6 +70,9 @@ type Levels = Record<Level, number>
 export interface Home {
   native: Lang
   target: Lang
+  leveled: boolean
+  level: number
+  level_score: number
   streak: number
   today: { done: number; goal: number }
   words: { total: number; due: number; new: number; levels: Levels }

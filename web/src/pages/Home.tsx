@@ -48,6 +48,7 @@ export default function Home() {
           <LangBadge lang={me.native} small />→<LangBadge lang={me.target} small />
           {t.langName[me.target]} ▾
         </Link>
+        {data.leveled && <span className="lvbadge">{t.lv(data.level)}</span>}
         <span className="streak" title="streak">
           🔥 {t.streakDays(data.streak)}
         </span>

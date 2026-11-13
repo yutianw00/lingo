@@ -1,0 +1,108 @@
+# Level 7b — science, mind, city, animals (B2)
+@science-tech
+6.05|n|f|la tecnología|技术|technology|La [tecnología] cambia rápido.|技术变化很快。|Technology changes fast.
+6.1|n|m|el avance|进步|advance|Es un gran [avance].|这是一大进步。|It's a great advance.
+6.1|n|m|el descubrimiento|发现|discovery|Fue un [descubrimiento] importante.|那是一个重要的发现。|It was an important discovery.
+6.15|v|-|descubrir|发现|to discover|Quieren [descubrir] la causa.|他们想找出原因。|They want to discover the cause.
+6.15|n|m|el invento|发明|invention|La rueda es un gran [invento].|轮子是一项伟大的发明。|The wheel is a great invention.
+6.2|v|-|inventar|发明；编造|to invent; to make up|No te lo puedes [inventar].|你不能凭空编造。|You can't make it up.
+6.2|n|m|el experimento|实验|experiment|Hicimos un [experimento].|我们做了一个实验。|We did an experiment.
+6.25|n|m|el laboratorio|实验室|laboratory|Trabaja en un [laboratorio].|他在实验室工作。|He works in a laboratory.
+6.25|n|m|el científico|科学家|scientist|Es un [científico] brillante.|他是一位杰出的科学家。|He's a brilliant scientist.
+6.3|n|m|el dato|数据|piece of data|Cada [dato] es importante.|每个数据都很重要。|Every piece of data is important.
+6.3|n|m|el sistema|系统|system|El [sistema] no funciona.|系统出故障了。|The system isn't working.
+6.35|n|m|el dispositivo|设备|device|Es un [dispositivo] pequeño.|这是一个小设备。|It's a small device.
+6.35|n|f|la inteligencia artificial|人工智能|artificial intelligence|La [inteligencia artificial] avanza rápido.|人工智能发展迅速。|Artificial intelligence is advancing fast.
+6.4|n|m|el robot|机器人|robot|Un [robot] limpia la casa.|机器人打扫房子。|A robot cleans the house.
+6.4|n|f|la máquina|机器|machine|La [máquina] está rota.|机器坏了。|The machine is broken.
+6.45|n|m|el motor|发动机|engine|El [motor] hace un ruido raro.|发动机有怪声。|The engine is making a strange noise.
+6.45|n|m|el satélite|卫星|satellite|Lanzaron un [satélite].|他们发射了一颗卫星。|They launched a satellite.
+6.5|n|m|el espacio|空间；太空|space|Quiere viajar al [espacio].|他想去太空旅行。|He wants to travel into space.
+6.5|n|m|el universo|宇宙|universe|El [universo] es infinito.|宇宙是无限的。|The universe is infinite.
+6.55|n|f|la física|物理|physics|Estudia [física].|他学物理。|He studies physics.
+6.55|n|f|la química|化学|chemistry|Hay [química] entre ellos.|他们之间有化学反应。|There's chemistry between them.
+6.6|n|f|la biología|生物学|biology|Me gusta la [biología].|我喜欢生物学。|I like biology.
+6.6|n|f|la medida|措施；尺寸|measure; measurement|Es una [medida] necesaria.|这是一项必要的措施。|It's a necessary measure.
+6.65|v|-|medir|测量|to measure|Hay que [medir] la habitación.|要量一下房间。|We need to measure the room.
+6.65|v|-|calcular|计算|to calculate|Es difícil [calcular] el precio.|很难计算价格。|It's hard to calculate the price.
+6.7|v|-|analizar|分析|to analyse|Vamos a [analizar] los datos.|我们来分析数据。|Let's analyse the data.
+6.7|v|-|demostrar|证明；展示|to prove; to show|Te lo voy a [demostrar].|我会证明给你看。|I'll prove it to you.
+6.75|adj|-|científico|科学的|scientific|Es un estudio [científico].|这是一项科学研究。|It's a scientific study.
+6.75|adj|-|tecnológico|技术的|technological|Es un avance [tecnológico].|这是一项技术进步。|It's a technological advance.
+6.8|adj|-|eléctrico|电的|electric|Tengo un coche [eléctrico].|我有一辆电动车。|I have an electric car.
+6.8|adj|-|automático|自动的|automatic|Es un sistema [automático].|这是一个自动化系统。|It's an automatic system.
+@mind
+6.1|n|f|la mente|头脑，心智|mind|Tiene una [mente] abierta.|他思想开放。|He has an open mind.
+6.1|n|f|la memoria|记忆；回忆录|memory|Tengo mala [memoria].|我记性不好。|I have a bad memory.
+6.15|n|m|el pensamiento|思想|thought|Es un [pensamiento] bonito.|这是个美好的想法。|It's a lovely thought.
+6.15|n|f|la personalidad|性格|personality|Tiene mucha [personalidad].|他很有个性。|He has a lot of personality.
+6.2|n|m|el carácter|性格；字符|character; temper|Tiene mal [carácter].|他脾气不好。|He has a bad temper.
+6.2|n|f|la actitud|态度|attitude|Tiene una buena [actitud].|他态度很好。|He has a good attitude.
+6.25|n|m|el comportamiento|行为|behaviour|Su [comportamiento] es extraño.|他的行为很奇怪。|His behaviour is strange.
+6.25|n|m|el hábito|习惯|habit|Es un mal [hábito].|这是个坏习惯。|It's a bad habit.
+6.3|n|f|la autoestima|自尊|self-esteem|Tiene la [autoestima] baja.|他自尊心低。|He has low self-esteem.
+6.35|n|f|la motivación|动力|motivation|Me falta [motivación].|我缺乏动力。|I lack motivation.
+6.35|n|f|la concentración|专注|concentration|Necesito [concentración].|我需要集中精力。|I need to concentrate.
+6.4|n|m|el psicólogo|心理学家；心理咨询师|psychologist|Voy al [psicólogo].|我去看心理咨询师。|I go to a psychologist.
+6.4|n|f|la depresión|抑郁症|depression|Sufre [depresión].|他患有抑郁症。|He suffers from depression.
+6.45|n|m|el trauma|创伤|trauma|Es un [trauma] de la infancia.|这是童年创伤。|It's a childhood trauma.
+6.45|n|f|la infancia|童年|childhood|Tuve una [infancia] feliz.|我有一个幸福的童年。|I had a happy childhood.
+6.5|n|f|la adolescencia|青春期|adolescence|La [adolescencia] es difícil.|青春期很难熬。|Adolescence is difficult.
+6.5|n|f|la vejez|老年|old age|Quiero una [vejez] tranquila.|我希望晚年平静。|I want a peaceful old age.
+6.55|v|-|concentrarse|集中注意力|to concentrate|Es difícil [concentrarse] con ruido.|有噪音很难集中注意力。|It's hard to concentrate with noise.
+6.55|v|-|relajarse|放松|to relax|Necesitas [relajarse] un poco.|你需要放松一下。|You need to relax a bit.
+6.6|v|-|soñar|做梦；梦想|to dream|Me gusta [soñar] despierto.|我喜欢做白日梦。|I like daydreaming.
+6.6|v|-|madurar|成熟|to mature|Tienes que [madurar].|你得成熟一点。|You need to grow up.
+6.65|v|-|superar|克服；超越|to overcome; to exceed|Vas a [superar] el miedo.|你会克服恐惧的。|You'll overcome your fear.
+6.65|v|-|sufrir|遭受|to suffer|No quiero [sufrir] más.|我不想再受苦了。|I don't want to suffer any more.
+6.7|v|-|confundir|混淆|to confuse|Es fácil [confundir] las palabras.|这些词很容易混淆。|It's easy to confuse the words.
+6.7|v|-|fijarse|注意|to notice|Hay que [fijarse] en los detalles.|要注意细节。|You have to pay attention to details.
+6.75|adj|-|consciente|有意识的；意识到的|aware; conscious|Soy [consciente] del problema.|我意识到了这个问题。|I'm aware of the problem.
+6.75|adj|-|inseguro|不安的；没把握的|insecure; unsure|Es un chico muy [inseguro].|他是个很没安全感的男孩。|He's a very insecure boy.
+6.8|adj|-|sensible|敏感的|sensitive|Es un niño muy [sensible].|他是个很敏感的孩子。|He's a very sensitive child.
+6.8|adj|-|razonable|合理的|reasonable|Es un precio [razonable].|这个价格很合理。|It's a reasonable price.
+6.85|adj|-|lógico|合乎逻辑的|logical|Es [lógico].|这很合理。|It's logical.
+6.85|adj|-|evidente|明显的|obvious|Es [evidente].|这很明显。|It's obvious.
+@city-b2
+6.15|n|f|la avenida|大道|avenue|Vivo en una [avenida] grande.|我住在一条大马路上。|I live on a big avenue.
+6.15|n|m|el paseo|散步；林荫道|walk; promenade|Damos un [paseo] por la playa.|我们在海边散步。|We go for a walk along the beach.
+6.2|n|f|la acera|人行道|pavement|Camina por la [acera].|走人行道。|Walk on the pavement.
+6.2|n|m|el paso de cebra|斑马线|zebra crossing|Cruza por el [paso de cebra].|走斑马线过马路。|Cross at the zebra crossing.
+6.25|n|f|la rotonda|环岛|roundabout|Gira en la [rotonda].|在环岛转弯。|Turn at the roundabout.
+6.25|n|m|el atasco|堵车|traffic jam|Hay un [atasco] enorme.|大堵车。|There's a huge traffic jam.
+6.3|n|f|la multa|罚款|fine|Me pusieron una [multa].|我被罚款了。|I got a fine.
+6.3|n|m|el carril bici|自行车道|cycle lane|Hay un [carril bici] nuevo.|有一条新的自行车道。|There's a new cycle lane.
+6.35|n|m|el transporte público|公共交通|public transport|Uso el [transporte público].|我坐公共交通。|I use public transport.
+6.4|n|m|el rascacielos|摩天大楼|skyscraper|Es el [rascacielos] más alto.|这是最高的摩天大楼。|It's the tallest skyscraper.
+6.45|n|f|la fuente|喷泉；来源|fountain; source|Hay una [fuente] en la plaza.|广场上有个喷泉。|There's a fountain in the square.
+6.45|n|f|la estatua|雕像|statue|Es una [estatua] de Cervantes.|这是塞万提斯的雕像。|It's a statue of Cervantes.
+6.55|adj|-|urbano|城市的|urban|Es un paisaje [urbano].|这是一片城市景观。|It's an urban landscape.
+6.55|adj|-|rural|乡村的|rural|Es un pueblo [rural].|这是一个乡村小镇。|It's a rural village.
+6.6|adj|-|peatonal|步行的|pedestrian|Es una calle [peatonal].|这是步行街。|It's a pedestrian street.
+6.6|adj|-|histórico|历史的|historic|Es un centro [histórico].|这是历史老城区。|It's a historic centre.
+@animals-b2
+6.1|n|m|el lobo|狼|wolf|El [lobo] vive en la montaña.|狼生活在山里。|The wolf lives in the mountains.
+6.15|n|m|el zorro|狐狸|fox|El [zorro] es muy listo.|狐狸很狡猾。|The fox is very clever.
+6.15|n|f|la ballena|鲸|whale|Vimos una [ballena].|我们看到了一头鲸鱼。|We saw a whale.
+6.2|n|m|el delfín|海豚|dolphin|El [delfín] es muy inteligente.|海豚很聪明。|The dolphin is very intelligent.
+6.2|n|m|el tiburón|鲨鱼|shark|Hay un [tiburón] en la playa.|海滩附近有鲨鱼。|There's a shark at the beach.
+6.25|n|f|la tortuga|乌龟|turtle; tortoise|La [tortuga] camina despacio.|乌龟走得很慢。|The tortoise walks slowly.
+6.25|n|f|la abeja|蜜蜂|bee|La [abeja] hace miel.|蜜蜂酿蜜。|The bee makes honey.
+6.3|n|f|la hormiga|蚂蚁|ant|Hay una [hormiga] en la mesa.|桌子上有只蚂蚁。|There's an ant on the table.
+6.3|n|f|la mariposa|蝴蝶|butterfly|Una [mariposa] en la flor.|花上有只蝴蝶。|A butterfly on the flower.
+6.35|n|m|el mosquito|蚊子|mosquito|Me picó un [mosquito].|我被蚊子咬了。|A mosquito bit me.
+6.35|n|f|la araña|蜘蛛|spider|Tengo miedo a la [araña].|我怕蜘蛛。|I'm scared of the spider.
+6.4|n|f|el águila|鹰|eagle|El [águila] vuela alto.|鹰飞得很高。|The eagle flies high.
+6.4|n|f|la paloma|鸽子|pigeon; dove|Hay una [paloma] en la plaza.|广场上有只鸽子。|There's a pigeon in the square.
+6.45|n|m|el pato|鸭子|duck|El [pato] nada en el lago.|鸭子在湖里游。|The duck swims in the lake.
+6.45|n|f|la oveja|绵羊|sheep|La [oveja] da lana.|绵羊产羊毛。|Sheep give wool.
+6.5|n|m|el toro|公牛|bull|El [toro] es un símbolo de España.|公牛是西班牙的象征。|The bull is a symbol of Spain.
+6.5|n|m|el burro|驴|donkey|El [burro] lleva la carga.|驴子驮着货物。|The donkey carries the load.
+6.55|n|f|la cabra|山羊|goat|La [cabra] sube a la montaña.|山羊爬上山。|The goat climbs the mountain.
+6.55|n|m|el tigre|老虎|tiger|El [tigre] es peligroso.|老虎很危险。|The tiger is dangerous.
+6.6|n|f|la jirafa|长颈鹿|giraffe|La [jirafa] tiene el cuello largo.|长颈鹿脖子很长。|The giraffe has a long neck.
+6.65|n|m|el nido|鸟巢|nest|Hay un [nido] en el árbol.|树上有个鸟巢。|There's a nest in the tree.
+6.65|v|-|ladrar|叫（狗）|to bark|El perro empieza a [ladrar].|狗开始叫了。|The dog starts barking.
+6.7|v|-|morder|咬|to bite|El perro no va a [morder].|这只狗不会咬人。|The dog won't bite.
+6.7|v|-|volar|飞|to fly|Los pájaros pueden [volar].|鸟会飞。|Birds can fly.
+6.35|n|f|las afueras|郊区|outskirts|Vivo en las [afueras] de la ciudad.|我住在城郊。|I live on the outskirts of the city.

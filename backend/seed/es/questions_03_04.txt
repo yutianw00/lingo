@@ -1,0 +1,297 @@
+# Levels 3–4. Word forms use vocabulary from L1–3, dialogues from L1–2.
+# L3 grammar: articles & gender agreement, ser/estar, regular present.
+# L4 grammar: irregular present, gustar.
+
+# ---------- L3 word forms
+@f301 fill 3 articles
+es Quiero [la] manzana roja. | el, los, un
+zh 我要那个红苹果。
+en I want the red apple.
+
+@f302 fill 3 articles
+es Es [un] libro muy bueno. | una, la, unos
+zh 这是一本很好的书。
+en It's a very good book.
+
+@f303 fill 3 articles
+es [El] agua está fría. | La, Las, Una
+zh 水很凉。
+en The water is cold.
+
+@f304 fill 3 agreement
+es La casa es muy [bonita]. | bonito, bonitos, bonitas
+zh 房子很漂亮。
+en The house is very pretty.
+
+@f305 fill 3 agreement
+es Mis hermanos son [altos]. | alto, alta, altas
+zh 我的兄弟们个子都很高。
+en My brothers are tall.
+
+@f306 fill 3 agreement
+es Tengo dos gatos [negros]. | negro, negra, negras
+zh 我有两只黑猫。
+en I have two black cats.
+
+@f307 fill 3 ser-estar
+es Yo [soy] de China. | estoy, es, está
+zh 我来自中国。
+en I'm from China.
+
+@f308 fill 3 ser-estar
+es Hoy [estoy] muy cansado. | soy, es, eres
+zh 我今天很累。
+en I'm very tired today.
+
+@f309 fill 3 ser-estar
+es El banco [está] cerca de aquí. | es, son, soy
+zh 银行离这里很近。
+en The bank is near here.
+
+@f310 fill 3 ser-estar
+es Mi padre [es] médico. | está, estoy, están
+zh 我爸爸是医生。
+en My father is a doctor.
+
+@f311 fill 3 present
+es Nosotros [hablamos] español. | hablan, hablo, hablas
+zh 我们说西班牙语。
+en We speak Spanish.
+
+@f312 fill 3 present
+es Ella [vive] en Madrid. | vivo, vives, vivimos
+zh 她住在马德里。
+en She lives in Madrid.
+
+@f313 fill 3 present
+es ¿Tú [comes] carne? | como, come, comen
+zh 你吃肉吗？
+en Do you eat meat?
+
+@f314 fill 3 present
+es Ellos [trabajan] en un banco. | trabaja, trabajo, trabajamos
+zh 他们在银行工作。
+en They work in a bank.
+
+@f315 fill 3 present
+es Yo [estudio] por la tarde. | estudia, estudias, estudian
+zh 我下午学习。
+en I study in the afternoon.
+
+@f316 fill 3 present
+es ¿Vosotros [bebéis] vino? | beben, bebemos, bebes
+zh 你们喝葡萄酒吗？
+en Do you all drink wine?
+
+# ---------- L3 dialogues
+@d301 next 3 intro
+es ¡Hola! ¿Cómo estás? >> Muy bien, gracias. ¿Y tú?
+zh 你好！你好吗？ >> 很好，谢谢。你呢？
+en Hi! How are you? >> Very well, thanks. And you?
+
+@d302 next 3 intro
+es ¿Cómo te llamas? >> Me llamo Lucía, ¿y tú?
+zh 你叫什么名字？ >> 我叫露西娅，你呢？
+en What's your name? >> I'm Lucía, and you?
+
+@d303 next 3 personal
+es ¿De dónde eres? >> Soy de Shanghái, en China.
+zh 你是哪里人？ >> 我是中国上海人。
+en Where are you from? >> I'm from Shanghai, in China.
+
+@d304 next 3 food
+es ¿Qué quieres tomar? >> Un café con leche, por favor.
+zh 你想喝点什么？ >> 请来一杯牛奶咖啡。
+en What would you like to have? >> A coffee with milk, please.
+
+@d305 next 3 intro
+es Muchas gracias por la comida. >> De nada, ¡qué bien que te gusta!
+zh 非常感谢你的饭菜。 >> 不客气，你喜欢就好！
+en Thanks a lot for the food. >> You're welcome, I'm glad you like it!
+
+@d306 next 3 directions
+es Perdón, ¿dónde está el baño? >> Está allí, a la derecha.
+zh 打扰一下，洗手间在哪里？ >> 在那边，右手边。
+en Excuse me, where's the bathroom? >> It's over there, on the right.
+
+@d307 next 3 shopping
+es ¿Cuánto cuesta este libro? >> Cuesta diez euros.
+zh 这本书多少钱？ >> 十欧元。
+en How much is this book? >> It costs ten euros.
+
+@d308 next 3 family
+es ¿Tienes hermanos? >> Sí, tengo una hermana pequeña.
+zh 你有兄弟姐妹吗？ >> 有，我有一个妹妹。
+en Do you have any brothers or sisters? >> Yes, I have a little sister.
+
+@d309 next 3 personal
+es ¿Hablas español? >> Sí, un poco. Estudio todos los días.
+zh 你会说西班牙语吗？ >> 会一点，我每天都在学。
+en Do you speak Spanish? >> Yes, a little. I study every day.
+
+@d310 next 3 intro
+es Bueno, me voy. ¡Hasta mañana! >> ¡Adiós! Hasta mañana.
+zh 好了，我走了。明天见！ >> 再见！明天见。
+en Right, I'm off. See you tomorrow! >> Bye! See you tomorrow.
+
+@d311 next 3 food
+es La cuenta, por favor. >> Aquí tiene. Son veinte euros.
+zh 请结账。 >> 给您，一共二十欧元。
+en The bill, please. >> Here you are. That's twenty euros.
+
+@d312 next 3 health
+es Estoy muy cansado hoy. >> ¿Por qué no descansas un poco?
+zh 我今天很累。 >> 你为什么不休息一下？
+en I'm very tired today. >> Why don't you rest a bit?
+
+# ---------- L4 word forms
+@f401 fill 4 irregular
+es Yo [tengo] veinte años. | tiene, tienes, tenemos
+zh 我二十岁。
+en I'm twenty.
+
+@f402 fill 4 irregular
+es Nosotros [vamos] al cine. | va, voy, van
+zh 我们去看电影。
+en We're going to the cinema.
+
+@f403 fill 4 irregular
+es ¿Qué [haces] tú el sábado? | hago, hace, hacen
+zh 你周六做什么？
+en What are you doing on Saturday?
+
+@f404 fill 4 irregular
+es Yo no [puedo] venir mañana. | puede, puedes, podemos
+zh 我明天来不了。
+en I can't come tomorrow.
+
+@f405 fill 4 irregular
+es Ellos [quieren] una casa grande. | quiere, quiero, queremos
+zh 他们想要一栋大房子。
+en They want a big house.
+
+@f406 fill 4 irregular
+es Yo [salgo] de casa a las ocho. | sale, sales, salimos
+zh 我八点出门。
+en I leave home at eight.
+
+@f407 fill 4 irregular
+es ¿Tú [vienes] a la fiesta? | vengo, viene, vienen
+zh 你来参加派对吗？
+en Are you coming to the party?
+
+@f408 fill 4 irregular
+es Yo siempre [digo] la verdad. | dice, dices, decimos
+zh 我总是说真话。
+en I always tell the truth.
+
+@f409 fill 4 irregular
+es Yo no [sé] su nombre. | sabe, sabes, sabemos
+zh 我不知道他的名字。
+en I don't know his name.
+
+@f410 fill 4 irregular
+es Yo [conozco] a tu hermano. | conoce, conoces, conocen
+zh 我认识你哥哥。
+en I know your brother.
+
+@f411 fill 4 gustar
+es Me [gusta] el chocolate. | gustan, gusto, gustas
+zh 我喜欢巧克力。
+en I like chocolate.
+
+@f412 fill 4 gustar
+es Me [gustan] los perros. | gusta, gusto, gustamos
+zh 我喜欢狗。
+en I like dogs.
+
+@f413 fill 4 gustar
+es A mi madre [le] gusta cocinar. | me, te, les
+zh 我妈妈喜欢做饭。
+en My mother likes cooking.
+
+@f414 fill 4 gustar
+es ¿A vosotros [os] gusta el fútbol? | nos, les, te
+zh 你们喜欢足球吗？
+en Do you all like football?
+
+@f415 fill 4 hay-estar
+es [Hay] un supermercado cerca. | Está, Es, Tiene
+zh 附近有一家超市。
+en There's a supermarket nearby.
+
+@f416 fill 4 hay-estar
+es El supermercado [está] en la plaza. | hay, es, son
+zh 超市在广场上。
+en The supermarket is in the square.
+
+# ---------- L4 dialogues
+@d401 next 4 food
+es ¿Tienen una mesa para dos? >> Sí, claro. Por aquí, por favor.
+zh 你们有两人桌吗？ >> 有的，这边请。
+en Do you have a table for two? >> Yes, of course. This way, please.
+
+@d402 next 4 food
+es ¿Qué quiere de primero? >> Una ensalada mixta, por favor.
+zh 您头盘要什么？ >> 请来一份什锦沙拉。
+en What would you like for starters? >> A mixed salad, please.
+
+@d403 next 4 directions
+es ¿Está lejos la estación? >> No, está a cinco minutos andando.
+zh 车站远吗？ >> 不远，走路五分钟。
+en Is the station far? >> No, it's a five-minute walk.
+
+@d404 next 4 plans
+es ¿A qué hora abre el museo? >> Abre a las diez y cierra a las seis.
+zh 博物馆几点开门？ >> 十点开门，六点关门。
+en What time does the museum open? >> It opens at ten and closes at six.
+
+@d405 next 4 weather
+es ¿Qué tiempo hace hoy? >> Hace sol, pero un poco de frío.
+zh 今天天气怎么样？ >> 出太阳，但有点冷。
+en What's the weather like today? >> It's sunny, but a bit cold.
+
+@d406 next 4 shopping
+es ¿Tienen esta camisa en azul? >> Sí, ¿qué talla usa?
+zh 这件衬衫有蓝色的吗？ >> 有，您穿多大码？
+en Do you have this shirt in blue? >> Yes, what size are you?
+
+@d407 next 4 plans
+es ¿Quieres ir al cine esta noche? >> ¡Vale! ¿A qué hora quedamos?
+zh 今晚想去看电影吗？ >> 好啊！我们几点见？
+en Do you want to go to the cinema tonight? >> OK! What time shall we meet?
+
+@d408 next 4 health
+es Me duele mucho la cabeza. >> ¿Por qué no tomas una pastilla?
+zh 我头很疼。 >> 你为什么不吃片药？
+en I've got a bad headache. >> Why don't you take a pill?
+
+@d409 next 4 work
+es ¿En qué trabajas? >> Soy profesora en un colegio.
+zh 你做什么工作？ >> 我是一所学校的老师。
+en What do you do? >> I'm a teacher at a school.
+
+@d410 next 4 food
+es ¿Te gusta la comida española? >> Sí, me encanta, sobre todo la paella.
+zh 你喜欢西班牙菜吗？ >> 喜欢，我特别爱海鲜饭。
+en Do you like Spanish food? >> Yes, I love it, especially paella.
+
+@d411 next 4 personal
+es ¿Dónde vives? >> Vivo en un piso pequeño en el centro.
+zh 你住在哪里？ >> 我住在市中心的一套小公寓里。
+en Where do you live? >> I live in a small flat in the centre.
+
+@d412 next 4 transport
+es ¿Cómo vas al trabajo? >> Normalmente voy en metro.
+zh 你怎么去上班？ >> 我通常坐地铁。
+en How do you get to work? >> I usually go by metro.
+
+@d413 next 4 personal
+es ¿Me das tu número de teléfono? >> Claro, es el seis, cinco, dos…
+zh 能给我你的电话号码吗？ >> 当然，是六、五、二……
+en Can I have your phone number? >> Sure, it's six, five, two…
+
+@d414 next 4 family
+es ¿Cuántos años tiene tu hijo? >> Tiene siete años y va al colegio.
+zh 你儿子几岁了？ >> 七岁了，已经上学了。
+en How old is your son? >> He's seven and goes to school.

@@ -1,0 +1,102 @@
+# Level 10b — academic and formal register (C1/C2)
+@academic-nouns
+9.05|n|m|el ensayo|论文；随笔；排练|essay; rehearsal|Escribí un [ensayo] sobre Borges.|我写了一篇关于博尔赫斯的论文。|I wrote an essay on Borges.
+9.1|n|f|la bibliografía|参考文献|bibliography|Revisa la [bibliografía].|查看参考文献。|Check the bibliography.
+9.15|n|m|el resumen|摘要|abstract; summary|Lee primero el [resumen].|先读摘要。|Read the abstract first.
+9.15|n|f|la muestra|样本；展览|sample; exhibition|Es una [muestra] pequeña.|这是个小样本。|It's a small sample.
+9.2|n|f|la encuesta|调查问卷|survey|Respondí una [encuesta].|我填了一份问卷。|I answered a survey.
+9.2|n|m|el porcentaje|百分比|percentage|Un alto [porcentaje] votó.|很高比例的人投了票。|A high percentage voted.
+9.25|n|m|el promedio|平均数|average|El [promedio] es de siete.|平均数是七。|The average is seven.
+9.25|n|f|la estadística|统计；统计学|statistics|Según la [estadística], ha bajado.|据统计，已经下降了。|According to the statistics, it's gone down.
+9.3|n|f|la variable|变量|variable|Es una [variable] clave.|这是一个关键变量。|It's a key variable.
+9.3|n|m|el indicador|指标|indicator|Es un buen [indicador].|这是个好指标。|It's a good indicator.
+9.35|n|m|el índice|指数；索引|index; rate|El [índice] de paro bajó.|失业率下降了。|The unemployment rate fell.
+9.35|n|m|el rasgo|特征|trait; feature|Es un [rasgo] típico.|这是一个典型特征。|It's a typical trait.
+9.4|n|f|la índole|性质|nature; kind|Es un problema de otra [índole].|这是另一种性质的问题。|It's a problem of a different nature.
+9.45|n|m|el paradigma|范式|paradigm|Es un cambio de [paradigma].|这是范式转变。|It's a paradigm shift.
+9.45|n|m|el postulado|假定|postulate|Es un [postulado] básico.|这是一个基本假定。|It's a basic postulate.
+9.5|n|f|la salvedad|例外；保留|exception; proviso|Con una [salvedad].|有一个例外。|With one exception.
+9.55|n|m|el sesgo|偏差|bias|Hay un [sesgo] en los datos.|数据有偏差。|There's a bias in the data.
+9.55|n|f|la falacia|谬误|fallacy|Es una [falacia].|这是一个谬论。|It's a fallacy.
+9.6|n|f|la vertiente|方面；坡面|aspect; side|Tiene una [vertiente] social.|它有社会层面。|It has a social side.
+9.6|n|m|el auge|鼎盛；兴起|boom; peak|El turismo está en [auge].|旅游业正在兴旺。|Tourism is booming.
+9.65|n|m|el declive|衰退|decline|Está en [declive].|它在衰落。|It's in decline.
+9.65|n|m|el desenlace|结局|outcome; ending|Fue un [desenlace] inesperado.|结局出人意料。|It was an unexpected outcome.
+9.7|n|m|el desencadenante|导火索|trigger|Fue el [desencadenante] de la crisis.|这是危机的导火索。|It was the trigger of the crisis.
+9.7|n|m|el detonante|导火索|trigger; catalyst|El [detonante] fue la subida de precios.|导火索是涨价。|The trigger was the price rise.
+9.75|n|f|la repercusión|影响，反响|impact; repercussion|Tuvo mucha [repercusión].|引起了很大反响。|It had a big impact.
+9.75|n|m|el alcance|范围；影响力|scope; reach|Es de gran [alcance].|影响深远。|It's far-reaching.
+@academic-verbs
+9.1|v|-|esbozar|勾勒|to sketch; to outline|Voy a [esbozar] una idea.|我来勾勒一个想法。|I'm going to outline an idea.
+9.1|v|-|plasmar|体现|to capture; to express|Es difícil [plasmar] la emoción.|很难把情感表达出来。|It's hard to capture the emotion.
+9.15|v|-|recopilar|汇编，收集|to compile|Hay que [recopilar] datos.|要收集数据。|Data has to be compiled.
+9.15|v|-|desglosar|细分|to break down|Hay que [desglosar] los gastos.|要把开支细分。|The expenses need breaking down.
+9.2|v|-|cotejar|核对|to compare; to collate|Hay que [cotejar] las versiones.|要核对各个版本。|The versions must be compared.
+9.2|v|-|contrastar|对比；核实|to contrast; to check|Hay que [contrastar] la información.|要核实信息。|The information must be checked.
+9.25|v|-|sintetizar|综合；概括|to synthesise|Intenta [sintetizar] las ideas.|试着概括这些观点。|Try to synthesise the ideas.
+9.25|v|-|profundizar|深入|to go deeper|Quiero [profundizar] en el tema.|我想深入研究这个话题。|I want to go deeper into the topic.
+9.3|v|-|ahondar|深入|to delve|Hay que [ahondar] en las causas.|要深入探究原因。|We must delve into the causes.
+9.3|v|-|indagar|调查|to investigate|Hay que [indagar] más.|需要进一步调查。|We need to investigate further.
+9.35|v|-|dilucidar|阐明|to elucidate|Hay que [dilucidar] quién tiene razón.|要弄清楚谁是对的。|We need to elucidate who is right.
+9.35|v|-|esclarecer|澄清|to clarify; to shed light on|Quieren [esclarecer] los hechos.|他们想查清事实。|They want to shed light on the facts.
+9.4|v|-|vislumbrar|隐约看到|to glimpse|Empiezo a [vislumbrar] una solución.|我开始看到一线解决的希望。|I'm starting to glimpse a solution.
+9.4|v|-|constatar|证实；确认|to verify; to note|Podemos [constatar] una mejora.|我们可以确认有所改善。|We can note an improvement.
+9.45|v|-|discernir|辨别|to discern|Es difícil [discernir] la verdad.|很难辨别真相。|It's hard to discern the truth.
+9.45|v|-|ponderar|权衡|to weigh up|Hay que [ponderar] los riesgos.|要权衡风险。|The risks must be weighed up.
+9.5|v|-|sopesar|权衡|to weigh up|Tengo que [sopesar] las opciones.|我得权衡这些选择。|I have to weigh up the options.
+9.5|v|-|acotar|界定|to delimit|Hay que [acotar] el tema.|要缩小话题范围。|The topic needs narrowing down.
+9.55|v|-|delimitar|划定|to define; to delimit|Hay que [delimitar] las funciones.|要明确职能。|The roles must be defined.
+9.55|v|-|desmentir|否认|to deny; to refute|El ministro va a [desmentir] la noticia.|部长将否认这条消息。|The minister will deny the news.
+9.6|v|-|ratificar|批准；确认|to ratify|Van a [ratificar] el acuerdo.|他们将批准协议。|They will ratify the agreement.
+9.6|v|-|suscribir|签署；赞同|to sign; to endorse|Estoy dispuesto a [suscribir] el acuerdo.|我愿意签署这份协议。|I'm willing to sign the agreement.
+9.65|v|-|postular|主张|to postulate|Es arriesgado [postular] eso.|那样主张是冒险的。|It's risky to postulate that.
+9.65|v|-|conjeturar|推测|to conjecture|Solo podemos [conjeturar].|我们只能推测。|We can only conjecture.
+9.7|v|-|subyacer|潜在于|to underlie|Es lo que parece [subyacer] al conflicto.|这似乎是冲突的根源。|It's what seems to underlie the conflict.
+9.7|v|-|trascender|超越；泄露|to transcend; to leak out|Su obra va a [trascender].|他的作品将流传后世。|His work will transcend.
+9.75|v|-|desvirtuar|歪曲|to distort|No hay que [desvirtuar] los hechos.|不应歪曲事实。|The facts must not be distorted.
+9.75|v|-|tergiversar|曲解|to twist (words)|No quiero [tergiversar] tus palabras.|我不想曲解你的话。|I don't want to twist your words.
+9.8|v|-|menoscabar|损害|to undermine|Esto puede [menoscabar] su imagen.|这可能损害他的形象。|This may undermine his image.
+9.8|v|-|socavar|削弱|to undermine|Quieren [socavar] su autoridad.|他们想削弱他的权威。|They want to undermine his authority.
+9.85|v|-|paliar|缓解|to alleviate|Hay que [paliar] los efectos.|要缓解影响。|The effects must be alleviated.
+9.85|v|-|subsanar|弥补|to remedy; to correct|Hay que [subsanar] el error.|要弥补这个错误。|The mistake must be remedied.
+9.9|v|-|acarrear|带来（后果）|to bring about|Puede [acarrear] problemas.|这可能带来问题。|It may bring about problems.
+9.9|v|-|propiciar|促成|to foster; to bring about|Hay que [propiciar] el diálogo.|要促成对话。|Dialogue must be fostered.
+9.95|v|-|soslayar|回避|to sidestep|No podemos [soslayar] el problema.|我们不能回避问题。|We can't sidestep the problem.
+10.0|v|-|dirimir|解决（争端）|to settle (a dispute)|Hay que [dirimir] el conflicto.|要解决冲突。|The conflict must be settled.
+@formal-adjectives
+9.05|adj|-|pertinente|恰当的|relevant; pertinent|Es una pregunta [pertinente].|这是个恰当的问题。|It's a pertinent question.
+9.1|adj|-|idóneo|理想的；合适的|ideal; suitable|Es el candidato [idóneo].|他是理想人选。|He's the ideal candidate.
+9.1|adj|-|óptimo|最佳的|optimal|Es el momento [óptimo].|这是最佳时机。|It's the optimal moment.
+9.15|adj|-|factible|可行的|feasible|Es un plan [factible].|这是一个可行的计划。|It's a feasible plan.
+9.15|adj|-|viable|可行的|viable|No es un proyecto [viable].|这个项目不可行。|It's not a viable project.
+9.2|adj|-|inminente|迫在眉睫的|imminent|Es un peligro [inminente].|这是迫在眉睫的危险。|It's an imminent danger.
+9.2|adj|-|inherente|固有的|inherent|Es un riesgo [inherente].|这是固有的风险。|It's an inherent risk.
+9.25|adj|-|intrínseco|内在的|intrinsic|Tiene un valor [intrínseco].|它有内在价值。|It has intrinsic value.
+9.25|adj|-|subyacente|潜在的|underlying|Es el problema [subyacente].|这是潜在的问题。|It's the underlying problem.
+9.3|adj|-|exento|免除的|exempt|Está [exento] de impuestos.|它免税。|It's tax-exempt.
+9.3|adj|-|susceptible|易受影响的；敏感的|susceptible; touchy|Es muy [susceptible].|他很敏感。|He's very touchy.
+9.35|adj|-|propenso|倾向于……的|prone|Es [propenso] a resfriarse.|他容易感冒。|He's prone to colds.
+9.35|adj|-|reacio|不情愿的|reluctant|Es [reacio] al cambio.|他抗拒改变。|He's reluctant to change.
+9.4|adj|-|ajeno|别人的；与……无关的|other people's; unrelated|Es un problema [ajeno].|这是别人的问题。|It's someone else's problem.
+9.4|adj|-|inequívoco|明确无误的|unmistakable|Es un síntoma [inequívoco].|这是明确无误的症状。|It's an unmistakable symptom.
+9.45|adj|-|tajante|斩钉截铁的|categorical|Fue un no [tajante].|那是一个斩钉截铁的“不”。|It was a categorical no.
+9.45|adj|-|rotundo|明确的；彻底的|resounding; flat|Fue un éxito [rotundo].|这是一次巨大的成功。|It was a resounding success.
+9.5|adj|-|notorio|众所周知的|well known; obvious|Es un hecho [notorio].|这是众所周知的事实。|It's a well-known fact.
+9.5|adj|-|patente|明显的|evident|Es un error [patente].|这是一个明显的错误。|It's an obvious mistake.
+9.55|adj|-|latente|潜在的|latent|Es un conflicto [latente].|这是一个潜在的冲突。|It's a latent conflict.
+9.55|adj|-|incipiente|初期的|incipient; emerging|Es un mercado [incipiente].|这是一个新兴市场。|It's an emerging market.
+9.6|adj|-|exiguo|微薄的|meagre|Es un sueldo [exiguo].|这是微薄的薪水。|It's a meagre salary.
+9.6|adj|-|ingente|巨大的|enormous|Es un esfuerzo [ingente].|这是巨大的努力。|It's an enormous effort.
+9.65|adj|-|vigoroso|有力的|vigorous|Es un crecimiento [vigoroso].|这是强劲的增长。|It's vigorous growth.
+9.65|adj|-|precario|不稳定的；不安全的|precarious|Es un empleo [precario].|这是一份不稳定的工作。|It's a precarious job.
+9.7|adj|-|escabroso|棘手的|thorny; rough|Es un tema [escabroso].|这是个棘手的话题。|It's a thorny topic.
+9.7|adj|-|espinoso|棘手的|thorny|Es un asunto [espinoso].|这是件棘手的事。|It's a thorny issue.
+9.75|adj|-|ineludible|无法回避的|unavoidable|Es un deber [ineludible].|这是无法推卸的责任。|It's an unavoidable duty.
+9.75|adj|-|irrefutable|无可辩驳的|irrefutable|Es una prueba [irrefutable].|这是无可辩驳的证据。|It's irrefutable evidence.
+9.8|adj|-|pormenorizado|详尽的|detailed|Es un informe [pormenorizado].|这是一份详尽的报告。|It's a detailed report.
+9.85|adj|-|somero|粗略的|brief; superficial|Hizo un análisis [somero].|他做了粗略的分析。|He did a brief analysis.
+9.85|adj|-|fehaciente|确凿的|reliable; conclusive|Es una prueba [fehaciente].|这是确凿的证据。|It's conclusive evidence.
+9.9|adj|-|ecuánime|公正的；沉着的|even-handed|Es un juez [ecuánime].|他是个公正的法官。|He's an even-handed judge.
+9.9|adj|-|parcial|片面的；部分的|partial; biased|Es un juicio [parcial].|这是片面的判断。|It's a biased judgement.
+9.95|adj|-|imparcial|公正的|impartial|Es un árbitro [imparcial].|他是个公正的裁判。|He's an impartial referee.
+10.0|adj|-|perentorio|紧迫的|urgent; peremptory|Es un plazo [perentorio].|这是紧迫的期限。|It's a pressing deadline.

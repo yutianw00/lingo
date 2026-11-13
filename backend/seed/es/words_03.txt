@@ -1,0 +1,199 @@
+# Level 3 — daily life (A2)
+@food-restaurant
+2.05|n|m|el desayuno|早餐|breakfast|El [desayuno] está listo.|早餐准备好了。|Breakfast is ready.
+2.05|n|f|la cena|晚餐|dinner|La [cena] es a las nueve.|晚饭九点吃。|Dinner is at nine.
+2.1|n|m|el almuerzo|午餐|lunch|El [almuerzo] es a las dos.|午饭两点吃。|Lunch is at two.
+2.1|v|-|desayunar|吃早餐|to have breakfast|Me gusta [desayunar] en casa.|我喜欢在家吃早餐。|I like having breakfast at home.
+2.1|v|-|cenar|吃晚饭|to have dinner|Vamos a [cenar] fuera.|我们出去吃晚饭吧。|Let's have dinner out.
+2.15|n|m|el camarero|服务员|waiter|El [camarero] es muy rápido.|服务员动作很快。|The waiter is very quick.
+2.15|n|m|el menú|菜单；套餐|menu; set menu|¿Puedo ver el [menú]?|我可以看看菜单吗？|Can I see the menu?
+2.2|n|m|el plato|盘子；一道菜|plate; dish|Este [plato] es típico de Valencia.|这道菜是瓦伦西亚的特色菜。|This dish is typical of Valencia.
+2.2|n|m|el vaso|玻璃杯|glass|Un [vaso] de agua, por favor.|请给我一杯水。|A glass of water, please.
+2.25|n|f|la taza|杯子（带把）|cup; mug|Una [taza] de té, por favor.|请来一杯茶。|A cup of tea, please.
+2.25|n|f|la botella|瓶子|bottle|Una [botella] de agua, por favor.|请来一瓶水。|A bottle of water, please.
+2.3|n|m|el cuchillo|刀|knife|Necesito un [cuchillo].|我需要一把刀。|I need a knife.
+2.3|n|m|el tenedor|叉子|fork|¿Me trae un [tenedor]?|能给我拿一把叉子吗？|Could you bring me a fork?
+2.3|n|f|la cuchara|勺子|spoon|La sopa se come con [cuchara].|喝汤要用勺子。|Soup is eaten with a spoon.
+2.35|n|m|el pollo|鸡肉|chicken|Quiero [pollo] con patatas.|我要鸡肉配土豆。|I'd like chicken with potatoes.
+2.35|n|m|el huevo|鸡蛋|egg|Desayuno un [huevo] frito.|我早餐吃一个煎蛋。|I have a fried egg for breakfast.
+2.4|n|m|el queso|奶酪|cheese|Me encanta el [queso] manchego.|我很爱曼切戈奶酪。|I love Manchego cheese.
+2.4|n|m|el jamón|火腿|ham|El [jamón] ibérico es caro.|伊比利亚火腿很贵。|Iberian ham is expensive.
+2.4|n|f|la patata|土豆（西班牙）|potato (Spain)|Quiero una tortilla de [patata].|我要一份土豆饼。|I'd like a potato omelette.
+2.45|n|f|la verdura|蔬菜|vegetable|Como [verdura] todos los días.|我每天吃蔬菜。|I eat vegetables every day.
+2.45|n|m|el tomate|西红柿|tomato|Una ensalada de [tomate].|一份番茄沙拉。|A tomato salad.
+2.45|n|f|la ensalada|沙拉|salad|De primero, una [ensalada].|头盘来一份沙拉。|For starters, a salad.
+2.5|n|f|la sopa|汤|soup|La [sopa] está caliente.|汤很烫。|The soup is hot.
+2.5|n|m|el azúcar|糖|sugar|Un café sin [azúcar].|一杯不加糖的咖啡。|A coffee without sugar.
+2.5|n|f|la sal|盐|salt|¿Me pasas la [sal]?|能把盐递给我吗？|Can you pass me the salt?
+2.55|n|m|el aceite|油|oil|Cocino con [aceite] de oliva.|我用橄榄油做饭。|I cook with olive oil.
+2.55|n|f|la naranja|橙子|orange|Un zumo de [naranja], por favor.|请来一杯橙汁。|An orange juice, please.
+2.55|n|m|el zumo|果汁（西班牙）|juice (Spain)|Bebo un [zumo] cada mañana.|我每天早上喝一杯果汁。|I drink a juice every morning.
+2.6|n|m|el plátano|香蕉|banana|Me como un [plátano].|我吃一根香蕉。|I'm eating a banana.
+2.6|n|m|el postre|甜点|dessert|¿Qué hay de [postre]?|甜点有什么？|What's for dessert?
+2.6|n|m|el helado|冰淇淋|ice cream|Quiero un [helado] de chocolate.|我想要一个巧克力冰淇淋。|I want a chocolate ice cream.
+2.65|n|m|el chocolate|巧克力|chocolate|Me encanta el [chocolate].|我超爱巧克力。|I love chocolate.
+2.65|n|f|la galleta|饼干|biscuit; cookie|Los niños comen una [galleta].|孩子们在吃饼干。|The children are eating a biscuit.
+2.65|n|m|el pastel|蛋糕|cake|Hay [pastel] de cumpleaños.|有生日蛋糕。|There's birthday cake.
+2.7|adj|-|delicioso|美味的|delicious|Es un plato [delicioso].|这是一道美味的菜。|It's a delicious dish.
+2.7|v|-|pedir|点（菜）；请求|to order; to ask for|Vamos a [pedir] la cena.|我们来点晚饭吧。|Let's order dinner.
+2.7|v|-|probar|尝；试|to try; to taste|¿Quieres [probar] el vino?|你想尝尝这酒吗？|Do you want to try the wine?
+2.75|n|f|la propina|小费|tip|Dejamos [propina] al camarero.|我们给服务员留了小费。|We left a tip for the waiter.
+2.75|n|f|la reserva|预订|reservation|Tengo una [reserva] para dos.|我订了两个人的位子。|I have a reservation for two.
+2.75|adj|-|picante|辣的|spicy|¿Es [picante]?|辣吗？|Is it spicy?
+@clothes
+2.1|n|f|la ropa|衣服|clothes|Tengo que lavar la [ropa].|我得洗衣服。|I have to wash the clothes.
+2.15|n|f|la camisa|衬衫|shirt|Llevo una [camisa] blanca.|我穿着一件白衬衫。|I'm wearing a white shirt.
+2.15|n|f|la camiseta|T恤|T-shirt|Es una [camiseta] de algodón.|这是一件棉T恤。|It's a cotton T-shirt.
+2.2|n|m|el pantalón|裤子|trousers; pants|Busco un [pantalón] negro.|我在找一条黑裤子。|I'm looking for black trousers.
+2.2|n|m|el vestido|连衣裙|dress|Es un [vestido] precioso.|这是一条很漂亮的裙子。|It's a beautiful dress.
+2.25|n|f|la falda|裙子（半身裙）|skirt|Esa [falda] es muy corta.|那条裙子很短。|That skirt is very short.
+2.25|n|m|el zapato|鞋|shoe|Necesito un [zapato] nuevo.|我需要一只新鞋。|I need a new shoe.
+2.3|n|m|el abrigo|大衣|coat|Ponte el [abrigo], hace frío.|穿上大衣，天冷。|Put your coat on, it's cold.
+2.3|n|f|la chaqueta|夹克，外套|jacket|Llevo una [chaqueta] ligera.|我穿着一件薄外套。|I'm wearing a light jacket.
+2.35|n|m|el jersey|毛衣（西班牙）|jumper; sweater|Es un [jersey] de lana.|这是一件羊毛衫。|It's a wool jumper.
+2.35|n|m|el sombrero|帽子（有檐）|hat|Lleva un [sombrero] de paja.|他戴着一顶草帽。|He's wearing a straw hat.
+2.4|n|m|el bolso|手提包|handbag|Mi [bolso] es negro.|我的包是黑色的。|My handbag is black.
+2.4|n|f|la talla|尺码|size (clothes)|¿Qué [talla] usas?|你穿多大码？|What size are you?
+2.45|n|m|el reloj|手表；钟|watch; clock|Mi [reloj] no funciona.|我的表坏了。|My watch doesn't work.
+2.45|n|f|las gafas|眼镜|glasses|No encuentro mis [gafas].|我找不到我的眼镜。|I can't find my glasses.
+2.5|v|-|llevar puesto|穿着，戴着|to have on|¿Qué vas a [llevar puesto]?|你打算穿什么？|What are you going to wear?
+2.5|v|-|ponerse|穿上；变得|to put on|Tienes que [ponerse] el casco.|必须戴上头盔。|You have to put on the helmet.
+2.55|v|-|quitarse|脱下|to take off|Hay que [quitarse] los zapatos.|要脱鞋。|You have to take your shoes off.
+@weather
+2.1|n|m|el tiempo|天气；时间|weather; time|¿Qué [tiempo] hace hoy?|今天天气怎么样？|What's the weather like today?
+2.15|n|m|el sol|太阳|sun|Hoy hace [sol].|今天出太阳。|It's sunny today.
+2.15|n|f|la lluvia|雨|rain|Me gusta el ruido de la [lluvia].|我喜欢雨声。|I like the sound of the rain.
+2.2|v|-|llover|下雨|to rain|Va a [llover] esta tarde.|今天下午要下雨。|It's going to rain this afternoon.
+2.2|n|m|el calor|热|heat|Hace mucho [calor].|天很热。|It's very hot.
+2.25|n|m|el frío|冷|cold|Tengo [frío].|我冷。|I'm cold.
+2.25|n|m|el viento|风|wind|Hace mucho [viento].|风很大。|It's very windy.
+2.3|n|f|la nieve|雪|snow|Hay [nieve] en la montaña.|山上有雪。|There's snow on the mountain.
+2.3|v|-|nevar|下雪|to snow|Va a [nevar] mañana.|明天要下雪。|It's going to snow tomorrow.
+2.35|n|f|la nube|云|cloud|Hay una [nube] negra.|有一片乌云。|There's a dark cloud.
+2.35|n|m|el cielo|天空|sky|El [cielo] está despejado.|天空晴朗。|The sky is clear.
+2.4|n|m|el grado|度|degree|Hace un [grado] bajo cero.|零下一度。|It's one degree below zero.
+2.4|adj|-|nublado|多云的|cloudy|El día está [nublado].|今天多云。|It's a cloudy day.
+2.45|adj|-|húmedo|潮湿的|humid; damp|El clima es [húmedo].|气候很潮湿。|The climate is humid.
+2.45|adj|-|seco|干的|dry|El aire es muy [seco].|空气很干燥。|The air is very dry.
+2.5|n|f|la temperatura|温度|temperature|La [temperatura] baja por la noche.|晚上气温下降。|The temperature drops at night.
+@transport
+2.1|n|m|el coche|汽车（西班牙）|car (Spain)|Voy al trabajo en [coche].|我开车上班。|I drive to work.
+2.1|n|m|el autobús|公交车|bus|Espero el [autobús].|我在等公交车。|I'm waiting for the bus.
+2.15|n|m|el tren|火车|train|El [tren] sale a las diez.|火车十点出发。|The train leaves at ten.
+2.15|n|m|el metro|地铁|underground; metro|Voy en [metro].|我坐地铁去。|I go by metro.
+2.2|n|m|el avión|飞机|plane|Viajo en [avión].|我坐飞机旅行。|I travel by plane.
+2.2|n|m|el taxi|出租车|taxi|Vamos a coger un [taxi].|我们打个车吧。|Let's take a taxi.
+2.25|n|f|la bicicleta|自行车|bicycle|Voy a la universidad en [bicicleta].|我骑自行车去大学。|I cycle to university.
+2.25|n|m|el barco|船|boat; ship|Vamos a Ibiza en [barco].|我们坐船去伊维萨岛。|We're going to Ibiza by boat.
+2.3|n|m|el billete|票（西班牙）；纸币|ticket; banknote|Compro un [billete] de ida y vuelta.|我买一张往返票。|I'm buying a return ticket.
+2.3|n|m|el viaje|旅行|trip; journey|¡Buen [viaje]!|一路顺风！|Have a good trip!
+2.35|n|f|la parada|车站（公交）|stop (bus)|La [parada] está en la esquina.|车站在街角。|The stop is on the corner.
+2.35|n|m|el andén|站台|platform|El tren sale del [andén] tres.|火车从三号站台发车。|The train leaves from platform three.
+2.4|n|f|la maleta|行李箱|suitcase|Mi [maleta] es muy pesada.|我的行李箱很重。|My suitcase is very heavy.
+2.4|n|m|el pasaporte|护照|passport|No olvides el [pasaporte].|别忘了护照。|Don't forget your passport.
+2.45|v|-|coger|拿；乘坐（西班牙）|to take; to catch (Spain)|Tengo que [coger] el tren.|我得赶火车。|I have to catch the train.
+2.45|v|-|conducir|驾驶|to drive|No sé [conducir].|我不会开车。|I can't drive.
+2.5|v|-|bajar|下来；下（车）|to go down; to get off|Tenemos que [bajar] aquí.|我们得在这里下车。|We have to get off here.
+2.5|v|-|subir|上去；上（车）|to go up; to get on|Hay que [subir] al tercer piso.|要上到三楼。|You have to go up to the third floor.
+2.55|v|-|cruzar|穿过，过（马路）|to cross|Hay que [cruzar] la calle.|要过马路。|You have to cross the street.
+2.55|v|-|girar|转弯|to turn|Tienes que [girar] a la izquierda.|你得向左转。|You have to turn left.
+2.6|n|f|la derecha|右边|right (side)|El baño está a la [derecha].|洗手间在右边。|The bathroom is on the right.
+2.6|n|f|la izquierda|左边|left (side)|Gira a la [izquierda].|向左转。|Turn left.
+2.65|adv|-|recto|直走|straight on|Sigue todo [recto].|一直往前走。|Keep going straight on.
+2.65|n|f|la esquina|街角|corner|Nos vemos en la [esquina].|我们在街角见。|See you at the corner.
+@body
+2.2|n|m|el cuerpo|身体|body|Me duele todo el [cuerpo].|我浑身疼。|My whole body hurts.
+2.2|n|f|la cabeza|头|head|Me duele la [cabeza].|我头疼。|I have a headache.
+2.25|n|f|la mano|手|hand|Dame la [mano].|把手给我。|Give me your hand.
+2.25|n|m|el pie|脚|foot|Me duele el [pie].|我脚疼。|My foot hurts.
+2.3|n|m|el ojo|眼睛|eye|Tengo algo en el [ojo].|我眼睛里进东西了。|I've got something in my eye.
+2.3|n|f|la boca|嘴|mouth|Abre la [boca].|张开嘴。|Open your mouth.
+2.35|n|f|la nariz|鼻子|nose|Tengo la [nariz] roja.|我鼻子红了。|My nose is red.
+2.35|n|f|la oreja|耳朵（外耳）|ear|Me duele la [oreja].|我耳朵疼。|My ear hurts.
+2.4|n|m|el pelo|头发|hair|Tiene el [pelo] largo.|她留着长发。|She has long hair.
+2.4|n|m|el brazo|手臂|arm|Me duele el [brazo].|我胳膊疼。|My arm hurts.
+2.45|n|f|la pierna|腿|leg|Tengo una [pierna] rota.|我的一条腿断了。|I have a broken leg.
+2.45|n|m|el diente|牙齿|tooth|Me duele un [diente].|我有颗牙疼。|I have a toothache.
+2.5|n|m|el estómago|胃|stomach|Me duele el [estómago].|我胃疼。|I have a stomach ache.
+2.5|n|f|la espalda|背|back|Me duele la [espalda].|我背疼。|My back hurts.
+2.55|n|f|la cara|脸|face|Lávate la [cara].|洗洗脸。|Wash your face.
+2.55|n|m|el dedo|手指；脚趾|finger; toe|Me corté el [dedo].|我割到手指了。|I cut my finger.
+2.6|n|m|el corazón|心脏；心|heart|Tiene un gran [corazón].|他心地很好。|He has a big heart.
+@daily-routine
+2.3|v|-|levantarse|起床|to get up|Es difícil [levantarse] temprano.|早起很难。|It's hard to get up early.
+2.3|v|-|acostarse|上床睡觉|to go to bed|Es hora de [acostarse].|该睡觉了。|It's time to go to bed.
+2.35|v|-|ducharse|洗澡（淋浴）|to shower|Prefiero [ducharse] por la mañana.|我更喜欢早上洗澡。|I prefer to shower in the morning.
+2.35|v|-|lavarse|洗（自己）|to wash (oneself)|Hay que [lavarse] las manos.|要洗手。|You have to wash your hands.
+2.4|v|-|vestirse|穿衣服|to get dressed|Tarda mucho en [vestirse].|他穿衣服很慢。|He takes ages to get dressed.
+2.4|v|-|despertarse|醒来|to wake up|Odio [despertarse] temprano.|我讨厌早起。|I hate waking up early.
+2.45|v|-|descansar|休息|to rest|Necesito [descansar].|我需要休息。|I need to rest.
+2.45|v|-|limpiar|打扫，清洁|to clean|Hoy tengo que [limpiar] la casa.|今天我得打扫房子。|Today I have to clean the house.
+2.5|v|-|lavar|洗（东西）|to wash|Voy a [lavar] los platos.|我去洗碗。|I'm going to wash the dishes.
+2.5|v|-|preparar|准备|to prepare|Voy a [preparar] la cena.|我去做晚饭。|I'm going to make dinner.
+2.55|v|-|salir de casa|出门|to leave home|Tengo que [salir de casa] a las ocho.|我八点得出门。|I have to leave home at eight.
+2.55|v|-|ir de compras|去购物|to go shopping|Me gusta [ir de compras].|我喜欢购物。|I like going shopping.
+2.6|v|-|pasear|散步|to go for a walk|Vamos a [pasear] por la playa.|我们去海边散步吧。|Let's go for a walk on the beach.
+2.6|v|-|correr|跑步|to run|Me gusta [correr] por el parque.|我喜欢在公园跑步。|I like running in the park.
+2.65|v|-|nadar|游泳|to swim|¿Sabes [nadar]?|你会游泳吗？|Can you swim?
+2.65|v|-|bailar|跳舞|to dance|Vamos a [bailar].|我们去跳舞吧。|Let's go dancing.
+2.7|v|-|cantar|唱歌|to sing|Me gusta [cantar] en la ducha.|我喜欢在淋浴时唱歌。|I like singing in the shower.
+2.7|n|f|la ducha|淋浴|shower|La [ducha] no funciona.|淋浴坏了。|The shower doesn't work.
+@shopping
+2.3|n|m|el precio|价格|price|¿Cuál es el [precio]?|价格是多少？|What's the price?
+2.35|n|m|el euro|欧元|euro|Cuesta un [euro].|一欧元。|It costs one euro.
+2.4|n|f|la tarjeta|卡|card|¿Puedo pagar con [tarjeta]?|可以刷卡吗？|Can I pay by card?
+2.4|n|m|el efectivo|现金|cash|Solo aceptan [efectivo].|他们只收现金。|They only accept cash.
+2.45|n|f|la bolsa|袋子|bag|¿Necesita una [bolsa]?|您需要袋子吗？|Do you need a bag?
+2.45|n|m|el cambio|零钱；变化|change|Quédese con el [cambio].|零钱不用找了。|Keep the change.
+2.5|n|f|la oferta|特价，优惠|offer; sale|Este jersey está en [oferta].|这件毛衣在打折。|This jumper is on offer.
+2.5|n|m|el regalo|礼物|present; gift|Es un [regalo] para mi madre.|这是给我妈妈的礼物。|It's a present for my mother.
+2.55|v|-|vender|卖|to sell|Quieren [vender] su casa.|他们想卖房子。|They want to sell their house.
+2.55|v|-|gastar|花（钱）|to spend|No quiero [gastar] mucho.|我不想花太多钱。|I don't want to spend much.
+2.6|n|m|el probador|试衣间|fitting room|¿Dónde está el [probador]?|试衣间在哪里？|Where is the fitting room?
+2.6|n|m|el cliente|顾客|customer|El [cliente] siempre tiene razón.|顾客永远是对的。|The customer is always right.
+@descriptions
+2.3|adj|-|gordo|胖的|fat|Mi gato está muy [gordo].|我的猫很胖。|My cat is very fat.
+2.3|adj|-|delgado|瘦的|thin; slim|Es un chico [delgado].|他是个瘦瘦的男孩。|He's a slim boy.
+2.35|adj|-|rubio|金发的|blond|Su hijo es [rubio].|他的儿子是金发。|His son is blond.
+2.35|adj|-|moreno|深色头发的；晒黑的|dark-haired; tanned|Mi novio es [moreno].|我男朋友是深色头发。|My boyfriend has dark hair.
+2.4|adj|-|inteligente|聪明的|intelligent|Es un niño muy [inteligente].|他是个很聪明的孩子。|He's a very clever boy.
+2.4|adj|-|tonto|傻的|silly; stupid|No seas [tonto].|别犯傻。|Don't be silly.
+2.45|adj|-|amable|和蔼的，客气的|kind|El médico es muy [amable].|医生很和蔼。|The doctor is very kind.
+2.45|adj|-|divertido|有趣的，好玩的|fun; funny|Es un juego muy [divertido].|这是一个很好玩的游戏。|It's a really fun game.
+2.5|adj|-|aburrido|无聊的；感到无聊的|boring; bored|Es un libro [aburrido].|这是一本无聊的书。|It's a boring book.
+2.5|adj|-|tranquilo|安静的；平静的|calm; quiet|Es un barrio [tranquilo].|这是一个安静的街区。|It's a quiet neighbourhood.
+2.55|adj|-|nervioso|紧张的|nervous|Estoy [nervioso] por el examen.|我因为考试很紧张。|I'm nervous about the exam.
+2.55|adj|-|preocupado|担心的|worried|Estoy [preocupado] por mi madre.|我很担心我妈妈。|I'm worried about my mother.
+2.6|adj|-|enfadado|生气的|angry|Mi padre está [enfadado].|我爸爸生气了。|My dad is angry.
+2.6|adj|-|listo|准备好的；聪明的|ready; clever|¿Estás [listo]?|你准备好了吗？|Are you ready?
+2.65|adj|-|rápido|快的|fast|Es un tren muy [rápido].|这是一列很快的火车。|It's a very fast train.
+2.65|adj|-|lento|慢的|slow|Internet está muy [lento].|网速很慢。|The internet is very slow.
+2.7|adj|-|pesado|重的；烦人的|heavy; annoying|Este paquete es muy [pesado].|这个包裹很重。|This parcel is very heavy.
+2.7|adj|-|ligero|轻的|light|Quiero algo [ligero] para cenar.|晚饭我想吃点清淡的。|I'd like something light for dinner.
+2.75|adj|-|mismo|同样的|same|Tenemos el [mismo] coche.|我们的车一样。|We have the same car.
+2.75|adj|-|diferente|不同的|different|Es un plan [diferente].|这是个不同的计划。|It's a different plan.
+2.8|adj|-|importante|重要的|important|Es un día [importante].|这是重要的一天。|It's an important day.
+2.8|adj|-|necesario|必要的|necessary|No es [necesario].|没必要。|It's not necessary.
+2.85|adj|-|posible|可能的|possible|Todo es [posible].|一切皆有可能。|Anything is possible.
+2.85|adj|-|seguro|安全的；确定的|safe; sure|¿Estás [seguro]?|你确定吗？|Are you sure?
+@verbs
+2.6|v|-|ganar|赢；挣（钱）|to win; to earn|Quiero [ganar] el partido.|我想赢这场比赛。|I want to win the match.
+2.6|v|-|perder|失去；输；错过|to lose; to miss|No quiero [perder] el tren.|我不想错过火车。|I don't want to miss the train.
+2.65|v|-|olvidar|忘记|to forget|No quiero [olvidar] tu nombre.|我不想忘记你的名字。|I don't want to forget your name.
+2.65|v|-|recordar|记得|to remember|No puedo [recordar] su nombre.|我想不起他的名字。|I can't remember his name.
+2.7|v|-|entrar|进入|to enter; to go in|¿Podemos [entrar]?|我们可以进去吗？|Can we go in?
+2.7|v|-|seguir|跟随；继续|to follow; to continue|Hay que [seguir] recto.|要一直往前走。|You have to keep going straight.
+2.75|v|-|quedar|约见；剩下|to meet up; to remain|¿Quieres [quedar] mañana?|明天想见面吗？|Do you want to meet up tomorrow?
+2.75|v|-|quedarse|待，留下|to stay|Es mejor [quedarse] en casa hoy.|今天最好待在家里。|It's better to stay at home today.
+2.8|v|-|cambiar|改变；换|to change|Quiero [cambiar] de trabajo.|我想换工作。|I want to change jobs.
+2.8|v|-|enviar|寄，发送|to send|Te voy a [enviar] un mensaje.|我给你发条消息。|I'll send you a message.
+2.85|v|-|recibir|收到|to receive|Acabo de [recibir] tu carta.|我刚收到你的信。|I've just received your letter.
+2.85|v|-|invitar|邀请；请客|to invite; to treat|Te quiero [invitar] a cenar.|我想请你吃晚饭。|I'd like to take you out to dinner.
+2.9|v|-|ver la tele|看电视|to watch TV|Me gusta [ver la tele] por la noche.|我喜欢晚上看电视。|I like watching TV at night.
+2.9|v|-|sentarse|坐下|to sit down|¿Quiere [sentarse] aquí?|您想坐这里吗？|Would you like to sit here?
+2.95|v|-|alquilar|租|to rent|Queremos [alquilar] un piso.|我们想租一套公寓。|We want to rent a flat.
+2.95|v|-|ocurrir|发生|to happen|¿Qué puede [ocurrir]?|会发生什么呢？|What could happen?
+3.0|v|-|parecer|看起来；觉得|to seem|Puede [parecer] fácil.|看起来可能很容易。|It may seem easy.
+3.0|v|-|encantar|非常喜欢|to love (to delight)|Te va a [encantar].|你会爱上它的。|You're going to love it.
+@weather
+2.5|n|m|el paraguas|雨伞|umbrella|Coge el [paraguas], va a llover.|带上伞，要下雨了。|Take the umbrella, it's going to rain.

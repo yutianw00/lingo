@@ -1,0 +1,307 @@
+# Levels 5–6.
+# L5 grammar: stem-changing verbs, reflexives, possessives, ir a + infinitive.
+# L6 grammar: preterite (regular + common irregular).
+
+# ---------- L5 word forms
+@f501 fill 5 stem-change
+es Yo [quiero] un café, por favor. | quero, quieres, quiere
+zh 我要一杯咖啡。
+en I'd like a coffee, please.
+
+@f502 fill 5 stem-change
+es Nosotros [podemos] ir mañana. | puedemos, pueden, puedo
+zh 我们明天可以去。
+en We can go tomorrow.
+
+@f503 fill 5 stem-change
+es Ella [duerme] ocho horas. | dorme, duermo, dormimos
+zh 她睡八个小时。
+en She sleeps eight hours.
+
+@f504 fill 5 stem-change
+es ¿A qué hora [empieza] la clase? | empeza, empiezo, empezamos
+zh 课几点开始？
+en What time does the class start?
+
+@f505 fill 5 stem-change
+es Yo siempre [pido] pescado. | pedo, pide, piden
+zh 我总是点鱼。
+en I always order fish.
+
+@f506 fill 5 stem-change
+es ¿Cuánto [cuesta] el billete? | costa, cuestan, cuesto
+zh 票多少钱？
+en How much is the ticket?
+
+@f507 fill 5 stem-change
+es Mis padres [vuelven] el lunes. | volven, vuelve, volvemos
+zh 我父母周一回来。
+en My parents come back on Monday.
+
+@f508 fill 5 reflexive
+es Yo [me] levanto a las siete. | te, se, nos
+zh 我七点起床。
+en I get up at seven.
+
+@f509 fill 5 reflexive
+es ¿A qué hora [te] acuestas? | me, se, os
+zh 你几点睡觉？
+en What time do you go to bed?
+
+@f510 fill 5 reflexive
+es Nosotros [nos] duchamos por la mañana. | se, os, me
+zh 我们早上洗澡。
+en We shower in the morning.
+
+@f511 fill 5 reflexive
+es Mi hermano [se] llama Pablo. | me, te, le
+zh 我哥哥叫巴勃罗。
+en My brother's name is Pablo.
+
+@f512 fill 5 possessive
+es Estas son [mis] llaves. | mi, mío, mías
+zh 这些是我的钥匙。
+en These are my keys.
+
+@f513 fill 5 possessive
+es Laura y [su] marido viven aquí. | sus, suyo, suya
+zh 劳拉和她丈夫住在这里。
+en Laura and her husband live here.
+
+@f514 fill 5 possessive
+es Esta es [nuestra] casa. | nuestro, nuestros, nosotros
+zh 这是我们的家。
+en This is our house.
+
+@f515 fill 5 possessive
+es Ese libro no es mío, es [tuyo]. | tu, tuya, tus
+zh 那本书不是我的，是你的。
+en That book isn't mine, it's yours.
+
+@f516 fill 5 future-ir
+es Mañana yo [voy] a estudiar. | vamos, va, vas
+zh 我明天要学习。
+en Tomorrow I'm going to study.
+
+@f517 fill 5 future-ir
+es ¿Qué [vas] a hacer este verano? | va, voy, van
+zh 你今年夏天打算做什么？
+en What are you going to do this summer?
+
+@f518 fill 5 future-ir
+es Va [a] llover esta tarde. | de, en, que
+zh 今天下午要下雨。
+en It's going to rain this afternoon.
+
+# ---------- L5 dialogues
+@d501 next 5 plans
+es ¿Qué vas a hacer el fin de semana? >> Voy a ir a la playa con unos amigos.
+zh 你周末打算做什么？ >> 我要和几个朋友去海边。
+en What are you doing at the weekend? >> I'm going to the beach with some friends.
+
+@d502 next 5 routine
+es ¿A qué hora te levantas normalmente? >> Me levanto a las siete y desayuno en casa.
+zh 你平时几点起床？ >> 我七点起床，在家吃早饭。
+en What time do you usually get up? >> I get up at seven and have breakfast at home.
+
+@d503 next 5 health
+es Tengo fiebre y me duele la garganta. >> Deberías ir al médico hoy mismo.
+zh 我发烧了，嗓子也疼。 >> 你今天就该去看医生。
+en I've got a fever and a sore throat. >> You should go to the doctor today.
+
+@d504 next 5 shopping
+es Esta camiseta me queda pequeña. >> ¿Quiere probar una talla más grande?
+zh 这件T恤我穿小了。 >> 您要试试大一号的吗？
+en This T-shirt is too small for me. >> Would you like to try a bigger size?
+
+@d505 next 5 hotel
+es Tengo una reserva a nombre de García. >> Sí, una habitación doble para tres noches.
+zh 我用加西亚的名字订了房。 >> 是的，一间双人房，住三晚。
+en I have a booking under García. >> Yes, a double room for three nights.
+
+@d506 next 5 directions
+es ¿Cómo llego a la catedral? >> Sigue recto y gira la segunda a la izquierda.
+zh 去大教堂怎么走？ >> 一直走，第二个路口左转。
+en How do I get to the cathedral? >> Go straight on and take the second left.
+
+@d507 next 5 food
+es ¿Me puede traer la carta, por favor? >> Claro, ahora mismo se la traigo.
+zh 能把菜单拿给我吗？ >> 当然，我马上拿来。
+en Could you bring me the menu, please? >> Of course, I'll bring it right away.
+
+@d508 next 5 family
+es ¿Cómo es tu hermana? >> Es alta, morena y muy simpática.
+zh 你姐姐长什么样？ >> 她个子高，深色头发，人很好。
+en What's your sister like? >> She's tall, dark-haired and very nice.
+
+@d509 next 5 phone
+es ¿Diga? >> Hola, ¿está Marta? Soy su compañero de trabajo.
+zh 喂？ >> 你好，玛尔塔在吗？我是她同事。
+en Hello? >> Hi, is Marta there? I'm her colleague.
+
+@d510 next 5 home
+es ¿Cuántas habitaciones tiene tu piso? >> Tiene dos dormitorios, un salón y una cocina.
+zh 你的公寓有几个房间？ >> 有两个卧室、一个客厅和一个厨房。
+en How many rooms does your flat have? >> It has two bedrooms, a living room and a kitchen.
+
+@d511 next 5 work
+es ¿Te gusta tu trabajo? >> Sí, aunque a veces tengo demasiadas reuniones.
+zh 你喜欢你的工作吗？ >> 喜欢，虽然有时候会议太多。
+en Do you like your job? >> Yes, although sometimes I have too many meetings.
+
+@d512 next 5 weather
+es ¿Llevo paraguas? >> Sí, dicen que va a llover por la tarde.
+zh 我要带伞吗？ >> 带吧，听说下午要下雨。
+en Should I take an umbrella? >> Yes, they say it's going to rain in the afternoon.
+
+@d513 next 5 transport
+es ¿Este autobús va al aeropuerto? >> No, tiene que coger el número cinco.
+zh 这辆公交车去机场吗？ >> 不去，您得坐五路。
+en Does this bus go to the airport? >> No, you need to take the number five.
+
+@d514 next 5 intro
+es Te presento a mi amigo Javier. >> Encantado, Javier. Yo soy Wei.
+zh 我给你介绍我的朋友哈维尔。 >> 很高兴认识你，哈维尔。我是伟。
+en Let me introduce my friend Javier. >> Nice to meet you, Javier. I'm Wei.
+
+# ---------- L6 word forms
+@f601 fill 6 preterite
+es Ayer [comí] paella. | comemos, comeré, comer
+zh 我昨天吃了海鲜饭。
+en Yesterday I ate paella.
+
+@f602 fill 6 preterite
+es El año pasado [viajamos] a Perú. | viajaremos, viajemos, viajar
+zh 去年我们去了秘鲁。
+en Last year we travelled to Peru.
+
+@f603 fill 6 preterite
+es ¿[Hablaste] con tu madre ayer? | Hablarás, Hables, Hablar
+zh 你昨天跟你妈妈说话了吗？
+en Did you speak to your mother yesterday?
+
+@f604 fill 6 preterite
+es Anoche ellos [llegaron] tarde a la fiesta. | llegarán, llegue, llegar
+zh 他们参加派对迟到了。
+en They arrived late at the party.
+
+@f605 fill 6 preterite
+es Ayer ella [escribió] una carta. | escribirá, escriba, escribí
+zh 她写了一封信。
+en She wrote a letter.
+
+@f606 fill 6 preterite-irregular
+es Ayer yo [fui] al médico. | iré, vaya, fue
+zh 我昨天去看了医生。
+en Yesterday I went to the doctor.
+
+@f607 fill 6 preterite-irregular
+es La película [fue] muy buena. | es, era, fui
+zh 那部电影很好看。
+en The film was very good.
+
+@f608 fill 6 preterite-irregular
+es Anoche yo [tuve] un sueño raro. | tendré, tenga, tuvo
+zh 昨晚我做了个奇怪的梦。
+en Last night I had a strange dream.
+
+@f609 fill 6 preterite-irregular
+es ¿Qué [hiciste] tú el domingo? | harás, hizo, hagas
+zh 你周日做了什么？
+en What did you do on Sunday?
+
+@f610 fill 6 preterite-irregular
+es Anoche yo no [pude] dormir bien. | podré, pueda, pudo
+zh 我没睡好。
+en I couldn't sleep well.
+
+@f611 fill 6 preterite-irregular
+es Ayer mis amigos [vinieron] a casa. | vendrán, vengan, vino
+zh 我的朋友们来我家了。
+en My friends came over.
+
+@f612 fill 6 preterite-irregular
+es ¿Dónde [pusiste] tú las llaves ayer? | pondrás, pongas, puso
+zh 你把钥匙放哪儿了？
+en Where did you put the keys?
+
+@f613 fill 6 preterite-irregular
+es Ayer él me [dijo] la verdad. | dirá, diga, dije
+zh 他跟我说了实话。
+en He told me the truth.
+
+@f614 fill 6 preterite-irregular
+es Ayer yo [estuve] en casa todo el día. | estaré, esté, estuvo
+zh 我昨天一整天都在家。
+en Yesterday I was at home all day.
+
+@f615 fill 6 time-markers
+es [Ayer] visité a mis abuelos. | Mañana, Ahora, Siempre
+zh 我昨天去看了爷爷奶奶。
+en Yesterday I visited my grandparents.
+
+@f616 fill 6 time-markers
+es Llegué a España [hace] dos años. | desde, por, durante
+zh 我两年前来到西班牙。
+en I arrived in Spain two years ago.
+
+# ---------- L6 dialogues
+@d601 next 6 past
+es ¿Qué hiciste el fin de semana? >> Fui al campo con mi familia y comimos fuera.
+zh 你周末做了什么？ >> 我和家人去了乡下，在外面吃了饭。
+en What did you do at the weekend? >> I went to the countryside with my family and we ate out.
+
+@d602 next 6 travel
+es ¿Qué tal el viaje a México? >> ¡Increíble! Visitamos muchos pueblos y probamos de todo.
+zh 墨西哥之行怎么样？ >> 太棒了！我们去了很多小镇，什么都尝了。
+en How was the trip to Mexico? >> Amazing! We visited lots of towns and tried everything.
+
+@d603 next 6 health
+es ¿Por qué no viniste ayer a clase? >> Estuve enfermo, tuve fiebre toda la noche.
+zh 你昨天为什么没来上课？ >> 我病了，发了一整晚的烧。
+en Why didn't you come to class yesterday? >> I was ill, I had a fever all night.
+
+@d604 next 6 shopping
+es Quiero devolver estos zapatos. >> ¿Tiene el recibo? Puede cambiarlos o le devolvemos el dinero.
+zh 我想退这双鞋。 >> 您有收据吗？可以换货或者退款。
+en I'd like to return these shoes. >> Do you have the receipt? You can exchange them or get a refund.
+
+@d605 next 6 work
+es ¿Cómo fue la entrevista? >> Creo que bien, me hicieron muchas preguntas.
+zh 面试怎么样？ >> 我觉得还行，他们问了我很多问题。
+en How did the interview go? >> I think it went well, they asked me lots of questions.
+
+@d606 next 6 plans
+es ¿Te apetece ir a un concierto el viernes? >> ¡Me encantaría! ¿Quién toca?
+zh 周五想去听音乐会吗？ >> 太好了！谁的演出？
+en Do you fancy going to a concert on Friday? >> I'd love to! Who's playing?
+
+@d607 next 6 problem
+es He perdido mi cartera en el metro. >> Tienes que ir a la oficina de objetos perdidos.
+zh 我在地铁上丢了钱包。 >> 你得去失物招领处。
+en I've lost my wallet on the metro. >> You need to go to the lost property office.
+
+@d608 next 6 food
+es ¿Qué tal la cena de anoche? >> Muy rica, pero comimos demasiado.
+zh 昨晚的晚餐怎么样？ >> 很好吃，不过我们吃太多了。
+en How was dinner last night? >> Delicious, but we ate too much.
+
+@d609 next 6 home
+es ¿Por qué te mudaste de piso? >> Porque el alquiler subió mucho.
+zh 你为什么搬家了？ >> 因为房租涨了很多。
+en Why did you move flats? >> Because the rent went up a lot.
+
+@d610 next 6 feelings
+es ¡Aprobé el examen de conducir! >> ¡Enhorabuena! Hay que celebrarlo.
+zh 我考过驾照了！ >> 恭喜！得庆祝一下。
+en I passed my driving test! >> Congratulations! We have to celebrate.
+
+@d611 next 6 transport
+es ¿Por qué llegaste tan tarde? >> Perdí el autobús y tuve que esperar media hora.
+zh 你怎么来得这么晚？ >> 我没赶上公交车，等了半个小时。
+en Why were you so late? >> I missed the bus and had to wait half an hour.
+
+@d612 next 6 personal
+es ¿Cuándo empezaste a estudiar español? >> Empecé hace un año, en una academia.
+zh 你什么时候开始学西班牙语的？ >> 一年前在一家培训学校开始的。
+en When did you start learning Spanish? >> I started a year ago, at a language school.

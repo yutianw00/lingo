@@ -1,0 +1,101 @@
+# Level 7c — B2 verbs, adjectives, adverbs
+@verbs-b2
+6.05|v|-|alcanzar|达到；够到|to reach|Quiero [alcanzar] mis metas.|我想实现我的目标。|I want to reach my goals.
+6.05|v|-|lograr|实现，做到|to achieve|Vas a [lograr] lo que quieras.|你想要的都能实现。|You'll achieve whatever you want.
+6.1|v|-|obtener|获得|to obtain|Es difícil [obtener] el visado.|很难拿到签证。|It's hard to obtain the visa.
+6.1|v|-|mantener|保持；维持|to keep; to maintain|Hay que [mantener] la calma.|要保持冷静。|You have to keep calm.
+6.15|v|-|establecer|建立；规定|to establish|Hay que [establecer] reglas.|要制定规则。|Rules need to be established.
+6.15|v|-|considerar|考虑；认为|to consider|Tienes que [considerar] todas las opciones.|你得考虑所有选择。|You have to consider all the options.
+6.2|v|-|indicar|指示；表明|to indicate|Las señales van a [indicar] el camino.|标志会指明道路。|The signs will indicate the way.
+6.2|v|-|señalar|指出|to point out|Quiero [señalar] un error.|我想指出一个错误。|I want to point out a mistake.
+6.25|v|-|aclarar|澄清|to clarify|Quiero [aclarar] una cosa.|我想澄清一件事。|I want to clarify one thing.
+6.25|v|-|destacar|突出；强调|to stand out; to highlight|Quiero [destacar] su trabajo.|我想特别提到他的工作。|I want to highlight his work.
+6.3|v|-|plantear|提出（问题）|to raise (an issue)|Quiero [plantear] una pregunta.|我想提一个问题。|I want to raise a question.
+6.3|v|-|afectar|影响|to affect|La crisis va a [afectar] a todos.|危机会影响所有人。|The crisis will affect everyone.
+6.35|v|-|influir|影响|to influence|Sus padres van a [influir] en su decisión.|他父母会影响他的决定。|His parents will influence his decision.
+6.35|v|-|provocar|引起，导致|to cause; to provoke|Puede [provocar] problemas.|这可能导致问题。|It can cause problems.
+6.4|v|-|causar|造成|to cause|No quiero [causar] molestias.|我不想添麻烦。|I don't want to cause any trouble.
+6.4|v|-|impedir|阻止|to prevent|Nada te va a [impedir] ir.|没有什么能阻止你去。|Nothing will stop you going.
+6.45|v|-|exigir|要求|to demand|Tienes derecho a [exigir] una explicación.|你有权要求解释。|You have the right to demand an explanation.
+6.45|v|-|insistir|坚持|to insist|No quiero [insistir].|我不想勉强。|I don't want to insist.
+6.5|v|-|rechazar|拒绝|to reject|Va a [rechazar] la oferta.|他会拒绝这个提议。|He's going to reject the offer.
+6.5|v|-|aprovechar|利用|to take advantage of|Hay que [aprovechar] el buen tiempo.|要好好利用好天气。|You have to make the most of the good weather.
+6.55|v|-|asumir|承担|to take on; to assume|Tienes que [asumir] la responsabilidad.|你得承担责任。|You have to take responsibility.
+6.55|v|-|enfrentar|面对|to face|Hay que [enfrentar] la realidad.|要面对现实。|You have to face reality.
+6.6|v|-|adaptarse|适应|to adapt|Es difícil [adaptarse] a otro país.|适应另一个国家很难。|It's hard to adapt to another country.
+6.6|v|-|acostumbrarse|习惯|to get used to|Vas a [acostumbrarse] pronto.|你很快就会习惯的。|You'll get used to it soon.
+6.65|v|-|atreverse|敢于|to dare|Hay que [atreverse] a hablar.|要敢于开口说。|You have to dare to speak.
+6.65|v|-|esforzarse|努力|to make an effort|Hay que [esforzarse] más.|要更努力。|You need to make more effort.
+6.7|v|-|valorar|重视；评价|to value|Hay que [valorar] lo que tienes.|要珍惜你所拥有的。|You have to value what you have.
+6.7|v|-|agradecer|感谢|to thank; to be grateful for|Te quiero [agradecer] tu ayuda.|我想感谢你的帮助。|I want to thank you for your help.
+6.75|v|-|disculparse|道歉|to apologise|Tienes que [disculparse].|你得道歉。|You have to apologise.
+6.8|v|-|respetar|尊重|to respect|Hay que [respetar] a los mayores.|要尊重长辈。|You must respect your elders.
+6.85|v|-|tolerar|容忍|to tolerate|No voy a [tolerar] esto.|我不会容忍这种事。|I won't tolerate this.
+6.85|v|-|soportar|忍受|to stand; to bear|No lo puedo [soportar].|我受不了。|I can't stand it.
+6.9|v|-|aguantar|忍受，坚持|to put up with; to hold on|Ya no puedo [aguantar] más.|我再也忍不了了。|I can't take it any more.
+6.9|v|-|resistir|抵抗|to resist|No pude [resistir] la tentación.|我抵挡不住诱惑。|I couldn't resist the temptation.
+6.95|v|-|arriesgarse|冒险|to take a risk|Hay que [arriesgarse] a veces.|有时候要冒点险。|Sometimes you have to take a risk.
+6.95|v|-|rendirse|放弃|to give up|No hay que [rendirse].|不要放弃。|Never give up.
+7.0|v|-|fracasar|失败|to fail|No tengas miedo a [fracasar].|不要害怕失败。|Don't be afraid to fail.
+7.0|v|-|triunfar|成功|to succeed|Quiere [triunfar] en la música.|他想在音乐上取得成功。|He wants to succeed in music.
+@adjectives-b2
+6.1|adj|-|eficaz|有效的|effective|Es un método [eficaz].|这是个有效的方法。|It's an effective method.
+6.1|adj|-|útil|有用的|useful|Es un consejo muy [útil].|这是个很有用的建议。|It's a very useful piece of advice.
+6.15|adj|-|inútil|无用的|useless|Es un esfuerzo [inútil].|这是徒劳的。|It's a useless effort.
+6.2|adj|-|complicado|复杂的|complicated|Es un tema [complicado].|这是个复杂的话题。|It's a complicated topic.
+6.2|adj|-|sencillo|简单的|simple|Es un plato [sencillo].|这是一道简单的菜。|It's a simple dish.
+6.25|adj|-|complejo|复杂的|complex|Es un sistema [complejo].|这是一个复杂的系统。|It's a complex system.
+6.25|adj|-|concreto|具体的|specific; concrete|Dame un ejemplo [concreto].|给我一个具体的例子。|Give me a specific example.
+6.3|adj|-|exacto|准确的|exact|Es el precio [exacto].|这是确切的价格。|It's the exact price.
+6.3|adj|-|preciso|精确的；必要的|precise; necessary|Es un reloj muy [preciso].|这块表很准。|It's a very precise watch.
+6.35|adj|-|suficiente|足够的|enough|No hay tiempo [suficiente].|时间不够。|There's not enough time.
+6.35|adj|-|escaso|稀少的|scarce|El agua es un recurso [escaso].|水是稀缺资源。|Water is a scarce resource.
+6.4|adj|-|abundante|丰富的|abundant|Es un desayuno [abundante].|这是一顿丰盛的早餐。|It's a hearty breakfast.
+6.4|adj|-|habitual|习惯的，惯常的|usual|Es mi bar [habitual].|这是我常去的酒吧。|It's my usual bar.
+6.45|adj|-|frecuente|频繁的|frequent|Es un error [frecuente].|这是个常见错误。|It's a frequent mistake.
+6.45|adj|-|extraño|奇怪的|strange|Es un ruido [extraño].|这是个奇怪的声音。|It's a strange noise.
+6.5|adj|-|curioso|好奇的；奇特的|curious|Es un niño muy [curioso].|他是个很有好奇心的孩子。|He's a very curious child.
+6.5|adj|-|sorprendente|令人惊讶的|surprising|Es un resultado [sorprendente].|这是个令人惊讶的结果。|It's a surprising result.
+6.55|adj|-|impresionante|令人印象深刻的|impressive|Es un edificio [impresionante].|这栋建筑令人震撼。|It's an impressive building.
+6.55|adj|-|emocionante|激动人心的|exciting|Es un partido [emocionante].|这是一场激动人心的比赛。|It's an exciting match.
+6.6|adj|-|agradable|令人愉快的|pleasant|Es un sitio muy [agradable].|这是个很舒适的地方。|It's a very pleasant place.
+6.6|adj|-|desagradable|令人不快的|unpleasant|Es un olor [desagradable].|这是一股难闻的气味。|It's an unpleasant smell.
+6.65|adj|-|justo|公平的；刚好的|fair; just; tight|No es [justo].|这不公平。|It's not fair.
+6.65|adj|-|injusto|不公平的|unfair|Es un castigo [injusto].|这是不公平的惩罚。|It's an unfair punishment.
+6.7|adj|-|honrado|诚实的|honest|Es un hombre [honrado].|他是个诚实的人。|He's an honest man.
+6.7|adj|-|amplio|宽敞的；广泛的|wide; broad|Tiene un conocimiento [amplio].|他知识面很广。|He has broad knowledge.
+6.75|adj|-|leve|轻微的|slight; mild|Es un dolor [leve].|是轻微的疼痛。|It's a mild pain.
+6.8|adj|-|temporal|暂时的|temporary|Es un trabajo [temporal].|这是一份临时工作。|It's a temporary job.
+6.8|adj|-|permanente|永久的|permanent|Es un cambio [permanente].|这是一个永久的改变。|It's a permanent change.
+6.85|adj|-|estable|稳定的|stable|Busco un trabajo [estable].|我在找一份稳定的工作。|I'm looking for a stable job.
+6.9|adj|-|dispuesto|愿意的|willing|Estoy [dispuesto] a ayudar.|我愿意帮忙。|I'm willing to help.
+6.95|adj|-|capaz|有能力的|capable|Es [capaz] de todo.|他什么都干得出来。|He's capable of anything.
+6.95|adj|-|incapaz|无能力的|incapable|Soy [incapaz] de mentir.|我不会撒谎。|I'm incapable of lying.
+7.0|adj|-|imprescindible|必不可少的|essential|El pasaporte es [imprescindible].|护照必不可少。|Your passport is essential.
+@adverbs-b2
+6.2|adv|-|actualmente|目前|currently|[Actualmente] vivo en Madrid.|我目前住在马德里。|I currently live in Madrid.
+6.25|adv|-|finalmente|最终|finally|[Finalmente] llegamos.|我们终于到了。|We finally arrived.
+6.3|adv|-|simplemente|只是，简单地|simply|Es [simplemente] perfecto.|简直完美。|It's simply perfect.
+6.35|adv|-|claramente|清楚地|clearly|Habla [claramente].|说清楚。|Speak clearly.
+6.4|adv|-|sobre todo|尤其|above all|Me gusta la fruta, [sobre todo] las fresas.|我喜欢水果，尤其是草莓。|I like fruit, above all strawberries.
+6.45|adv|-|a pesar de todo|尽管如此|despite everything|[A pesar de todo], soy feliz.|尽管如此，我很幸福。|Despite everything, I'm happy.
+6.5|adv|-|al menos|至少|at least|[Al menos] llámame.|至少给我打个电话。|At least call me.
+6.55|adv|-|en general|总的来说|in general|[En general], estoy contento.|总的来说我很满意。|In general, I'm happy.
+6.6|adv|-|a la vez|同时|at the same time|No puedo hacer dos cosas [a la vez].|我不能同时做两件事。|I can't do two things at the same time.
+6.65|adv|-|poco a poco|渐渐地|little by little|[Poco a poco] aprendo.|我一点点在学。|Little by little I'm learning.
+6.7|adv|-|de todas formas|无论如何|anyway|[De todas formas], gracias.|不管怎样，谢谢。|Thanks anyway.
+6.75|adv|-|a propósito|故意地；顺便说|on purpose; by the way|Lo hizo [a propósito].|他是故意的。|He did it on purpose.
+6.8|adv|-|sin duda|毫无疑问|undoubtedly|Es, [sin duda], el mejor.|毫无疑问，他是最好的。|He is undoubtedly the best.
+6.85|adv|-|a lo mejor|也许|maybe|[A lo mejor] voy.|也许我会去。|Maybe I'll go.
+6.9|adv|-|en cuanto|一……就|as soon as|Te llamo [en cuanto] llegue.|我一到就给你打电话。|I'll call you as soon as I arrive.
+6.95|adv|-|de momento|暂时|for the moment|[De momento], todo bien.|目前一切都好。|So far, so good.
+7.0|adv|-|por lo visto|看来|apparently|[Por lo visto], va a llover.|看来要下雨了。|Apparently it's going to rain.
+@expressions-b2
+6.3|phr|-|vale la pena|值得|it's worth it|Este viaje [vale la pena].|这趟旅行很值得。|This trip is worth it.
+6.4|phr|-|me da igual|我无所谓|I don't mind|[Me da igual] dónde cenamos.|在哪吃晚饭我都无所谓。|I don't mind where we have dinner.
+6.5|phr|-|qué más da|有什么关系|what does it matter|¿[Qué más da]?|有什么关系呢？|What does it matter?
+6.6|phr|-|menos mal|幸好|thank goodness|[Menos mal] que llegaste.|幸好你来了。|Thank goodness you came.
+6.7|phr|-|no pasa nada|没关系|it's OK|Tranquilo, [no pasa nada].|别担心，没关系。|Don't worry, it's OK.
+6.8|phr|-|en serio|当真，真的|seriously|¿[En serio]?|真的吗？|Seriously?
+6.9|phr|-|ni idea|完全不知道|no idea|—¿Dónde está? —[Ni idea].|“他在哪？”“不知道。”|"Where is he?" "No idea."
+7.0|phr|-|ya está|好了，完成了|that's it; done|[Ya está], terminé.|好了，我做完了。|There, I've finished.

@@ -1,0 +1,173 @@
+# Gap fill 2 — mid-frequency practical words placed at levels 3–7
+@verbs-mid
+3.1|v|-|desear|希望，想要|to wish; to desire|¿Qué va a [desear]?|您想要点什么？|What would you like?
+3.15|v|-|regresar|返回|to return|Quiero [regresar] a casa.|我想回家。|I want to go back home.
+3.2|v|-|almorzar|吃午饭|to have lunch|Vamos a [almorzar] juntos.|我们一起吃午饭吧。|Let's have lunch together.
+3.25|v|-|merendar|吃下午茶|to have an afternoon snack|Los niños quieren [merendar].|孩子们想吃点心。|The children want an afternoon snack.
+3.3|v|-|quitar|拿走，去掉|to remove; to take away|Hay que [quitar] la mancha.|要把污渍去掉。|The stain needs removing.
+3.35|v|-|escoger|挑选|to choose; to pick|Puedes [escoger] el color.|你可以挑颜色。|You can choose the colour.
+3.4|v|-|esconder|藏|to hide|Voy a [esconder] el regalo.|我要把礼物藏起来。|I'm going to hide the present.
+3.45|v|-|adivinar|猜|to guess|¡A ver si puedes [adivinar]!|看你能不能猜到！|Let's see if you can guess!
+3.5|v|-|mentir|说谎|to lie|No hay que [mentir].|不要说谎。|You shouldn't lie.
+3.55|v|-|despedirse|告别|to say goodbye|Es triste [despedirse].|告别令人难过。|It's sad to say goodbye.
+3.6|v|-|bañarse|洗澡；游泳|to bathe; to swim|Es peligroso [bañarse] aquí.|在这里游泳很危险。|It's dangerous to swim here.
+3.65|v|-|afeitarse|刮胡子|to shave|Es un rollo [afeitarse] cada día.|每天刮胡子很麻烦。|Shaving every day is a pain.
+3.7|v|-|peinarse|梳头|to comb one's hair|No hay tiempo para [peinarse].|没时间梳头了。|There's no time to do your hair.
+3.75|v|-|callarse|闭嘴|to be quiet|Es mejor [callarse].|最好闭嘴。|It's better to keep quiet.
+3.8|v|-|enterarse|得知|to find out|Fue el último en [enterarse].|他是最后一个知道的。|He was the last to find out.
+3.85|v|-|felicitar|祝贺|to congratulate|Te quiero [felicitar].|我想祝贺你。|I want to congratulate you.
+3.9|v|-|agarrar|抓住|to grab|Tienes que [agarrar] bien la cuerda.|你得抓紧绳子。|You have to grab the rope tightly.
+3.95|v|-|pegar|粘；打|to stick; to hit|Hay que [pegar] el sello.|要贴上邮票。|You need to stick on the stamp.
+4.0|v|-|doblar|折叠；转弯|to fold; to turn|Hay que [doblar] la ropa.|要叠衣服。|The clothes need folding.
+4.1|v|-|envolver|包裹|to wrap|¿Me lo puede [envolver]?|能帮我包起来吗？|Could you wrap it for me?
+4.15|v|-|cubrir|覆盖|to cover|Hay que [cubrir] la comida.|要把食物盖上。|The food needs covering.
+4.2|v|-|tapar|盖上|to cover; to put a lid on|Hay que [tapar] la olla.|要盖上锅盖。|Put the lid on the pot.
+4.25|v|-|juntar|合起来|to put together|Vamos a [juntar] las mesas.|我们把桌子拼起来吧。|Let's put the tables together.
+4.3|v|-|unir|联合；连接|to join; to unite|El puente va a [unir] las dos orillas.|这座桥将连接两岸。|The bridge will join the two banks.
+4.35|v|-|repartir|分发|to share out; to deliver|Hay que [repartir] la comida.|要分发食物。|The food has to be shared out.
+4.4|v|-|reparar|修理|to repair|Hay que [reparar] el tejado.|得修屋顶了。|The roof needs repairing.
+4.45|v|-|montar|骑；组装|to ride; to assemble|Me gusta [montar] en bici.|我喜欢骑自行车。|I like riding a bike.
+4.5|v|-|pisar|踩|to step on|No hay que [pisar] la hierba.|不要踩草坪。|Don't step on the grass.
+4.55|v|-|soltar|松开|to let go|No vas a [soltar] la mano.|你不会松手的。|You're not going to let go.
+4.6|v|-|sujetar|握住|to hold|Hay que [sujetar] la escalera.|要扶住梯子。|The ladder needs holding.
+4.65|v|-|observar|观察|to observe|Me gusta [observar] a la gente.|我喜欢观察人。|I like watching people.
+4.7|v|-|ocupar|占据|to occupy|Va a [ocupar] mucho espacio.|会占很多地方。|It'll take up a lot of space.
+4.75|v|-|obedecer|服从|to obey|Hay que [obedecer] las normas.|要遵守规定。|You have to obey the rules.
+4.8|v|-|guiar|引导|to guide|Te voy a [guiar].|我来给你带路。|I'll guide you.
+4.85|v|-|avanzar|前进|to advance; to move forward|Hay que [avanzar] poco a poco.|要一步一步前进。|We need to move forward little by little.
+4.9|v|-|atravesar|穿过|to cross; to go through|Hay que [atravesar] el bosque.|要穿过森林。|You have to go through the forest.
+4.95|v|-|perseguir|追赶；追求|to chase; to pursue|Hay que [perseguir] tus sueños.|要追逐你的梦想。|You have to chase your dreams.
+5.05|v|-|atrapar|抓住|to catch|El gato quiere [atrapar] al ratón.|猫想抓住老鼠。|The cat wants to catch the mouse.
+5.1|v|-|fallar|失败；出故障|to fail; to miss|No te voy a [fallar].|我不会让你失望的。|I won't let you down.
+5.15|v|-|acertar|猜对；命中|to get right; to hit|Es difícil [acertar].|很难猜中。|It's hard to get it right.
+5.2|v|-|apostar|打赌|to bet|No me gusta [apostar].|我不喜欢赌。|I don't like betting.
+5.25|v|-|brindar|干杯|to toast|Vamos a [brindar] por los novios.|我们为新人干杯。|Let's toast the bride and groom.
+5.3|v|-|encargar|委托；订购|to order; to entrust|Voy a [encargar] una tarta.|我要订一个蛋糕。|I'm going to order a cake.
+5.35|v|-|conservar|保存|to keep; to preserve|Hay que [conservar] el recibo.|要保留收据。|You need to keep the receipt.
+5.4|v|-|dañar|损坏|to damage|El sol puede [dañar] la piel.|阳光会伤害皮肤。|The sun can damage your skin.
+5.45|v|-|empeorar|恶化|to get worse|Puede [empeorar].|可能会恶化。|It could get worse.
+5.5|v|-|envejecer|变老|to grow old|Nadie quiere [envejecer].|没人想变老。|Nobody wants to grow old.
+5.55|v|-|sobrevivir|幸存|to survive|Es difícil [sobrevivir] aquí.|在这里很难生存。|It's hard to survive here.
+5.6|v|-|alimentar|喂养|to feed|Hay que [alimentar] al perro.|要喂狗。|The dog needs feeding.
+5.65|v|-|pescar|钓鱼|to fish|Me gusta [pescar] en el río.|我喜欢在河边钓鱼。|I like fishing in the river.
+5.7|v|-|rezar|祈祷|to pray|Mi abuela suele [rezar].|我奶奶常祈祷。|My grandmother often prays.
+5.75|v|-|rodear|围绕|to surround|Los árboles van a [rodear] la casa.|树将环绕房子。|Trees will surround the house.
+5.8|v|-|trasladar|搬迁；调动|to move; to transfer|Van a [trasladar] la oficina.|他们要搬办公室。|They're going to move the office.
+5.85|v|-|retirar|撤回；取出|to withdraw|Voy a [retirar] dinero.|我去取钱。|I'm going to withdraw some money.
+5.9|v|-|arrancar|拔出；发动|to pull out; to start (engine)|El coche no quiere [arrancar].|车发动不起来。|The car won't start.
+5.95|v|-|asomarse|探出身|to lean out|No hay que [asomarse] a la ventana.|不要把身子探出窗外。|Don't lean out of the window.
+6.0|v|-|disfrazarse|化装|to dress up|Me encanta [disfrazarse] en carnaval.|我很喜欢在狂欢节化装。|I love dressing up at carnival.
+@nouns-mid
+3.1|n|f|la fecha|日期|date|¿Cuál es la [fecha] de hoy?|今天几号？|What's today's date?
+3.15|n|f|la edad|年龄|age|¿Qué [edad] tienes?|你多大了？|How old are you?
+3.2|n|m|el apellido|姓|surname|¿Cuál es tu [apellido]?|你姓什么？|What's your surname?
+3.25|n|f|la llamada|电话；呼叫|call|Tengo una [llamada] perdida.|我有一个未接来电。|I have a missed call.
+3.3|n|f|la lista|名单，清单|list|Haz una [lista] de la compra.|列一个购物清单。|Make a shopping list.
+3.35|n|f|la letra|字母；字迹；歌词|letter; handwriting; lyrics|No entiendo tu [letra].|我看不懂你的字。|I can't read your handwriting.
+3.4|n|m|el juguete|玩具|toy|El niño tiene un [juguete] nuevo.|孩子有个新玩具。|The child has a new toy.
+3.45|n|m|el hielo|冰|ice|Un refresco con [hielo].|一杯加冰的汽水。|A soft drink with ice.
+3.5|n|f|la duda|疑问|doubt; query|Tengo una [duda].|我有个疑问。|I have a question.
+3.55|n|m|el gusto|味道；喜好；乐意|taste; pleasure|Con mucho [gusto].|非常乐意。|With pleasure.
+3.6|n|m|el paso|步；通道|step; passage|Paso a [paso].|一步一步来。|Step by step.
+3.65|n|f|la mirada|目光|look; glance|Tiene una [mirada] triste.|他眼神忧伤。|He has a sad look.
+3.7|n|f|la vista|视力；景色|sight; view|Hay una [vista] preciosa.|景色很美。|There's a beautiful view.
+3.75|n|f|la zona|地区|area; zone|Es una [zona] tranquila.|这是个安静的地区。|It's a quiet area.
+3.8|n|m|el resto|剩余部分|rest|Te doy el [resto] mañana.|剩下的我明天给你。|I'll give you the rest tomorrow.
+3.85|n|m|el objeto|物体|object|Es un [objeto] raro.|这是件奇怪的东西。|It's a strange object.
+3.9|n|f|la fila|排，行|row; queue|Estamos en la primera [fila].|我们在第一排。|We're in the front row.
+3.95|n|m|el turno|轮次；班次|turn; shift|Es tu [turno].|轮到你了。|It's your turn.
+4.0|n|f|la temporada|季节；赛季|season|Es [temporada] alta.|现在是旺季。|It's high season.
+4.05|n|f|la madrugada|凌晨|early morning|Llegué a las tres de la [madrugada].|我凌晨三点到的。|I arrived at three in the morning.
+4.1|n|m|el mediodía|中午|midday|Comemos a [mediodía].|我们中午吃饭。|We eat at midday.
+4.15|n|f|la medianoche|午夜|midnight|Volvimos a [medianoche].|我们半夜回来的。|We came back at midnight.
+4.2|n|f|la década|十年|decade|Fue la [década] de los ochenta.|那是八十年代。|It was the eighties.
+4.25|n|m|el instante|瞬间|instant|Fue solo un [instante].|那只是一瞬间。|It was just an instant.
+4.3|n|m|el comienzo|开始|beginning|Es solo el [comienzo].|这只是开始。|It's only the beginning.
+4.35|n|m|el regreso|返回|return|El [regreso] es el lunes.|周一返回。|The return is on Monday.
+4.4|n|f|la aventura|冒险|adventure|¡Qué [aventura]!|真是一次冒险！|What an adventure!
+4.45|n|m|el intento|尝试|attempt|Es el primer [intento].|这是第一次尝试。|It's the first attempt.
+4.5|n|f|la promesa|承诺|promise|Es una [promesa].|这是一个承诺。|It's a promise.
+4.55|n|f|la fuerza|力量|strength; force|No tengo [fuerza].|我没力气了。|I have no strength.
+4.6|n|m|el golpe|打击；撞击|blow; knock|Me di un [golpe].|我撞了一下。|I banged myself.
+4.65|n|m|el gesto|手势；姿态|gesture|Fue un bonito [gesto].|这是个暖心的举动。|It was a nice gesture.
+4.7|n|f|la sombra|阴影；树荫|shade; shadow|Vamos a la [sombra].|我们去阴凉处吧。|Let's go into the shade.
+4.75|n|f|la oscuridad|黑暗|darkness|Tengo miedo a la [oscuridad].|我怕黑。|I'm afraid of the dark.
+4.8|n|m|el ritmo|节奏|rhythm; pace|Tiene buen [ritmo].|他节奏感很好。|He has good rhythm.
+4.85|n|f|la imagen|图像；形象|image; picture|La [imagen] no es clara.|图像不清楚。|The picture isn't clear.
+4.9|n|m|el fondo|底部；背景；基金|bottom; background; fund|Está al [fondo] del pasillo.|在走廊尽头。|It's at the end of the corridor.
+4.95|n|m|el modo|方式|way; mode|Es otro [modo] de verlo.|这是另一种看法。|It's another way of looking at it.
+5.05|n|f|la etapa|阶段|stage|Es una nueva [etapa].|这是一个新阶段。|It's a new stage.
+5.1|n|f|la cifra|数字|figure; number|Es una [cifra] récord.|这是创纪录的数字。|It's a record figure.
+5.15|n|m|el código|代码；法典|code|Introduce el [código].|输入代码。|Enter the code.
+5.2|n|f|la copia|副本|copy|Haz una [copia].|复印一份。|Make a copy.
+5.25|n|m|el contenido|内容|content|El [contenido] es interesante.|内容很有趣。|The content is interesting.
+5.3|n|f|la colección|收藏|collection|Tiene una [colección] de sellos.|他收藏邮票。|He has a stamp collection.
+5.35|n|f|la comunidad|社区；共同体|community|Es una [comunidad] pequeña.|这是一个小社区。|It's a small community.
+5.4|n|f|la cadena|链子；连锁|chain|Es una [cadena] de hoteles.|这是一家连锁酒店。|It's a hotel chain.
+5.45|n|f|la carga|负担；货物|load; burden|Es una [carga] pesada.|这是沉重的负担。|It's a heavy burden.
+5.5|n|m|el castigo|惩罚|punishment|Es un [castigo] justo.|这是公平的惩罚。|It's a fair punishment.
+5.55|n|f|la apuesta|赌注|bet|Ganaste la [apuesta].|你赌赢了。|You won the bet.
+5.6|n|m|el ataque|攻击|attack|Fue un [ataque] al corazón.|是心脏病发作。|It was a heart attack.
+5.65|n|f|la búsqueda|搜寻|search|La [búsqueda] continúa.|搜寻仍在继续。|The search continues.
+5.7|n|f|la pista|线索；跑道|clue; track|Es una buena [pista].|这是条好线索。|It's a good clue.
+5.75|n|f|la pieza|零件；一块|piece; part|Falta una [pieza].|少了一个零件。|A piece is missing.
+5.8|n|m|el placer|乐趣|pleasure|Es un [placer].|很荣幸。|It's a pleasure.
+5.85|n|m|el tesoro|宝藏|treasure|Es un [tesoro].|这是个宝贝。|It's a treasure.
+5.9|n|m|el truco|窍门|trick|Hay un [truco].|有个窍门。|There's a trick.
+5.95|n|m|el trato|待遇；交易|treatment; deal|¡[Trato] hecho!|成交！|It's a deal!
+6.0|n|f|el alma|灵魂|soul|Es una persona con mucha [alma].|他是个很有灵魂的人。|He's a soulful person.
+6.05|n|m|el espíritu|精神|spirit|Tiene un [espíritu] joven.|他心态年轻。|He has a young spirit.
+6.1|n|f|la fe|信念；信仰|faith|Tengo [fe] en ti.|我对你有信心。|I have faith in you.
+6.15|n|m|el ambiente|氛围；环境|atmosphere|Hay buen [ambiente].|气氛很好。|There's a good atmosphere.
+6.2|n|f|la raíz|根|root|Es la [raíz] del problema.|这是问题的根源。|It's the root of the problem.
+6.25|n|f|la cima|顶峰|top; peak|Llegamos a la [cima].|我们登上了顶峰。|We reached the top.
+6.3|n|m|el apodo|绰号|nickname|¿Tienes [apodo]?|你有外号吗？|Do you have a nickname?
+6.35|n|f|la pelea|打架；争吵|fight|Hubo una [pelea] en el bar.|酒吧里有人打架。|There was a fight in the bar.
+6.4|n|f|la marcha|行进；离开；速度挡|march; departure; gear|Hay buena [marcha] aquí.|这里很热闹。|There's a great buzz here.
+@adjectives-mid
+3.1|adj|-|estupendo|极好的|great|Es un plan [estupendo].|这是个极好的计划。|It's a great plan.
+3.15|adj|-|fantástico|极好的|fantastic|Es un hotel [fantástico].|这是一家很棒的酒店。|It's a fantastic hotel.
+3.2|adj|-|hermoso|美丽的|beautiful|Es un día [hermoso].|这是美好的一天。|It's a beautiful day.
+3.25|adj|-|lindo|可爱的（拉美常用）|pretty; lovely|Es un perro muy [lindo].|这只狗很可爱。|It's a lovely dog.
+3.3|adj|-|loco|疯的|mad; crazy|¿Estás [loco]?|你疯了吗？|Are you mad?
+3.35|adj|-|callado|安静的，沉默的|quiet|Hoy estás muy [callado].|你今天很安静。|You're very quiet today.
+3.4|adj|-|despierto|醒着的|awake|¿Estás [despierto]?|你醒着吗？|Are you awake?
+3.45|adj|-|dormido|睡着的|asleep|El bebé está [dormido].|宝宝睡着了。|The baby is asleep.
+3.5|adj|-|vivo|活着的；鲜艳的|alive; bright|El pez está [vivo].|鱼还活着。|The fish is alive.
+3.55|adj|-|muerto|死的|dead|El árbol está [muerto].|这棵树死了。|The tree is dead.
+3.6|adj|-|perdido|迷路的；丢失的|lost|Estoy [perdido].|我迷路了。|I'm lost.
+3.65|adj|-|quieto|静止的|still|¡Estate [quieto]!|别动！|Keep still!
+3.7|adj|-|puntual|准时的|punctual|Mi jefe es muy [puntual].|我的老板很准时。|My boss is very punctual.
+3.75|adj|-|querido|亲爱的|dear|[Querido] amigo:|亲爱的朋友：|Dear friend,
+3.8|adj|-|agotado|筋疲力尽的；售罄的|exhausted; sold out|Estoy [agotado].|我累坏了。|I'm exhausted.
+3.85|adj|-|apretado|紧的|tight|El pantalón está [apretado].|裤子太紧了。|The trousers are tight.
+3.9|adj|-|atento|专心的；体贴的|attentive|Es un camarero muy [atento].|这位服务员很周到。|He's a very attentive waiter.
+3.95|adj|-|cálido|温暖的|warm|Es un clima [cálido].|这是温暖的气候。|It's a warm climate.
+4.0|adj|-|ideal|理想的|ideal|Es el sitio [ideal].|这是理想的地方。|It's the ideal place.
+4.1|adj|-|encantador|迷人的|charming|Es un pueblo [encantador].|这是个迷人的小镇。|It's a charming village.
+4.15|adj|-|extraordinario|非凡的|extraordinary|Es un talento [extraordinario].|这是非凡的天赋。|It's an extraordinary talent.
+4.2|adj|-|magnífico|壮丽的|magnificent|Es un palacio [magnífico].|这是一座宏伟的宫殿。|It's a magnificent palace.
+4.25|adj|-|tremendo|巨大的；惊人的|tremendous|Hace un calor [tremendo].|热得要命。|It's tremendously hot.
+4.3|adj|-|inmenso|巨大的|immense|Es un parque [inmenso].|这是一座巨大的公园。|It's an immense park.
+4.35|adj|-|gigante|巨大的|giant|Es un árbol [gigante].|这是一棵巨树。|It's a giant tree.
+4.4|adj|-|fatal|糟糕的|awful|Me siento [fatal].|我感觉糟透了。|I feel awful.
+4.45|adj|-|ridículo|可笑的|ridiculous|Es un precio [ridículo].|这价格太离谱了。|It's a ridiculous price.
+4.5|adj|-|cruel|残忍的|cruel|Es un castigo [cruel].|这是残忍的惩罚。|It's a cruel punishment.
+4.55|adj|-|grosero|粗鲁的|rude|No seas [grosero].|别粗鲁。|Don't be rude.
+4.6|adj|-|culto|有文化的|cultured|Es un hombre muy [culto].|他是个很有学识的人。|He's a very cultured man.
+4.65|adj|-|leal|忠诚的|loyal|Es un amigo [leal].|他是个忠诚的朋友。|He's a loyal friend.
+4.7|adj|-|impaciente|不耐烦的|impatient|No seas [impaciente].|别着急。|Don't be impatient.
+4.75|adj|-|silencioso|安静的|silent; quiet|Es un coche [silencioso].|这辆车很安静。|It's a quiet car.
+4.8|adj|-|pálido|苍白的|pale|Estás muy [pálido].|你脸色很苍白。|You're very pale.
+4.85|adj|-|ciego|瞎的|blind|Es [ciego] de nacimiento.|他天生失明。|He's been blind since birth.
+4.9|adj|-|sordo|聋的|deaf|Mi abuelo está un poco [sordo].|我爷爷有点耳背。|My grandfather is a bit deaf.
+4.95|adj|-|valioso|珍贵的|valuable|Es un cuadro [valioso].|这是一幅珍贵的画。|It's a valuable painting.
+5.05|adj|-|lujoso|豪华的|luxurious|Es un hotel [lujoso].|这是一家豪华酒店。|It's a luxurious hotel.
+5.1|adj|-|mágico|神奇的|magical|Fue un momento [mágico].|那是神奇的时刻。|It was a magical moment.
+5.15|adj|-|infantil|儿童的；幼稚的|children's; childish|Es un libro [infantil].|这是一本童书。|It's a children's book.
+5.2|adj|-|juvenil|青少年的|youth|Es un equipo [juvenil].|这是一支青年队。|It's a youth team.
+5.25|adj|-|ordinario|普通的；粗俗的|ordinary; vulgar|Es un día [ordinario].|这是普通的一天。|It's an ordinary day.
+5.3|adj|-|feroz|凶猛的|fierce|Es un perro [feroz].|这是一只凶狗。|It's a fierce dog.
+5.35|adj|-|envidioso|嫉妒的|envious|No seas [envidioso].|别嫉妒。|Don't be envious.
+5.4|adj|-|borracho|喝醉的|drunk|Está [borracho].|他喝醉了。|He's drunk.
+5.45|adj|-|desnudo|赤裸的|naked|El bebé está [desnudo].|宝宝光着身子。|The baby is naked.

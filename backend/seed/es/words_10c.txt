@@ -1,0 +1,96 @@
+# Level 10c — literary and nuanced vocabulary (C2)
+@literary-nouns
+9.05|n|m|el anhelo|渴望|longing|Tenía un [anhelo] profundo.|他怀着深深的渴望。|He had a deep longing.
+9.05|n|f|la nostalgia|怀旧，思乡|nostalgia; homesickness|Siento [nostalgia] de mi infancia.|我怀念我的童年。|I feel nostalgic for my childhood.
+9.1|n|f|la melancolía|忧郁|melancholy|La lluvia me da [melancolía].|下雨让我感到忧郁。|Rain makes me melancholy.
+9.1|n|m|el desasosiego|不安|unease|Sentía un extraño [desasosiego].|他感到一种奇怪的不安。|He felt a strange unease.
+9.15|n|f|la añoranza|思念|longing; yearning|Habla con [añoranza] de su tierra.|他满怀思念地谈起故乡。|He speaks longingly of his homeland.
+9.15|n|m|el rencor|怨恨|resentment|No le guardo [rencor].|我不记恨他。|I don't bear him a grudge.
+9.2|n|m|el desprecio|蔑视|contempt|Lo miró con [desprecio].|他轻蔑地看着他。|He looked at him with contempt.
+9.2|n|f|la ternura|温柔|tenderness|Lo dijo con [ternura].|他温柔地说。|He said it tenderly.
+9.25|n|m|el consuelo|安慰|consolation|Es un pequeño [consuelo].|这是个小小的安慰。|It's a small consolation.
+9.25|n|m|el desengaño|幻灭|disillusionment|Sufrió un gran [desengaño].|他遭受了巨大的幻灭。|He suffered great disillusionment.
+9.3|n|m|el ocaso|日落；衰落|sunset; decline|Vimos el [ocaso] en la playa.|我们在海滩看日落。|We watched the sunset on the beach.
+9.3|n|m|el amanecer|黎明|dawn|Salimos al [amanecer].|我们黎明时出发。|We set off at dawn.
+9.35|n|m|el atardecer|傍晚|dusk|El [atardecer] es precioso aquí.|这里的傍晚很美。|Dusk is beautiful here.
+9.35|n|m|el crepúsculo|暮色|twilight|Llegaron en el [crepúsculo].|他们在暮色中抵达。|They arrived at twilight.
+9.4|n|m|el susurro|低语|whisper|Oí un [susurro].|我听到一声低语。|I heard a whisper.
+9.4|n|m|el eco|回声|echo|Se oye el [eco].|能听到回声。|You can hear the echo.
+9.45|n|m|el destello|闪光|flash; sparkle|Vi un [destello] de luz.|我看到一道闪光。|I saw a flash of light.
+9.45|n|f|la penumbra|昏暗|half-light|La habitación estaba en [penumbra].|房间里光线昏暗。|The room was in half-light.
+9.5|n|m|el resplandor|光辉|glow; brightness|Se veía el [resplandor] del fuego.|能看到火光。|The glow of the fire could be seen.
+9.5|n|f|la bruma|薄雾|mist|Había [bruma] sobre el mar.|海上有薄雾。|There was mist over the sea.
+9.55|n|m|el abismo|深渊|abyss|Estaba al borde del [abismo].|他处于深渊边缘。|He was on the edge of the abyss.
+9.6|n|m|el vaivén|摇摆，起伏|swaying; ups and downs|El [vaivén] del barco me marea.|船的摇晃让我头晕。|The swaying of the boat makes me dizzy.
+9.6|n|m|el ajetreo|忙碌|hustle and bustle|No soporto el [ajetreo] de la ciudad.|我受不了城市的喧嚣。|I can't stand the hustle and bustle of the city.
+9.65|n|m|el alboroto|喧闹|commotion|¿Qué es este [alboroto]?|这是在吵什么？|What's this commotion?
+9.65|n|m|el sosiego|宁静|calm; tranquillity|Busco [sosiego].|我在寻求宁静。|I'm looking for peace and quiet.
+9.7|n|f|la quimera|幻想|pipe dream|Es una [quimera].|这是个不切实际的幻想。|It's a pipe dream.
+9.7|n|m|el desvelo|失眠；操劳|sleeplessness; effort|Gracias por tu [desvelo].|谢谢你的辛劳。|Thanks for your dedication.
+9.75|n|f|la dicha|幸福|happiness; bliss|¡Qué [dicha]!|多么幸福！|What bliss!
+9.75|n|f|la congoja|悲痛|anguish|Sentía una gran [congoja].|他感到极度悲痛。|He felt great anguish.
+9.8|n|m|el ímpetu|冲劲|impetus; energy|Lo hizo con [ímpetu].|他干劲十足地做了。|He did it with great energy.
+9.8|n|m|el empeño|决心；努力|determination|Puso mucho [empeño].|他下了很大功夫。|He put a lot of effort in.
+9.85|n|f|la osadía|大胆|daring; audacity|¡Qué [osadía]!|真大胆！|What audacity!
+9.85|n|f|la entereza|坚强|fortitude|Lo afrontó con [entereza].|他坚强地面对了。|He faced it with fortitude.
+9.9|n|m|el ahínco|努力|zeal|Estudia con [ahínco].|他刻苦学习。|He studies with zeal.
+9.9|n|m|el desaliento|沮丧|discouragement|No caigas en el [desaliento].|别泄气。|Don't lose heart.
+9.95|n|f|la penuria|贫困|hardship; penury|Vivieron en la [penuria].|他们生活贫苦。|They lived in hardship.
+10.0|n|m|el sigilo|悄悄|stealth; secrecy|Entró con [sigilo].|他悄悄地进来了。|He came in stealthily.
+@literary-adjectives
+9.05|adj|-|sombrío|阴暗的|gloomy|Es un día [sombrío].|这是阴沉的一天。|It's a gloomy day.
+9.1|adj|-|lúgubre|阴森的|dismal; gloomy|Es un lugar [lúgubre].|这是个阴森的地方。|It's a dismal place.
+9.1|adj|-|apacible|宁静的|peaceful; gentle|Es un pueblo [apacible].|这是个宁静的小镇。|It's a peaceful village.
+9.15|adj|-|sosegado|平静的|calm; quiet|Es un hombre [sosegado].|他是个沉稳的人。|He's a calm man.
+9.15|adj|-|bullicioso|喧闹的|bustling|Es un mercado [bullicioso].|这是个热闹的市场。|It's a bustling market.
+9.2|adj|-|frondoso|枝繁叶茂的|leafy; lush|Es un bosque [frondoso].|这是一片茂密的森林。|It's a lush forest.
+9.2|adj|-|árido|干旱的；枯燥的|arid; dry|Es un paisaje [árido].|这是干旱的景观。|It's an arid landscape.
+9.25|adj|-|tenue|微弱的|faint; dim|Había una luz [tenue].|有一丝微光。|There was a dim light.
+9.25|adj|-|nítido|清晰的|sharp; clear|Es un recuerdo [nítido].|这是一段清晰的记忆。|It's a vivid memory.
+9.3|adj|-|difuso|模糊的|vague; diffuse|Es un recuerdo [difuso].|这是一段模糊的记忆。|It's a hazy memory.
+9.3|adj|-|vertiginoso|令人眩晕的|dizzying|Es un ritmo [vertiginoso].|节奏快得令人眩晕。|It's a dizzying pace.
+9.35|adj|-|fugaz|短暂的|fleeting|Fue un encuentro [fugaz].|那是一次短暂的相遇。|It was a fleeting encounter.
+9.35|adj|-|perenne|常青的；永久的|perennial; evergreen|Es un árbol de hoja [perenne].|这是常绿树。|It's an evergreen tree.
+9.4|adj|-|sigiloso|悄悄的|stealthy|Es un gato [sigiloso].|这是一只悄无声息的猫。|It's a stealthy cat.
+9.4|adj|-|taciturno|沉默寡言的|taciturn|Es un hombre [taciturno].|他是个沉默寡言的人。|He's a taciturn man.
+9.45|adj|-|locuaz|健谈的|talkative|Es un niño muy [locuaz].|他是个很健谈的孩子。|He's a very talkative child.
+9.45|adj|-|altivo|高傲的|haughty|Tiene un aire [altivo].|他神情高傲。|He has a haughty air.
+9.5|adj|-|afable|和蔼的|affable|Es un señor muy [afable].|他是位很和蔼的先生。|He's a very affable gentleman.
+9.5|adj|-|huraño|孤僻的|unsociable|Es un vecino [huraño].|他是个孤僻的邻居。|He's an unsociable neighbour.
+9.55|adj|-|ufano|得意的|proud; smug|Estaba [ufano] de su éxito.|他为自己的成功得意。|He was smug about his success.
+9.55|adj|-|abatido|沮丧的|downcast|Está muy [abatido].|他很消沉。|He's very downcast.
+9.6|adj|-|aturdido|发懵的|stunned; dazed|Estaba [aturdido] por el golpe.|他被打得发懵。|He was dazed by the blow.
+9.6|adj|-|atónito|惊呆的|astonished|Me quedé [atónito].|我惊呆了。|I was astonished.
+9.65|adj|-|perplejo|困惑的|perplexed|Estoy [perplejo].|我很困惑。|I'm perplexed.
+9.7|adj|-|despiadado|无情的|ruthless|Es un enemigo [despiadado].|他是个无情的敌人。|He's a ruthless enemy.
+9.7|adj|-|bondadoso|善良的|kind-hearted|Es un hombre [bondadoso].|他是个心地善良的人。|He's a kind-hearted man.
+9.75|adj|-|mezquino|吝啬的；卑鄙的|mean; petty|Es un gesto [mezquino].|这是个卑劣的举动。|It's a petty gesture.
+9.75|adj|-|íntegro|正直的；完整的|upright; whole|Es un político [íntegro].|他是个正直的政治家。|He's an upright politician.
+9.8|adj|-|sagaz|睿智的|astute; shrewd|Es un detective [sagaz].|他是个精明的侦探。|He's a shrewd detective.
+9.8|adj|-|lúcido|清醒的|lucid|Está [lúcido] a pesar de la edad.|尽管年纪大了，他头脑依然清醒。|He's lucid despite his age.
+9.85|adj|-|elocuente|雄辩的|eloquent|Es un orador [elocuente].|他是个雄辩的演说家。|He's an eloquent speaker.
+9.85|adj|-|exquisito|精美的|exquisite|Es un plato [exquisito].|这道菜很精致。|It's an exquisite dish.
+9.9|adj|-|soberbio|极好的；傲慢的|superb; arrogant|Fue un concierto [soberbio].|那是一场精彩绝伦的音乐会。|It was a superb concert.
+9.9|adj|-|inefable|难以言喻的|ineffable|Fue una alegría [inefable].|那是一种难以言喻的喜悦。|It was an ineffable joy.
+9.95|adj|-|recóndito|隐秘的|hidden; remote|Es un lugar [recóndito].|这是个隐秘的地方。|It's a remote place.
+10.0|adj|-|efusivo|热情洋溢的|effusive|Fue un saludo [efusivo].|那是个热情洋溢的问候。|It was an effusive greeting.
+@literary-verbs
+9.05|v|-|vagar|漫游|to wander|Me gusta [vagar] por la ciudad.|我喜欢在城里闲逛。|I like wandering around the city.
+9.1|v|-|deambular|徘徊|to wander about|Lo vi [deambular] por el parque.|我看到他在公园里徘徊。|I saw him wandering about the park.
+9.15|v|-|acechar|窥伺|to lie in wait|El peligro puede [acechar] en cualquier parte.|危险可能潜伏在任何地方。|Danger may lurk anywhere.
+9.2|v|-|divisar|望见|to make out; to spot|Desde aquí se puede [divisar] la costa.|从这里可以望见海岸。|From here you can make out the coast.
+9.25|v|-|brillar|闪耀|to shine|Las estrellas empiezan a [brillar].|星星开始闪耀。|The stars begin to shine.
+9.3|v|-|resplandecer|闪耀|to shine; to glow|La ciudad parece [resplandecer] de noche.|城市在夜晚似乎闪闪发光。|The city seems to glow at night.
+9.35|v|-|centellear|闪烁|to twinkle|Las estrellas parecen [centellear].|星星似乎在闪烁。|The stars seem to twinkle.
+9.4|v|-|estremecerse|颤抖|to shudder|Es imposible no [estremecerse].|不可能不颤抖。|It's impossible not to shudder.
+9.45|v|-|sollozar|抽泣|to sob|Empezó a [sollozar].|他开始抽泣。|He began to sob.
+9.5|v|-|balbucear|结结巴巴地说|to stammer|Solo pudo [balbucear] una excusa.|他只能结结巴巴地找了个借口。|He could only stammer an excuse.
+9.55|v|-|vacilar|犹豫；开玩笑（口语）|to hesitate; to tease|No hay que [vacilar].|不要犹豫。|Don't hesitate.
+9.6|v|-|titubear|支吾，犹豫|to falter|Respondió sin [titubear].|他毫不犹豫地回答。|He answered without faltering.
+9.7|v|-|desvanecerse|消散；晕倒|to fade; to faint|El dolor va a [desvanecerse].|疼痛会消退的。|The pain will fade.
+9.75|v|-|marchitarse|枯萎|to wither|Las flores van a [marchitarse].|花会枯萎。|The flowers will wither.
+9.8|v|-|florecer|开花；繁荣|to flourish; to bloom|Los almendros empiezan a [florecer].|杏树开始开花。|The almond trees are starting to bloom.
+9.85|v|-|perdurar|持久|to endure; to last|Su legado va a [perdurar].|他的遗产将长存。|His legacy will endure.
+9.9|v|-|sucumbir|屈服|to succumb|No hay que [sucumbir] a la presión.|不要屈服于压力。|Don't succumb to pressure.
+9.95|v|-|presagiar|预示|to foreshadow|Las nubes parecen [presagiar] tormenta.|云层似乎预示着暴风雨。|The clouds seem to foreshadow a storm.
+10.0|v|-|desentrañar|揭开|to unravel|Quiere [desentrañar] el misterio.|他想揭开这个谜团。|He wants to unravel the mystery.

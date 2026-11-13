@@ -1,0 +1,133 @@
+# Level 8b — literature, medicine, office, verbs & adjectives (B2)
+@literature-arts
+7.05|n|f|la literatura|文学|literature|Estudio [literatura] española.|我学西班牙文学。|I study Spanish literature.
+7.05|n|m|el poema|诗|poem|Escribió un [poema] precioso.|他写了一首很美的诗。|He wrote a beautiful poem.
+7.1|n|f|la poesía|诗歌|poetry|Me encanta la [poesía].|我很爱诗歌。|I love poetry.
+7.1|n|m|el poeta|诗人|poet|Lorca es mi [poeta] favorito.|洛尔卡是我最喜欢的诗人。|Lorca is my favourite poet.
+7.15|n|m|el autor|作者|author|¿Quién es el [autor]?|作者是谁？|Who's the author?
+7.15|n|m|el lector|读者|reader|Es un gran [lector].|他是个爱读书的人。|He's a big reader.
+7.2|n|m|el capítulo|章|chapter|Leí el primer [capítulo].|我读了第一章。|I read the first chapter.
+7.2|n|m|el cuento|故事；短篇小说|short story; tale|Léeme un [cuento].|给我读个故事。|Read me a story.
+7.25|n|m|el relato|叙述；短篇|story; account|Es un [relato] corto.|这是一个短篇。|It's a short story.
+7.25|n|f|la trama|情节|plot|La [trama] es muy complicada.|情节很复杂。|The plot is very complicated.
+7.3|n|mf|el protagonista|主角|protagonist|El [protagonista] es un niño.|主角是一个孩子。|The protagonist is a child.
+7.3|n|m|el género|体裁；性别|genre; gender|¿Qué [género] de cine te gusta?|你喜欢什么类型的电影？|What film genre do you like?
+7.35|n|m|el estilo|风格|style|Tiene un [estilo] único.|他有独特的风格。|He has a unique style.
+7.4|n|f|la pintura|绘画；油漆|painting; paint|Me gusta la [pintura] moderna.|我喜欢现代绘画。|I like modern painting.
+7.4|n|f|la escultura|雕塑|sculpture|Es una [escultura] de bronce.|这是一座铜雕。|It's a bronze sculpture.
+7.45|n|f|la arquitectura|建筑学|architecture|Me fascina la [arquitectura] árabe.|阿拉伯建筑让我着迷。|Arab architecture fascinates me.
+7.45|n|m|el arquitecto|建筑师|architect|Es [arquitecto].|他是建筑师。|He's an architect.
+7.5|n|f|la fotografía|摄影|photography|Hago un curso de [fotografía].|我在上摄影课。|I'm doing a photography course.
+7.55|n|m|el guion|剧本|script|El [guion] es excelente.|剧本非常出色。|The script is excellent.
+7.55|n|m|el documental|纪录片|documentary|Vi un [documental] sobre ballenas.|我看了一部关于鲸的纪录片。|I watched a documentary about whales.
+7.6|n|f|la crítica|批评；评论|criticism; review|La [crítica] fue muy buena.|评价很好。|The review was very good.
+7.6|n|m|el talento|才华|talent|Tiene mucho [talento].|他很有才华。|He has a lot of talent.
+7.65|n|f|la imaginación|想象力|imagination|Tiene mucha [imaginación].|他想象力很丰富。|He has a lot of imagination.
+7.65|n|f|la inspiración|灵感|inspiration|Busco [inspiración].|我在寻找灵感。|I'm looking for inspiration.
+7.7|v|-|inspirar|启发|to inspire|Quiere [inspirar] a los jóvenes.|他想激励年轻人。|He wants to inspire young people.
+7.7|v|-|interpretar|解读；演绎|to interpret; to perform|Va a [interpretar] a un rey.|他将扮演一位国王。|He's going to play a king.
+7.75|v|-|representar|代表；表现|to represent|Va a [representar] a su país.|他将代表他的国家。|He's going to represent his country.
+7.75|v|-|narrar|讲述|to narrate|Es difícil [narrar] esta historia.|这个故事很难讲。|This story is hard to narrate.
+7.8|adj|-|artístico|艺术的|artistic|Tiene un talento [artístico].|他有艺术天赋。|He has artistic talent.
+7.8|adj|-|literario|文学的|literary|Ganó un premio [literario].|他获得了文学奖。|He won a literary prize.
+7.85|adj|-|clásico|古典的；经典的|classic; classical|Es un concierto de piano [clásico].|这是一场古典钢琴音乐会。|It's a classical piano concert.
+7.85|adj|-|original|原创的；原始的|original|Es una idea muy [original].|这是一个很有创意的想法。|It's a very original idea.
+@medicine
+7.05|n|m|el cáncer|癌症|cancer|Investigan el [cáncer].|他们在研究癌症。|They're researching cancer.
+7.1|n|m|el virus|病毒|virus|Es un [virus] nuevo.|这是一种新病毒。|It's a new virus.
+7.1|n|f|la infección|感染|infection|Tiene una [infección].|他感染了。|He has an infection.
+7.15|n|m|el antibiótico|抗生素|antibiotic|Toma este [antibiótico].|吃这个抗生素。|Take this antibiotic.
+7.2|n|m|el diagnóstico|诊断|diagnosis|El [diagnóstico] es bueno.|诊断结果良好。|The diagnosis is good.
+7.2|n|f|la cirugía|外科手术|surgery|Necesita [cirugía].|他需要做手术。|He needs surgery.
+7.25|n|m|el cirujano|外科医生|surgeon|El [cirujano] es muy bueno.|外科医生很好。|The surgeon is very good.
+7.25|n|f|la recuperación|康复|recovery|La [recuperación] será lenta.|康复会很慢。|Recovery will be slow.
+7.3|n|m|el ingreso|入院；收入|admission; income|Su [ingreso] fue ayer.|他昨天入院。|He was admitted yesterday.
+7.35|n|m|el embarazo|怀孕|pregnancy|El [embarazo] va bien.|怀孕情况良好。|The pregnancy is going well.
+7.35|n|m|el parto|分娩|birth; delivery|El [parto] fue rápido.|分娩很顺利。|The birth was quick.
+7.4|n|f|la discapacidad|残疾|disability|Tiene una [discapacidad].|他有残疾。|He has a disability.
+7.4|n|m|el cuidado|照顾；小心|care|¡[Cuidado]!|小心！|Careful!
+7.45|n|f|la prevención|预防|prevention|La [prevención] es clave.|预防是关键。|Prevention is key.
+7.45|v|-|prevenir|预防|to prevent|Es mejor [prevenir] que curar.|预防胜于治疗。|Prevention is better than cure.
+7.5|v|-|diagnosticar|诊断|to diagnose|Es difícil [diagnosticar] esta enfermedad.|这种病很难诊断。|This illness is hard to diagnose.
+7.5|v|-|operar|动手术|to operate|Le van a [operar] mañana.|他明天要动手术。|He's having an operation tomorrow.
+7.55|v|-|recetar|开处方|to prescribe|El médico va a [recetar] un jarabe.|医生要开止咳糖浆。|The doctor will prescribe a syrup.
+7.55|v|-|contagiar|传染|to infect|No te quiero [contagiar].|我不想传染给你。|I don't want to infect you.
+7.6|v|-|sanar|痊愈|to heal|La herida va a [sanar] pronto.|伤口很快会愈合。|The wound will heal soon.
+7.6|adj|-|crónico|慢性的|chronic|Es un dolor [crónico].|这是慢性疼痛。|It's chronic pain.
+7.65|adj|-|contagioso|传染性的|contagious|Es un virus muy [contagioso].|这是一种传染性很强的病毒。|It's a very contagious virus.
+7.65|adj|-|mental|精神的|mental|La salud [mental] es importante.|心理健康很重要。|Mental health is important.
+7.7|adj|-|físico|身体的；物理的|physical|Hago ejercicio [físico].|我做体育锻炼。|I do physical exercise.
+@office
+7.05|n|m|el despacho|办公室（个人）|office (room)|Está en su [despacho].|他在他的办公室里。|He's in his office.
+7.1|n|f|la agenda|日程本|diary; schedule|Tengo la [agenda] llena.|我的日程排满了。|My schedule is full.
+7.15|n|f|la firma|签名；公司|signature; firm|Necesito tu [firma].|我需要你签名。|I need your signature.
+7.15|n|m|el expediente|档案|file; record|Revisa el [expediente].|查看档案。|Check the file.
+7.2|n|f|la gestión|管理；手续|management; procedure|Es una [gestión] sencilla.|这是一个简单的手续。|It's a simple procedure.
+7.2|n|m|el trámite|手续|paperwork; procedure|Es un [trámite] largo.|这是个冗长的手续。|It's a long procedure.
+7.25|n|f|la solicitud|申请|application|Envié la [solicitud].|我提交了申请。|I sent the application.
+7.3|n|m|el ascenso|晋升；上升|promotion; rise|Me dieron un [ascenso].|我升职了。|I got a promotion.
+7.3|n|f|la jubilación|退休|retirement|Pienso en la [jubilación].|我在考虑退休的事。|I'm thinking about retirement.
+7.35|n|f|la plantilla|全体员工；模板|staff; template|La [plantilla] es pequeña.|员工人数不多。|The staff is small.
+7.35|n|m|el cargo|职位；费用|post; charge|Tiene un [cargo] importante.|他身居要职。|He holds an important post.
+7.45|n|f|la marca|品牌；记号|brand; mark|Es una [marca] conocida.|这是一个知名品牌。|It's a well-known brand.
+7.5|v|-|coordinar|协调|to coordinate|Tengo que [coordinar] el equipo.|我得协调团队。|I have to coordinate the team.
+7.5|v|-|supervisar|监督|to supervise|Va a [supervisar] el proyecto.|他将监督这个项目。|He's going to supervise the project.
+7.55|v|-|delegar|委托|to delegate|Hay que saber [delegar].|要学会授权。|You have to know how to delegate.
+7.55|v|-|planificar|规划|to plan|Hay que [planificar] bien.|要好好规划。|You have to plan well.
+7.6|v|-|ascender|晋升；上升|to promote; to rise|Lo van a [ascender].|他要升职了。|He's going to be promoted.
+@verbs-b2plus
+7.05|v|-|surgir|出现，产生|to arise|Pueden [surgir] problemas.|可能会出现问题。|Problems may arise.
+7.1|v|-|implicar|意味着；牵涉|to imply; to involve|Eso va a [implicar] más trabajo.|这将意味着更多工作。|That will mean more work.
+7.15|v|-|abarcar|涵盖|to cover; to include|El curso va a [abarcar] muchos temas.|课程将涵盖很多主题。|The course will cover many topics.
+7.15|v|-|incluir|包括|to include|Hay que [incluir] el IVA.|要含增值税。|VAT must be included.
+7.2|v|-|excluir|排除|to exclude|No quiero [excluir] a nadie.|我不想排除任何人。|I don't want to exclude anyone.
+7.2|v|-|contribuir|贡献|to contribute|Quiero [contribuir] al proyecto.|我想为项目做贡献。|I want to contribute to the project.
+7.25|v|-|fomentar|促进|to promote; to encourage|Hay que [fomentar] la lectura.|要提倡阅读。|Reading must be encouraged.
+7.25|v|-|favorecer|有利于|to favour; to benefit|La lluvia va a [favorecer] el campo.|雨水对农田有利。|The rain will benefit the countryside.
+7.3|v|-|perjudicar|损害|to harm|Fumar puede [perjudicar] tu salud.|吸烟会损害你的健康。|Smoking can harm your health.
+7.3|v|-|garantizar|保证|to guarantee|No te puedo [garantizar] nada.|我不能向你保证任何事。|I can't guarantee you anything.
+7.35|v|-|asegurar|确保；保险|to ensure; to insure|Quiero [asegurar] el coche.|我想给车上保险。|I want to insure the car.
+7.4|v|-|cuestionar|质疑|to question|Es sano [cuestionar] las cosas.|质疑事物是健康的。|It's healthy to question things.
+7.4|v|-|dudar|怀疑|to doubt|No hay que [dudar].|不要犹豫。|Don't hesitate.
+7.45|v|-|sospechar|怀疑，猜疑|to suspect|Empiezo a [sospechar].|我开始怀疑了。|I'm starting to suspect.
+7.45|v|-|predecir|预测|to predict|Es imposible [predecir] el futuro.|预测未来是不可能的。|It's impossible to predict the future.
+7.5|v|-|prever|预见|to foresee|Es difícil [prever] el resultado.|很难预见结果。|It's hard to foresee the outcome.
+7.5|v|-|resumir|总结|to summarise|¿Puedes [resumir] el libro?|你能概括一下这本书吗？|Can you summarise the book?
+7.55|v|-|ampliar|扩大|to expand; to extend|Queremos [ampliar] el negocio.|我们想扩大生意。|We want to expand the business.
+7.55|v|-|limitar|限制|to limit|Hay que [limitar] el uso del móvil.|要限制使用手机。|Mobile use must be limited.
+7.6|v|-|sustituir|代替|to replace|Nadie te puede [sustituir].|没人能取代你。|Nobody can replace you.
+7.6|v|-|reemplazar|替换|to replace|Hay que [reemplazar] la batería.|得换电池了。|The battery needs replacing.
+7.65|v|-|transformar|改变，转化|to transform|Quiere [transformar] la ciudad.|他想改造这座城市。|He wants to transform the city.
+7.65|v|-|adquirir|获得；购买|to acquire|Quiere [adquirir] experiencia.|他想积累经验。|He wants to gain experience.
+7.7|v|-|disminuir|减少|to decrease|El paro va a [disminuir].|失业率将下降。|Unemployment will decrease.
+7.7|v|-|tender|倾向于|to tend|Es normal [tender] a exagerar.|倾向于夸大是正常的。|It's normal to tend to exaggerate.
+7.75|v|-|realizar|实现；进行|to carry out|Vamos a [realizar] una encuesta.|我们要做一项调查。|We're going to carry out a survey.
+7.8|v|-|someter|使服从；提交|to subject; to submit|Hay que [someter] el plan a votación.|要将计划付诸表决。|The plan has to be put to a vote.
+7.8|v|-|merecer|值得|to deserve|Te vas a [merecer] un premio.|你会值得一个奖励的。|You'll deserve a prize.
+7.85|v|-|lamentar|遗憾；哀悼|to regret; to lament|Lo vas a [lamentar].|你会后悔的。|You'll regret it.
+7.85|v|-|reclamar|索赔；要求|to claim; to complain|Voy a [reclamar] el dinero.|我要索回这笔钱。|I'm going to claim the money back.
+7.9|v|-|advertir|警告；注意到|to warn; to notice|Te lo quiero [advertir].|我想提醒你。|I want to warn you.
+7.9|v|-|amenazar|威胁|to threaten|No me puedes [amenazar].|你不能威胁我。|You can't threaten me.
+7.95|v|-|engañar|欺骗|to deceive; to cheat|No me vas a [engañar].|你骗不了我。|You won't fool me.
+7.95|v|-|traicionar|背叛|to betray|Nunca te voy a [traicionar].|我永远不会背叛你。|I'll never betray you.
+8.0|v|-|desconfiar|不信任|to distrust|Tiende a [desconfiar] de todos.|他倾向于不信任任何人。|He tends to distrust everyone.
+@adjectives-b2plus
+7.1|adj|-|adecuado|合适的|suitable|Es el momento [adecuado].|这是合适的时机。|It's the right moment.
+7.15|adj|-|apropiado|恰当的|appropriate|No es un comentario [apropiado].|这不是恰当的评论。|It's not an appropriate comment.
+7.2|adj|-|conveniente|合适的；方便的|advisable; convenient|Es [conveniente] reservar.|最好提前预订。|It's advisable to book.
+7.25|adj|-|eficiente|高效的|efficient|Es un sistema [eficiente].|这是一个高效的系统。|It's an efficient system.
+7.3|adj|-|esencial|本质的；必要的|essential|Es un paso [esencial].|这是必不可少的一步。|It's an essential step.
+7.35|adj|-|fundamental|根本的|fundamental|Es un derecho [fundamental].|这是一项基本权利。|It's a fundamental right.
+7.4|adj|-|clave|关键的|key|Es un factor [clave].|这是一个关键因素。|It's a key factor.
+7.45|adj|-|relevante|相关的；重要的|relevant|No es un dato [relevante].|这个数据不相关。|It's not a relevant fact.
+7.5|adj|-|significativo|有意义的；显著的|significant|Es un cambio [significativo].|这是一个显著的变化。|It's a significant change.
+7.55|adj|-|positivo|积极的|positive|Es un resultado [positivo].|这是个积极的结果。|It's a positive result.
+7.6|adj|-|negativo|消极的|negative|Tiene un efecto [negativo].|这有负面影响。|It has a negative effect.
+7.65|adj|-|sostenible|可持续的|sustainable|Es un desarrollo [sostenible].|这是可持续发展。|It's sustainable development.
+7.7|adj|-|accesible|可到达的；易懂的|accessible|Es un precio [accesible].|价格亲民。|It's an affordable price.
+7.75|adj|-|flexible|灵活的|flexible|Tengo un horario [flexible].|我的时间安排很灵活。|I have a flexible schedule.
+7.8|adj|-|riguroso|严格的|rigorous|Es un estudio [riguroso].|这是一项严谨的研究。|It's a rigorous study.
+7.85|adj|-|objetivo|客观的|objective|Hay que ser [objetivo].|要客观。|You have to be objective.
+7.9|adj|-|subjetivo|主观的|subjective|Es un juicio [subjetivo].|这是主观判断。|It's a subjective judgement.
+7.95|adj|-|ambiguo|含糊的|ambiguous|Es un mensaje [ambiguo].|这是一条含糊的信息。|It's an ambiguous message.
+8.0|adj|-|coherente|连贯的；一致的|coherent; consistent|Es un discurso [coherente].|这是一篇条理清晰的演讲。|It's a coherent speech.

@@ -66,9 +66,9 @@ def test_word_review_updates_mastery_and_home(client):
 
 def test_progress_is_per_target_language(client):
     client.post("/api/words/apple/review", json={"known": True})
-    client.put("/api/me", json={"native": "zh", "target": "es"})
+    client.put("/api/me", json={"native": "zh", "target": "en"})
     card = next(c for c in client.get("/api/words").json() if c["id"] == "apple")
-    assert card["word"] == "la manzana" and card["level"] == "new"
+    assert card["word"] == "apple" and card["level"] == "new"
 
 
 def test_undo_restores_previous_state(client):
@@ -145,12 +145,17 @@ def test_every_language_pair_serves_content(client):
             if native == target:
                 continue
             client.put("/api/me", json={"native": native, "target": target})
-            assert len(client.get("/api/words/session?size=50").json()) == 50
-            qs = client.get("/api/quiz/session?size=50").json()
-            assert len(qs) == 50
+            words = client.get("/api/words/session?size=50").json()
+            assert len(words) == 50 and all(w["meaning"] and w["example_translation"] for w in words)
+            if target == "es":  # leveled course: questions unlock once words are introduced
+                for w in words:
+                    client.post(f"/api/words/{w['id']}/review", json={"known": True})
+            qs = client.get("/api/quiz/session?size=30").json()
+            assert len(qs) == 30, (native, target)
             for q in qs:
                 texts = [o["text"] for o in q["options"]]
                 assert len(texts) == 4 and len(set(texts)) == 4, (native, target, q["id"])
+                assert q["translation"], (native, target, q["id"])
 
 
 def test_streak_counts_consecutive_days(client, clock):

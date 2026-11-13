@@ -1,0 +1,105 @@
+# Level 5a — travel, technology, money (B1)
+@travel
+4.05|n|f|las vacaciones|假期|holidays|Me voy de [vacaciones] en agosto.|我八月去度假。|I'm going on holiday in August.
+4.05|n|mf|el turista|游客|tourist|Soy [turista], no vivo aquí.|我是游客，不住这里。|I'm a tourist, I don't live here.
+4.1|n|f|la habitación doble|双人间|double room|Quiero una [habitación doble].|我要一间双人间。|I'd like a double room.
+4.1|n|f|la recepción|前台|reception|Pregunta en la [recepción].|去前台问问。|Ask at reception.
+4.15|n|m|el equipaje|行李|luggage|Mi [equipaje] no ha llegado.|我的行李还没到。|My luggage hasn't arrived.
+4.15|n|m|el vuelo|航班|flight|El [vuelo] sale a las seis.|航班六点起飞。|The flight leaves at six.
+4.2|n|f|la llegada|到达|arrival|La [llegada] es a las tres.|三点到达。|Arrival is at three.
+4.2|n|f|la salida|出发；出口|departure; exit|La [salida] está a la derecha.|出口在右边。|The exit is on the right.
+4.25|n|m|el retraso|延误|delay|El tren tiene [retraso].|火车晚点了。|The train is delayed.
+4.25|n|f|la frontera|边境|border|Cruzamos la [frontera] en coche.|我们开车过了边境。|We crossed the border by car.
+4.3|n|f|la aduana|海关|customs|Pasamos por la [aduana].|我们过了海关。|We went through customs.
+4.3|n|m|el destino|目的地；命运|destination; fate|¿Cuál es tu [destino]?|你的目的地是哪里？|What's your destination?
+4.35|n|f|la excursión|远足，短途旅行|excursion; trip|Hacemos una [excursión] al lago.|我们去湖边郊游。|We're going on a trip to the lake.
+4.35|n|m|el mapa|地图|map|¿Tienes un [mapa] de la ciudad?|你有城市地图吗？|Do you have a city map?
+4.4|n|f|la guía|导游（女）；指南|guide; guidebook|Compré una [guía] de Perú.|我买了一本秘鲁旅游指南。|I bought a guidebook to Peru.
+4.4|n|m|el monumento|纪念碑；古迹|monument|Es el [monumento] más famoso.|这是最有名的古迹。|It's the most famous monument.
+4.45|n|f|la catedral|大教堂|cathedral|La [catedral] es gótica.|大教堂是哥特式的。|The cathedral is Gothic.
+4.45|n|m|el castillo|城堡|castle|Visitamos un [castillo] antiguo.|我们参观了一座古城堡。|We visited an old castle.
+4.5|n|m|el recuerdo|纪念品；回忆|souvenir; memory|Compro un [recuerdo] para mi madre.|我给我妈妈买了一个纪念品。|I'm buying a souvenir for my mother.
+4.5|n|m|el alojamiento|住宿|accommodation|Buscamos [alojamiento] barato.|我们在找便宜的住处。|We're looking for cheap accommodation.
+4.55|n|m|el albergue|青年旅舍|hostel|Dormimos en un [albergue].|我们住在青旅。|We're sleeping in a hostel.
+4.55|n|f|la llave de la habitación|房卡，房间钥匙|room key|Aquí tiene la [llave de la habitación].|这是您的房间钥匙。|Here's your room key.
+4.6|v|-|hacer la maleta|收拾行李|to pack|Tengo que [hacer la maleta].|我得收拾行李。|I have to pack.
+4.6|v|-|despegar|起飞|to take off|El avión va a [despegar].|飞机要起飞了。|The plane is about to take off.
+4.65|v|-|aterrizar|降落|to land|Vamos a [aterrizar] en Lima.|我们将在利马降落。|We're going to land in Lima.
+4.65|v|-|perderse|迷路|to get lost|Es fácil [perderse] en esta ciudad.|在这个城市很容易迷路。|It's easy to get lost in this city.
+4.7|v|-|recomendar|推荐|to recommend|¿Qué me puede [recomendar]?|您能给我推荐什么？|What can you recommend?
+4.7|adj|-|extranjero|外国的|foreign|Es un estudiante [extranjero].|他是外国留学生。|He's a foreign student.
+4.75|n|m|el extranjero|外国（人）|foreigner; abroad|Trabaja en el [extranjero].|他在国外工作。|He works abroad.
+4.75|adj|-|turístico|旅游的|touristy|Es un sitio muy [turístico].|这是个旅游味很重的地方。|It's a very touristy place.
+@technology
+4.1|n|m|el internet|互联网|internet|No tengo [internet] en casa.|我家没网。|I don't have internet at home.
+4.15|n|f|la página web|网页，网站|web page; website|Mira la [página web].|看看网站。|Look at the website.
+4.15|n|m|el mensaje|消息，短信|message|Te mando un [mensaje].|我给你发条消息。|I'll send you a message.
+4.2|n|f|la contraseña|密码|password|Olvidé mi [contraseña].|我忘了密码。|I forgot my password.
+4.2|n|m|el usuario|用户|user|Escribe tu nombre de [usuario].|输入你的用户名。|Type your username.
+4.25|n|f|la aplicación|应用|app|Descarga la [aplicación].|下载这个应用。|Download the app.
+4.25|n|f|la pantalla|屏幕|screen|La [pantalla] está rota.|屏幕碎了。|The screen is broken.
+4.3|n|m|el teclado|键盘|keyboard|El [teclado] no funciona.|键盘坏了。|The keyboard doesn't work.
+4.3|n|f|la batería|电池|battery|Me queda poca [batería].|我快没电了。|I'm low on battery.
+4.35|n|m|el cargador|充电器|charger|¿Tienes un [cargador]?|你有充电器吗？|Do you have a charger?
+4.35|n|m|el archivo|文件|file|Te envío el [archivo].|我把文件发给你。|I'll send you the file.
+4.4|n|f|la red|网络|network|La [red] wifi no funciona.|无线网络不能用。|The wifi network isn't working.
+4.4|n|f|las redes sociales|社交网络|social media|Paso mucho tiempo en las [redes sociales].|我花很多时间刷社交媒体。|I spend a lot of time on social media.
+4.45|n|m|el enlace|链接|link|Haz clic en el [enlace].|点击这个链接。|Click on the link.
+4.45|n|f|la impresora|打印机|printer|La [impresora] no tiene papel.|打印机没纸了。|The printer is out of paper.
+4.5|v|-|descargar|下载|to download|Tienes que [descargar] la app.|你得下载这个应用。|You have to download the app.
+4.5|v|-|subir una foto|上传照片|to upload a photo|Voy a [subir una foto].|我要上传一张照片。|I'm going to upload a photo.
+4.55|v|-|guardar|保存；保管|to save; to keep|No olvides [guardar] el archivo.|别忘了保存文件。|Don't forget to save the file.
+4.55|v|-|borrar|删除|to delete|Quiero [borrar] este mensaje.|我想删掉这条消息。|I want to delete this message.
+4.6|v|-|imprimir|打印|to print|Tengo que [imprimir] el billete.|我得打印票。|I have to print the ticket.
+4.6|v|-|conectar|连接|to connect|No puedo [conectar] el móvil.|我连不上手机。|I can't connect the phone.
+4.65|v|-|cargar|充电；装载|to charge; to load|Necesito [cargar] el móvil.|我得给手机充电。|I need to charge my phone.
+4.65|v|-|buscar en internet|上网搜索|to search online|Lo voy a [buscar en internet].|我上网查一下。|I'll look it up online.
+4.7|v|-|instalar|安装|to install|Hay que [instalar] el programa.|需要安装这个程序。|You need to install the program.
+4.7|n|m|el programa|程序；节目|program; programme|Es mi [programa] favorito.|这是我最喜欢的节目。|It's my favourite programme.
+4.75|adj|-|digital|数字的|digital|Es un mundo [digital].|这是一个数字化的世界。|It's a digital world.
+4.75|adj|-|roto|坏了的|broken|Mi móvil está [roto].|我的手机坏了。|My phone is broken.
+@money
+4.1|n|f|la moneda|硬币；货币|coin; currency|No tengo ni una [moneda].|我一个硬币都没有。|I don't have a single coin.
+4.15|n|f|la cuenta bancaria|银行账户|bank account|Quiero abrir una [cuenta bancaria].|我想开一个银行账户。|I'd like to open a bank account.
+4.2|n|m|el cajero|自动取款机；收银员|cashpoint; cashier|¿Hay un [cajero] cerca?|附近有取款机吗？|Is there a cashpoint nearby?
+4.2|n|f|la caja|收银台；盒子|till; box|Pague en la [caja], por favor.|请到收银台付款。|Please pay at the till.
+4.25|n|m|el recibo|收据|receipt|¿Me da el [recibo]?|能给我收据吗？|Can I have the receipt?
+4.25|n|f|la factura|发票；账单|invoice; bill|Llegó la [factura] de la luz.|电费账单来了。|The electricity bill arrived.
+4.3|n|m|el descuento|折扣|discount|Hay un [descuento] del veinte por ciento.|打八折。|There's a twenty per cent discount.
+4.3|n|f|la rebaja|降价（复数：打折季）|reduction; sale|Este abrigo tiene una [rebaja] del treinta por ciento.|这件大衣降价百分之三十。|This coat is reduced by thirty per cent.
+4.35|v|-|ahorrar|存钱；节省|to save (money)|Quiero [ahorrar] para un coche.|我想攒钱买车。|I want to save for a car.
+4.35|v|-|sacar dinero|取钱|to withdraw money|Tengo que [sacar dinero].|我得取钱。|I have to take out some money.
+4.4|v|-|cobrar|收费；领（工资）|to charge; to get paid|¿Cuánto me va a [cobrar]?|您要收我多少钱？|How much are you going to charge me?
+4.4|v|-|deber|欠；应该|to owe; must|Te voy a [deber] un favor.|我会欠你一个人情。|I'll owe you a favour.
+4.45|n|m|el préstamo|贷款|loan|Pedí un [préstamo] al banco.|我向银行申请了贷款。|I asked the bank for a loan.
+4.45|n|m|el impuesto|税|tax|Hay que pagar el [impuesto].|得交税。|You have to pay the tax.
+4.5|adj|-|gratis|免费的|free (of charge)|La entrada es [gratis].|入场免费。|Entry is free.
+4.5|adj|-|gratuito|免费的|free (of charge)|El museo es [gratuito] los domingos.|博物馆周日免费。|The museum is free on Sundays.
+4.55|n|m|el gasto|开销|expense|Es un [gasto] necesario.|这是一笔必要的开销。|It's a necessary expense.
+4.55|adj|-|pobre|穷的；可怜的|poor|Es un país [pobre].|这是个贫穷的国家。|It's a poor country.
+4.6|n|f|la riqueza|财富|wealth|La [riqueza] no da la felicidad.|财富不能带来幸福。|Wealth doesn't bring happiness.
+4.6|v|-|valer|值|to be worth|No va a [valer] la pena.|不会值得的。|It won't be worth it.
+@city-services
+4.2|n|f|la oficina de correos|邮局|post office|¿Dónde está la [oficina de correos]?|邮局在哪里？|Where is the post office?
+4.25|n|m|el paquete|包裹|parcel|Tengo un [paquete] para ti.|我有你的包裹。|I have a parcel for you.
+4.25|n|m|el sello|邮票|stamp|Necesito un [sello] para esta carta.|这封信我需要一张邮票。|I need a stamp for this letter.
+4.3|n|f|la carta|信；菜单|letter; menu|Te escribo una [carta].|我给你写一封信。|I'm writing you a letter.
+4.3|n|m|el ayuntamiento|市政府|town hall|El [ayuntamiento] está en la plaza.|市政府在广场上。|The town hall is in the square.
+4.35|n|f|la comisaría|警察局|police station|Fui a la [comisaría].|我去了警察局。|I went to the police station.
+4.35|n|m|el documento|证件；文件|document|Necesito un [documento] de identidad.|我需要身份证件。|I need an identity document.
+4.4|n|m|el formulario|表格|form|Rellena este [formulario].|填写这张表。|Fill in this form.
+4.4|n|f|la dirección|地址；方向|address; direction|¿Cuál es tu [dirección]?|你的地址是什么？|What's your address?
+4.45|n|m|el barrio|街区|neighbourhood|Vivo en un [barrio] céntrico.|我住在市中心的街区。|I live in a central neighbourhood.
+4.45|n|m|el centro|中心；市中心|centre|Vamos al [centro].|我们去市中心。|Let's go to the centre.
+4.5|n|m|el edificio|建筑，楼|building|Es un [edificio] moderno.|这是一栋现代化的建筑。|It's a modern building.
+4.5|n|m|el puente|桥|bridge|Cruzamos el [puente].|我们过桥。|We cross the bridge.
+4.55|n|m|el semáforo|红绿灯|traffic light|Para en el [semáforo].|在红绿灯处停下。|Stop at the traffic light.
+4.55|n|f|la carretera|公路|road; highway|La [carretera] está cortada.|公路封了。|The road is closed.
+4.6|n|m|el tráfico|交通|traffic|Hay mucho [tráfico].|交通很拥堵。|There's a lot of traffic.
+4.6|n|m|el aparcamiento|停车场|car park|El [aparcamiento] está lleno.|停车场满了。|The car park is full.
+4.65|v|-|aparcar|停车|to park|No se puede [aparcar] aquí.|这里不能停车。|You can't park here.
+4.65|n|f|la gasolinera|加油站|petrol station|Hay una [gasolinera] cerca.|附近有加油站。|There's a petrol station nearby.
+4.7|n|m|el ciudadano|市民，公民|citizen|Es un [ciudadano] ejemplar.|他是模范公民。|He's a model citizen.
+4.7|n|f|la cola|队伍|queue|Hay mucha [cola].|排了很长的队。|There's a long queue.
+4.75|v|-|hacer cola|排队|to queue|Tenemos que [hacer cola].|我们得排队。|We have to queue.
+4.75|v|-|rellenar|填写|to fill in|Tienes que [rellenar] el formulario.|你得填表。|You have to fill in the form.

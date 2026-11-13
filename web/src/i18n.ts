@@ -5,6 +5,14 @@ export interface Strings {
   langName: Record<Lang, string>
   pos: Record<string, string>
   level: Record<Level, string>
+  gender: Record<'m' | 'f' | 'mf', string>
+  skill: Record<'vocab' | 'form' | 'context', string>
+  vocabHint: string
+  formHint: string
+  quizLocked: string
+  goSwipe: string
+  lv: (n: number) => string
+  showMore: (n: number) => string
   getStarted: string
   myLanguage: string
   iWantToLearn: string
@@ -72,6 +80,14 @@ const zh: Strings = {
   langName: { zh: '简体中文', en: '英语', fr: '法语', es: '西班牙语' },
   pos: { n: '名词', v: '动词', adj: '形容词', adv: '副词', pron: '代词', prep: '介词', conj: '连词', num: '数词', interj: '叹词', phr: '短语' },
   level: { new: '新词', learning: '学习中', familiar: '熟悉', mastered: '已掌握' },
+  gender: { m: '阳性', f: '阴性', mf: '阴阳同形' },
+  skill: { vocab: '单词填空', form: '词形变化', context: '情景对话' },
+  vocabHint: '选出句子里缺的词',
+  formHint: '选出正确的形式',
+  quizLocked: '先去刷几个单词，选择题会随着你的词汇解锁',
+  goSwipe: '去刷单词',
+  lv: (n) => `Lv ${n}`,
+  showMore: (n) => `再显示 ${Math.min(n, 150)} 个（剩余 ${n}）`,
   getStarted: '开始学习',
   myLanguage: '我的母语',
   iWantToLearn: '我想学',
@@ -135,6 +151,14 @@ const en: Strings = {
   langName: { zh: 'Chinese', en: 'English', fr: 'French', es: 'Spanish' },
   pos: { n: 'noun', v: 'verb', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prep.', conj: 'conj.', num: 'number', interj: 'interj.', phr: 'phrase' },
   level: { new: 'New', learning: 'Learning', familiar: 'Familiar', mastered: 'Mastered' },
+  gender: { m: 'masculine', f: 'feminine', mf: 'm/f' },
+  skill: { vocab: 'Vocabulary', form: 'Word forms', context: 'Conversation' },
+  vocabHint: 'Pick the missing word',
+  formHint: 'Pick the correct form',
+  quizLocked: 'Swipe some words first — questions unlock as your vocabulary grows',
+  goSwipe: 'Swipe words',
+  lv: (n) => `Lv ${n}`,
+  showMore: (n) => `Show more (${n} left)`,
   getStarted: 'Get started',
   myLanguage: 'I speak',
   iWantToLearn: 'I want to learn',
@@ -198,6 +222,14 @@ const fr: Strings = {
   langName: { zh: 'chinois', en: 'anglais', fr: 'français', es: 'espagnol' },
   pos: { n: 'nom', v: 'verbe', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prép.', conj: 'conj.', num: 'nombre', interj: 'interj.', phr: 'expression' },
   level: { new: 'Nouveau', learning: 'En cours', familiar: 'Connu', mastered: 'Maîtrisé' },
+  gender: { m: 'masculin', f: 'féminin', mf: 'm/f' },
+  skill: { vocab: 'Vocabulaire', form: 'Formes', context: 'Dialogue' },
+  vocabHint: 'Choisis le mot manquant',
+  formHint: 'Choisis la bonne forme',
+  quizLocked: "Révise d'abord quelques mots : les questions se débloquent avec ton vocabulaire",
+  goSwipe: 'Réviser des mots',
+  lv: (n) => `Niv. ${n}`,
+  showMore: (n) => `Afficher plus (${n} restants)`,
   getStarted: 'Commencer',
   myLanguage: 'Je parle',
   iWantToLearn: "Je veux apprendre",
@@ -261,6 +293,14 @@ const es: Strings = {
   langName: { zh: 'chino', en: 'inglés', fr: 'francés', es: 'español' },
   pos: { n: 'sust.', v: 'verbo', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prep.', conj: 'conj.', num: 'número', interj: 'interj.', phr: 'expresión' },
   level: { new: 'Nueva', learning: 'Aprendiendo', familiar: 'Conocida', mastered: 'Dominada' },
+  gender: { m: 'masculino', f: 'femenino', mf: 'm/f' },
+  skill: { vocab: 'Vocabulario', form: 'Formas', context: 'Diálogo' },
+  vocabHint: 'Elige la palabra que falta',
+  formHint: 'Elige la forma correcta',
+  quizLocked: 'Primero repasa algunas palabras: las preguntas se desbloquean con tu vocabulario',
+  goSwipe: 'Repasar palabras',
+  lv: (n) => `Nv. ${n}`,
+  showMore: (n) => `Mostrar más (quedan ${n})`,
   getStarted: 'Empezar',
   myLanguage: 'Hablo',
   iWantToLearn: 'Quiero aprender',

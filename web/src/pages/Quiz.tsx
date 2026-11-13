@@ -82,6 +82,15 @@ export default function Quiz() {
       </Centered>
     )
   if (!qs) return <Centered>{t.loading}</Centered>
+  if (qs.length === 0)
+    return (
+      <Centered>
+        <p>{t.quizLocked}</p>
+        <button className="btn" onClick={() => nav('/swipe')}>
+          {t.goSwipe}
+        </button>
+      </Centered>
+    )
 
   if (n >= qs.length)
     return (
@@ -110,6 +119,11 @@ export default function Quiz() {
 
   const q = qs[n]
   const isFill = q.kind === 'fill'
+  const legacy = !q.id.includes('-') // aligned 4-language content has plain ids (f01, n01)
+  const typeLabel = legacy ? (isFill ? t.fill : t.next) : t.skill[q.skill]
+  const hint = q.skill === 'vocab' ? t.vocabHint : isFill ? (legacy ? t.fillHint : t.formHint) : t.nextHint
+  // Vocabulary cloze tests recall of a meaning, so the translation is shown up front.
+  const translationShown = showTr || !!result || q.skill === 'vocab'
   const [before, after] = isFill ? q.prompt.split('___') : [q.prompt, '']
 
   const optClass = (text: string) => {
@@ -129,8 +143,9 @@ export default function Quiz() {
       </div>
 
       <div>
-        <span className="type">{isFill ? t.fill : t.next}</span>
-        <div className="muted hint-line">{isFill ? t.fillHint : t.nextHint}</div>
+        <span className="type">{typeLabel}</span>
+        {!legacy && <span className="type lv">{t.lv(q.difficulty_level)}</span>}
+        <div className="muted hint-line">{hint}</div>
       </div>
       <div className="q">
         {isFill ? (
@@ -147,7 +162,7 @@ export default function Quiz() {
         </button>
       </div>
       <button className="trans" onClick={() => setShowTr(true)}>
-        {showTr || result ? q.translation : `👁 ${t.showTranslation}`}
+        {translationShown ? q.translation : `👁 ${t.showTranslation}`}
       </button>
 
       <div className={`opts${isFill ? ' words' : ''}`}>

@@ -125,14 +125,23 @@ def item_progress(s: srs.State, now: float) -> dict:
     }
 
 
+def native_text(row, field: str, native: str) -> str:
+    """Course content has meanings in zh + en only; other natives fall back to English."""
+    return row[field.format(native)] or row[field.format("en")]
+
+
 def word_card(row: sqlite3.Row, native: str, target: str, s: srs.State, now: float) -> dict:
     return {
         "id": row["id"],
         "word": row[target],
         "pos": row["pos"],
-        "meaning": row[native],
+        "gender": row["gender"],
+        "difficulty": row["score"],
+        "difficulty_level": row["level"],
+        "topic": row["topic"],
+        "meaning": native_text(row, "{}", native),
         "example": row["ex_" + target],
-        "example_translation": row["ex_" + native],
+        "example_translation": native_text(row, "ex_{}", native),
         **item_progress(s, now),
     }
 
@@ -141,31 +150,39 @@ def strip_brackets(sentence: str) -> str:
     return sentence.replace("[", "").replace("]", "")
 
 
+def _native(data: dict, native: str) -> dict:
+    return data.get(native) or data["en"]
+
+
 def question_payload(q: sqlite3.Row, native: str, target: str, s: srs.State, now: float,
                      next_pool: list[sqlite3.Row], rng: random.Random) -> dict:
     data = json.loads(q["data"])
-    t, n = data[target], data[native]
-    base = {"id": q["id"], "kind": q["kind"], **item_progress(s, now)}
+    t, n = data[target], _native(data, native)
+    base = {"id": q["id"], "kind": q["kind"], "skill": q["skill"], "difficulty_level": q["level"],
+            **item_progress(s, now)}
     if q["kind"] == "fill":
         options = [t["answer"], *t["distractors"]]
         rng.shuffle(options)
         blanked = t["sentence"].replace(f"[{t['answer']}]", "___")
         return {**base, "prompt": blanked, "translation": strip_brackets(n["sentence"]),
                 "options": [{"text": o, "translation": None} for o in options]}
-    # 'next': distractors are the correct follow-ups of other questions on a different topic
-    others = [o for o in next_pool if o["topic"] != q["topic"] and o["id"] != q["id"]]
+    # 'next': distractors are the correct follow-ups of other questions on a different topic,
+    # no harder than the question itself
+    others = [o for o in next_pool if o["topic"] != q["topic"] and o["id"] != q["id"] and o["level"] <= q["level"]]
+    if len(others) < 3:
+        others = [o for o in next_pool if o["topic"] != q["topic"] and o["id"] != q["id"]]
     chosen = rng.sample(others, k=min(3, len(others)))
     options = [{"text": t["answer"], "translation": n["answer"]}]
     for o in chosen:
         od = json.loads(o["data"])
-        options.append({"text": od[target]["answer"], "translation": od[native]["answer"]})
+        options.append({"text": od[target]["answer"], "translation": _native(od, native)["answer"]})
     rng.shuffle(options)
     return {**base, "prompt": t["prompt"], "translation": n["prompt"], "options": options}
 
 
 def question_answer(q: sqlite3.Row, native: str, target: str) -> dict:
     data = json.loads(q["data"])
-    t, n = data[target], data[native]
+    t, n = data[target], _native(data, native)
     if q["kind"] == "fill":
         return {"answer": t["answer"], "full_sentence": strip_brackets(t["sentence"]),
                 "translation": strip_brackets(n["sentence"])}
