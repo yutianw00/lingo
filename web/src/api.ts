@@ -10,7 +10,18 @@ export interface Me {
   target: Lang
   onboarded: boolean
   daily_goal: number
+  email: string | null
+  name: string | null
+  picture: string | null
 }
+
+export interface AuthConfig {
+  enabled: boolean
+  providers: string[]
+}
+
+/** Thrown when the server wants the user to sign in. */
+export class SignInRequired extends Error {}
 
 export interface Progress {
   mastery: number
@@ -79,7 +90,7 @@ export interface Home {
   quiz: { total: number; due: number; new: number; mistakes: number; levels: Levels }
 }
 
-function userId(): string {
+export function userId(): string {
   try {
     return localStorage.getItem('lingo.uid') || 'demo'
   } catch {
@@ -97,6 +108,12 @@ async function req<T>(path: string, init: RequestInit = {}): Promise<T> {
       ...init.headers,
     },
   })
+  if (res.status === 401) {
+    // Session expired in the middle of using the app: go (back) to the sign-in page.
+    if (path !== '/me' && window.location.pathname !== '/login')
+      window.location.assign(`/login?next=${encodeURIComponent(window.location.pathname)}`)
+    throw new SignInRequired()
+  }
   if (!res.ok) throw new Error(`${res.status} ${await res.text()}`)
   return res.json() as Promise<T>
 }
@@ -105,6 +122,8 @@ const post = <T>(path: string, body?: unknown) =>
   req<T>(path, { method: 'POST', body: body === undefined ? undefined : JSON.stringify(body) })
 
 export const api = {
+  authConfig: () => req<AuthConfig>('/auth/config'),
+  logout: () => post<{ ok: boolean }>('/auth/logout'),
   me: () => req<Me>('/me'),
   saveMe: (b: { native: Lang; target: Lang }) => req<Me>('/me', { method: 'PUT', body: JSON.stringify(b) }),
   home: () => req<Home>('/home'),
@@ -130,4 +149,10 @@ export function speak(text: string, lang: Lang) {
   } catch {
     /* TTS unavailable */
   }
+}
+
+/** Full-page redirect into Google sign-in. `claim` lets a first sign-in keep this browser's local progress. */
+export function signInWithGoogle(next = '/') {
+  const params = new URLSearchParams({ next, claim: userId() })
+  window.location.href = `/api/auth/google/login?${params}`
 }

@@ -32,6 +32,14 @@ export default function Setup() {
     }
   }
 
+  const signOut = async () => {
+    try {
+      await api.logout()
+    } finally {
+      window.location.assign('/login')
+    }
+  }
+
   const grid = (sel: Lang, onPick: (l: Lang) => void, disabled?: Lang) => (
     <div className="lang-grid">
       {LANGS.map((l) => (
@@ -62,6 +70,21 @@ export default function Setup() {
       {grid(target, setTarget, native)}
       <p className="pair-summary">{t.learningPair(t.langName[native], t.langName[target])}</p>
       {err && <p className="err">{t.error}</p>}
+      {me.email && (
+        <>
+          <h2>{t.account}</h2>
+          <div className="panel account">
+            {me.picture ? <img src={me.picture} alt="" referrerPolicy="no-referrer" /> : <span className="avatar">👤</span>}
+            <div className="grow">
+              <div className="bold">{me.name}</div>
+              <div className="muted">{me.email}</div>
+            </div>
+            <button className="chip" onClick={signOut}>
+              {t.signOut}
+            </button>
+          </div>
+        </>
+      )}
       <div className="bottom">
         <button className="btn" onClick={save} disabled={saving}>
           {me.onboarded ? t.save : t.start}

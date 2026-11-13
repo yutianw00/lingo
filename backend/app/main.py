@@ -1,8 +1,9 @@
 """HTTP API. All endpoints live under /api; the built web app is served from /.
 
-Auth is intentionally absent for now: the caller identifies itself with the
-`X-User-Id` header (default "demo"). Swapping in SSO later only means replacing
-`current_user` with a dependency that reads the verified identity.
+Sign-in: when a Google OAuth client is configured (backend/.env, see .env.example)
+every /api call needs a session — a cookie for the web app, or `Authorization:
+Bearer <token>` for other clients. Without it the app runs as a single local user
+identified by the `X-User-Id` header (default "demo"), which is also what tests use.
 """
 import math
 import random
@@ -10,13 +11,17 @@ import sqlite3
 import time
 from pathlib import Path
 from typing import Annotated, Callable, Literal
+from urllib.parse import quote
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import db, logic, seed, srs
+import httpx
+
+from . import auth, config, db, logic, seed, srs
+from .config import AuthConfig
 
 Lang = Literal["zh", "en", "fr", "es"]
 LANGUAGES = [
@@ -46,7 +51,8 @@ class QuizAnswer(BaseModel):
 
 
 def create_app(db_path: str | None = None, clock: Callable[[], float] = time.time,
-               rng: random.Random | None = None) -> FastAPI:
+               rng: random.Random | None = None, auth_cfg: AuthConfig | None = None,
+               exchange: auth.Exchange = auth.exchange_code) -> FastAPI:
     db.init_db(db_path)
     rng = rng or random.Random()
     app = FastAPI(title="Lingo API", version="0.1.0")
@@ -60,7 +66,19 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
 
     Conn = Annotated[sqlite3.Connection, Depends(get_conn)]
 
-    def current_user(conn: Conn, x_user_id: Annotated[str, Header()] = "demo") -> sqlite3.Row:
+    def session_token(request: Request) -> str | None:
+        header = request.headers.get("authorization", "")
+        if header.lower().startswith("bearer "):
+            return header[7:].strip() or None
+        return request.cookies.get(auth.SESSION_COOKIE)
+
+    def current_user(request: Request, conn: Conn, x_user_id: Annotated[str, Header()] = "demo") -> sqlite3.Row:
+        if auth_cfg is not None:
+            token = session_token(request)
+            row = auth.session_user(conn, token, clock()) if token else None
+            if row is None:
+                raise HTTPException(401, "sign in required")
+            return row
         row = conn.execute("SELECT * FROM users WHERE id=?", (x_user_id,)).fetchone()
         if row is None:
             conn.execute("INSERT INTO users (id, created_at) VALUES (?, ?)", (x_user_id, clock()))
@@ -73,7 +91,63 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
 
     def me_payload(u) -> dict:
         return {"id": u["id"], "native": u["native"], "target": u["target"],
-                "onboarded": bool(u["onboarded"]), "daily_goal": u["daily_goal"]}
+                "onboarded": bool(u["onboarded"]), "daily_goal": u["daily_goal"],
+                "email": u["email"], "name": u["name"], "picture": u["picture"]}
+
+    # ------------------------------------------------------------ sign-in
+
+    @app.get("/api/auth/config")
+    def auth_config():
+        return {"enabled": auth_cfg is not None, "providers": ["google"] if auth_cfg else []}
+
+    @app.get("/api/auth/google/login", include_in_schema=False)
+    def google_login(conn: Conn, next: str = "/", claim: str | None = None):
+        if auth_cfg is None:
+            raise HTTPException(404, "sign-in is not configured")
+        state, challenge = auth.start_login(conn, next, claim, clock())
+        resp = RedirectResponse(auth.authorization_url(auth_cfg, state, challenge), status_code=302)
+        resp.set_cookie(auth.STATE_COOKIE, state, max_age=auth.STATE_TTL, httponly=True, samesite="lax",
+                        secure=auth_cfg.cookie_secure, path="/api/auth")
+        return resp
+
+    @app.get("/api/auth/google/callback", include_in_schema=False)
+    def google_callback(request: Request, conn: Conn, code: str | None = None, state: str | None = None,
+                        error: str | None = None):
+        if auth_cfg is None:
+            raise HTTPException(404, "sign-in is not configured")
+
+        def fail(reason: str):
+            resp = RedirectResponse(f"{auth_cfg.frontend_url}/login?error={quote(reason)}", status_code=302)
+            resp.delete_cookie(auth.STATE_COOKIE, path="/api/auth")
+            return resp
+
+        if error:
+            return fail("cancelled")
+        if not code or not state or request.cookies.get(auth.STATE_COOKIE) != state:
+            return fail("state")
+        now = clock()
+        try:
+            pending = auth.take_login(conn, state, now)
+            tokens = exchange(auth_cfg, code, pending["verifier"])
+            claims = auth.id_token_claims(tokens.get("id_token", ""), auth_cfg, now)
+        except (auth.AuthError, httpx.HTTPError):
+            return fail("failed")
+        uid = auth.upsert_google_user(conn, claims, pending["claim"], now)
+        token = auth.create_session(conn, uid, now, auth_cfg.session_days)
+        resp = RedirectResponse(auth_cfg.frontend_url + pending["next"], status_code=302)
+        resp.set_cookie(auth.SESSION_COOKIE, token, max_age=auth_cfg.session_days * 86400, httponly=True,
+                        samesite="lax", secure=auth_cfg.cookie_secure, path="/")
+        resp.delete_cookie(auth.STATE_COOKIE, path="/api/auth")
+        return resp
+
+    @app.post("/api/auth/logout")
+    def logout(request: Request, conn: Conn):
+        token = session_token(request)
+        if token:
+            auth.end_session(conn, token)
+        resp = JSONResponse({"ok": True})
+        resp.delete_cookie(auth.SESSION_COOKIE, path="/")
+        return resp
 
     # ------------------------------------------------------------ settings
 
@@ -264,4 +338,4 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
     return app
 
 
-app = create_app()
+app = create_app(auth_cfg=config.auth_from_env())

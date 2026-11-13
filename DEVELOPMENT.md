@@ -83,12 +83,23 @@ gender, no duplicates…) and upserts by stable id, so editing or adding lines n
 Next-sentence distractors are the answers of *other* dialogues on a different `topic` (and no harder), so prompts
 whose answers could be swapped share a topic.
 
-## Auth
+## Sign-in (Google)
 
-None yet. The client sends `X-User-Id` (defaults to `demo`; set `localStorage['lingo.uid']` to switch users).
-To add SSO, replace `current_user` in `app/main.py` with a dependency that returns the verified identity; nothing else changes.
+Copy `backend/.env.example` to `backend/.env` (git-ignored) and fill in the Google OAuth web client
+(Google Cloud Console → Google Auth Platform → Clients; redirect URI
+`http://localhost:8000/api/auth/google/callback`). With the client configured every `/api` call needs a
+session; without it the app runs as a single local user (`X-User-Id` header, default `demo`) — tests use this mode.
+
+- Flow: OpenID Connect authorization code + PKCE (`/api/auth/google/login` → Google → `/api/auth/google/callback`),
+  single-use `state` bound to a cookie, ID token checked for issuer / audience / expiry / verified email,
+  same-site-only redirect after login.
+- Sessions: random 256-bit tokens, only their SHA-256 stored, 30 days. Web: HttpOnly `lingo_session` cookie;
+  other clients: `Authorization: Bearer <token>`. `POST /api/auth/logout` ends it.
+- The first Google sign-in adopts this browser's local profile (`demo` by default) if it was never linked, so
+  existing progress carries over.
+- While the Google app is in *Testing*, only the test users listed in the console can sign in.
 
 ## iOS
 
 The web app is mobile-first, and every feature goes through the JSON API, so a SwiftUI client can reuse it as-is:
-send `X-User-Id` and `X-Tz-Offset` (minutes, same sign as JS `getTimezoneOffset()`), use `AVSpeechSynthesizer` for pronunciation.
+sign in with Google (iOS client) and send `Authorization: Bearer` + `X-Tz-Offset` (minutes, same sign as JS `getTimezoneOffset()`), use `AVSpeechSynthesizer` for pronunciation.

@@ -13,6 +13,11 @@ export interface Strings {
   goSwipe: string
   lv: (n: number) => string
   showMore: (n: number) => string
+  signInSubtitle: string
+  signInGoogle: string
+  signInError: Record<'cancelled' | 'state' | 'failed', string>
+  account: string
+  signOut: string
   getStarted: string
   myLanguage: string
   iWantToLearn: string
@@ -88,6 +93,11 @@ const zh: Strings = {
   goSwipe: '去刷单词',
   lv: (n) => `Lv ${n}`,
   showMore: (n) => `再显示 ${Math.min(n, 150)} 个（剩余 ${n}）`,
+  signInSubtitle: '刷单词、做选择题，每天进步一点',
+  signInGoogle: '使用 Google 登录',
+  signInError: { cancelled: '登录已取消', state: '登录已过期，请重试', failed: '登录失败，请重试' },
+  account: '账户',
+  signOut: '退出登录',
   getStarted: '开始学习',
   myLanguage: '我的母语',
   iWantToLearn: '我想学',
@@ -159,6 +169,11 @@ const en: Strings = {
   goSwipe: 'Swipe words',
   lv: (n) => `Lv ${n}`,
   showMore: (n) => `Show more (${n} left)`,
+  signInSubtitle: 'Swipe words, answer questions, get a little better every day',
+  signInGoogle: 'Sign in with Google',
+  signInError: { cancelled: 'Sign-in was cancelled', state: 'Sign-in expired, please try again', failed: 'Sign-in failed, please try again' },
+  account: 'Account',
+  signOut: 'Sign out',
   getStarted: 'Get started',
   myLanguage: 'I speak',
   iWantToLearn: 'I want to learn',
@@ -230,6 +245,11 @@ const fr: Strings = {
   goSwipe: 'Réviser des mots',
   lv: (n) => `Niv. ${n}`,
   showMore: (n) => `Afficher plus (${n} restants)`,
+  signInSubtitle: 'Des mots, des questions, un petit progrès chaque jour',
+  signInGoogle: 'Se connecter avec Google',
+  signInError: { cancelled: 'Connexion annulée', state: 'Connexion expirée, réessaie', failed: 'Échec de la connexion, réessaie' },
+  account: 'Compte',
+  signOut: 'Se déconnecter',
   getStarted: 'Commencer',
   myLanguage: 'Je parle',
   iWantToLearn: "Je veux apprendre",
@@ -301,6 +321,11 @@ const es: Strings = {
   goSwipe: 'Repasar palabras',
   lv: (n) => `Nv. ${n}`,
   showMore: (n) => `Mostrar más (quedan ${n})`,
+  signInSubtitle: 'Palabras, preguntas y un poco de progreso cada día',
+  signInGoogle: 'Iniciar sesión con Google',
+  signInError: { cancelled: 'Inicio de sesión cancelado', state: 'La sesión caducó, inténtalo de nuevo', failed: 'No se pudo iniciar sesión, inténtalo de nuevo' },
+  account: 'Cuenta',
+  signOut: 'Cerrar sesión',
   getStarted: 'Empezar',
   myLanguage: 'Hablo',
   iWantToLearn: 'Quiero aprender',
@@ -363,3 +388,9 @@ const es: Strings = {
 export const STRINGS: Record<Lang, Strings> = { zh, en, fr, es }
 export const LANGS: Lang[] = ['zh', 'en', 'fr', 'es']
 export const SELF_NAME: Record<Lang, string> = { zh: '简体中文', en: 'English', fr: 'Français', es: 'Español' }
+
+/** Best guess at the visitor's language before they sign in. */
+export function browserLang(): Lang {
+  const l = (navigator.language || 'en').slice(0, 2)
+  return (LANGS as string[]).includes(l) ? (l as Lang) : 'en'
+}

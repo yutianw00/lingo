@@ -1,35 +1,54 @@
 import { useEffect, useMemo, useState } from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
-import { api, type Me } from './api'
+import { api, SignInRequired, type Me } from './api'
 import { Ctx } from './context'
-import { STRINGS } from './i18n'
+import { browserLang, STRINGS } from './i18n'
 import Home from './pages/Home'
+import Login from './pages/Login'
 import Quiz from './pages/Quiz'
 import Setup from './pages/Setup'
 import Swipe from './pages/Swipe'
 import Words from './pages/Words'
 import { Centered } from './ui'
 
+type State = { kind: 'loading' } | { kind: 'error' } | { kind: 'signed-out' } | { kind: 'ready'; me: Me }
+
 export default function App() {
-  const [me, setMe] = useState<Me | null>(null)
-  const [err, setErr] = useState(false)
+  const [state, setState] = useState<State>({ kind: 'loading' })
 
   useEffect(() => {
-    api.me().then(setMe, () => setErr(true))
+    api.me().then(
+      (me) => setState({ kind: 'ready', me }),
+      (e) => setState({ kind: e instanceof SignInRequired ? 'signed-out' : 'error' }),
+    )
   }, [])
 
+  const me = state.kind === 'ready' ? state.me : null
   useEffect(() => {
-    if (me) document.documentElement.lang = me.native === 'zh' ? 'zh-CN' : me.native
+    const lang = me?.native ?? browserLang()
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang
   }, [me])
 
-  const ctx = useMemo(() => (me ? { me, setMe, t: STRINGS[me.native] } : null), [me])
+  const ctx = useMemo(
+    () => (me ? { me, setMe: (m: Me) => setState({ kind: 'ready', me: m }), t: STRINGS[me.native] } : null),
+    [me],
+  )
 
-  if (err)
+  if (state.kind === 'error')
     return (
       <Centered>
         <p>{STRINGS.zh.error}</p>
         <p className="muted">{STRINGS.en.error}</p>
       </Centered>
+    )
+  if (state.kind === 'signed-out')
+    return (
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="*" element={<LoginRedirect />} />
+        </Routes>
+      </BrowserRouter>
     )
   if (!ctx) return <Centered>…</Centered>
 
@@ -49,4 +68,10 @@ export default function App() {
       </BrowserRouter>
     </Ctx.Provider>
   )
+}
+
+/** Remember where the user was headed, then show the sign-in page. */
+function LoginRedirect() {
+  const next = window.location.pathname
+  return <Navigate to={`/login?next=${encodeURIComponent(next)}`} replace />
 }

@@ -74,6 +74,20 @@ CREATE TABLE IF NOT EXISTS review_log (
     after TEXT NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_log_user_ts ON review_log (user_id, ts);
+-- Sign-in: sessions hold only a hash of the token; oauth_states are pending logins.
+CREATE TABLE IF NOT EXISTS sessions (
+    token_hash TEXT PRIMARY KEY,
+    user_id TEXT NOT NULL,
+    created_at REAL NOT NULL,
+    expires_at REAL NOT NULL
+);
+CREATE TABLE IF NOT EXISTS oauth_states (
+    state TEXT PRIMARY KEY,
+    verifier TEXT NOT NULL,
+    next TEXT NOT NULL,
+    claim TEXT,
+    created_at REAL NOT NULL
+);
 """
 
 
@@ -92,7 +106,20 @@ def init_db(path: str | None = None) -> None:
     conn = connect(path)
     try:
         conn.executescript(SCHEMA)
+        _migrate(conn)
         seed.load_content(conn)
         conn.commit()
     finally:
         conn.close()
+
+
+USER_COLUMNS = {"google_sub": "TEXT", "email": "TEXT", "name": "TEXT", "picture": "TEXT"}
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Add columns introduced after the first release to existing databases."""
+    have = {r["name"] for r in conn.execute("PRAGMA table_info(users)")}
+    for col, typ in USER_COLUMNS.items():
+        if col not in have:
+            conn.execute(f"ALTER TABLE users ADD COLUMN {col} {typ}")
+    conn.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_users_google ON users (google_sub)")
