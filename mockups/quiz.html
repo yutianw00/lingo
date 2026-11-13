@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>选择题</title><link rel="stylesheet" href="style.css">
+<style>
+  .type { display: inline-block; font-size: 12px; font-weight: 800; padding: 4px 10px; border-radius: 8px; background: var(--soft); color: var(--primary); margin-bottom: 10px; }
+  .q { font-size: 22px; font-weight: 800; line-height: 1.5; margin-bottom: 8px; }
+  .blank { display: inline-block; min-width: 80px; border-bottom: 3px solid var(--primary); text-align: center; color: var(--primary); }
+  .trans { font-size: 14px; color: var(--muted); cursor: pointer; margin-bottom: 22px; }
+  .opts { display: grid; gap: 10px; }
+  .opts.words { grid-template-columns: 1fr 1fr; }
+  .opt { padding: 16px; border: 2px solid var(--line); border-radius: 16px; background: #fff; box-shadow: 0 4px 0 var(--line); font: inherit; font-size: 16px; font-weight: 700; cursor: pointer; text-align: left; color: var(--ink); }
+  .opts.words .opt { text-align: center; }
+  .opt small { display: block; font-weight: 500; font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .opt.sel { border-color: var(--primary); background: var(--soft); box-shadow: 0 4px 0 var(--primary); }
+  .opt.right { border-color: var(--good); background: var(--good-soft); box-shadow: 0 4px 0 var(--good); }
+  .opt.wrong { border-color: var(--bad); background: var(--bad-soft); box-shadow: 0 4px 0 var(--bad); }
+  .opt:disabled { cursor: default; }
+  .foot { margin-top: auto; padding-top: 20px; }
+  .sheet { position: fixed; left: 0; right: 0; bottom: 0; padding: 18px 16px 24px; transform: translateY(100%); transition: transform .25s ease; }
+  .sheet.show { transform: translateY(0); }
+  .sheet .in { max-width: 388px; margin: 0 auto; }
+  .sheet.ok { background: var(--good-soft); } .sheet.ko { background: var(--bad-soft); }
+  .sheet h3 { font-size: 20px; font-weight: 800; margin-bottom: 4px; }
+  .sheet.ok h3 { color: var(--good-d); } .sheet.ko h3 { color: var(--bad-d); }
+  .sheet p { font-size: 14px; margin-bottom: 14px; }
+  .done { text-align: center; margin: auto 0; }
+</style></head>
+<body><div class="app">
+  <div class="topbar">
+    <button class="icon-btn" onclick="location.href='home.html'">✕</button>
+    <div class="progress"><i id="bar" style="width:0"></i></div>
+  </div>
+  <div id="body" style="display:flex;flex-direction:column;flex:1"></div>
+</div>
+<div class="sheet" id="sheet"><div class="in"><h3 id="sh-t"></h3><p id="sh-p"></p><button class="btn" id="next">继续</button></div></div>
+<script>
+const Q = [
+  { type: 'fill', s: 'Je voudrais une ___ de café, s\'il vous plaît.', t: '请给我一杯咖啡。', opts: ['tasse', 'pomme', 'voiture', 'fenêtre'], a: 0, why: 'une tasse de café = 一杯咖啡' },
+  { type: 'next', s: 'Il pleut beaucoup aujourd\'hui.', t: '今天雨下得很大。', opts: [['Alors, je prends mon parapluie.', '那我带上雨伞。'], ['J\'ai très faim ce matin.', '我今天早上很饿。'], ['Le soleil brille dans le ciel.', '太阳在天上照耀。'], ['Elle aime les chats.', '她喜欢猫。']], a: 0, why: '下雨 → 带伞，逻辑上最自然的下文' },
+  { type: 'fill', s: 'Nous ___ au cinéma ce soir.', t: '我们今晚去看电影。', opts: ['allons', 'allez', 'va', 'vont'], a: 0, why: 'aller 的 nous 变位是 allons' },
+  { type: 'next', s: 'Bonjour, je m\'appelle Marie.', t: '你好，我叫玛丽。', opts: [['Il est trois heures.', '现在三点。'], ['Enchanté, moi c\'est Paul.', '幸会，我是保罗。'], ['Le train est en retard.', '火车晚点了。'], ['Je n\'aime pas le fromage.', '我不喜欢奶酪。']], a: 1, why: '对方自我介绍后，回应并介绍自己' },
+  { type: 'fill', s: 'Le chat dort sur le ___.', t: '猫在沙发上睡觉。', opts: ['ciel', 'canapé', 'lundi', 'café'], a: 1, why: 'canapé = 沙发' },
+];
+let n = 0, sel = null, correct = 0;
+const $ = id => document.getElementById(id);
+
+function render() {
+  $('bar').style.width = (n / Q.length * 100) + '%';
+  if (n >= Q.length) {
+    $('body').innerHTML = `<div class="done"><div style="font-size:56px">🏆</div><h1>练习完成</h1>
+      <p class="muted" style="margin:8px 0 24px">正确率 ${Math.round(correct / Q.length * 100)}% · 答错的词熟练度已下调，会更快再出现</p>
+      <button class="btn" onclick="location.href='home.html'">返回首页</button></div>`;
+    return;
+  }
+  const q = Q[n]; sel = null;
+  const isFill = q.type === 'fill';
+  const sentence = isFill ? q.s.replace('___', '<span class="blank" id="blank">&nbsp;</span>') : q.s;
+  $('body').innerHTML = `
+    <span class="type">${isFill ? '选词填空' : '接下句'}</span>
+    <div class="muted" style="margin-bottom:8px">${isFill ? '选择正确的词补全句子' : '选择最自然的下一句'}</div>
+    <div class="q">${sentence}</div>
+    <div class="trans" id="trans">👁 显示翻译</div>
+    <div class="opts ${isFill ? 'words' : ''}" id="opts">
+      ${q.opts.map((o, k) => `<button class="opt" data-k="${k}">${isFill ? o : o[0]}${isFill ? '' : `<small class="tr" hidden>${o[1]}</small>`}</button>`).join('')}
+    </div>
+    <div class="foot"><button class="btn" id="check" disabled>检查</button></div>`;
+  $('trans').onclick = e => e.target.textContent = q.t;
+  $('opts').onclick = e => {
+    const b = e.target.closest('.opt'); if (!b || b.disabled) return;
+    document.querySelectorAll('.opt').forEach(x => x.classList.remove('sel'));
+    b.classList.add('sel'); sel = +b.dataset.k; $('check').disabled = false;
+    if (isFill) $('blank').textContent = q.opts[sel];
+  };
+  $('check').onclick = check;
+}
+
+function check() {
+  const q = Q[n], ok = sel === q.a; if (ok) correct++;
+  const btns = document.querySelectorAll('.opt');
+  btns.forEach((b, k) => { b.disabled = true; b.classList.remove('sel'); if (k === q.a) b.classList.add('right'); else if (k === sel) b.classList.add('wrong'); });
+  document.querySelectorAll('.tr').forEach(t => t.hidden = false);
+  $('check').style.visibility = 'hidden';
+  const sh = $('sheet');
+  sh.className = 'sheet show ' + (ok ? 'ok' : 'ko');
+  $('sh-t').textContent = ok ? '✓ 太棒了！' : '✕ 正确答案：' + (q.type === 'fill' ? q.opts[q.a] : q.opts[q.a][0]);
+  $('sh-p').textContent = q.why;
+  $('next').className = 'btn ' + (ok ? 'good' : 'bad');
+}
+$('next').onclick = () => { $('sheet').className = 'sheet'; n++; render(); };
+render();
+</script></body></html>

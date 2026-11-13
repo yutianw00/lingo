@@ -1,0 +1,246 @@
+# Fill-in-the-blank questions.
+#   @id fill topic
+#   <lang> sentence with exactly one [answer] | distractor, distractor, distractor
+# Each language has its own blank and distractors (the grammar point differs per language);
+# the sentences are translations of each other so the native sentence works as a hint.
+# Distractors must be clearly wrong in the sentence, not just less likely.
+
+@f01 fill food
+zh 我想要一[杯]咖啡。 | 本, 辆, 张
+en I would like a [cup] of coffee. | book, car, shoe
+fr Je voudrais une [tasse] de café. | voiture, fenêtre, chaussure
+es Quisiera una [taza] de café. | ventana, silla, calle
+
+@f02 fill grammar
+zh 我们今晚[去]电影院。 | 吃, 喝, 睡
+en We [are going] to the cinema tonight. | is going, am going, goes
+fr Nous [allons] au cinéma ce soir. | allez, va, vont
+es Esta noche [vamos] al cine. | vas, van, voy
+
+@f03 fill home
+zh 猫在[沙发]上睡觉。 | 天空, 星期一, 咖啡
+en The cat is sleeping on the [sofa]. | sky, Monday, coffee
+fr Le chat dort sur le [canapé]. | ciel, lundi, café
+es El gato duerme en el [sofá]. | cielo, lunes, café
+
+@f04 fill weather
+zh 下雨了，别忘了带[雨伞]。 | 面包, 牛奶, 椅子
+en It's raining, don't forget your [umbrella]. | bread, milk, chair
+fr Il pleut, n'oublie pas ton [parapluie]. | pain, lait, lit
+es Llueve, no olvides tu [paraguas]. | pan, leche, cama
+
+@f05 fill grammar
+zh 我[有]两个孩子。 | 是, 在, 去
+en I [have] two children. | has, am, is
+fr J'[ai] deux enfants. | as, a, suis
+es [Tengo] dos hijos. | Tienes, Tiene, Soy
+
+@f06 fill grammar
+zh 我妹妹十[岁]。 | 个, 本, 张
+en My sister is ten years [old]. | big, long, tall
+fr Ma sœur [a] dix ans. | est, fait, va
+es Mi hermana [tiene] diez años. | es, está, hace
+
+@f07 fill shopping
+zh 我去[超市]买牛奶。 | 学校, 河, 山
+en I'm going to the [supermarket] to buy milk. | river, mountain, school
+fr Je vais au [supermarché] acheter du lait. | cinéma, parc, bureau
+es Voy al [supermercado] a comprar leche. | cine, parque, río
+
+@f08 fill time
+zh 火车十点[到达]。 | 吃饭, 唱歌, 睡觉
+en The train arrives [at] ten o'clock. | in, on, of
+fr Le train arrive [à] dix heures. | en, sur, par
+es El tren llega [a] las diez. | en, con, sin
+
+@f09 fill colours
+zh 草是[绿]色的。 | 蓝, 黑, 白
+en The grass is [green]. | blue, black, white
+fr L'herbe est [verte]. | bleue, noire, blanche
+es La hierba es [verde]. | azul, negra, blanca
+
+@f10 fill grammar
+zh 我[不]喝咖啡，我喝茶。 | 也, 很, 都
+en I [don't] drink coffee, I drink tea. | doesn't, isn't, am not
+fr Je ne bois [pas] de café, je bois du thé. | très, aussi, beaucoup
+es [No] bebo café, bebo té. | Muy, También, Mucho
+
+@f11 fill grammar
+zh 你住在[哪里]？ | 什么时候, 为什么, 谁
+en [Where] do you live? | Who, What, When
+fr [Où] habites-tu ? | Qui, Quand, Quel
+es ¿[Dónde] vives? | Quién, Cuándo, Qué
+
+@f12 fill hobby
+zh 我喜欢[听]音乐。 | 吃, 穿, 睡
+en I like [listening] to music. | eating, wearing, sleeping
+fr J'aime [écouter] de la musique. | manger, porter, dormir
+es Me gusta [escuchar] música. | comer, llevar, dormir
+
+@f13 fill grammar
+zh 我吃一[个]苹果。 | 条, 张, 本
+en I eat [an] apple. | a, many, two
+fr Je mange [une] pomme. | un, des, le
+es Me como [una] manzana. | un, unos, el
+
+@f14 fill grammar
+zh 我昨天去巴黎[了]。 | 吗, 呢, 着
+en Yesterday I [went] to Paris. | go, goes, going
+fr Hier, je [suis allé] à Paris. | vais, irai, allons
+es Ayer [fui] a París. | voy, iré, vamos
+
+@f15 fill food
+zh 我早餐吃两个[鸡蛋]。 | 椅子, 自行车, 护照
+en I eat two [eggs] for breakfast. | chairs, bikes, passports
+fr Je mange deux [œufs] au petit-déjeuner. | chaises, vélos, passeports
+es Como dos [huevos] en el desayuno. | sillas, bicicletas, pasaportes
+
+@f16 fill health
+zh 我[头]疼。 | 书, 门, 钱
+en My [head] hurts. | door, money, book
+fr J'ai mal à la [tête]. | porte, banque, table
+es Me duele la [cabeza]. | puerta, mesa, calle
+
+@f17 fill polite
+zh 请[说]慢一点。 | 买, 卖, 坐
+en Please [speak] more slowly. | buy, sell, sit
+fr [Parlez] plus lentement, s'il vous plaît. | Achetez, Vendez, Asseyez
+es [Hable] más despacio, por favor. | Compre, Venda, Pague
+
+@f18 fill travel
+zh 在路口向[左]转。 | 上, 里, 下
+en Turn [left] at the corner. | under, into, between
+fr Tourne à [gauche] au coin. | table, maison, bleu
+es Gira a la [izquierda] en la esquina. | mesa, casa, azul
+
+@f19 fill grammar
+zh 我不去，[因为]我生病了。 | 但是, 或者, 如果
+en I'm not going [because] I'm sick. | but, or, than
+fr Je n'y vais pas [parce que] je suis malade. | mais, ou, avec
+es No voy [porque] estoy enfermo. | pero, o, con
+
+@f20 fill time
+zh 一年有十二个[月]。 | 天, 小时, 星期
+en A year has twelve [months]. | days, hours, weeks
+fr Une année a douze [mois]. | jours, heures, semaines
+es Un año tiene doce [meses]. | días, horas, semanas
+
+@f21 fill shopping
+zh 我可以用卡[付钱]吗？ | 唱歌, 睡觉, 跳舞
+en Can I [pay] by card? | sing, sleep, dance
+fr Je peux [payer] par carte ? | chanter, dormir, danser
+es ¿Puedo [pagar] con tarjeta? | cantar, dormir, bailar
+
+@f22 fill grammar
+zh 我今天很[累]。 | 书, 桌子, 苹果
+en I am very [tired] today. | table, apple, book
+fr Je suis très [fatigué] aujourd'hui. | table, pomme, livre
+es Hoy [estoy] muy cansado. | soy, tengo, hago
+
+@f23 fill grammar
+zh 树上[有]一只鸟。 | 喝, 去, 吃
+en [There is] a bird in the tree. | There are, They is, It are
+fr Il [y a] un oiseau dans l'arbre. | est, fait, va
+es [Hay] un pájaro en el árbol. | Es, Tiene, Está
+
+@f24 fill food
+zh 我[饿]了，我们吃饭吧。 | 蓝, 慢, 贵
+en I'm [hungry], let's eat. | blue, slow, expensive
+fr J'ai [faim], mangeons. | bleu, lent, cher
+es Tengo [hambre], vamos a comer. | azul, lento, caro
+
+@f25 fill time
+zh 今天是星期一，明天是星期[二]。 | 一, 五, 日
+en Today is Monday, tomorrow is [Tuesday]. | Monday, Friday, Sunday
+fr Aujourd'hui c'est lundi, demain c'est [mardi]. | lundi, vendredi, dimanche
+es Hoy es lunes, mañana es [martes]. | lunes, viernes, domingo
+
+@f26 fill home
+zh 太热了，请打开[窗户]。 | 天空, 太阳, 早餐
+en It's too hot, please open the [window]. | sky, sun, breakfast
+fr Il fait trop chaud, ouvre la [fenêtre]. | pluie, musique, semaine
+es Hace demasiado calor, abre la [ventana]. | lluvia, música, semana
+
+@f27 fill grammar
+zh 飞机比火车[快]。 | 饿, 渴, 难过
+en A plane is [faster] than a train. | fast, fastest, more fast
+fr L'avion est plus [rapide] que le train. | rapides, rapidement, vitesse
+es El avión es más [rápido] que el tren. | rápida, rápidos, rápidamente
+
+@f28 fill grammar
+zh 这本书是[谁]的？ | 什么, 哪里, 怎么
+en This is [my] book. | I, me, mine
+fr C'est [mon] livre. | ma, mes, moi
+es Es [mi] libro. | yo, mis, me
+
+@f29 fill grammar
+zh 我每天[学习]法语。 | 吃, 喝, 睡
+en I [study] French every day. | studies, studying, to study
+fr J'[étudie] le français tous les jours. | étudies, étudient, étudier
+es [Estudio] francés todos los días. | Estudias, Estudian, Estudiar
+
+@f30 fill time
+zh 一天有二十四个[小时]。 | 月, 年, 星期
+en A day has twenty-four [hours]. | months, years, weeks
+fr Un jour a vingt-quatre [heures]. | mois, ans, semaines
+es Un día tiene veinticuatro [horas]. | meses, años, semanas
+
+@f31 fill grammar
+zh 我[和]朋友一起去。 | 但, 或者, 因为
+en I'm going [with] a friend. | of, at, than
+fr J'y vais [avec] un ami. | de, sur, que
+es Voy [con] un amigo. | de, sobre, que
+
+@f32 fill grammar
+zh 你[会]游泳吗？ | 是, 有, 给
+en [Can] you swim? | Are, Does, Has
+fr Tu [sais] nager ? | es, as, fais
+es ¿[Sabes] nadar? | Eres, Tienes, Haces
+
+@f33 fill shopping
+zh 她穿着一条红[裙子]。 | 苹果, 汽车, 桌子
+en She is wearing a red [dress]. | apple, car, table
+fr Elle porte une [robe] rouge. | pomme, voiture, table
+es Ella lleva un [vestido] rojo. | coche, libro, perro
+
+@f34 fill grammar
+zh 商店九点[开门]。 | 唱歌, 下雨, 游泳
+en The shop [opens] at nine. | open, opening, to open
+fr Le magasin [ouvre] à neuf heures. | ouvres, ouvrent, ouvrir
+es La tienda [abre] a las nueve. | abro, abren, abrir
+
+@f35 fill grammar
+zh 我[也]想去。 | 吗, 呢, 的
+en I want to go [too]. | two, very, much
+fr Je veux y aller [aussi]. | très, assez, beaucoup
+es Yo [también] quiero ir. | muy, mucho, más
+
+@f36 fill grammar
+zh 我[已经]吃过了。 | 明天, 将要, 正在
+en I have [already] eaten. | tomorrow, soon, next
+fr J'ai [déjà] mangé. | demain, bientôt, prochain
+es Ya [he] comido. | has, ha, hemos
+
+@f37 fill home
+zh 我的手机没[电]了。 | 水, 书, 门
+en My phone is out of [battery]. | water, books, doors
+fr Mon téléphone n'a plus de [batterie]. | livres, portes, pain
+es Mi teléfono no tiene [batería]. | libros, puertas, pan
+
+@f38 fill travel
+zh 我要一张去里昂的[票]。 | 苹果, 牛奶, 狗
+en I'd like a [ticket] to Lyon. | apple, milk, dog
+fr Je voudrais un [billet] pour Lyon. | chien, lait, fromage
+es Quisiera un [billete] para Lyon. | perro, queso, huevo
+
+@f39 fill health
+zh 我生病了，需要看[医生]。 | 鞋, 面包, 河
+en I'm sick, I need to see a [doctor]. | shoe, bread, river
+fr Je suis malade, je dois voir un [médecin]. | pain, sac, vélo
+es Estoy enfermo, necesito ver a un [médico]. | pan, zapato, río
+
+@f40 fill home
+zh 妈妈在[厨房]里做饭。 | 银行, 公交车, 机场
+en Mum is cooking in the [kitchen]. | bank, bus, airport
+fr Maman cuisine dans la [cuisine]. | banque, rue, gare
+es Mamá cocina en la [cocina]. | calle, estación, biblioteca

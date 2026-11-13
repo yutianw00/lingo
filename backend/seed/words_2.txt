@@ -1,0 +1,134 @@
+# pos | zh | en | fr | es | example zh | example en | example fr | example es
+# Places & nature
+n|城市|city|la ville|la ciudad|巴黎是一个美丽的城市。|Paris is a beautiful city.|Paris est une belle ville.|París es una ciudad bonita.
+n|国家|country|le pays|el país|你来自哪个国家？|Which country are you from?|Tu viens de quel pays ?|¿De qué país eres?
+n|街道|street|la rue|la calle|这条街很安静。|This street is quiet.|Cette rue est calme.|Esta calle es tranquila.
+n|学校|school|l'école|la escuela|孩子们八点去学校。|The children go to school at eight.|Les enfants vont à l'école à huit heures.|Los niños van a la escuela a las ocho.
+n|医院|hospital|l'hôpital|el hospital|医院在哪里？|Where is the hospital?|Où est l'hôpital ?|¿Dónde está el hospital?
+n|图书馆|library|la bibliothèque|la biblioteca|她在图书馆工作。|She works at the library.|Elle travaille à la bibliothèque.|Ella trabaja en la biblioteca.
+n|商店|shop|le magasin|la tienda|商店九点开门。|The shop opens at nine.|Le magasin ouvre à neuf heures.|La tienda abre a las nueve.
+n|超市|supermarket|le supermarché|el supermercado|我去超市买牛奶。|I'm going to the supermarket to buy milk.|Je vais au supermarché acheter du lait.|Voy al supermercado a comprar leche.
+n|公园|park|le parc|el parque|我们在公园里散步。|We walk in the park.|Nous nous promenons dans le parc.|Paseamos por el parque.
+n|火车站|train station|la gare|la estación|火车站离这里很近。|The station is near here.|La gare est près d'ici.|La estación está cerca de aquí.
+n|机场|airport|l'aéroport|el aeropuerto|我们需要两个小时到机场。|It takes us two hours to get to the airport.|Il nous faut deux heures pour aller à l'aéroport.|Tardamos dos horas en llegar al aeropuerto.
+n|酒店|hotel|l'hôtel|el hotel|酒店在海边。|The hotel is by the sea.|L'hôtel est au bord de la mer.|El hotel está junto al mar.
+n|银行|bank|la banque|el banco|银行几点关门？|What time does the bank close?|À quelle heure ferme la banque ?|¿A qué hora cierra el banco?
+n|办公室|office|le bureau|la oficina|我在办公室。|I'm at the office.|Je suis au bureau.|Estoy en la oficina.
+n|电影院|cinema|le cinéma|el cine|我们今晚去电影院。|We're going to the cinema tonight.|Nous allons au cinéma ce soir.|Vamos al cine esta noche.
+n|海|sea|la mer|el mar|我喜欢在海里游泳。|I like swimming in the sea.|J'aime nager dans la mer.|Me gusta nadar en el mar.
+n|山|mountain|la montagne|la montaña|这座山很高。|This mountain is very high.|Cette montagne est très haute.|Esta montaña es muy alta.
+n|河|river|la rivière|el río|河边有很多树。|There are many trees by the river.|Il y a beaucoup d'arbres au bord de la rivière.|Hay muchos árboles junto al río.
+n|树|tree|l'arbre|el árbol|院子里有一棵大树。|There is a big tree in the yard.|Il y a un grand arbre dans la cour.|Hay un árbol grande en el patio.
+n|花|flower|la fleur|la flor|这些花真漂亮！|These flowers are so pretty!|Ces fleurs sont très jolies !|¡Estas flores son muy bonitas!
+n|太阳|sun|le soleil|el sol|太阳出来了。|The sun is coming out.|Le soleil se lève.|Sale el sol.
+n|雨|rain|la pluie|la lluvia|我喜欢雨的声音。|I like the sound of rain.|J'aime le bruit de la pluie.|Me gusta el sonido de la lluvia.
+n|天气|weather|la météo|el tiempo|今天天气怎么样？|What's the weather like today?|Quel temps fait-il aujourd'hui ?|¿Qué tiempo hace hoy?
+n|猫|cat|le chat|el gato|我的猫很懒。|My cat is very lazy.|Mon chat est très paresseux.|Mi gato es muy perezoso.
+n|狗|dog|le chien|el perro|这只狗很友好。|This dog is very friendly.|Ce chien est très gentil.|Este perro es muy simpático.
+n|鸟|bird|l'oiseau|el pájaro|树上有一只鸟。|There is a bird in the tree.|Il y a un oiseau dans l'arbre.|Hay un pájaro en el árbol.
+# Getting around
+n|汽车|car|la voiture|el coche|我的车是红色的。|My car is red.|Ma voiture est rouge.|Mi coche es rojo.
+n|公交车|bus|le bus|el autobús|公交车来了。|The bus is coming.|Le bus arrive.|Viene el autobús.
+n|火车|train|le train|el tren|火车晚点了。|The train is late.|Le train est en retard.|El tren llega tarde.
+n|飞机|plane|l'avion|el avión|飞机几点起飞？|What time does the plane take off?|À quelle heure décolle l'avion ?|¿A qué hora despega el avión?
+n|自行车|bike|le vélo|la bicicleta|我骑自行车上班。|I cycle to work.|Je vais au travail à vélo.|Voy al trabajo en bicicleta.
+n|票|ticket|le billet|el billete|我要一张去里昂的票。|I'd like a ticket to Lyon.|Je voudrais un billet pour Lyon.|Quisiera un billete para Lyon.
+n|地图|map|la carte|el mapa|你有城市地图吗？|Do you have a map of the city?|Tu as une carte de la ville ?|¿Tienes un mapa de la ciudad?
+n|护照|passport|le passeport|el pasaporte|别忘了你的护照。|Don't forget your passport.|N'oublie pas ton passeport.|No olvides tu pasaporte.
+n|公路|road|la route|la carretera|这条路很长。|This road is very long.|Cette route est très longue.|Esta carretera es muy larga.
+adv|这里|here|ici|aquí|来这里！|Come here!|Viens ici !|¡Ven aquí!
+adv|那里|there|là-bas|allí|洗手间在那里。|The toilet is over there.|Les toilettes sont là-bas.|El baño está allí.
+adv|向左|left|à gauche|a la izquierda|在路口向左转。|Turn left at the corner.|Tourne à gauche au coin.|Gira a la izquierda en la esquina.
+adv|向右|right|à droite|a la derecha|银行在右边。|The bank is on the right.|La banque est à droite.|El banco está a la derecha.
+adv|一直往前|straight ahead|tout droit|todo recto|一直走，然后左转。|Go straight ahead, then turn left.|Allez tout droit, puis tournez à gauche.|Siga todo recto y luego gire a la izquierda.
+# Little words
+adv|很|very|très|muy|这道菜很好吃。|This dish is very tasty.|Ce plat est très bon.|Este plato está muy rico.
+adv|也|also|aussi|también|我也想去。|I want to go too.|Je veux y aller aussi.|Yo también quiero ir.
+adv|已经|already|déjà|ya|我已经吃过了。|I've already eaten.|J'ai déjà mangé.|Ya he comido.
+adv|还|still|encore|todavía|他还在睡觉。|He is still sleeping.|Il dort encore.|Todavía está durmiendo.
+adv|一起|together|ensemble|juntos|我们一起去吧。|Let's go together.|Allons-y ensemble.|Vamos juntos.
+adv|慢慢地|slowly|lentement|despacio|请说慢一点。|Please speak more slowly.|Parlez plus lentement, s'il vous plaît.|Hable más despacio, por favor.
+phr|多少钱|how much|combien|cuánto|这个多少钱？|How much is this?|C'est combien ?|¿Cuánto cuesta esto?
+adv|哪里|where|où|dónde|你住在哪里？|Where do you live?|Où habites-tu ?|¿Dónde vives?
+adv|什么时候|when|quand|cuándo|你什么时候到？|When do you arrive?|Quand est-ce que tu arrives ?|¿Cuándo llegas?
+adv|为什么|why|pourquoi|por qué|你为什么学法语？|Why are you learning French?|Pourquoi tu apprends le français ?|¿Por qué aprendes francés?
+pron|什么|what|quoi|qué|这是什么？|What is this?|C'est quoi ?|¿Qué es esto?
+pron|谁|who|qui|quién|他是谁？|Who is he?|Qui est-ce ?|¿Quién es él?
+adv|怎么|how|comment|cómo|你怎么去上班？|How do you get to work?|Comment vas-tu au travail ?|¿Cómo vas al trabajo?
+conj|和|and|et|y|我喜欢猫和狗。|I like cats and dogs.|J'aime les chats et les chiens.|Me gustan los gatos y los perros.
+conj|但是|but|mais|pero|我很累，但是很开心。|I'm tired but happy.|Je suis fatigué mais content.|Estoy cansado pero contento.
+conj|或者|or|ou|o|茶或者咖啡？|Tea or coffee?|Thé ou café ?|¿Té o café?
+conj|因为|because|parce que|porque|我不去，因为我生病了。|I'm not going because I'm sick.|Je n'y vais pas parce que je suis malade.|No voy porque estoy enfermo.
+conj|如果|if|si|si|如果下雨，我们就待在家里。|If it rains, we'll stay home.|S'il pleut, on reste à la maison.|Si llueve, nos quedamos en casa.
+prep|和……一起|with|avec|con|我和朋友一起去。|I'm going with a friend.|J'y vais avec un ami.|Voy con un amigo.
+prep|不带，没有|without|sans|sin|一杯不加糖的咖啡，谢谢。|A coffee without sugar, please.|Un café sans sucre, s'il vous plaît.|Un café sin azúcar, por favor.
+prep|在……之前|before|avant|antes de|饭前洗手。|Wash your hands before meals.|Lave-toi les mains avant le repas.|Lávate las manos antes de comer.
+prep|在……之后|after|après|después de|下课以后我们去喝咖啡。|After class we go for coffee.|Après le cours, on va prendre un café.|Después de clase vamos a tomar un café.
+# Describing things
+adj|好的|good|bon|bueno|这是个好主意。|That's a good idea.|C'est une bonne idée.|Es una buena idea.
+adj|坏的|bad|mauvais|malo|这是个坏消息。|That's bad news.|C'est une mauvaise nouvelle.|Es una mala noticia.
+adj|大的|big|grand|grande|他们住在一个大房子里。|They live in a big house.|Ils habitent dans une grande maison.|Viven en una casa grande.
+adj|小的|small|petit|pequeño|我有一只小狗。|I have a small dog.|J'ai un petit chien.|Tengo un perro pequeño.
+adj|新的|new|nouveau|nuevo|这是我的新手机。|This is my new phone.|C'est mon nouveau téléphone.|Es mi teléfono nuevo.
+adj|旧的|old|vieux|viejo|这辆车很旧。|This car is very old.|Cette voiture est très vieille.|Este coche es muy viejo.
+adj|热的，烫的|hot|chaud|caliente|小心，汤很烫。|Careful, the soup is hot.|Attention, la soupe est chaude.|Cuidado, la sopa está caliente.
+adj|冷的|cold|froid|frío|水太冷了。|The water is too cold.|L'eau est trop froide.|El agua está demasiado fría.
+adj|漂亮的|beautiful|beau|bonito|多漂亮的花园！|What a beautiful garden!|Quel beau jardin !|¡Qué jardín tan bonito!
+adj|幸福的，高兴的|happy|heureux|feliz|见到你我很高兴。|I'm happy to see you.|Je suis heureux de te voir.|Estoy feliz de verte.
+adj|难过的|sad|triste|triste|她今天很难过。|She is sad today.|Elle est triste aujourd'hui.|Hoy está triste.
+adj|累的|tired|fatigué|cansado|我今天很累。|I'm very tired today.|Je suis très fatigué aujourd'hui.|Hoy estoy muy cansado.
+phr|饿了|hungry|avoir faim|tener hambre|我饿了。|I'm hungry.|J'ai faim.|Tengo hambre.
+phr|渴了|thirsty|avoir soif|tener sed|你渴吗？|Are you thirsty?|Tu as soif ?|¿Tienes sed?
+adj|容易的|easy|facile|fácil|这个练习很容易。|This exercise is easy.|Cet exercice est facile.|Este ejercicio es fácil.
+adj|难的|difficult|difficile|difícil|法语语法很难。|French grammar is difficult.|La grammaire française est difficile.|La gramática francesa es difícil.
+adj|贵的|expensive|cher|caro|这件外套太贵了。|This coat is too expensive.|Ce manteau est trop cher.|Este abrigo es demasiado caro.
+adj|便宜的|cheap|bon marché|barato|这里的水果很便宜。|Fruit is cheap here.|Les fruits sont bon marché ici.|La fruta es barata aquí.
+adj|快的|fast|rapide|rápido|这列火车很快。|This train is very fast.|Ce train est très rapide.|Este tren es muy rápido.
+adj|慢的|slow|lent|lento|网速很慢。|The internet is slow.|Internet est lent.|Internet va lento.
+adj|忙的|busy|occupé|ocupado|我这周很忙。|I'm busy this week.|Je suis occupé cette semaine.|Estoy ocupado esta semana.
+adj|好吃的|delicious|délicieux|delicioso|这个蛋糕很好吃。|This cake is delicious.|Ce gâteau est délicieux.|Este pastel está delicioso.
+adj|重要的|important|important|importante|这个会议很重要。|This meeting is important.|Cette réunion est importante.|Esta reunión es importante.
+adj|长的|long|long|largo|这部电影太长了。|This film is too long.|Ce film est trop long.|Esta película es demasiado larga.
+adj|短的|short|court|corto|她的头发很短。|Her hair is short.|Elle a les cheveux courts.|Tiene el pelo corto.
+adj|干净的|clean|propre|limpio|房间很干净。|The room is clean.|La chambre est propre.|La habitación está limpia.
+adj|生病的|sick|malade|enfermo|我生病了。|I'm sick.|Je suis malade.|Estoy enfermo.
+adj|开着的|open|ouvert|abierto|商店现在开着吗？|Is the shop open now?|Le magasin est ouvert maintenant ?|¿La tienda está abierta ahora?
+adj|安静的|quiet|calme|tranquilo|这个街区很安静。|This neighbourhood is quiet.|Ce quartier est calme.|Este barrio es tranquilo.
+adj|有意思的|interesting|intéressant|interesante|这部电影很有意思。|This film is interesting.|Ce film est intéressant.|Esta película es interesante.
+adj|正确的|correct|correct|correcto|你的答案是对的。|Your answer is correct.|Ta réponse est correcte.|Tu respuesta es correcta.
+adj|红色的|red|rouge|rojo|我喜欢红苹果。|I like red apples.|J'aime les pommes rouges.|Me gustan las manzanas rojas.
+adj|蓝色的|blue|bleu|azul|天空是蓝色的。|The sky is blue.|Le ciel est bleu.|El cielo es azul.
+adj|绿色的|green|vert|verde|草是绿色的。|The grass is green.|L'herbe est verte.|La hierba es verde.
+adj|黄色的|yellow|jaune|amarillo|香蕉是黄色的。|Bananas are yellow.|Les bananes sont jaunes.|Los plátanos son amarillos.
+adj|黑色的|black|noir|negro|我有一只黑猫。|I have a black cat.|J'ai un chat noir.|Tengo un gato negro.
+adj|白色的|white|blanc|blanco|雪是白色的。|Snow is white.|La neige est blanche.|La nieve es blanca.
+# Numbers
+num|一|one|un|uno|我只有一个问题。|I have just one question.|J'ai juste une question.|Solo tengo una pregunta.
+num|二|two|deux|dos|我有两个孩子。|I have two children.|J'ai deux enfants.|Tengo dos hijos.
+num|三|three|trois|tres|我们三个人一起去。|The three of us are going together.|Nous y allons tous les trois.|Vamos los tres juntos.
+num|四|four|quatre|cuatro|桌子有四条腿。|A table has four legs.|Une table a quatre pieds.|Una mesa tiene cuatro patas.
+num|五|five|cinq|cinco|我五点下班。|I finish work at five.|Je finis le travail à cinq heures.|Termino de trabajar a las cinco.
+num|十|ten|dix|diez|等十分钟。|Wait ten minutes.|Attends dix minutes.|Espera diez minutos.
+num|一百|hundred|cent|cien|这件衣服一百欧元。|This costs a hundred euros.|Ça coûte cent euros.|Cuesta cien euros.
+# Body
+n|头|head|la tête|la cabeza|我头疼。|I have a headache.|J'ai mal à la tête.|Me duele la cabeza.
+n|手|hand|la main|la mano|举起你的手。|Raise your hand.|Lève la main.|Levanta la mano.
+n|眼睛|eye|l'œil|el ojo|她的眼睛是蓝色的。|Her eyes are blue.|Elle a les yeux bleus.|Tiene los ojos azules.
+n|心|heart|le cœur|el corazón|他有一颗善良的心。|He has a kind heart.|Il a bon cœur.|Tiene buen corazón.
+# Everyday life
+n|问题|question|la question|la pregunta|这是个好问题。|That's a good question.|C'est une bonne question.|Es una buena pregunta.
+n|工作|job|le travail|el trabajo|我找到了一份新工作。|I found a new job.|J'ai trouvé un nouveau travail.|Encontré un trabajo nuevo.
+n|音乐|music|la musique|la música|你喜欢什么音乐？|What music do you like?|Quelle musique aimes-tu ?|¿Qué música te gusta?
+n|电影|film|le film|la película|这部电影很好看。|This film is great.|Ce film est super.|Esta película es genial.
+n|语言|language|la langue|el idioma|你会说几种语言？|How many languages do you speak?|Tu parles combien de langues ?|¿Cuántos idiomas hablas?
+n|词|word|le mot|la palabra|这个词是什么意思？|What does this word mean?|Que veut dire ce mot ?|¿Qué significa esta palabra?
+n|生日|birthday|l'anniversaire|el cumpleaños|生日快乐！|Happy birthday!|Joyeux anniversaire !|¡Feliz cumpleaños!
+n|礼物|gift|le cadeau|el regalo|这是给你的礼物。|This gift is for you.|Ce cadeau est pour toi.|Este regalo es para ti.
+n|假期|holidays|les vacances|las vacaciones|假期快乐！|Have a good holiday!|Bonnes vacances !|¡Felices vacaciones!
+n|主意|idea|l'idée|la idea|好主意！|Good idea!|Bonne idée !|¡Buena idea!
+n|颜色|colour|la couleur|el color|你最喜欢什么颜色？|What's your favourite colour?|Quelle est ta couleur préférée ?|¿Cuál es tu color favorito?
+n|运动|sport|le sport|el deporte|我每周运动三次。|I do sport three times a week.|Je fais du sport trois fois par semaine.|Hago deporte tres veces por semana.
+n|足球|football|le football|el fútbol|他们在踢足球。|They are playing football.|Ils jouent au football.|Juegan al fútbol.
+n|价格|price|le prix|el precio|价格是多少？|What's the price?|Quel est le prix ?|¿Cuál es el precio?
+n|药|medicine|le médicament|el medicamento|这个药每天吃两次。|Take this medicine twice a day.|Prends ce médicament deux fois par jour.|Toma este medicamento dos veces al día.
+n|洗手间|toilet|les toilettes|el baño|洗手间在哪里？|Where is the toilet?|Où sont les toilettes ?|¿Dónde está el baño?

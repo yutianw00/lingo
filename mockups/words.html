@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>词库</title><link rel="stylesheet" href="style.css">
+<style>
+  .search { width: 100%; padding: 12px 14px; border: 2px solid var(--line); border-radius: 14px; font: inherit; font-size: 15px; margin-bottom: 12px; background: #fff; }
+  .chips { display: flex; gap: 8px; overflow-x: auto; margin-bottom: 14px; padding-bottom: 2px; }
+  .chip { white-space: nowrap; }
+  .list { background: #fff; border: 2px solid var(--line); border-radius: 20px; overflow: hidden; }
+  .row { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+  .row:last-child { border-bottom: none; }
+  .row .w { font-weight: 800; font-size: 16px; }
+  .row .z { font-size: 13px; color: var(--muted); }
+  .row .r { margin-left: auto; text-align: right; flex-shrink: 0; width: 96px; }
+  .meter { height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; margin-bottom: 4px; }
+  .meter i { display: block; height: 100%; border-radius: 99px; }
+  .due { font-size: 11px; color: var(--muted); font-weight: 600; }
+  .due.now { color: var(--bad); }
+</style></head>
+<body><div class="app">
+  <div class="topbar"><h1>词库</h1><span class="muted" style="margin-left:auto">法语 · 412 词</span></div>
+  <input class="search" placeholder="🔍 搜索单词或释义" id="q">
+  <div class="chips" id="chips"></div>
+  <div class="list" id="list"></div>
+  <nav class="tabbar" style="margin-top:20px"><a href="home.html"><span>🏠</span>学习</a><a class="on" href="words.html"><span>📚</span>词库</a><a href="#"><span>👤</span>我的</a></nav>
+</div>
+<script>
+const W = [
+  ['demain', '明天', 92, '12 天后'], ['bonjour', '你好', 88, '20 天后'], ['courir', '跑', 62, '3 天后'],
+  ['oublier', '忘记', 45, '明天'], ['bibliothèque', '图书馆', 34, '现在'], ['gare', '火车站', 20, '现在'],
+  ['heureux', '幸福的', 12, '现在'], ['parapluie', '雨伞', 55, '2 天后'], ['canapé', '沙发', 71, '5 天后'],
+  ['pomme', '苹果', 0, '—'], ['fenêtre', '窗户', 0, '—'], ['tasse', '杯子', 26, '现在'],
+];
+const lv = m => m === 0 ? 0 : m < 40 ? 1 : m < 80 ? 2 : 3;
+const names = ['新词', '学习中', '熟悉', '已掌握'], colors = ['var(--lv0)', 'var(--lv1)', 'var(--lv2)', 'var(--lv3)'];
+let f = -1;
+function draw() {
+  const q = document.getElementById('q').value.trim();
+  document.getElementById('chips').innerHTML = [['全部', -1], ...names.map((n, k) => [n, k]), ['待复习', 9]]
+    .map(([n, k]) => `<button class="chip ${f === k ? 'on' : ''}" data-k="${k}">${n}</button>`).join('');
+  document.getElementById('list').innerHTML = W
+    .filter(([w, z, m, d]) => (f === -1 || (f === 9 ? d === '现在' : lv(m) === f)) && (!q || w.includes(q) || z.includes(q)))
+    .map(([w, z, m, d]) => `<div class="row"><div><div class="w">${w}</div><div class="z">${z}</div></div>
+      <div class="r"><div class="meter"><i style="width:${Math.max(m, 4)}%;background:${colors[lv(m)]}"></i></div>
+      <div class="due ${d === '现在' ? 'now' : ''}">${names[lv(m)]} ${m} · ${d === '—' ? '未学' : d === '现在' ? '待复习' : d}</div></div></div>`).join('')
+    || '<div class="row muted">没有匹配的词</div>';
+}
+document.getElementById('chips').onclick = e => { const b = e.target.closest('.chip'); if (b) { f = +b.dataset.k; draw(); } };
+document.getElementById('q').oninput = draw;
+draw();
+</script></body></html>

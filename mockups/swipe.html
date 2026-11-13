@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>单词快刷</title><link rel="stylesheet" href="style.css">
+<style>
+  .stack { position: relative; flex: 1; min-height: 420px; margin: 8px 0 20px; }
+  .card { position: absolute; inset: 0; background: #fff; border: 2px solid var(--line); border-radius: 28px; box-shadow: 0 6px 0 var(--line); padding: 24px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; user-select: none; touch-action: none; transition: transform .25s ease; }
+  .card.top { cursor: grab; }
+  .card.dragging { transition: none; cursor: grabbing; }
+  .card .meta { position: absolute; top: 18px; left: 20px; right: 20px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--muted); font-weight: 700; }
+  .word { font-size: 44px; font-weight: 800; letter-spacing: .5px; }
+  .pos { color: var(--muted); margin-top: 6px; font-size: 15px; }
+  .speak { margin-top: 14px; border: none; background: var(--soft); color: var(--primary); width: 44px; height: 44px; border-radius: 50%; font-size: 20px; cursor: pointer; }
+  .hint { position: absolute; bottom: 20px; font-size: 13px; color: var(--muted); }
+  .back { display: none; width: 100%; margin-top: 22px; padding-top: 18px; border-top: 2px dashed var(--line); text-align: left; }
+  .card.revealed .back { display: block; }
+  .card.revealed .hint { display: none; }
+  .back .m { font-size: 22px; font-weight: 800; }
+  .back .en { color: var(--muted); margin: 4px 0 14px; }
+  .back .ex { background: var(--bg); border-radius: 14px; padding: 12px; font-size: 15px; }
+  .back .ex p + p { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .stamp { position: absolute; top: 56px; padding: 6px 14px; border: 4px solid; border-radius: 12px; font-size: 22px; font-weight: 900; opacity: 0; }
+  .stamp.yes { left: 22px; color: var(--good); border-color: var(--good); transform: rotate(-14deg); }
+  .stamp.no { right: 22px; color: var(--bad); border-color: var(--bad); transform: rotate(14deg); }
+  .actions { display: flex; justify-content: center; align-items: center; gap: 22px; }
+  .round { width: 68px; height: 68px; border-radius: 50%; border: 2px solid var(--line); background: #fff; font-size: 28px; cursor: pointer; box-shadow: 0 4px 0 var(--line); }
+  .round.sm { width: 50px; height: 50px; font-size: 20px; }
+  .round:active { transform: translateY(2px); box-shadow: 0 2px 0 var(--line); }
+  .round.no { color: var(--bad); } .round.yes { color: var(--good); }
+  .labels { display: flex; justify-content: space-between; padding: 8px 40px 0; font-size: 12px; font-weight: 700; color: var(--muted); }
+  .toast { position: fixed; left: 50%; bottom: 150px; transform: translateX(-50%) translateY(10px); background: var(--ink); color: #fff; padding: 8px 14px; border-radius: 12px; font-size: 13px; font-weight: 700; opacity: 0; transition: .25s; pointer-events: none; white-space: nowrap; }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+  .summary { text-align: center; }
+  .summary .big { font-size: 56px; margin-bottom: 8px; }
+  .stats { display: flex; gap: 10px; margin: 20px 0; }
+  .stats div { flex: 1; border-radius: 16px; padding: 14px; font-weight: 800; font-size: 24px; }
+  .stats small { display: block; font-size: 12px; font-weight: 700; }
+</style></head>
+<body><div class="app">
+  <div class="topbar">
+    <button class="icon-btn" onclick="location.href='home.html'">✕</button>
+    <div class="progress"><i id="bar" style="width:0"></i></div>
+    <span class="muted" id="count" style="font-weight:700"></span>
+  </div>
+  <div class="stack" id="stack"></div>
+  <div id="controls">
+    <div class="actions">
+      <button class="round no" onclick="fly(-1)" title="不认识 (←)">✕</button>
+      <button class="round sm" onclick="undo()" title="撤销">↶</button>
+      <button class="round yes" onclick="fly(1)" title="认识 (→)">✓</button>
+    </div>
+    <div class="labels"><span>不认识</span><span>撤销</span><span>认识</span></div>
+  </div>
+  <div class="toast" id="toast"></div>
+</div>
+<script>
+const deck = [
+  { w: 'pomme', pos: 'n.f.', ipa: '/pɔm/', zh: '苹果', en: 'apple', ex: 'Je mange une pomme.', exT: '我吃一个苹果。', m: 0 },
+  { w: 'bibliothèque', pos: 'n.f.', ipa: '/bi.bli.jɔ.tɛk/', zh: '图书馆', en: 'library', ex: 'Elle travaille à la bibliothèque.', exT: '她在图书馆工作。', m: 34 },
+  { w: 'courir', pos: 'v.', ipa: '/ku.ʁiʁ/', zh: '跑', en: 'to run', ex: 'Il court tous les matins.', exT: '他每天早上跑步。', m: 62 },
+  { w: 'heureux', pos: 'adj.', ipa: '/ø.ʁø/', zh: '幸福的，高兴的', en: 'happy', ex: 'Je suis heureux de te voir.', exT: '见到你我很高兴。', m: 12 },
+  { w: 'demain', pos: 'adv.', ipa: '/də.mɛ̃/', zh: '明天', en: 'tomorrow', ex: 'On se voit demain ?', exT: '我们明天见？', m: 81 },
+  { w: 'fenêtre', pos: 'n.f.', ipa: '/fə.nɛtʁ/', zh: '窗户', en: 'window', ex: 'Ouvre la fenêtre, s\'il te plaît.', exT: '请打开窗户。', m: 0 },
+  { w: 'oublier', pos: 'v.', ipa: '/u.bli.je/', zh: '忘记', en: 'to forget', ex: 'J\'ai oublié mes clés.', exT: '我忘带钥匙了。', m: 45 },
+  { w: 'gare', pos: 'n.f.', ipa: '/ɡaʁ/', zh: '火车站', en: 'train station', ex: 'La gare est près d\'ici.', exT: '火车站离这里很近。', m: 20 },
+];
+let i = 0, revealed = false, hist = [];
+const $ = id => document.getElementById(id);
+const level = m => m === 0 ? 0 : m < 40 ? 1 : m < 80 ? 2 : 3;
+const levelName = ['新词', '学习中', '熟悉', '已掌握'];
+const levelColor = ['var(--lv0)', 'var(--lv1)', 'var(--lv2)', 'var(--lv3)'];
+
+// 前端演示用的简化熟练度更新；真实算法在后端
+function updateMastery(d, knew, peeked) {
+  const w = knew ? (peeked ? 0.25 : 0.5) : 0.6;
+  const target = knew ? 100 : 0;
+  if (knew && d.m === 0 && !peeked) return 60;          // 新词首次直接认识：跳到"熟悉"，之后靠选择题验证
+  return Math.round(d.m + w * (target - d.m));
+}
+
+function cardHTML(d) {
+  const lv = level(d.m);
+  const bars = [0, 1, 2].map(k => `<i style="background:${k < lv ? levelColor[lv] : ''}"></i>`).join('');
+  return `
+    <div class="meta"><span class="lvl">${bars}</span><span style="color:${levelColor[lv]}">${levelName[lv]} · ${d.m}</span></div>
+    <div class="stamp yes">认识</div><div class="stamp no">不认识</div>
+    <div class="word">${d.w}</div>
+    <div class="pos">${d.pos} ${d.ipa}</div>
+    <button class="speak" data-speak>🔊</button>
+    <div class="back">
+      <div class="m">${d.zh}</div>
+      <div class="en">EN: ${d.en}</div>
+      <div class="ex"><p>${d.ex}</p><p>${d.exT}</p></div>
+    </div>
+    <div class="hint">点一下查看释义</div>`;
+}
+
+function render() {
+  const s = $('stack'); s.innerHTML = '';
+  $('bar').style.width = (i / deck.length * 100) + '%';
+  $('count').textContent = `${Math.min(i + 1, deck.length)}/${deck.length}`;
+  if (i >= deck.length) return summary();
+  revealed = false;
+  const vis = deck.slice(i, i + 3);
+  vis.slice().reverse().forEach((d, k) => {
+    const depth = vis.length - 1 - k;
+    const el = document.createElement('div');
+    el.className = 'card';
+    el.style.transform = `translateY(${depth * 12}px) scale(${1 - depth * 0.04})`;
+    el.style.zIndex = 10 - depth;
+    el.innerHTML = cardHTML(d);
+    if (depth === 0) { el.classList.add('top'); el.id = 'top'; bind(el); }
+    s.appendChild(el);
+  });
+}
+
+function bind(el) {
+  let x0, y0, dx = 0, dy = 0, down = false;
+  el.addEventListener('pointerdown', e => {
+    if (e.target.closest('[data-speak]')) { speak(deck[i].w); return; }
+    down = true; x0 = e.clientX; y0 = e.clientY; dx = dy = 0;
+    el.setPointerCapture(e.pointerId); el.classList.add('dragging');
+  });
+  el.addEventListener('pointermove', e => {
+    if (!down) return;
+    dx = e.clientX - x0; dy = e.clientY - y0;
+    el.style.transform = `translate(${dx}px, ${dy * 0.3}px) rotate(${dx / 18}deg)`;
+    el.querySelector('.stamp.yes').style.opacity = Math.max(0, dx / 100);
+    el.querySelector('.stamp.no').style.opacity = Math.max(0, -dx / 100);
+  });
+  el.addEventListener('pointerup', () => {
+    if (!down) return; down = false; el.classList.remove('dragging');
+    if (Math.abs(dx) > 110) return fly(Math.sign(dx));
+    if (Math.abs(dx) < 6 && Math.abs(dy) < 6) { revealed = true; el.classList.toggle('revealed'); }
+    el.style.transform = '';
+    el.querySelectorAll('.stamp').forEach(s => s.style.opacity = 0);
+  });
+}
+
+function fly(dir) {
+  const el = $('top'); if (!el) return;
+  const d = deck[i];
+  el.style.transition = 'transform .3s ease';
+  el.style.transform = `translate(${dir * 600}px, -40px) rotate(${dir * 30}deg)`;
+  el.querySelector(dir > 0 ? '.stamp.yes' : '.stamp.no').style.opacity = 1;
+  const before = d.m, after = updateMastery(d, dir > 0, revealed);
+  hist.push({ i, before, knew: dir > 0 });
+  d.m = after;
+  toast(`${d.w}  熟练度 ${before} → ${after}`);
+  setTimeout(() => { i++; render(); }, 280);
+}
+
+function undo() {
+  const h = hist.pop(); if (!h) return;
+  i = h.i; deck[i].m = h.before; $('controls').style.display = ''; render(); toast('已撤销');
+}
+
+function toast(t) { const el = $('toast'); el.textContent = t; el.classList.add('show'); clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove('show'), 1300); }
+function speak(w) { try { const u = new SpeechSynthesisUtterance(w); u.lang = 'fr-FR'; speechSynthesis.speak(u); } catch (e) {} }
+
+function summary() {
+  $('controls').style.display = 'none';
+  const yes = hist.filter(h => h.knew).length, no = hist.length - yes;
+  $('stack').innerHTML = `<div class="card summary">
+    <div class="big">🎉</div><h1>本轮完成！</h1><p class="muted" style="margin-top:6px">不认识的词会在选择题里优先出现</p>
+    <div class="stats"><div style="background:var(--good-soft);color:var(--good-d)">${yes}<small>认识</small></div>
+    <div style="background:var(--bad-soft);color:var(--bad-d)">${no}<small>不认识</small></div></div>
+    <button class="btn" onclick="location.href='quiz.html'" style="margin-bottom:12px">去做选择题</button>
+    <button class="btn ghost" onclick="location.reload()">再刷一轮</button></div>`;
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowLeft') fly(-1);
+  if (e.key === 'ArrowRight') fly(1);
+  if (e.key === ' ') { const el = $('top'); if (el) { revealed = true; el.classList.toggle('revealed'); } e.preventDefault(); }
+});
+render();
+</script></body></html>

@@ -1,0 +1,152 @@
+# pos | zh | en | fr | es | example zh | example en | example fr | example es
+# Order = teaching order (new words are introduced top to bottom).
+# Basics
+phr|你好|hello|bonjour|hola|你好，你今天好吗？|Hello, how are you today?|Bonjour, comment vas-tu aujourd'hui ?|Hola, ¿cómo estás hoy?
+phr|谢谢|thank you|merci|gracias|谢谢你的帮助。|Thank you for your help.|Merci pour ton aide.|Gracias por tu ayuda.
+phr|再见|goodbye|au revoir|adiós|再见，明天见！|Goodbye, see you tomorrow!|Au revoir, à demain !|¡Adiós, hasta mañana!
+phr|请|please|s'il vous plaît|por favor|请给我一杯水。|A glass of water, please.|Un verre d'eau, s'il vous plaît.|Un vaso de agua, por favor.
+phr|是的|yes|oui|sí|是的，我是学生。|Yes, I am a student.|Oui, je suis étudiant.|Sí, soy estudiante.
+phr|不是|no|non|no|不，我不饿。|No, I'm not hungry.|Non, je n'ai pas faim.|No, no tengo hambre.
+phr|对不起|sorry|désolé|lo siento|对不起，我迟到了。|Sorry, I'm late.|Désolé, je suis en retard.|Lo siento, llego tarde.
+pron|我|I|je|yo|我是老师。|I am a teacher.|Je suis professeur.|Yo soy profesor.
+pron|你|you|tu|tú|你是哪里人？|Where are you from?|Tu viens d'où ?|¿De dónde eres tú?
+pron|他|he|il|él|他很高。|He is tall.|Il est grand.|Él es alto.
+pron|她|she|elle|ella|她在看书。|She is reading a book.|Elle lit un livre.|Ella lee un libro.
+pron|我们|we|nous|nosotros|我们是朋友。|We are friends.|Nous sommes amis.|Nosotros somos amigos.
+pron|他们|they|ils|ellos|他们住在巴黎。|They live in Paris.|Ils habitent à Paris.|Ellos viven en París.
+# Core verbs
+v|是|to be|être|ser|我是中国人。|I am Chinese.|Je suis chinois.|Soy chino.
+v|有|to have|avoir|tener|我有一只猫。|I have a cat.|J'ai un chat.|Tengo un gato.
+v|去|to go|aller|ir|我们去公园吧。|Let's go to the park.|Allons au parc.|Vamos al parque.
+v|来|to come|venir|venir|你明天来吗？|Are you coming tomorrow?|Tu viens demain ?|¿Vienes mañana?
+v|做|to do|faire|hacer|你在做什么？|What are you doing?|Qu'est-ce que tu fais ?|¿Qué haces?
+v|说|to speak|parler|hablar|我会说一点法语。|I speak a little French.|Je parle un peu français.|Hablo un poco de francés.
+v|看见|to see|voir|ver|我看见一只鸟。|I see a bird.|Je vois un oiseau.|Veo un pájaro.
+v|吃|to eat|manger|comer|我喜欢吃米饭。|I like to eat rice.|J'aime manger du riz.|Me gusta comer arroz.
+v|喝|to drink|boire|beber|你想喝什么？|What do you want to drink?|Qu'est-ce que tu veux boire ?|¿Qué quieres beber?
+v|想要|to want|vouloir|querer|我想要一杯咖啡。|I want a coffee.|Je veux un café.|Quiero un café.
+v|知道|to know|savoir|saber|我不知道。|I don't know.|Je ne sais pas.|No lo sé.
+v|喜欢|to like|aimer|gustar|我喜欢音乐。|I like music.|J'aime la musique.|Me gusta la música.
+v|住|to live|habiter|vivir|我住在上海。|I live in Shanghai.|J'habite à Shanghai.|Vivo en Shanghái.
+v|工作|to work|travailler|trabajar|她在医院工作。|She works at a hospital.|Elle travaille à l'hôpital.|Ella trabaja en el hospital.
+v|学习|to study|étudier|estudiar|我每天学习法语。|I study French every day.|J'étudie le français tous les jours.|Estudio francés todos los días.
+v|读|to read|lire|leer|我喜欢在床上读书。|I like reading in bed.|J'aime lire au lit.|Me gusta leer en la cama.
+v|写|to write|écrire|escribir|请写下你的名字。|Please write your name.|Écris ton nom, s'il te plaît.|Escribe tu nombre, por favor.
+v|听|to listen|écouter|escuchar|我在听音乐。|I'm listening to music.|J'écoute de la musique.|Escucho música.
+v|买|to buy|acheter|comprar|我想买一件新衬衫。|I want to buy a new shirt.|Je veux acheter une nouvelle chemise.|Quiero comprar una camisa nueva.
+v|给|to give|donner|dar|把书给我。|Give me the book.|Donne-moi le livre.|Dame el libro.
+v|拿；乘坐|to take|prendre|tomar|我坐公交车去上班。|I take the bus to work.|Je prends le bus pour aller au travail.|Tomo el autobús para ir al trabajo.
+v|打开|to open|ouvrir|abrir|请打开窗户。|Please open the window.|Ouvre la fenêtre, s'il te plaît.|Abre la ventana, por favor.
+v|关上|to close|fermer|cerrar|请关门。|Please close the door.|Ferme la porte, s'il te plaît.|Cierra la puerta, por favor.
+v|等|to wait|attendre|esperar|请等一下。|Please wait a moment.|Attends un moment, s'il te plaît.|Espera un momento, por favor.
+v|帮助|to help|aider|ayudar|你能帮我吗？|Can you help me?|Tu peux m'aider ?|¿Puedes ayudarme?
+v|寻找|to look for|chercher|buscar|我在找我的钥匙。|I'm looking for my keys.|Je cherche mes clés.|Busco mis llaves.
+v|找到|to find|trouver|encontrar|我找到我的手机了！|I found my phone!|J'ai trouvé mon téléphone !|¡Encontré mi teléfono!
+v|开始|to begin|commencer|empezar|电影八点开始。|The film begins at eight.|Le film commence à huit heures.|La película empieza a las ocho.
+v|跑|to run|courir|correr|他每天早上跑步。|He runs every morning.|Il court tous les matins.|Él corre todas las mañanas.
+v|走路|to walk|marcher|caminar|我喜欢在公园里走路。|I like walking in the park.|J'aime marcher dans le parc.|Me gusta caminar en el parque.
+v|睡觉|to sleep|dormir|dormir|猫在沙发上睡觉。|The cat sleeps on the sofa.|Le chat dort sur le canapé.|El gato duerme en el sofá.
+v|忘记|to forget|oublier|olvidar|我忘带钥匙了。|I forgot my keys.|J'ai oublié mes clés.|Olvidé mis llaves.
+v|记得|to remember|se souvenir|recordar|你记得他的名字吗？|Do you remember his name?|Tu te souviens de son nom ?|¿Recuerdas su nombre?
+v|明白|to understand|comprendre|entender|我不明白这个词。|I don't understand this word.|Je ne comprends pas ce mot.|No entiendo esta palabra.
+v|能，可以|can|pouvoir|poder|我能进来吗？|Can I come in?|Je peux entrer ?|¿Puedo entrar?
+v|需要|to need|avoir besoin de|necesitar|我需要休息。|I need to rest.|J'ai besoin de me reposer.|Necesito descansar.
+v|认为|to think|penser|pensar|我认为他是对的。|I think he is right.|Je pense qu'il a raison.|Pienso que tiene razón.
+v|问|to ask|demander|preguntar|问老师吧。|Ask the teacher.|Demande au professeur.|Pregunta al profesor.
+v|回答|to answer|répondre|responder|请回答这个问题。|Please answer the question.|Réponds à la question, s'il te plaît.|Responde a la pregunta, por favor.
+v|做饭|to cook|cuisiner|cocinar|我爸爸做饭很好吃。|My dad cooks very well.|Mon père cuisine très bien.|Mi padre cocina muy bien.
+v|唱歌|to sing|chanter|cantar|她唱歌很好听。|She sings beautifully.|Elle chante très bien.|Ella canta muy bien.
+v|玩|to play|jouer|jugar|孩子们在花园里玩。|The children play in the garden.|Les enfants jouent dans le jardin.|Los niños juegan en el jardín.
+v|旅行|to travel|voyager|viajar|我们夏天去西班牙旅行。|We travel to Spain in summer.|Nous voyageons en Espagne en été.|Viajamos a España en verano.
+v|付钱|to pay|payer|pagar|我可以用卡付钱吗？|Can I pay by card?|Je peux payer par carte ?|¿Puedo pagar con tarjeta?
+v|卖|to sell|vendre|vender|他们卖新鲜的面包。|They sell fresh bread.|Ils vendent du pain frais.|Venden pan fresco.
+v|到达|to arrive|arriver|llegar|火车十点到达。|The train arrives at ten.|Le train arrive à dix heures.|El tren llega a las diez.
+v|离开|to leave|partir|salir|我们明天离开。|We leave tomorrow.|Nous partons demain.|Salimos mañana.
+v|穿|to wear|porter|llevar|她穿着一条红裙子。|She is wearing a red dress.|Elle porte une robe rouge.|Ella lleva un vestido rojo.
+v|洗|to wash|laver|lavar|饭前要洗手。|Wash your hands before eating.|Lave-toi les mains avant de manger.|Lávate las manos antes de comer.
+v|学会|to learn|apprendre|aprender|我在学游泳。|I'm learning to swim.|J'apprends à nager.|Aprendo a nadar.
+v|教|to teach|enseigner|enseñar|她教数学。|She teaches maths.|Elle enseigne les maths.|Ella enseña matemáticas.
+v|游泳|to swim|nager|nadar|你会游泳吗？|Can you swim?|Tu sais nager ?|¿Sabes nadar?
+v|跳舞|to dance|danser|bailar|我们去跳舞吧！|Let's go dancing!|Allons danser !|¡Vamos a bailar!
+v|打电话|to call|appeler|llamar|我晚上给你打电话。|I'll call you tonight.|Je t'appelle ce soir.|Te llamo esta noche.
+v|开车|to drive|conduire|conducir|我不会开车。|I can't drive.|Je ne sais pas conduire.|No sé conducir.
+v|坐下|to sit down|s'asseoir|sentarse|请坐。|Please sit down.|Asseyez-vous, s'il vous plaît.|Siéntese, por favor.
+v|笑|to laugh|rire|reír|他总是让我笑。|He always makes me laugh.|Il me fait toujours rire.|Siempre me hace reír.
+v|哭|to cry|pleurer|llorar|宝宝在哭。|The baby is crying.|Le bébé pleure.|El bebé llora.
+v|用|to use|utiliser|usar|我可以用你的笔吗？|Can I use your pen?|Je peux utiliser ton stylo ?|¿Puedo usar tu bolígrafo?
+v|选择|to choose|choisir|elegir|选一个颜色。|Choose a colour.|Choisis une couleur.|Elige un color.
+v|尝试|to try|essayer|probar|我可以试一下吗？|Can I try it?|Je peux essayer ?|¿Puedo probarlo?
+# People
+n|人|person|la personne|la persona|他是个好人。|He is a good person.|C'est une bonne personne.|Es una buena persona.
+n|男人|man|l'homme|el hombre|那个男人是我的老师。|That man is my teacher.|Cet homme est mon professeur.|Ese hombre es mi profesor.
+n|女人|woman|la femme|la mujer|那个女人是医生。|That woman is a doctor.|Cette femme est médecin.|Esa mujer es médica.
+n|孩子|child|l'enfant|el niño|孩子在睡觉。|The child is sleeping.|L'enfant dort.|El niño duerme.
+n|朋友|friend|l'ami|el amigo|他是我最好的朋友。|He is my best friend.|C'est mon meilleur ami.|Es mi mejor amigo.
+n|家庭|family|la famille|la familia|我的家庭很大。|My family is big.|Ma famille est grande.|Mi familia es grande.
+n|妈妈|mother|la mère|la madre|我妈妈是老师。|My mother is a teacher.|Ma mère est professeure.|Mi madre es profesora.
+n|爸爸|father|le père|el padre|我爸爸喜欢足球。|My father likes football.|Mon père aime le football.|A mi padre le gusta el fútbol.
+n|兄弟|brother|le frère|el hermano|我有一个哥哥。|I have an older brother.|J'ai un grand frère.|Tengo un hermano mayor.
+n|姐妹|sister|la sœur|la hermana|我妹妹十岁。|My little sister is ten.|Ma petite sœur a dix ans.|Mi hermana pequeña tiene diez años.
+n|老师|teacher|le professeur|el profesor|老师很友好。|The teacher is friendly.|Le professeur est sympathique.|El profesor es simpático.
+n|学生|student|l'étudiant|el estudiante|他是大学生。|He is a university student.|Il est étudiant à l'université.|Es estudiante universitario.
+n|医生|doctor|le médecin|el médico|我需要看医生。|I need to see a doctor.|Je dois voir un médecin.|Necesito ver a un médico.
+n|名字|name|le nom|el nombre|你叫什么名字？|What is your name?|Quel est ton nom ?|¿Cuál es tu nombre?
+# Food & drink
+n|水|water|l'eau|el agua|我想喝水。|I want to drink water.|Je veux boire de l'eau.|Quiero beber agua.
+n|咖啡|coffee|le café|el café|我早上喝咖啡。|I drink coffee in the morning.|Je bois du café le matin.|Tomo café por la mañana.
+n|茶|tea|le thé|el té|你要茶还是咖啡？|Would you like tea or coffee?|Tu veux du thé ou du café ?|¿Quieres té o café?
+n|牛奶|milk|le lait|la leche|孩子每天喝牛奶。|The child drinks milk every day.|L'enfant boit du lait tous les jours.|El niño bebe leche todos los días.
+n|面包|bread|le pain|el pan|这个面包很新鲜。|This bread is very fresh.|Ce pain est très frais.|Este pan está muy fresco.
+n|米饭|rice|le riz|el arroz|我们吃米饭和蔬菜。|We eat rice and vegetables.|Nous mangeons du riz et des légumes.|Comemos arroz y verduras.
+n|苹果|apple|la pomme|la manzana|我吃一个苹果。|I eat an apple.|Je mange une pomme.|Me como una manzana.
+n|鸡蛋|egg|l'œuf|el huevo|我早餐吃两个鸡蛋。|I eat two eggs for breakfast.|Je mange deux œufs au petit-déjeuner.|Como dos huevos en el desayuno.
+n|肉|meat|la viande|la carne|我不吃肉。|I don't eat meat.|Je ne mange pas de viande.|No como carne.
+n|鱼|fish|le poisson|el pescado|这条鱼很好吃。|This fish is delicious.|Ce poisson est délicieux.|Este pescado está delicioso.
+n|蔬菜|vegetable|le légume|la verdura|多吃蔬菜对身体好。|Eating vegetables is good for you.|Manger des légumes est bon pour la santé.|Comer verduras es bueno para la salud.
+n|水果|fruit|le fruit|la fruta|你喜欢什么水果？|What fruit do you like?|Quel fruit aimes-tu ?|¿Qué fruta te gusta?
+n|奶酪|cheese|le fromage|el queso|法国有很多种奶酪。|France has many kinds of cheese.|La France a beaucoup de fromages.|Francia tiene muchos tipos de queso.
+n|早餐|breakfast|le petit-déjeuner|el desayuno|早餐准备好了。|Breakfast is ready.|Le petit-déjeuner est prêt.|El desayuno está listo.
+n|晚餐|dinner|le dîner|la cena|我们一起吃晚餐吧。|Let's have dinner together.|Dînons ensemble.|Cenemos juntos.
+n|餐厅|restaurant|le restaurant|el restaurante|这家餐厅很贵。|This restaurant is expensive.|Ce restaurant est cher.|Este restaurante es caro.
+n|杯子|cup|la tasse|la taza|这个杯子是我的。|This cup is mine.|Cette tasse est à moi.|Esta taza es mía.
+n|瓶子|bottle|la bouteille|la botella|一瓶水，谢谢。|A bottle of water, thanks.|Une bouteille d'eau, merci.|Una botella de agua, gracias.
+# Home & things
+n|房子|house|la maison|la casa|他们的房子很漂亮。|Their house is beautiful.|Leur maison est belle.|Su casa es bonita.
+n|房间|room|la chambre|la habitación|我的房间很小。|My room is small.|Ma chambre est petite.|Mi habitación es pequeña.
+n|门|door|la porte|la puerta|门开着。|The door is open.|La porte est ouverte.|La puerta está abierta.
+n|窗户|window|la fenêtre|la ventana|窗户外面有一棵树。|There is a tree outside the window.|Il y a un arbre devant la fenêtre.|Hay un árbol delante de la ventana.
+n|桌子|table|la table|la mesa|钥匙在桌子上。|The keys are on the table.|Les clés sont sur la table.|Las llaves están en la mesa.
+n|椅子|chair|la chaise|la silla|这把椅子很舒服。|This chair is comfortable.|Cette chaise est confortable.|Esta silla es cómoda.
+n|床|bed|le lit|la cama|我十一点上床睡觉。|I go to bed at eleven.|Je vais au lit à onze heures.|Me voy a la cama a las once.
+n|沙发|sofa|le canapé|el sofá|我们坐在沙发上看电视。|We sit on the sofa and watch TV.|Nous regardons la télé sur le canapé.|Vemos la tele en el sofá.
+n|厨房|kitchen|la cuisine|la cocina|妈妈在厨房里。|Mum is in the kitchen.|Maman est dans la cuisine.|Mamá está en la cocina.
+n|钥匙|key|la clé|la llave|我找不到钥匙。|I can't find my key.|Je ne trouve pas ma clé.|No encuentro mi llave.
+n|书|book|le livre|el libro|这本书很有意思。|This book is interesting.|Ce livre est intéressant.|Este libro es interesante.
+n|笔|pen|le stylo|el bolígrafo|你有笔吗？|Do you have a pen?|Tu as un stylo ?|¿Tienes un bolígrafo?
+n|手机|phone|le téléphone|el teléfono|我的手机没电了。|My phone is out of battery.|Mon téléphone n'a plus de batterie.|Mi teléfono no tiene batería.
+n|电脑|computer|l'ordinateur|el ordenador|我用电脑工作。|I work on a computer.|Je travaille sur ordinateur.|Trabajo con el ordenador.
+n|钱|money|l'argent|el dinero|我没有钱了。|I have no money left.|Je n'ai plus d'argent.|No me queda dinero.
+n|衣服|clothes|les vêtements|la ropa|我需要买新衣服。|I need to buy new clothes.|J'ai besoin d'acheter de nouveaux vêtements.|Necesito comprar ropa nueva.
+n|鞋|shoe|la chaussure|el zapato|这双鞋太小了。|These shoes are too small.|Ces chaussures sont trop petites.|Estos zapatos son demasiado pequeños.
+n|雨伞|umbrella|le parapluie|el paraguas|别忘了带雨伞。|Don't forget your umbrella.|N'oublie pas ton parapluie.|No olvides tu paraguas.
+n|包|bag|le sac|la bolsa|我的包很重。|My bag is heavy.|Mon sac est lourd.|Mi bolsa pesa mucho.
+# Time
+adv|今天|today|aujourd'hui|hoy|今天天气很好。|The weather is nice today.|Il fait beau aujourd'hui.|Hoy hace buen tiempo.
+adv|明天|tomorrow|demain|mañana|我们明天见。|See you tomorrow.|À demain.|Hasta mañana.
+adv|昨天|yesterday|hier|ayer|昨天我很累。|I was tired yesterday.|J'étais fatigué hier.|Ayer estaba cansado.
+adv|现在|now|maintenant|ahora|我现在很忙。|I'm busy now.|Je suis occupé maintenant.|Ahora estoy ocupado.
+adv|以后|later|plus tard|más tarde|我们以后再说。|Let's talk later.|On en parle plus tard.|Hablamos más tarde.
+adv|总是|always|toujours|siempre|他总是迟到。|He is always late.|Il est toujours en retard.|Siempre llega tarde.
+adv|从不|never|jamais|nunca|我从不喝咖啡。|I never drink coffee.|Je ne bois jamais de café.|Nunca bebo café.
+adv|经常|often|souvent|a menudo|我经常去图书馆。|I often go to the library.|Je vais souvent à la bibliothèque.|Voy a menudo a la biblioteca.
+adv|有时候|sometimes|parfois|a veces|有时候我在家工作。|Sometimes I work from home.|Parfois je travaille à la maison.|A veces trabajo en casa.
+n|天|day|le jour|el día|一天有二十四小时。|A day has twenty-four hours.|Un jour a vingt-quatre heures.|Un día tiene veinticuatro horas.
+n|星期|week|la semaine|la semana|下个星期我去旅行。|I'm travelling next week.|Je voyage la semaine prochaine.|Viajo la próxima semana.
+n|月|month|le mois|el mes|一年有十二个月。|A year has twelve months.|Une année a douze mois.|Un año tiene doce meses.
+n|年|year|l'année|el año|新年快乐！|Happy New Year!|Bonne année !|¡Feliz año nuevo!
+n|小时|hour|l'heure|la hora|我等了一个小时。|I waited for an hour.|J'ai attendu une heure.|Esperé una hora.
+n|早上|morning|le matin|la mañana|我早上六点起床。|I get up at six in the morning.|Je me lève à six heures du matin.|Me levanto a las seis de la mañana.
+n|晚上|evening|le soir|la noche|晚上我看书。|In the evening I read.|Le soir, je lis.|Por la noche leo.
+n|时间|time|le temps|el tiempo|我没有时间。|I don't have time.|Je n'ai pas le temps.|No tengo tiempo.
+n|星期一|Monday|lundi|lunes|星期一我很忙。|I'm busy on Monday.|Je suis occupé lundi.|El lunes estoy ocupado.
+n|周末|weekend|le week-end|el fin de semana|周末你做什么？|What are you doing at the weekend?|Qu'est-ce que tu fais ce week-end ?|¿Qué haces el fin de semana?

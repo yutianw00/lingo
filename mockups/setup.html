@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>选择语言</title><link rel="stylesheet" href="style.css">
+<style>
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .opt { display: flex; align-items: center; gap: 10px; padding: 14px; border: 2px solid var(--line); border-radius: 16px; background: #fff; cursor: pointer; font: inherit; font-weight: 700; font-size: 15px; box-shadow: 0 3px 0 var(--line); text-align: left; }
+  .opt small { display: block; font-weight: 500; color: var(--muted); font-size: 12px; }
+  .opt.on { border-color: var(--primary); background: var(--soft); box-shadow: 0 3px 0 var(--primary); }
+  .opt:disabled { opacity: .35; cursor: not-allowed; }
+  .summary { margin: 24px 0 16px; text-align: center; font-size: 15px; font-weight: 700; }
+  .summary b { color: var(--primary); }
+</style></head>
+<body><div class="app">
+  <div class="topbar"><h1>开始学习</h1></div>
+  <h2>我的母语</h2>
+  <div class="grid" id="native"></div>
+  <h2>我想学</h2>
+  <div class="grid" id="target"></div>
+  <p class="summary" id="summary"></p>
+  <div style="margin-top:auto"><button class="btn" onclick="location.href='home.html'">开始</button></div>
+</div>
+<script>
+const L = [
+  { k: 'zh', name: '简体中文', self: '简体中文' },
+  { k: 'en', name: '英语', self: 'English' },
+  { k: 'fr', name: '法语', self: 'Français' },
+  { k: 'es', name: '西班牙语', self: 'Español' },
+];
+let native = 'zh', target = 'fr';
+function draw() {
+  for (const [id, sel] of [['native', native], ['target', target]]) {
+    document.getElementById(id).innerHTML = L.map(l => `
+      <button class="opt ${sel === l.k ? 'on' : ''}" data-k="${l.k}" ${id === 'target' && l.k === native ? 'disabled' : ''}>
+        <span class="lang-badge lang-${l.k}">${l.k.toUpperCase()}</span>
+        <span>${l.name}<small>${l.self}</small></span></button>`).join('');
+  }
+  const n = L.find(l => l.k === native), t = L.find(l => l.k === target);
+  document.getElementById('summary').innerHTML = `用 <b>${n.name}</b> 学 <b>${t.name}</b>`;
+}
+document.getElementById('native').onclick = e => { const b = e.target.closest('.opt'); if (!b) return; native = b.dataset.k; if (target === native) target = L.find(l => l.k !== native).k; draw(); };
+document.getElementById('target').onclick = e => { const b = e.target.closest('.opt'); if (!b || b.disabled) return; target = b.dataset.k; draw(); };
+draw();
+</script></body></html>

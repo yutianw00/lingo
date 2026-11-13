@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>首页</title><link rel="stylesheet" href="style.css">
+<style>
+  .pair { display: flex; align-items: center; gap: 6px; padding: 6px 12px 6px 6px; border: 2px solid var(--line); border-radius: 99px; background: #fff; font-weight: 800; text-decoration: none; color: var(--ink); }
+  .pair .lang-badge { width: 26px; height: 26px; font-size: 10px; }
+  .streak { margin-left: auto; font-weight: 800; color: var(--warn); }
+  .goal { display: flex; align-items: center; gap: 16px; }
+  .ring { width: 72px; height: 72px; border-radius: 50%; background: conic-gradient(var(--good) 0 60%, var(--line) 60% 100%); display: grid; place-items: center; flex-shrink: 0; }
+  .ring b { width: 54px; height: 54px; border-radius: 50%; background: #fff; display: grid; place-items: center; font-size: 15px; }
+  .mode { display: flex; gap: 14px; align-items: center; text-decoration: none; color: inherit; margin-bottom: 12px; box-shadow: 0 4px 0 var(--line); transition: transform .1s; }
+  .mode:active { transform: translateY(2px); }
+  .mode .ico { width: 56px; height: 56px; border-radius: 16px; display: grid; place-items: center; font-size: 28px; flex-shrink: 0; }
+  .mode h3 { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
+  .tags { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .tag { font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 8px; }
+  .dist { display: flex; height: 16px; border-radius: 99px; overflow: hidden; margin: 10px 0; }
+  .legend { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 12px; font-size: 13px; }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; background: var(--c); }
+</style></head>
+<body><div class="app">
+  <div class="topbar">
+    <a class="pair" href="setup.html"><span class="lang-badge lang-zh">ZH</span>→<span class="lang-badge lang-fr">FR</span>法语 ▾</a>
+    <span class="streak">🔥 5 天</span>
+  </div>
+
+  <div class="panel goal">
+    <div class="ring"><b>18/30</b></div>
+    <div><h3 style="font-size:16px">今日目标 30 个词</h3><p class="muted">还差 12 个，保持连胜！</p></div>
+  </div>
+
+  <h2>练习</h2>
+  <a class="panel mode" href="swipe.html">
+    <div class="ico" style="background:var(--soft)">🃏</div>
+    <div style="flex:1"><h3>单词快刷</h3><p class="muted">右滑认识，左滑不认识，点卡片看释义</p>
+      <div class="tags"><span class="tag" style="background:var(--warn-soft);color:#B57700">待复习 24</span><span class="tag" style="background:var(--good-soft);color:var(--good-d)">新词 10</span></div></div>
+  </a>
+  <a class="panel mode" href="quiz.html">
+    <div class="ico" style="background:var(--good-soft)">✅</div>
+    <div style="flex:1"><h3>选择题</h3><p class="muted">选词填空 · 接下句</p>
+      <div class="tags"><span class="tag" style="background:var(--soft);color:var(--primary)">10 题 / 组</span><span class="tag" style="background:var(--bad-soft);color:var(--bad-d)">错题优先 6</span></div></div>
+  </a>
+
+  <h2>词汇熟练度 <span class="muted" style="font-weight:500">共 412 词</span></h2>
+  <div class="panel">
+    <div class="dist">
+      <i style="width:38%;background:var(--lv0)"></i><i style="width:22%;background:var(--lv1)"></i><i style="width:24%;background:var(--lv2)"></i><i style="width:16%;background:var(--lv3)"></i>
+    </div>
+    <div class="legend">
+      <span style="--c:var(--lv0)">新词 156</span><span style="--c:var(--lv1)">学习中 91</span>
+      <span style="--c:var(--lv2)">熟悉 99</span><span style="--c:var(--lv3)">已掌握 66</span>
+    </div>
+  </div>
+
+  <nav class="tabbar"><a class="on" href="home.html"><span>🏠</span>学习</a><a href="words.html"><span>📚</span>词库</a><a href="#"><span>👤</span>我的</a></nav>
+</div></body></html>

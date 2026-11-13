@@ -1,0 +1,245 @@
+# "What comes next?" questions.
+#   @id next topic
+#   <lang> prompt >> correct follow-up
+# Wrong options are the follow-ups of questions with a *different* topic, so topics
+# group prompts whose answers could plausibly be swapped (e.g. all "what time…" ones are "time").
+
+@n01 next greeting
+zh 你好，我叫玛丽。 >> 很高兴认识你，我是保罗。
+en Hi, my name is Marie. >> Nice to meet you, I'm Paul.
+fr Bonjour, je m'appelle Marie. >> Enchanté, moi c'est Paul.
+es Hola, me llamo Marie. >> Encantado, yo soy Paul.
+
+@n02 next weather
+zh 今天雨下得很大。 >> 那我带上雨伞。
+en It's raining a lot today. >> Then I'll take my umbrella.
+fr Il pleut beaucoup aujourd'hui. >> Alors je prends mon parapluie.
+es Hoy llueve mucho. >> Entonces me llevo el paraguas.
+
+@n03 next food
+zh 你想喝点什么？ >> 一杯茶，谢谢。
+en What would you like to drink? >> A cup of tea, please.
+fr Qu'est-ce que tu veux boire ? >> Un thé, s'il te plaît.
+es ¿Qué quieres beber? >> Un té, por favor.
+
+@n04 next greeting
+zh 你好吗？ >> 我很好，谢谢，你呢？
+en How are you? >> I'm fine, thanks. And you?
+fr Comment ça va ? >> Ça va bien, merci. Et toi ?
+es ¿Cómo estás? >> Estoy bien, gracias. ¿Y tú?
+
+@n05 next shopping
+zh 这件衬衫多少钱？ >> 二十欧元。
+en How much is this shirt? >> Twenty euros.
+fr Combien coûte cette chemise ? >> Vingt euros.
+es ¿Cuánto cuesta esta camisa? >> Veinte euros.
+
+@n06 next travel
+zh 请问，火车站在哪里？ >> 一直走，然后左转。
+en Excuse me, where is the train station? >> Go straight ahead, then turn left.
+fr Excusez-moi, où est la gare ? >> Allez tout droit, puis tournez à gauche.
+es Perdone, ¿dónde está la estación? >> Siga todo recto y luego gire a la izquierda.
+
+@n07 next health
+zh 我头很疼。 >> 你应该吃点药，休息一下。
+en I have a bad headache. >> You should take some medicine and rest.
+fr J'ai très mal à la tête. >> Tu devrais prendre un médicament et te reposer.
+es Me duele mucho la cabeza. >> Deberías tomar un medicamento y descansar.
+
+@n08 next time
+zh 现在几点了？ >> 差不多三点了。
+en What time is it? >> It's almost three o'clock.
+fr Quelle heure est-il ? >> Il est presque trois heures.
+es ¿Qué hora es? >> Son casi las tres.
+
+@n09 next food
+zh 我饿死了！ >> 我们去吃饭吧。
+en I'm starving! >> Let's go and eat.
+fr J'ai très faim ! >> Allons manger.
+es ¡Tengo mucha hambre! >> Vamos a comer.
+
+@n10 next weather
+zh 外面很冷。 >> 穿上你的外套吧。
+en It's cold outside. >> Put your coat on.
+fr Il fait froid dehors. >> Mets ton manteau.
+es Hace frío fuera. >> Ponte el abrigo.
+
+@n11 next work
+zh 你是做什么工作的？ >> 我是医院的护士。
+en What do you do for a living? >> I'm a nurse at the hospital.
+fr Qu'est-ce que tu fais dans la vie ? >> Je suis infirmière à l'hôpital.
+es ¿A qué te dedicas? >> Soy enfermera en el hospital.
+
+@n12 next hobby
+zh 你周末喜欢做什么？ >> 我喜欢在公园里跑步。
+en What do you like doing at the weekend? >> I like running in the park.
+fr Qu'est-ce que tu aimes faire le week-end ? >> J'aime courir dans le parc.
+es ¿Qué te gusta hacer el fin de semana? >> Me gusta correr en el parque.
+
+@n13 next time
+zh 你的航班几点起飞？ >> 早上七点，所以我得早起。
+en What time does your flight leave? >> At seven in the morning, so I have to get up early.
+fr À quelle heure part ton vol ? >> À sept heures du matin, donc je dois me lever tôt.
+es ¿A qué hora sale tu vuelo? >> A las siete de la mañana, así que tengo que levantarme temprano.
+
+@n14 next shopping
+zh 我可以试穿这双鞋吗？ >> 当然可以，你穿多大码？
+en Can I try on these shoes? >> Of course, what size are you?
+fr Je peux essayer ces chaussures ? >> Bien sûr, vous faites quelle pointure ?
+es ¿Puedo probarme estos zapatos? >> Claro, ¿qué número usa?
+
+@n15 next school
+zh 我明天有一个重要的考试。 >> 别担心，你一定会考好的！
+en I have an important exam tomorrow. >> Don't worry, you'll do great!
+fr J'ai un examen important demain. >> Ne t'inquiète pas, tu vas réussir !
+es Mañana tengo un examen importante. >> No te preocupes, ¡te va a ir genial!
+
+@n16 next home
+zh 我找不到我的钥匙了。 >> 你看看桌子上。
+en I can't find my keys. >> Have a look on the table.
+fr Je ne trouve plus mes clés. >> Regarde sur la table.
+es No encuentro mis llaves. >> Mira en la mesa.
+
+@n17 next food
+zh 你们准备好点菜了吗？ >> 是的，我要一份鱼和一份沙拉。
+en Are you ready to order? >> Yes, I'll have the fish and a salad.
+fr Vous êtes prêts à commander ? >> Oui, je vais prendre le poisson et une salade.
+es ¿Están listos para pedir? >> Sí, para mí el pescado y una ensalada.
+
+@n18 next polite
+zh 非常感谢你的帮助！ >> 不客气。
+en Thank you so much for your help! >> You're welcome.
+fr Merci beaucoup pour ton aide ! >> De rien.
+es ¡Muchas gracias por tu ayuda! >> De nada.
+
+@n19 next time
+zh 我们几点见面？ >> 六点在咖啡馆门口见吧。
+en What time shall we meet? >> Let's meet at six outside the café.
+fr On se retrouve à quelle heure ? >> À six heures devant le café.
+es ¿A qué hora quedamos? >> A las seis delante de la cafetería.
+
+@n20 next health
+zh 我觉得我感冒了。 >> 那你今天应该待在家里。
+en I think I've caught a cold. >> Then you should stay at home today.
+fr Je crois que j'ai attrapé un rhume. >> Alors tu devrais rester à la maison aujourd'hui.
+es Creo que me he resfriado. >> Entonces deberías quedarte en casa hoy.
+
+@n21 next school
+zh 这个词是什么意思？ >> 意思是"图书馆"。
+en What does this word mean? >> It means "library".
+fr Que veut dire ce mot ? >> Ça veut dire « bibliothèque ».
+es ¿Qué significa esta palabra? >> Significa «biblioteca».
+
+@n22 next travel
+zh 我想订一个房间，住两晚。 >> 好的，请出示您的护照。
+en I'd like to book a room for two nights. >> Certainly, may I see your passport?
+fr Je voudrais réserver une chambre pour deux nuits. >> Bien sûr, je peux voir votre passeport ?
+es Quisiera reservar una habitación para dos noches. >> Claro, ¿me enseña su pasaporte?
+
+@n23 next hobby
+zh 你会弹吉他吗？ >> 会一点，我上个月刚开始学。
+en Can you play the guitar? >> A little, I only started learning last month.
+fr Tu sais jouer de la guitare ? >> Un peu, j'ai commencé le mois dernier.
+es ¿Sabes tocar la guitarra? >> Un poco, empecé el mes pasado.
+
+@n24 next feelings
+zh 你看起来很累。 >> 是的，我昨晚没睡好。
+en You look very tired. >> Yes, I didn't sleep well last night.
+fr Tu as l'air très fatigué. >> Oui, j'ai mal dormi cette nuit.
+es Pareces muy cansado. >> Sí, anoche dormí mal.
+
+@n25 next shopping
+zh 我可以用卡付钱吗？ >> 可以，请输入密码。
+en Can I pay by card? >> Yes, please enter your PIN.
+fr Je peux payer par carte ? >> Oui, tapez votre code, s'il vous plaît.
+es ¿Puedo pagar con tarjeta? >> Sí, introduzca su PIN, por favor.
+
+@n26 next home
+zh 晚饭好了！ >> 来了，我先洗个手。
+en Dinner is ready! >> Coming, I'll just wash my hands.
+fr Le dîner est prêt ! >> J'arrive, je me lave les mains.
+es ¡La cena está lista! >> Ya voy, me lavo las manos.
+
+@n27 next weather
+zh 明天天气怎么样？ >> 天气预报说会是晴天。
+en What's the weather like tomorrow? >> The forecast says it will be sunny.
+fr Quel temps fera-t-il demain ? >> La météo dit qu'il fera beau.
+es ¿Qué tiempo hará mañana? >> El pronóstico dice que hará sol.
+
+@n28 next time
+zh 你明天能早点来吗？ >> 可以，我八点到。
+en Can you come in early tomorrow? >> Sure, I'll be there at eight.
+fr Tu peux venir plus tôt demain ? >> D'accord, je serai là à huit heures.
+es ¿Puedes venir temprano mañana? >> Vale, estaré allí a las ocho.
+
+@n29 next school
+zh 你学法语多久了？ >> 差不多两年了。
+en How long have you been learning French? >> Almost two years.
+fr Depuis combien de temps tu apprends le français ? >> Depuis presque deux ans.
+es ¿Cuánto tiempo llevas aprendiendo francés? >> Casi dos años.
+
+@n30 next food
+zh 这道菜太好吃了！ >> 谢谢，这是我奶奶的菜谱。
+en This dish is delicious! >> Thanks, it's my grandmother's recipe.
+fr Ce plat est délicieux ! >> Merci, c'est la recette de ma grand-mère.
+es ¡Este plato está delicioso! >> Gracias, es la receta de mi abuela.
+
+@n31 next travel
+zh 去机场要多长时间？ >> 坐出租车大约四十分钟。
+en How long does it take to get to the airport? >> About forty minutes by taxi.
+fr Combien de temps faut-il pour aller à l'aéroport ? >> Environ quarante minutes en taxi.
+es ¿Cuánto se tarda en llegar al aeropuerto? >> Unos cuarenta minutos en taxi.
+
+@n32 next greeting
+zh 好久不见！ >> 是啊，你最近怎么样？
+en Long time no see! >> I know! How have you been?
+fr Ça fait longtemps ! >> Oui ! Comment tu vas ?
+es ¡Cuánto tiempo! >> ¡Sí! ¿Qué tal estás?
+
+@n33 next shopping
+zh 你们有大一号的吗？ >> 有的，这是中号。
+en Do you have this in a bigger size? >> Yes, here's a medium.
+fr Vous l'avez en plus grand ? >> Oui, voici une taille M.
+es ¿Lo tiene en una talla más grande? >> Sí, aquí tiene una talla M.
+
+@n34 next health
+zh 你需要看医生吗？ >> 不用，我已经好多了。
+en Do you need to see a doctor? >> No, I already feel much better.
+fr Tu as besoin de voir un médecin ? >> Non, je me sens déjà beaucoup mieux.
+es ¿Necesitas ver a un médico? >> No, ya me siento mucho mejor.
+
+@n35 next home
+zh 你能帮我开一下门吗？ >> 当然，你手里拿了好多东西啊！
+en Could you open the door for me? >> Sure — wow, your hands are full!
+fr Tu peux m'ouvrir la porte ? >> Bien sûr, tu as les mains pleines !
+es ¿Me puedes abrir la puerta? >> Claro, ¡tienes las manos llenas!
+
+@n36 next hobby
+zh 我们今晚去看电影吧？ >> 好主意！看什么电影？
+en Shall we go to the cinema tonight? >> Good idea! Which film?
+fr On va au cinéma ce soir ? >> Bonne idée ! Quel film ?
+es ¿Vamos al cine esta noche? >> ¡Buena idea! ¿Qué película?
+
+@n37 next feelings
+zh 我终于找到工作了！ >> 太好了，恭喜你！
+en I finally found a job! >> That's great, congratulations!
+fr J'ai enfin trouvé un travail ! >> C'est génial, félicitations !
+es ¡Por fin he encontrado trabajo! >> ¡Qué bien, enhorabuena!
+
+@n38 next time
+zh 会议几点开始？ >> 十点，在三楼的会议室。
+en What time does the meeting start? >> At ten, in the meeting room on the third floor.
+fr À quelle heure commence la réunion ? >> À dix heures, dans la salle du troisième étage.
+es ¿A qué hora empieza la reunión? >> A las diez, en la sala del tercer piso.
+
+@n39 next school
+zh 你能再说一遍吗？ >> 当然，我说慢一点。
+en Could you say that again? >> Of course, I'll speak more slowly.
+fr Tu peux répéter ? >> Bien sûr, je vais parler plus lentement.
+es ¿Puedes repetirlo? >> Claro, hablaré más despacio.
+
+@n40 next travel
+zh 这是去市中心的公交车吗？ >> 不是，你需要坐十二路。
+en Is this the bus to the city centre? >> No, you need to take the number 12.
+fr C'est le bus pour le centre-ville ? >> Non, il faut prendre le 12.
+es ¿Es este el autobús al centro? >> No, tienes que coger el 12.
