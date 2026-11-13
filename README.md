@@ -7,6 +7,7 @@ A Duolingo-style vocabulary app: learn Spanish, English, French or Chinese from 
 - **Multiple choice**: fill-in-the-blank and "what comes next?" sentence questions
 - **Mastery tracking**: a spaced-repetition score for every word and question, with due reviews mixed into each session
 - **Daily goal and streak**, a searchable word list, text-to-speech, 4 UI languages, dark mode
+- **Google sign-in** (optional): progress is saved to your account and follows you across devices; without it the app runs as a single local user
 
 | Home | Word swipe | Multiple choice | Word list |
 |---|---|---|---|

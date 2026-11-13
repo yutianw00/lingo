@@ -5,7 +5,7 @@ A Duolingo-style language learning app ("learn y from x") for Simplified Chinese
 - **Word swipe** — swipe right if you know the word, left if you don't, tap to see the meaning (in your native language) and an example sentence.
 - **Multiple choice** — *fill the blank* (pick the word that completes the sentence) and *what comes next* (pick the natural follow-up sentence).
 
-Backend: Python / FastAPI / SQLite. Frontend: React + Vite + TypeScript. No login yet (see "Auth" below).
+Backend: Python / FastAPI / SQLite. Frontend: React + Vite + TypeScript. Optional Google sign-in (see "Sign-in (Google)" below).
 
 ## Run it
 
