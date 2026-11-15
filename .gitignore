@@ -7,3 +7,5 @@ web/dist/
 .claude/
 .DS_Store
 backend/.env
+iOS/**/xcuserdata/
+iOS/build/

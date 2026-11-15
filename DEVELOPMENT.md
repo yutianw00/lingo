@@ -101,5 +101,11 @@ session; without it the app runs as a single local user (`X-User-Id` header, def
 
 ## iOS
 
-The web app is mobile-first, and every feature goes through the JSON API, so a SwiftUI client can reuse it as-is:
-sign in with Google (iOS client) and send `Authorization: Bearer` + `X-Tz-Offset` (minutes, same sign as JS `getTimezoneOffset()`), use `AVSpeechSynthesizer` for pronunciation.
+`iOS/` is a native SwiftUI app (iOS 17+) on the same JSON API — open `iOS/Lingo.xcodeproj` and run; see
+[iOS/README.md](iOS/README.md). It sends `Authorization: Bearer` + `X-Tz-Offset` (minutes, same sign as JS
+`getTimezoneOffset()`) and uses `AVSpeechSynthesizer` for pronunciation.
+
+Native sign-in: `GET /api/auth/google/login?app_challenge=<S256 of an app-held verifier>` runs the normal Google
+flow, but the callback redirects to `lingo://auth?code=…` (or `?error=…`) instead of setting a cookie. The app
+redeems the code with `POST /api/auth/app/token {code, verifier}` → `{token}`. Codes are single-use, expire after
+2 minutes and are worthless without the verifier, so a code intercepted from the URL scheme can't be used.

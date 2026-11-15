@@ -13,4 +13,6 @@ A Duolingo-style vocabulary app: learn Spanish, English, French or Chinese from 
 |---|---|---|---|
 | ![](docs/home.png) | ![](docs/swipe.png) | ![](docs/quiz.png) | ![](docs/words.png) |
 
+Native iOS app (SwiftUI): open `iOS/Lingo.xcodeproj` in Xcode, see [iOS/README.md](iOS/README.md).
+
 Setup and design notes: [DEVELOPMENT.md](DEVELOPMENT.md)
