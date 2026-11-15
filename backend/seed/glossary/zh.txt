@@ -1,0 +1,310 @@
+# Chinese quiz words. Chinese has no spaces: sentences are split by longest match against
+# this list and the word list, so multi-character words must be listed here.
+!columns en fr es
+我|我|pron|I; me|je; moi|yo
+你|你|pron|you|tu; toi|tú
+她|她|pron|she; her|elle|ella
+我们|我们|pron|we|nous|nosotros
+你们|你们|pron|you (plural)|vous|vosotros
+您|您|pron|you (polite)|vous|usted
+这|这|pron|this|ce; ceci|esto
+那|那|pron|that; then|ça; alors|eso; entonces
+这个|这个|pron|this (one)|ce|este
+想|想|v|want to; would like|vouloir|querer
+想要|想要|v|want; would like|vouloir|querer
+要|要|v|want; will; need|vouloir; prendre|querer
+一|一|num|one; a|un|un
+两|两|num|two|deux|dos
+十|十|num|ten|dix|diez
+十二|十二|num|twelve|douze|doce
+二十|二十|num|twenty|vingt|veinte
+二十四|二十四|num|twenty-four|vingt-quatre|veinticuatro
+四十|四十|num|forty|quarante|cuarenta
+二|二|num|two|deux|dos
+个|个|n|(measure word)|(classificateur)|(clasificador)
+一个|一个|num|one; a|un|un
+杯|杯|n|cup (measure word)|tasse|taza
+份|份|n|portion (measure word)|portion|ración
+只|只|n|(measure word for animals)|(classificateur pour animaux)|(clasificador para animales)
+条|条|n|(measure word for long things)|(classificateur)|(clasificador)
+件|件|n|(measure word for clothes)|(classificateur pour vêtements)|(clasificador para ropa)
+双|双|n|pair|paire|par
+本|本|n|(measure word for books)|(classificateur pour livres)|(clasificador para libros)
+张|张|n|(measure word for tickets, paper)|(classificateur pour billets)|(clasificador para billetes)
+道|道|n|(measure word for dishes)|(classificateur pour plats)|(clasificador para platos)
+一份|一份|n|a portion|une portion|una ración
+咖啡|咖啡|n|coffee|café|café
+咖啡馆|咖啡馆|n|café|café|cafetería
+你好|你好|interj|hello|bonjour|hola
+你好吗|你好吗|phr|how are you?|comment ça va ?|¿cómo estás?
+叫|叫|v|be called|s'appeler|llamarse
+玛丽|玛丽|name|Marie|Marie|Marie
+保罗|保罗|name|Paul|Paul|Paul
+很|很|adv|very|très|muy
+高兴|高兴|adj|glad; happy|content|contento
+认识|认识|v|meet; know (a person)|connaître; rencontrer|conocer
+是|是|v|be|être|ser
+今晚|今晚|n|tonight|ce soir|esta noche
+去|去|v|go|aller|ir
+电影院|电影院|n|cinema|cinéma|cine
+今天|今天|n|today|aujourd'hui|hoy
+明天|明天|n|tomorrow|demain|mañana
+昨天|昨天|n|yesterday|hier|ayer
+昨晚|昨晚|n|last night|hier soir|anoche
+雨|雨|n|rain|pluie|lluvia
+下|下|v|fall (rain); go down|tomber (pluie)|caer (lluvia)
+下雨|下雨|v|rain|pleuvoir|llover
+得|得|part|(adverb marker, de); must (děi)|(particule) ; devoir|(partícula); tener que
+大|大|adj|big; heavy|grand; fort|grande; fuerte
+带|带|v|bring; take|apporter; prendre|llevar
+带上|带上|v|take along|emporter|llevarse
+雨伞|雨伞|n|umbrella|parapluie|paraguas
+猫|猫|n|cat|chat|gato
+在|在|prep|at; in; (be) at|à; dans; être à|en; estar en
+沙发|沙发|n|sofa|canapé|sofá
+上|上|n|on; above|sur|sobre; encima
+睡觉|睡觉|v|sleep|dormir|dormir
+睡|睡|v|sleep|dormir|dormir
+喝|喝|v|drink|boire|beber
+点|点|n|a bit; o'clock; order (food)|un peu; heure|un poco; hora
+什么|什么|pron|what|quoi; quel|qué
+茶|茶|n|tea|thé|té
+谢谢|谢谢|v|thank you|merci|gracias
+了|了|part|(completed action / change)|(particule d'action accomplie)|(partícula de acción completada)
+别|别|adv|don't|ne … pas|no
+忘了|忘了|v|forget; forgot|oublier|olvidar
+好|好|adj|good; well|bien; bon|bien; bueno
+吗|吗|part|(question particle)|(particule interrogative)|(partícula interrogativa)
+呢|呢|part|and …? (question particle)|et … ?|¿y …?
+有|有|v|have; there is|avoir; il y a|tener; hay
+孩子|孩子|n|child|enfant|niño
+衬衫|衬衫|n|shirt|chemise|camisa
+多少钱|多少钱|phr|how much (money)|combien|cuánto cuesta
+欧元|欧元|n|euro|euro|euro
+妹妹|妹妹|n|younger sister|petite sœur|hermana menor
+岁|岁|n|years old|ans|años
+请问|请问|phr|excuse me, may I ask|excusez-moi|perdone
+请|请|v|please|s'il vous plaît|por favor
+火车站|火车站|n|train station|gare|estación de tren
+火车|火车|n|train|train|tren
+哪里|哪里|pron|where|où|dónde
+一直|一直|adv|straight on; all the time|tout droit; toujours|todo recto; siempre
+走|走|v|walk; go|marcher; aller|andar; ir
+然后|然后|conj|then|puis|luego
+左转|左转|v|turn left|tourner à gauche|girar a la izquierda
+左|左|n|left|gauche|izquierda
+转|转|v|turn|tourner|girar
+向|向|prep|towards|vers|hacia
+路口|路口|n|crossroads|carrefour|cruce
+超市|超市|n|supermarket|supermarché|supermercado
+买|买|v|buy|acheter|comprar
+牛奶|牛奶|n|milk|lait|leche
+头|头|n|head|tête|cabeza
+疼|疼|adj|hurt; ache|faire mal|doler
+应该|应该|v|should|devoir|deber
+吃|吃|v|eat; take (medicine)|manger; prendre|comer; tomar
+药|药|n|medicine|médicament|medicina
+休息|休息|v|rest|se reposer|descansar
+一下|一下|adv|a bit; for a moment|un peu; un moment|un poco; un momento
+十点|十点|n|ten o'clock|dix heures|las diez
+到达|到达|v|arrive|arriver|llegar
+现在|现在|n|now|maintenant|ahora
+几点|几点|phr|what time|quelle heure|qué hora
+差不多|差不多|adv|almost; about|presque; environ|casi
+三点|三点|n|three o'clock|trois heures|las tres
+草|草|n|grass|herbe|hierba
+绿|绿|adj|green|vert|verde
+色|色|n|colour|couleur|color
+的|的|part|(possessive / descriptive particle)|de ; (particule)|de; (partícula)
+饿死|饿死|adj|starving (lit. hungry to death)|mourir de faim|morirse de hambre
+饿|饿|adj|hungry|avoir faim|tener hambre
+吃饭|吃饭|v|eat; have a meal|manger|comer
+吧|吧|part|let's …; (suggestion)|… !; allons|vamos a …
+不|不|adv|not; no|ne … pas; non|no
+外面|外面|n|outside|dehors|fuera
+冷|冷|adj|cold|froid|frío
+穿上|穿上|v|put on|mettre|ponerse
+外套|外套|n|coat|manteau|abrigo
+住|住|v|live; stay|habiter; loger|vivir; alojarse
+做|做|v|do; make|faire|hacer
+工作|工作|n|job; work|travail|trabajo
+医院|医院|n|hospital|hôpital|hospital
+护士|护士|n|nurse|infirmier, infirmière|enfermero
+喜欢|喜欢|v|like|aimer|gustar
+听|听|v|listen|écouter|escuchar
+音乐|音乐|n|music|musique|música
+周末|周末|n|weekend|week-end|fin de semana
+公园|公园|n|park|parc|parque
+里|里|n|in; inside|dans|en; dentro
+跑步|跑步|v|run; jog|courir|correr
+苹果|苹果|n|apple|pomme|manzana
+航班|航班|n|flight|vol|vuelo
+起飞|起飞|v|take off|décoller|despegar
+早上|早上|n|morning|matin|mañana
+七点|七点|n|seven o'clock|sept heures|las siete
+所以|所以|conj|so; therefore|donc|así que
+早起|早起|v|get up early|se lever tôt|madrugar
+巴黎|巴黎|name|Paris|Paris|París
+可以|可以|v|can; may|pouvoir|poder
+试穿|试穿|v|try on|essayer|probarse
+鞋|鞋|n|shoe|chaussure|zapato
+当然|当然|adv|of course|bien sûr|claro
+穿|穿|v|wear|porter|llevar
+多大|多大|phr|what size; how big|quelle taille|qué talla
+码|码|n|size|taille; pointure|talla
+早餐|早餐|n|breakfast|petit-déjeuner|desayuno
+鸡蛋|鸡蛋|n|egg|œuf|huevo
+重要|重要|adj|important|important|importante
+考试|考试|n|exam|examen|examen
+担心|担心|v|worry|s'inquiéter|preocuparse
+一定|一定|adv|surely; definitely|sûrement|seguro
+会|会|v|will; can (know how to)|savoir; aller (futur)|saber; ir a
+考|考|v|take an exam|passer (un examen)|examinarse
+找不到|找不到|v|can't find|ne pas trouver|no encontrar
+钥匙|钥匙|n|key|clé|llave
+看看|看看|v|have a look|regarder|echar un vistazo
+看|看|v|look; see; watch|regarder; voir|mirar; ver
+桌子|桌子|n|table|table|mesa
+说|说|v|say; speak|dire; parler|decir; hablar
+慢|慢|adj|slow|lent|despacio
+一点|一点|adv|a little|un peu|un poco
+准备好|准备好|v|be ready|être prêt|estar listo
+点菜|点菜|v|order food|commander|pedir
+是的|是的|phr|yes|oui|sí
+鱼|鱼|n|fish|poisson|pescado
+和|和|conj|and; with|et; avec|y; con
+沙拉|沙拉|n|salad|salade|ensalada
+非常|非常|adv|very; extremely|très|muy
+感谢|感谢|v|thank|remercier|agradecer
+帮助|帮助|n|help|aide|ayuda
+不客气|不客气|phr|you're welcome|de rien|de nada
+因为|因为|conj|because|parce que|porque
+生病|生病|v|be ill|être malade|estar enfermo
+见面|见面|v|meet|se retrouver|quedar; verse
+六点|六点|n|six o'clock|six heures|las seis
+门口|门口|n|entrance; at the door|devant l'entrée|la puerta; la entrada
+见|见|v|see; meet|voir; se retrouver|ver; verse
+一年|一年|n|one year|un an|un año
+月|月|n|month|mois|mes
+觉得|觉得|v|think; feel|penser; trouver|creer; sentir
+感冒|感冒|v|catch a cold|avoir un rhume|resfriarse
+待|待|v|stay|rester|quedarse
+家里|家里|n|at home|à la maison|en casa
+用|用|v|use|utiliser|usar
+卡|卡|n|card|carte|tarjeta
+付钱|付钱|v|pay|payer|pagar
+词|词|n|word|mot|palabra
+意思|意思|n|meaning|sens|significado
+图书馆|图书馆|n|library|bibliothèque|biblioteca
+累|累|adj|tired|fatigué|cansado
+订|订|v|book; reserve|réserver|reservar
+房间|房间|n|room|chambre|habitación
+晚|晚|n|night (of a stay)|nuit|noche
+好的|好的|phr|OK|d'accord|vale
+出示|出示|v|show (a document)|présenter|mostrar
+护照|护照|n|passport|passeport|pasaporte
+树|树|n|tree|arbre|árbol
+鸟|鸟|n|bird|oiseau|pájaro
+弹|弹|v|play (an instrument)|jouer (d'un instrument)|tocar
+吉他|吉他|n|guitar|guitare|guitarra
+上个月|上个月|n|last month|le mois dernier|el mes pasado
+刚|刚|adv|just|venir de|acabar de
+开始|开始|v|start|commencer|empezar
+学|学|v|learn|apprendre|aprender
+看起来|看起来|v|look; seem|avoir l'air|parecer
+没|没|adv|not (past); have no|ne … pas; ne plus|no
+星期一|星期一|n|Monday|lundi|lunes
+星期|星期|n|week; day of the week|semaine|semana
+输入|输入|v|enter; type in|taper|introducir
+密码|密码|n|PIN; password|code|PIN; contraseña
+太|太|adv|too; so|trop|demasiado
+热|热|adj|hot|chaud|caliente; calor
+打开|打开|v|open|ouvrir|abrir
+窗户|窗户|n|window|fenêtre|ventana
+晚饭|晚饭|n|dinner|dîner|cena
+来|来|v|come|venir|venir
+先|先|adv|first|d'abord|primero
+洗|洗|v|wash|laver|lavar
+手|手|n|hand|main|mano
+飞机|飞机|n|plane|avion|avión
+比|比|prep|than (comparison)|que (comparaison)|que (comparación)
+快|快|adj|fast|rapide|rápido
+天气|天气|n|weather|temps|tiempo
+怎么样|怎么样|pron|how; how about|comment|qué tal
+天气预报|天气预报|n|weather forecast|météo|pronóstico del tiempo
+晴天|晴天|n|sunny day|beau temps|día soleado
+书|书|n|book|livre|libro
+谁|谁|pron|who|qui|quién
+能|能|v|can; be able to|pouvoir|poder
+早点|早点|adv|a bit earlier|un peu plus tôt|un poco antes
+八点|八点|n|eight o'clock|huit heures|las ocho
+到|到|v|arrive; to|arriver; à|llegar; a
+每天|每天|n|every day|tous les jours|todos los días
+学习|学习|v|study|étudier|estudiar
+法语|法语|n|French (language)|français|francés
+多久|多久|pron|how long|combien de temps|cuánto tiempo
+两年|两年|n|two years|deux ans|dos años
+一天|一天|n|one day|un jour|un día
+小时|小时|n|hour|heure|hora
+菜|菜|n|dish; food|plat|plato
+好吃|好吃|adj|delicious|délicieux|rico
+奶奶|奶奶|n|grandma|grand-mère|abuela
+菜谱|菜谱|n|recipe|recette|receta
+朋友|朋友|n|friend|ami|amigo
+一起|一起|adv|together|ensemble|juntos
+机场|机场|n|airport|aéroport|aeropuerto
+多长时间|多长时间|phr|how long|combien de temps|cuánto tiempo
+坐|坐|v|sit; take (a vehicle)|prendre (un transport)|tomar; ir en
+出租车|出租车|n|taxi|taxi|taxi
+大约|大约|adv|about|environ|unos
+分钟|分钟|n|minute|minute|minuto
+游泳|游泳|v|swim|nager|nadar
+好久不见|好久不见|phr|long time no see|ça fait longtemps|cuánto tiempo
+是啊|是啊|phr|yes indeed|oui|sí
+最近|最近|adv|recently; lately|ces temps-ci|últimamente
+穿着|穿着|v|be wearing|porter|llevar puesto
+红|红|adj|red|rouge|rojo
+裙子|裙子|n|dress; skirt|robe; jupe|vestido; falda
+大一号|大一号|phr|one size bigger|une taille au-dessus|una talla más
+有的|有的|phr|yes, we have|oui, il y en a|sí, hay
+中号|中号|n|medium size|taille M|talla mediana
+商店|商店|n|shop|magasin|tienda
+九点|九点|n|nine o'clock|neuf heures|las nueve
+开门|开门|v|open (door; for business)|ouvrir|abrir
+需要|需要|v|need|avoir besoin de|necesitar
+医生|医生|n|doctor|médecin|médico
+不用|不用|phr|no need|pas besoin|no hace falta
+已经|已经|adv|already|déjà|ya
+好多了|好多了|phr|much better|beaucoup mieux|mucho mejor
+也|也|adv|also; too|aussi|también
+帮|帮|v|help|aider|ayudar
+开|开|v|open|ouvrir|abrir
+门|门|n|door|porte|puerta
+手里|手里|n|in (your) hands|dans les mains|en las manos
+拿|拿|v|hold; carry|tenir; porter|llevar
+好多|好多|adj|a lot of|beaucoup de|muchos
+东西|东西|n|things|choses|cosas
+啊|啊|part|(exclamation)|(exclamation)|(exclamación)
+吃过|吃过|v|have eaten|avoir mangé|haber comido
+电影|电影|n|film|film|película
+好主意|好主意|phr|good idea|bonne idée|buena idea
+手机|手机|n|mobile phone|portable|móvil
+电|电|n|electricity; battery|électricité; batterie|electricidad; batería
+终于|终于|adv|finally|enfin|por fin
+找到|找到|v|find|trouver|encontrar
+太好了|太好了|phr|great!|génial !|¡genial!
+恭喜|恭喜|v|congratulations|félicitations|enhorabuena
+里昂|里昂|name|Lyon|Lyon|Lyon
+票|票|n|ticket|billet|billete
+会议|会议|n|meeting|réunion|reunión
+三楼|三楼|n|third floor|troisième étage|tercera planta
+会议室|会议室|n|meeting room|salle de réunion|sala de reuniones
+再|再|adv|again|encore|otra vez
+一遍|一遍|n|once (more)|une fois|una vez
+妈妈|妈妈|n|mum|maman|mamá
+厨房|厨房|n|kitchen|cuisine|cocina
+做饭|做饭|v|cook|cuisiner|cocinar
+市中心|市中心|n|city centre|centre-ville|centro
+公交车|公交车|n|bus|bus|autobús
+不是|不是|phr|no; is not|non; ce n'est pas|no; no es
+十二路|十二路|n|No. 12 (bus)|la ligne 12|la línea 12

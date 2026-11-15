@@ -1,0 +1,242 @@
+# Spanish quiz words not in the course word list: q–z
+!columns zh en
+que|que|conj|（连接词）；比（más que）；的|that; than
+queda|quedar|v|剩下；位于；（衣服）合身|is left; is located; fits
+quedamos|quedar|v|我们约好；我们待着|we meet up; we stay
+quedaremos|quedar|v|我们会待；我们会约|we will stay; we'll meet
+quedarme|quedarse|v|我留下|stay (myself)
+quedo|quedarse|v|我留下|I stay
+quedé|quedar|v|我约了；我待了|I met up; I stayed
+queremos|querer|v|我们想要|we want
+quería|querer|v|（我）想要（礼貌）|I wanted; I'd like
+querías|querer|v|你想要|you wanted
+quieras|querer|v|你想（虚拟式）|you want (subj.)
+quiere|querer|v|想要|wants
+quieren|querer|v|他们想要|they want
+quieres|querer|v|你想要|you want
+quiero|querer|v|我想要|I want
+quédese|quedarse|v|您留下（命令式）|stay (formal)
+rara|raro|adj|奇怪的（阴性）|strange
+realidad|la realidad|n|现实（en realidad 其实）|reality (en realidad = actually)
+recibimos|recibir|v|我们收到|we receive
+recibió|recibir|v|收到了|received
+recicla|reciclar|v|回收|recycles
+recoge|recoger|v|捡起；接（人）|picks up
+recomendaría|recomendar|v|会推荐|would recommend
+reembolso|el reembolso|n|退款|refund
+regaló|regalar|v|送了（礼物）|gave (as a gift)
+rellena|rellenar|v|填写|fill in
+remedio|el remedio|n|办法；药（no hay remedio 没办法）|remedy
+repente|repente|adv|（de repente 突然）|(de repente = suddenly)
+resfriarse|resfriarse|v|感冒|to catch a cold
+respondió|responder|v|回答了|answered
+respondí|responder|v|我回答了|I answered
+reuniones|la reunión|n|会议（复数）|meetings
+revisa|revisar|v|检查|checks
+reúne|reunir|v|聚集；具备|gathers; meets
+rica|rico|adj|好吃的；富有的（阴性）|tasty; rich
+riega|regar|v|浇水|waters
+riego|regar|v|我浇水|I water
+roja|rojo|adj|红色的（阴性）|red
+romana|romano|adj|罗马的（阴性）|Roman
+romano|romano|adj|罗马的|Roman
+rompió|romper|v|打破了|broke
+rostro|el rostro|n|脸|face
+rota|roto|adj|破的（阴性）|broken
+rueda|la rueda|n|轮子|wheel
+récord|el récord|n|纪录|record
+sabe|saber|v|知道；（味道）尝起来|knows; tastes
+sabes|saber|v|你知道|you know
+sabía|saber|v|（我/他）知道（过去）|knew
+saca|sacar|v|拿出；取出|takes out
+sacaron|sacar|v|他们拿出了|they took out
+saldremos|salir|v|我们会出去|we will go out
+sale|salir|v|出去；（车）出发|goes out; leaves
+salgo|salir|v|我出去|I go out
+salimos|salir|v|我们出去；我们出去了|we go out; we went out
+saludo|el saludo|n|问候|greeting
+salvar|salvar|v|拯救|to save
+salí|salir|v|我出去了|I went out
+sana|sano|adj|健康的（阴性）|healthy
+santa|santo|adj|神圣的（Semana Santa 圣周）|holy
+saqué|sacar|v|我拿出了；我考了（分数）|I took out; I got (a grade)
+se|se|pron|（反身代词）自己；（无人称）|himself/herself; (reflexive)
+sea|ser|v|是（虚拟式）|is (subj.)
+seas|ser|v|你是（虚拟式）|you are (subj.)
+seca|seco|adj|干的（阴性）|dry
+seguimos|seguir|v|我们继续|we continue
+segunda|segundo|adj|第二（阴性）|second
+sencilla|sencillo|adj|简单的（阴性）|simple
+sentía|sentir|v|（当时）感觉|felt
+sepa|saber|v|知道（虚拟式）|knows (subj.)
+separamos|separar|v|我们分开；我们分类|we separate
+sepas|saber|v|你知道（虚拟式）|you know (subj.)
+será|ser|v|将会是|will be
+sevilla|Sevilla|name|塞维利亚|Seville
+shanghái|Shanghái|name|上海|Shanghai
+siento|sentir|v|我感觉；（lo siento 对不起）|I feel; (lo siento = I'm sorry)
+sigue|seguir|v|继续；一直|continues; still
+simpática|simpático|adj|和蔼的；讨人喜欢的（阴性）|nice; friendly
+sirve|servir|v|有用；适合|serves; is useful
+siéntate|sentarse|v|坐下（命令式）|sit down
+siéntese|sentarse|v|请坐（您）|sit down (formal)
+sois|ser|v|你们是|you (all) are
+solar|solar|adj|太阳的；太阳能的|solar
+somos|ser|v|我们是|we are
+son|ser|v|他们是；是|they are
+sonó|sonar|v|响了|rang
+soporto|soportar|v|我忍受（no soporto 我受不了）|I stand; I bear
+soy|ser|v|我是|I am
+sube|subir|v|上升；上去|goes up
+subida|la subida|n|上涨；上坡|rise
+subido|subir|v|上涨了|gone up
+subimos|subir|v|我们上去|we go up
+subió|subir|v|上升了；上去了|went up
+subo|subir|v|我上去|I go up
+sudamérica|Sudamérica|name|南美洲|South America
+suele|soler|v|通常|usually
+suena|sonar|v|听起来；响|sounds; rings
+sufre|sufrir|v|受苦；遭受|suffers
+sufrimiento|el sufrimiento|n|痛苦|suffering
+sufrió|sufrir|v|遭受了|suffered
+supiera|saber|v|知道（虚拟式过去时）|knew (subj.)
+supuesto|supuesto|adj|（por supuesto 当然）|(por supuesto = of course)
+sé|saber|v|我知道|I know
+símbolo|el símbolo|n|象征；符号|symbol
+tal|tal|adv|（¿qué tal? 怎么样）|(¿qué tal? = how's it going?)
+tarda|tardar|v|花（时间）|takes (time)
+tarta|la tarta|n|蛋糕|cake
+teletrabajo|el teletrabajo|n|远程办公|remote work
+tendré|tener|v|我会有|I will have
+tenemos|tener|v|我们有|we have
+tenga|tener|v|有（虚拟式/您命令式：给您）|have (subj.); here you are
+tengas|tener|v|你有（虚拟式）|you have (subj.)
+tengo|tener|v|我有|I have
+tentación|la tentación|n|诱惑|temptation
+tenía|tener|v|（以前）有|had
+tercer|tercero|adj|第三（阳性名词前）|third
+termina|terminar|v|结束|ends
+terminado|terminar|v|结束了；完成了|finished
+terminan|terminar|v|他们结束|they finish
+termines|terminar|v|你完成（虚拟式）|you finish (subj.)
+terminé|terminar|v|我完成了|I finished
+terminó|terminar|v|结束了|finished
+terreno|el terreno|n|土地；领域|land; field
+ti|ti|pron|你（介词后）|you
+tiende|tender|v|晾（衣服）；倾向于|hangs out; tends
+tiene|tener|v|有|has
+tienen|tener|v|他们有|they have
+tienes|tener|v|你有|you have
+tinto|tinto|adj|红（葡萄酒）|red (wine)
+tira|tirar|v|扔掉|throws away
+toby|Toby|name|托比（宠物名）|Toby (name)
+toca|tocar|v|弹奏；轮到（te toca）|plays; it's your turn
+tocara|tocar|v|中（奖）（虚拟式过去时）|won (lottery) (subj.)
+toco|tocar|v|我弹奏|I play (instrument)
+toda|todo|det|全部的（阴性）|all; whole
+todas|todo|det|所有的（阴性复数）|all
+tokio|Tokio|name|东京|Tokyo
+toma|tomar|v|拿；喝；乘坐；给你（toma）|takes; here you are
+tomamos|tomar|v|我们喝；我们乘坐|we have; we take
+tomas|tomar|v|你喝；你乘坐|you take; you have
+tomo|tomar|v|我喝；我乘坐|I take; I have
+toques|tocar|v|（别）碰（no toques）|(don't) touch
+torcí|torcer|v|我扭伤了|I twisted
+total|total|adj|总的；总之|total; in short
+trabaja|trabajar|v|工作|works
+trabajaba|trabajar|v|（以前）工作|used to work
+trabajan|trabajar|v|他们工作|they work
+trabajas|trabajar|v|你工作|you work
+trae|traer|v|带来|brings
+traigo|traer|v|我带来|I bring
+tramitaremos|tramitar|v|我们会办理|we will process
+tranquila|tranquilo|adj|安静的；放心（阴性）|calm; quiet
+transporte|el transporte|n|交通|transport
+tratarse|tratar|v|（tratarse de 涉及）|to be about
+turismo|el turismo|n|旅游业|tourism
+tuve|tener|v|我有（过去）；我不得不（tuve que）|I had
+tuviera|tener|v|有（虚拟式过去时）|had (subj.)
+tuvimos|tener|v|我们有过；我们不得不|we had
+tuvo|tener|v|有过；不得不|had
+tuyo|tuyo|pron|你的|yours
+típica|típico|adj|典型的（阴性）|typical
+tómate|tomar|v|喝了；吃了（命令式）|take; have (imperative)
+un|un|det|一个（阳性）|a; an
+una|un|det|一个（阴性）|a; an
+unas|un|det|一些（阴性）|some
+usa|usar|v|使用|uses
+usamos|usar|v|我们使用|we use
+usas|usar|v|你使用|you use
+uso|el uso|n|使用；用途|use
+va|ir|v|去；（进展）|goes
+valencia|Valencia|name|瓦伦西亚|Valencia
+valora|valorar|v|重视；评价|values
+valoro|valorar|v|我重视|I value
+vamos|ir|v|我们去；走吧|we go; let's go
+van|ir|v|他们去|they go
+vas|ir|v|你去|you go
+vaya|ir|v|去（虚拟式）；哇（感叹）|go (subj.); wow
+ve|ver / ir|v|看见（ver）；去（命令式，ir）|sees; go!
+veces|la vez|n|次（复数）（a veces 有时）|times (a veces = sometimes)
+vemos|ver|v|我们看；回头见（nos vemos）|we see
+ven|venir / ver|v|来（命令式）；他们看|come!; they see
+vendrán|venir|v|他们会来|they will come
+vendrás|venir|v|你会来|you will come
+vengo|venir|v|我来|I come
+veo|ver|v|我看见|I see
+verbos|el verbo|n|动词（复数）|verbs
+verlo|ver|v|看它|see it
+versiones|la versión|n|版本（复数）|versions
+verte|ver|v|见你|see you
+ves|ver|v|你看见|you see
+veía|ver|v|（以前）看|used to see
+vi|ver|v|我看见了|I saw
+viajado|viajar|v|旅行过|travelled
+viajamos|viajar|v|我们旅行|we travel
+viajaría|viajar|v|会去旅行|would travel
+viajo|viajar|v|我旅行|I travel
+viejas|viejo|adj|旧的；老的（阴性复数）|old
+viendo|ver|v|正在看|watching
+viene|venir|v|来|comes
+vienes|venir|v|你来|you come
+vimos|ver|v|我们看见了|we saw
+vine|venir|v|我来了|I came
+vinieran|venir|v|来（虚拟式过去时）|came (subj.)
+vinieron|venir|v|他们来了|they came
+viniste|venir|v|你来了|you came
+visitamos|visitar|v|我们参观|we visit
+visité|visitar|v|我参观了|I visited
+visitó|visitar|v|参观了|visited
+visión|la visión|n|视野；愿景|vision
+viste|ver|v|你看见了|you saw
+visto|ver|v|看过了|seen
+vital|vital|adj|至关重要的|vital
+vive|vivir|v|住；生活|lives
+viven|vivir|v|他们住|they live
+vives|vivir|v|你住|you live
+vivieron|vivir|v|他们住过|they lived
+vivimos|vivir|v|我们住|we live
+viví|vivir|v|我住过|I lived
+vivía|vivir|v|（以前）住|used to live
+vivías|vivir|v|你（以前）住|you used to live
+volviera|volver|v|回来（虚拟式过去时）|came back (subj.)
+volvimos|volver|v|我们回来了|we came back
+volvió|volver|v|回来了|came back
+votación|la votación|n|投票|vote
+votó|votar|v|投票了|voted
+voy|ir|v|我去|I go
+vuela|volar|v|飞|flies
+vuelto|volver|v|回来了|come back
+vuelve|volver|v|回来|comes back
+vuelven|volver|v|他们回来|they come back
+vuelvo|volver|v|我回来|I come back
+vámonos|irse|v|我们走吧|let's go
+web|la web|n|网站|website
+wei|Wei|name|伟（人名）|Wei (name)
+wifi|el wifi|n|无线网络|wifi
+xix|XIX|num|十九（罗马数字）|19th (Roman numeral)
+xv|XV|num|十五（罗马数字）|15th (Roman numeral)
+áfrica|África|name|非洲|Africa
+árabe|árabe|adj|阿拉伯的|Arab; Arabic
+íbamos|ir|v|我们（以前）去；我们正要去|we used to go; we were going
+última|último|adj|最后的（阴性）|last

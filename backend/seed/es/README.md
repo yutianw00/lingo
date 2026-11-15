@@ -38,6 +38,22 @@ zh 你想喝什么？ >> 一杯拿铁，谢谢。
 en What would you like to drink? >> A coffee with milk, please.
 ```
 
+### Explanations — `why` lines
+
+Every `fill` question explains each of its options (the answer and every distractor), in Chinese and
+English, shown after the learner checks an answer. Add them at the end of the question block:
+
+```
+why es.zh la | manzana 是阴性单数名词，用 la
+why es.zh el | el 是阳性冠词，manzana 是阴性
+why es.en la | manzana is feminine singular, so "la"
+…
+```
+
+`why <target>.<native> <option> | <reason>` — keep it short (a few words to one sentence) and say
+*why*, not just "correct"/"wrong". A test fails if an option is missing. Vocabulary clozes need no
+`why` lines: they are explained from the word list automatically.
+
 ## Progression
 
 | Level | Vocabulary cloze (generated) | Word forms (`fill`, words ≤ L−1) | Dialogues (`next`, words ≤ L−2) |

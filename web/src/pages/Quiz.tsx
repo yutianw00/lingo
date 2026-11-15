@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { api, speak, type AnswerResult, type Question } from '../api'
+import { api, speak, type AnswerResult, type Question, type QuestionWords, type WordToken } from '../api'
 import { useApp } from '../context'
 import { Centered, Progress } from '../ui'
 
@@ -15,6 +15,8 @@ export default function Quiz() {
   const [showTr, setShowTr] = useState(false)
   const [checking, setChecking] = useState(false)
   const [score, setScore] = useState(0)
+  const [words, setWords] = useState<QuestionWords | null>(null)
+  const [picked, setPicked] = useState<number | null>(null) // index into words.tokens
   const startedAt = useRef(performance.now())
 
   const load = useCallback(() => {
@@ -35,8 +37,36 @@ export default function Quiz() {
     setSel(null)
     setResult(null)
     setShowTr(false)
+    setWords(null)
+    setPicked(null)
     startedAt.current = performance.now()
+    const id = qs?.[n]?.id
+    if (!id) return
+    let live = true
+    // Words become tappable once their translations arrive (usually prefetched by the server).
+    api.questionWords(id).then(
+      (w) => live && setWords(w),
+      () => {},
+    )
+    return () => {
+      live = false
+    }
   }, [n, qs])
+
+  const addWord = async (tok: WordToken) => {
+    const word = tok.lemma || tok.text
+    const meaning = tok.lemma_meaning || tok.meaning
+    if (!meaning || !qs) return
+    try {
+      await api.addWord({ word, meaning, pos: tok.pos ?? '', question_id: qs[n].id })
+      const key = word.toLowerCase()
+      setWords((w) =>
+        w && { ...w, tokens: w.tokens.map((x) => ((x.lemma || x.text).toLowerCase() === key ? { ...x, added: true } : x)) },
+      )
+    } catch {
+      /* keep the card open; the user can retry */
+    }
+  }
 
   const check = async () => {
     if (!qs || sel === null || result || checking) return
@@ -125,6 +155,17 @@ export default function Quiz() {
   // Vocabulary cloze tests recall of a meaning, so the translation is shown up front.
   const translationShown = showTr || !!result || q.skill === 'vocab'
   const [before, after] = isFill ? q.prompt.split('___') : [q.prompt, '']
+  const blank = <span className={`blank${result ? ' done' : ''}`}>{(result ? result.answer : sel) ?? ' '}</span>
+  const tok = picked !== null ? words?.tokens[picked] : undefined
+
+  // Plain text with the fill-in blank put back where "___" is.
+  const withBlank = (text: string, key: number) =>
+    text.split('___').map((part, i) => (
+      <span key={`${key}-${i}`}>
+        {i > 0 && blank}
+        {part}
+      </span>
+    ))
 
   const optClass = (text: string) => {
     if (!result) return sel === text ? ' sel' : ''
@@ -148,10 +189,20 @@ export default function Quiz() {
         <div className="muted hint-line">{hint}</div>
       </div>
       <div className="q">
-        {isFill ? (
+        {words && words.text === q.prompt ? (
+          words.tokens.map((w, i) =>
+            w.word ? (
+              <button key={i} className={`tok${picked === i ? ' on' : ''}`} onClick={() => setPicked(picked === i ? null : i)}>
+                {w.text}
+              </button>
+            ) : (
+              withBlank(w.text, i)
+            ),
+          )
+        ) : isFill ? (
           <>
             {before}
-            <span className="blank">{(result ? result.answer : sel) ?? ' '}</span>
+            {blank}
             {after}
           </>
         ) : (
@@ -161,9 +212,40 @@ export default function Quiz() {
           🔊
         </button>
       </div>
-      <button className="trans" onClick={() => setShowTr(true)}>
-        {translationShown ? q.translation : `👁 ${t.showTranslation}`}
-      </button>
+      {tok ? (
+        <div className="gloss">
+          <button className="x" onClick={() => setPicked(null)} aria-label="close">
+            ✕
+          </button>
+          <div className="gw" onClick={() => speak(tok.lemma || tok.text, me.target)}>
+            🔊 {tok.text}
+            {tok.lemma && tok.lemma.toLowerCase() !== tok.text.toLowerCase() && <span className="muted"> → {tok.lemma}</span>}
+            {tok.pos && <span className="lvtag">{t.pos[tok.pos] ?? tok.pos}</span>}
+          </div>
+          {tok.meaning ? (
+            <div className="gm">
+              {tok.meaning}
+              {tok.lemma_meaning && tok.lemma_meaning !== tok.meaning && (
+                <div className="muted">
+                  {tok.lemma}: {tok.lemma_meaning}
+                </div>
+              )}
+            </div>
+          ) : (
+            <div className="muted">{t.noGloss}</div>
+          )}
+          {tok.meaning && (
+            <button className="chip add" disabled={tok.added} onClick={() => addWord(tok)}>
+              {tok.added ? t.wordAdded : `＋ ${t.addWord}`}
+            </button>
+          )}
+        </div>
+      ) : (
+        <button className="trans" onClick={() => setShowTr(true)}>
+          {translationShown ? q.translation : `👁 ${t.showTranslation}`}
+          {words && <span className="tap-hint"> · {t.tapWordHint}</span>}
+        </button>
+      )}
 
       <div className={`opts${isFill ? ' words' : ''}`}>
         {q.options.map((o) => (
@@ -186,6 +268,15 @@ export default function Quiz() {
         {result && (
           <div className="in">
             <h3>{result.correct ? `✓ ${t.correct}` : `✕ ${t.correctAnswer}${result.answer}`}</h3>
+            {result.explanation && <p className="why">💡 {result.explanation}</p>}
+            {!result.correct && result.choice_explanation && (
+              <p className="why">
+                <b>
+                  {t.yourChoice} “{sel}”:
+                </b>{' '}
+                {result.choice_explanation}
+              </p>
+            )}
             <p onClick={() => speak(result.full_sentence, me.target)} className="clickable">
               🔊 {result.full_sentence}
               <br />

@@ -140,6 +140,7 @@ h3 { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
 .hint-line { margin-bottom: 8px; }
 .q { font-size: 22px; font-weight: 800; line-height: 1.6; margin-bottom: 6px; }
 .blank { display: inline-block; min-width: 72px; padding: 0 6px; border-bottom: 3px solid var(--primary); text-align: center; color: var(--primary); }
+.blank.done { color: var(--good-d); border-color: var(--good); }
 .trans { display: block; background: none; border: none; text-align: left; font-size: 14px; color: var(--muted); cursor: pointer; margin-bottom: 22px; padding: 0; }
 .opts { display: grid; gap: 10px; }
 .opts.words { grid-template-columns: 1fr 1fr; }
@@ -157,6 +158,20 @@ h3 { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
 .sheet h3 { font-size: 20px; margin-bottom: 6px; }
 .sheet.ok h3 { color: var(--good-d); } .sheet.ko h3 { color: var(--bad-d); }
 .sheet p { font-size: 15px; margin-bottom: 14px; line-height: 1.5; }
+.sheet p.why { font-size: 14px; margin: -2px 0 10px; }
+.sheet.ok p.why b { color: var(--good-d); } .sheet.ko p.why b { color: var(--bad-d); }
+/* tap-to-translate */
+.tok { font: inherit; color: inherit; background: none; border: none; padding: 0; margin: 0; cursor: pointer; border-radius: 6px; text-decoration: underline dotted var(--line-d); text-underline-offset: 6px; }
+.tok:hover { background: var(--soft); }
+.tok.on { background: var(--soft); color: var(--primary); }
+.tap-hint { opacity: .8; }
+.gloss { position: relative; background: var(--card); border: 2px solid var(--primary); border-radius: 16px; padding: 12px 14px; margin: 4px 0 18px; }
+.gloss .x { position: absolute; top: 6px; right: 8px; border: none; background: none; color: var(--muted); cursor: pointer; font-size: 14px; }
+.gloss .gw { font-weight: 800; font-size: 16px; cursor: pointer; padding-right: 20px; }
+.gloss .gw .lvtag { margin-left: 6px; }
+.gloss .gm { font-size: 15px; margin: 4px 0 10px; }
+.gloss .chip.add { color: var(--primary); }
+.gloss .chip.add:disabled { color: var(--good-d); cursor: default; }
 .done { margin: auto 0; text-align: center; }
 .done .muted { margin: 8px 0 24px; }
 
@@ -184,6 +199,7 @@ h3 { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
 }
 .lvtag { display: inline-block; font-size: 11px; font-weight: 800; padding: 1px 6px; border-radius: 6px; margin-right: 4px; background: var(--line); color: var(--muted); vertical-align: 1px; }
 .pos .lvtag { margin-left: 4px; }
+.lvtag.custom { background: var(--soft); color: var(--primary); }
 .lvbadge { font-weight: 800; font-size: 13px; padding: 4px 10px; border-radius: 99px; background: var(--soft); color: var(--primary); margin-left: auto; }
 .lvbadge + .streak { margin-left: 8px; }
 .type.lv { margin-left: 6px; background: var(--line); color: var(--muted); }

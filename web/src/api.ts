@@ -45,6 +45,8 @@ export interface WordCard extends Progress {
   meaning: string
   example: string
   example_translation: string
+  /** Added by the learner from a quiz (level "Custom"); only in the swipe deck, never quizzed. */
+  custom?: boolean
 }
 
 export interface Option {
@@ -67,8 +69,27 @@ export interface AnswerResult {
   answer: string
   full_sentence: string
   translation: string
+  /** Why the correct answer is right (null when no explanation is available). */
+  explanation?: string | null
+  /** Why the learner's choice is wrong (null when they were right). */
+  choice_explanation?: string | null
   before: Progress
   after: Progress
+}
+
+export interface WordToken {
+  text: string
+  word: boolean
+  lemma?: string | null
+  meaning?: string | null
+  lemma_meaning?: string | null
+  pos?: string | null
+  added?: boolean
+}
+
+export interface QuestionWords {
+  text: string
+  tokens: WordToken[]
 }
 
 export interface ReviewResult {
@@ -135,6 +156,10 @@ export const api = {
   quizSession: (size = 10) => req<Question[]>(`/quiz/session?size=${size}`),
   answer: (id: string, b: { choice: string; elapsed_ms: number }) =>
     post<AnswerResult>(`/quiz/${encodeURIComponent(id)}/answer`, b),
+  questionWords: (id: string) => req<QuestionWords>(`/quiz/${encodeURIComponent(id)}/words`),
+  addWord: (b: { word: string; meaning: string; pos?: string; question_id?: string }) =>
+    post<WordCard>('/words/custom', b),
+  removeWord: (id: string) => req<{ ok: boolean }>(`/words/custom/${encodeURIComponent(id)}`, { method: 'DELETE' }),
 }
 
 const TTS: Record<Lang, string> = { zh: 'zh-CN', en: 'en-US', fr: 'fr-FR', es: 'es-ES' }

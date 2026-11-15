@@ -88,6 +88,7 @@ def parse_questions(paths: list[Path]) -> list[dict]:
         missing = set(LANGS) - set(cur["data"])
         if missing:
             raise ContentError(f"question {cur['id']}: missing languages {sorted(missing)}")
+        _attach_why(cur)
         questions.append(cur)
 
     for path in paths:
@@ -106,6 +107,9 @@ def parse_questions(paths: list[Path]) -> list[dict]:
             if cur is None:
                 raise ContentError(f"{where}: line outside a question block")
             lang, _, body = line.partition(" ")
+            if lang == "why":
+                _parse_why(cur, body, where)
+                continue
             if lang not in LANGS:
                 raise ContentError(f"{where}: unknown language {lang!r}")
             cur["data"][lang] = _parse_fill(body, where) if cur["kind"] == "fill" else _parse_next(body, where)
@@ -123,6 +127,30 @@ def _parse_fill(body: str, where: str) -> dict:
     if blanks[0] in distractors or len(set(distractors)) != 3:
         raise ContentError(f"{where}: distractors must be distinct from the answer")
     return {"sentence": sentence, "answer": blanks[0], "distractors": distractors}
+
+
+def _parse_why(cur: dict, body: str, where: str) -> None:
+    """`why <target>.<native> <option> | <reason>`: why an option is right or wrong."""
+    head, sep, reason = body.partition("|")
+    key, _, option = head.strip().partition(" ")
+    target, _, native = key.partition(".")
+    if not sep or not reason.strip() or not option.strip() or target not in LANGS or native not in LANGS:
+        raise ContentError(f"{where}: expected 'why <target>.<native> <option> | <reason>'")
+    cur.setdefault("why", {}).setdefault(target, {}).setdefault(native, {})[option.strip()] = reason.strip()
+
+
+def _attach_why(q: dict) -> None:
+    """Move parsed `why` lines into data[target]["why"][native], checking they cover every option."""
+    for target, by_native in q.pop("why", {}).items():
+        t = q["data"].get(target)
+        if t is None:
+            raise ContentError(f"question {q['id']}: 'why' for missing language {target}")
+        options = {t["answer"], *t.get("distractors", [])}
+        for native, reasons in by_native.items():
+            if set(reasons) != options:
+                raise ContentError(f"question {q['id']} ({target}.{native}): 'why' must cover exactly "
+                                   f"{sorted(options)}, got {sorted(reasons)}")
+        t["why"] = by_native
 
 
 def _parse_next(body: str, where: str) -> dict:
@@ -264,6 +292,7 @@ def parse_course_questions(paths: list[Path], course: str) -> list[dict]:
         missing = set(langs) - set(cur["data"])
         if missing:
             raise ContentError(f"question {cur['id']}: missing languages {sorted(missing)}")
+        _attach_why(cur)
         questions.append(cur)
 
     for path in paths:
@@ -290,6 +319,9 @@ def parse_course_questions(paths: list[Path], course: str) -> list[dict]:
             if cur is None:
                 raise ContentError(f"{where}: line outside a question block")
             lang, _, body = line.partition(" ")
+            if lang == "why":
+                _parse_why(cur, body, where)
+                continue
             if lang not in langs:
                 raise ContentError(f"{where}: unknown language {lang!r}")
             body = body.strip()
@@ -320,6 +352,36 @@ def load_course(course: str, seed_dir: Path = SEED_DIR) -> tuple[list[dict], lis
         for i in range(max(len(g) for g in groups)):
             ordered += [g[i] for g in groups if i < len(g)]
     return words, ordered
+
+
+# ------------------------------------------------------------------ glossaries (tap-to-translate)
+
+GLOSS_POS = POS | {"name", "part"}
+
+
+def load_glossary(target: str, seed_dir: Path = SEED_DIR) -> dict[str, dict]:
+    """seed/glossary/<target>*.txt -> lower-cased form -> {lemma, pos, meanings: {lang: text}}."""
+    out: dict[str, dict] = {}
+    for path in sorted((seed_dir / "glossary").glob(f"{target}*.txt")):
+        cols: list[str] | None = None
+        for no, line in _lines(path):
+            where = f"glossary/{path.name}:{no}"
+            if line.startswith("!columns"):
+                cols = line.split()[1:]
+                if not cols or set(cols) - set(LANGS) or target in cols:
+                    raise ContentError(f"{where}: columns must be other languages")
+                continue
+            parts = [p.strip() for p in line.split("|")]
+            if cols is None or len(parts) != 3 + len(cols) or not all(parts):
+                raise ContentError(f"{where}: expected form|lemma|pos|{'|'.join(cols or ['…'])}")
+            form, lemma, pos, *meanings = parts
+            if pos not in GLOSS_POS:
+                raise ContentError(f"{where}: unknown part of speech {pos!r}")
+            key = form.lower()
+            if key in out:
+                raise ContentError(f"{where}: duplicate form {form!r}")
+            out[key] = {"lemma": lemma, "pos": pos, "meanings": dict(zip(cols, meanings))}
+    return out
 
 
 # ------------------------------------------------------------------ DB

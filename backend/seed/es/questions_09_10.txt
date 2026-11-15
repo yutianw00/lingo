@@ -7,81 +7,209 @@
 es Quiero que tú [vengas] a mi fiesta. | vienes, venir, vendrás
 zh 我想让你来参加我的派对。
 en I want you to come to my party.
+why es.zh vengas | quiero que + 另一个主语 → 虚拟式；tú → vengas
+why es.zh vienes | 陈述式，quiero que 后要用虚拟式
+why es.zh venir | 主语不同时不能用原形
+why es.zh vendrás | 将来时，不能用在 quiero que 后
+why es.en vengas | quiero que + different subject → subjunctive; tú → vengas
+why es.en vienes | indicative; quiero que needs subjunctive
+why es.en venir | infinitive only with the same subject
+why es.en vendrás | future; not after quiero que
 
 @f902 fill 9 subjunctive
 es Espero que [tengas] un buen viaje. | tienes, tener, tendrás
 zh 祝你旅途愉快。
 en I hope you have a good trip.
+why es.zh tengas | 表达愿望 espero que → 虚拟式
+why es.zh tienes | 陈述式
+why es.zh tener | 主语不同时不用原形
+why es.zh tendrás | 将来时
+why es.en tengas | wishes with espero que → subjunctive
+why es.en tienes | indicative
+why es.en tener | no infinitive with a different subject
+why es.en tendrás | future
 
 @f903 fill 9 subjunctive
 es Es importante que los niños [duerman] bien. | duermen, dormir, dormirán
 zh 孩子们睡好很重要。
 en It's important that children sleep well.
+why es.zh duerman | es importante que → 虚拟式；los niños → duerman
+why es.zh duermen | 陈述式
+why es.zh dormir | que 后需要变位动词
+why es.zh dormirán | 将来时
+why es.en duerman | es importante que → subjunctive; los niños → duerman
+why es.en duermen | indicative
+why es.en dormir | needs a conjugated verb after que
+why es.en dormirán | future
 
 @f904 fill 9 subjunctive
 es Me alegro de que [estés] mejor. | estás, estar, estarás
 zh 我很高兴你好些了。
 en I'm glad you're feeling better.
+why es.zh estés | 情感 me alegro de que → 虚拟式
+why es.zh estás | 陈述式
+why es.zh estar | que 后需要变位动词
+why es.zh estarás | 将来时
+why es.en estés | emotion (me alegro de que) → subjunctive
+why es.en estás | indicative
+why es.en estar | needs a conjugated verb after que
+why es.en estarás | future
 
 @f905 fill 9 subjunctive
 es No creo que él [sepa] la respuesta. | sabe, saber, sabrá
 zh 我不认为他知道答案。
 en I don't think he knows the answer.
+why es.zh sepa | 否定的看法 no creo que → 虚拟式
+why es.zh sabe | 陈述式，用于肯定的 creo que
+why es.zh saber | que 后需要变位动词
+why es.zh sabrá | 将来时
+why es.en sepa | doubt (no creo que) → subjunctive
+why es.en sabe | indicative: for affirmative creo que
+why es.en saber | needs a conjugated verb after que
+why es.en sabrá | future
 
 @f906 fill 9 subjunctive
 es Cuando [llegues] a casa, llámame. | llegas, llegarás, llegar
 zh 你到家后给我打电话。
 en When you get home, call me.
+why es.zh llegues | cuando 指将来时用虚拟式
+why es.zh llegas | 陈述式用于习惯，不用于将来
+why es.zh llegarás | cuando 后不用将来时
+why es.zh llegar | 需要变位动词
+why es.en llegues | "cuando" about the future → subjunctive
+why es.en llegas | indicative is for habits, not the future
+why es.en llegarás | no future tense after cuando
+why es.en llegar | needs a conjugated verb
 
 @f907 fill 9 subjunctive
 es Te lo digo para que lo [sepas]. | sabes, saber, sabrás
 zh 我告诉你是为了让你知道。
 en I'm telling you so that you know.
+why es.zh sepas | para que 后总是用虚拟式
+why es.zh sabes | 陈述式
+why es.zh saber | para que 后需要变位动词
+why es.zh sabrás | 将来时
+why es.en sepas | "para que" always takes subjunctive
+why es.en sabes | indicative
+why es.en saber | needs a conjugated verb
+why es.en sabrás | future
 
 @f908 fill 9 subjunctive
 es Ojalá [haga] buen tiempo mañana. | hace, hacer, hará
 zh 但愿明天天气好。
 en I hope the weather's nice tomorrow.
+why es.zh haga | ojalá 后用虚拟式
+why es.zh hace | 陈述式
+why es.zh hacer | 需要变位动词
+why es.zh hará | 将来时
+why es.en haga | "ojalá" takes subjunctive
+why es.en hace | indicative
+why es.en hacer | needs a conjugated verb
+why es.en hará | future
 
 @f909 fill 9 subjunctive
 es Es una pena que no [puedas] venir. | puedes, poder, podrás
 zh 你来不了真可惜。
 en It's a pity you can't come.
+why es.zh puedas | es una pena que（情感评价）→ 虚拟式
+why es.zh puedes | 陈述式
+why es.zh poder | 需要变位动词
+why es.zh podrás | 将来时
+why es.en puedas | "es una pena que" (emotion) → subjunctive
+why es.en puedes | indicative
+why es.en poder | needs a conjugated verb
+why es.en podrás | future
 
 @f910 fill 9 subjunctive
 es Busco un piso que [tenga] terraza. | tiene, tener, tendrá
 zh 我在找一套带露台的公寓。
 en I'm looking for a flat with a terrace.
+why es.zh tenga | 找一个还不确定存在的东西 → 虚拟式
+why es.zh tiene | 陈述式用于已知存在的东西
+why es.zh tener | 需要变位动词
+why es.zh tendrá | 将来时
+why es.en tenga | looking for something not known to exist → subjunctive
+why es.en tiene | indicative is for things known to exist
+why es.en tener | needs a conjugated verb
+why es.en tendrá | future
 
 @f911 fill 9 commands
 es Por favor, [abre] la ventana. | abras, abrir, abrirás
 zh 请打开窗户。
 en Please open the window.
+why es.zh abre | 肯定命令（tú）：abre
+why es.zh abras | 虚拟式只用于否定命令（no abras）
+why es.zh abrir | 原形不用于命令某人
+why es.zh abrirás | 将来时
+why es.en abre | affirmative command (tú): abre
+why es.en abras | subjunctive is for negative commands (no abras)
+why es.en abrir | the infinitive isn't used to command
+why es.en abrirás | future
 
 @f912 fill 9 commands
 es No [toques] eso, está caliente. | tocas, toca, tocar
 zh 别碰那个，很烫。
 en Don't touch that, it's hot.
+why es.zh toques | 否定命令（tú）用虚拟式：no toques
+why es.zh tocas | 陈述式
+why es.zh toca | 肯定命令，不能和 no 连用
+why es.zh tocar | 原形
+why es.en toques | negative command (tú) → subjunctive: no toques
+why es.en tocas | indicative
+why es.en toca | affirmative command; not with "no"
+why es.en tocar | infinitive
 
 @f913 fill 9 commands
 es [Ven] aquí ahora mismo. | Vienes, Vengas, Venir
 zh 马上过来。
 en Come here right now.
+why es.zh Ven | venir 的 tú 命令式不规则：ven
+why es.zh Vienes | 陈述式
+why es.zh Vengas | 虚拟式，用于否定命令
+why es.zh Venir | 原形
+why es.en Ven | venir's tú command is irregular: ven
+why es.en Vienes | indicative
+why es.en Vengas | subjunctive; for negative commands
+why es.en Venir | infinitive
 
 @f914 fill 9 commands
 es [Dime] la verdad. | Díceme, Me di, Dices
 zh 告诉我真相。
 en Tell me the truth.
+why es.zh Dime | decir 的命令式 di + me（附在后面）
+why es.zh Díceme | 命令式应为 di
+why es.zh Me di | 肯定命令代词要放在动词后
+why es.zh Dices | 陈述式
+why es.en Dime | decir's command "di" + me attached
+why es.en Díceme | the command is "di"
+why es.en Me di | pronouns go after affirmative commands
+why es.en Dices | indicative
 
 @f915 fill 9 commands
 es Señora, [siéntese] aquí, por favor. | siéntate, se sienta, sentarse
 zh 女士，请坐这里。
 en Madam, please sit here.
+why es.zh siéntese | 对 señora（usted）的命令：siéntese
+why es.zh siéntate | tú 的命令，对 señora 应该用 usted
+why es.zh se sienta | 陈述式
+why es.zh sentarse | 原形
+why es.en siéntese | command to usted: siéntese
+why es.en siéntate | tú command; use usted with "señora"
+why es.en se sienta | indicative
+why es.en sentarse | infinitive
 
 @f916 fill 9 commands
 es No [os preocupéis], todo va a salir bien. | os preocupáis, preocuparos, os preocuparéis
 zh 你们别担心，一切都会好的。
 en Don't worry, everything will be fine.
+why es.zh os preocupéis | vosotros 的否定命令用虚拟式
+why es.zh os preocupáis | 陈述式
+why es.zh preocuparos | 肯定命令，不能和 no 连用
+why es.zh os preocuparéis | 将来时
+why es.en os preocupéis | negative vosotros command → subjunctive
+why es.en os preocupáis | indicative
+why es.en preocuparos | affirmative command; not with "no"
+why es.en os preocuparéis | future
 
 # ---------- L9 dialogues
 @d901 next 9 advice
@@ -149,81 +277,209 @@ en I'm really sorry I'm late. >> Don't worry, we haven't started yet.
 es Si yo [tuviera] más dinero, viajaría por el mundo. | tengo, tendría, tuve
 zh 如果我有更多钱，我会环游世界。
 en If I had more money, I'd travel the world.
+why es.zh tuviera | 与现在事实相反的条件：si + 虚拟式过去时
+why es.zh tengo | 用于真实条件，和 viajaría 不搭配
+why es.zh tendría | si 后面不用条件式
+why es.zh tuve | 简单过去时
+why es.en tuviera | unreal condition: si + imperfect subjunctive
+why es.en tengo | for real conditions; doesn't match viajaría
+why es.en tendría | no conditional after "si"
+why es.en tuve | preterite
 
 @f1002 fill 10 si-clauses
 es Si me lo hubieras dicho, te [habría ayudado]. | ayudé, ayude, ayudaré
 zh 你要是早告诉我，我就会帮你了。
 en If you had told me, I would have helped you.
+why es.zh habría ayudado | 过去的虚拟条件：结果用条件完成式
+why es.zh ayudé | 过去时，不表示“本来会”
+why es.zh ayude | 虚拟式现在时
+why es.zh ayudaré | 将来时
+why es.en habría ayudado | past unreal condition → conditional perfect
+why es.en ayudé | preterite; not "would have"
+why es.en ayude | present subjunctive
+why es.en ayudaré | future
 
 @f1003 fill 10 imperfect-subjunctive
 es Me pidió que [fuera] con él. | voy, iré, fui
 zh 他让我跟他一起去。
 en He asked me to go with him.
+why es.zh fuera | 过去的请求 me pidió que → 虚拟式过去时
+why es.zh voy | 陈述式现在时
+why es.zh iré | 将来时
+why es.zh fui | 陈述式过去时
+why es.en fuera | past request (me pidió que) → imperfect subjunctive
+why es.en voy | present indicative
+why es.en iré | future
+why es.en fui | preterite indicative
 
 @f1004 fill 10 imperfect-subjunctive
 es Ojalá [pudiera] quedarme más tiempo. | puedo, podré, pude
 zh 要是我能多待一会儿就好了。
 en I wish I could stay longer.
+why es.zh pudiera | 不太可能的愿望 ojalá → 虚拟式过去时
+why es.zh puedo | 陈述式
+why es.zh podré | 将来时
+why es.zh pude | 陈述式过去时
+why es.en pudiera | unlikely wish with ojalá → imperfect subjunctive
+why es.en puedo | indicative
+why es.en podré | future
+why es.en pude | preterite
 
 @f1005 fill 10 imperfect-subjunctive
 es Habla como si lo [supiera] todo. | sabe, sabrá, supo
 zh 他说起话来好像什么都知道。
 en He talks as if he knew everything.
+why es.zh supiera | como si 后总用虚拟式过去时
+why es.zh sabe | 陈述式
+why es.zh sabrá | 将来时
+why es.zh supo | 陈述式过去时
+why es.en supiera | "como si" always takes imperfect subjunctive
+why es.en sabe | indicative
+why es.en sabrá | future
+why es.en supo | preterite
 
 @f1006 fill 10 imperfect-subjunctive
 es No esperaba que ellos [vinieran] tan pronto. | vienen, vendrán, vinieron
 zh 我没想到他们来得这么早。
 en I didn't expect them to come so soon.
+why es.zh vinieran | 过去的期待 no esperaba que → 虚拟式过去时
+why es.zh vienen | 陈述式现在时
+why es.zh vendrán | 将来时
+why es.zh vinieron | 陈述式过去时
+why es.en vinieran | past expectation → imperfect subjunctive
+why es.en vienen | present indicative
+why es.en vendrán | future
+why es.en vinieron | preterite indicative
 
 @f1007 fill 10 si-clauses
 es Si [llueve] mañana, nos quedaremos en casa. | lloviera, llovería, lloverá
 zh 如果明天下雨，我们就待在家里。
 en If it rains tomorrow, we'll stay at home.
+why es.zh llueve | 可能的条件：si + 陈述式现在时 → 将来
+why es.zh lloviera | 用于假设的情况，和 quedaremos 不搭配
+why es.zh llovería | si 后不用条件式
+why es.zh lloverá | si 后不用将来时
+why es.en llueve | real condition: si + present → future
+why es.en lloviera | for hypotheticals; doesn't match quedaremos
+why es.en llovería | no conditional after "si"
+why es.en lloverá | no future after "si"
 
 @f1008 fill 10 si-clauses
 es Si yo fuera tú, no lo [haría]. | hago, haga, haré
 zh 我要是你，就不会那么做。
 en If I were you, I wouldn't do it.
+why es.zh haría | 假设结果用条件式：haría
+why es.zh hago | 陈述式现在时
+why es.zh haga | 虚拟式现在时
+why es.zh haré | 将来时
+why es.en haría | hypothetical result → conditional
+why es.en hago | present indicative
+why es.en haga | present subjunctive
+why es.en haré | future
 
 @f1009 fill 10 connectors
 es [Aunque] llueva, iremos a la playa. | Porque, Ya que, Puesto que
 zh 即使下雨，我们也去海边。
 en Even if it rains, we'll go to the beach.
+why es.zh Aunque | “即使”：aunque + 虚拟式
+why es.zh Porque | 表示原因，意思不通
+why es.zh Ya que | 表示原因
+why es.zh Puesto que | 表示原因
+why es.en Aunque | "even if": aunque + subjunctive
+why es.en Porque | gives a reason; makes no sense
+why es.en Ya que | gives a reason
+why es.en Puesto que | gives a reason
 
 @f1010 fill 10 connectors
 es No saldremos [a menos que] deje de llover. | porque, ya que, puesto que
 zh 除非雨停，否则我们不出门。
 en We won't go out unless it stops raining.
+why es.zh a menos que | “除非”，后接虚拟式
+why es.zh porque | 表示原因，意思相反
+why es.zh ya que | 表示原因
+why es.zh puesto que | 表示原因
+why es.en a menos que | "unless", followed by subjunctive
+why es.en porque | gives a reason; wrong meaning
+why es.en ya que | gives a reason
+why es.en puesto que | gives a reason
 
 @f1011 fill 10 connectors
 es El proyecto tuvo muchos problemas. [Sin embargo], los resultados fueron positivos. | Por eso, Así que, Por lo tanto
 zh 这个项目遇到了很多问题。然而，结果是积极的。
 en The project had many problems. However, the results were positive.
+why es.zh Sin embargo | 前后对比（问题多 vs 结果好）→ “然而”
+why es.zh Por eso | “因此”，表示结果，逻辑不对
+why es.zh Así que | “所以”，逻辑不对
+why es.zh Por lo tanto | “因此”，逻辑不对
+why es.en Sin embargo | contrast (problems vs good results) → "however"
+why es.en Por eso | "so", shows result; wrong logic
+why es.en Así que | "so"; wrong logic
+why es.en Por lo tanto | "therefore"; wrong logic
 
 @f1012 fill 10 connectors
 es [Dado que] es tarde, propongo terminar aquí. | Aunque, A pesar de, Sin que
 zh 鉴于时间已晚，我建议到此为止。
 en Given that it's late, I suggest we stop here.
+why es.zh Dado que | “既然”，给出原因
+why es.zh Aunque | “虽然”，表示让步，逻辑不对
+why es.zh A pesar de | 后面要接名词或原形，且表示让步
+why es.zh Sin que | “而不……”，意思不通
+why es.en Dado que | "given that", giving a reason
+why es.en Aunque | "although"; wrong logic
+why es.en A pesar de | needs a noun/infinitive, and means "despite"
+why es.en Sin que | "without"; makes no sense
 
 @f1013 fill 10 imperfect-subjunctive
 es Era necesario que todos [participaran]. | participan, participarán, participaron
 zh 所有人都必须参与。
 en It was necessary for everyone to take part.
+why es.zh participaran | 过去的必要性 era necesario que → 虚拟式过去时
+why es.zh participan | 陈述式现在时
+why es.zh participarán | 将来时
+why es.zh participaron | 陈述式过去时
+why es.en participaran | past necessity → imperfect subjunctive
+why es.en participan | present indicative
+why es.en participarán | future
+why es.en participaron | preterite indicative
 
 @f1014 fill 10 relatives
 es La empresa [cuyo] director dimitió está en crisis. | que, quien, cuya
 zh 那家总经理辞职的公司陷入了危机。
 en The company whose director resigned is in crisis.
+why es.zh cuyo | “其……”用 cuyo，和后面的名词 director（阳性）一致
+why es.zh que | que 不表示所属
+why es.zh quien | quien 指人，不表示所属
+why es.zh cuya | 阴性，director 是阳性
+why es.en cuyo | "whose" = cuyo, agreeing with director (masc.)
+why es.en que | "que" doesn't show possession
+why es.en quien | "quien" = who, not whose
+why es.en cuya | feminine; director is masculine
 
 @f1015 fill 10 relatives
-es Esa es la razón por la [que] no vine. | cual, quien, cuyo
+es Esa es la razón por la [que] no vine. | como, quien, cuyo
 zh 这就是我没来的原因。
 en That's the reason why I didn't come.
+why es.zh que | la razón por la que：介词 + 冠词 + que
+why es.zh como | como 不是关系代词，不能用在 por la 后
+why es.zh quien | quien 只指人
+why es.zh cuyo | cuyo 表示所属
+why es.en que | la razón por la que: prep. + article + que
+why es.en como | "como" isn't a relative pronoun; it can't follow "por la"
+why es.en quien | "quien" is only for people
+why es.en cuyo | "cuyo" means "whose"
 
 @f1016 fill 10 passive
 es El puente [fue construido] en el siglo XIX. | fue construyendo, fue construida, fueron construidos
 zh 这座桥建于19世纪。
 en The bridge was built in the 19th century.
+why es.zh fue construido | 被动语态：ser + 过去分词，和 el puente（阳性单数）一致
+why es.zh fue construyendo | 现在分词不构成被动
+why es.zh fue construida | 阴性，puente 是阳性
+why es.zh fueron construidos | 复数，puente 是单数
+why es.en fue construido | passive: ser + participle, agreeing with el puente
+why es.en fue construyendo | the gerund doesn't form the passive
+why es.en fue construida | feminine; puente is masculine
+why es.en fueron construidos | plural; puente is singular
 
 # ---------- L10 dialogues
 @d1001 next 10 hypothetical

@@ -97,6 +97,21 @@ CREATE TABLE IF NOT EXISTS app_codes (
     challenge TEXT NOT NULL,
     created_at REAL NOT NULL
 );
+-- Words a learner added themselves (from tapping a word in a quiz). They join the
+-- swipe deck at level "Custom" but never get quiz questions.
+CREATE TABLE IF NOT EXISTS custom_words (
+    id TEXT PRIMARY KEY,          -- 'c-' + random hex
+    user_id TEXT NOT NULL,
+    lang TEXT NOT NULL,           -- the language being learned
+    native TEXT NOT NULL,         -- language of `meaning`
+    word TEXT NOT NULL,
+    meaning TEXT NOT NULL,
+    pos TEXT NOT NULL DEFAULT '',
+    example TEXT NOT NULL DEFAULT '',
+    example_translation TEXT NOT NULL DEFAULT '',
+    created_at REAL NOT NULL,
+    UNIQUE (user_id, lang, word)
+);
 """
 
 

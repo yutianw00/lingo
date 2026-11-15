@@ -125,6 +125,19 @@ final class API: @unchecked Sendable {
         return try await send("POST", "/quiz/\(escape(id))/answer", body: Body(choice: choice, elapsedMs: elapsedMs))
     }
 
+    func questionWords(_ id: String) async throws -> QuestionWords {
+        try await get("/quiz/\(escape(id))/words")
+    }
+
+    func addWord(_ word: String, meaning: String, pos: String, questionId: String?) async throws -> WordCard {
+        struct Body: Encodable { var word: String; var meaning: String; var pos: String; var questionId: String? }
+        return try await send("POST", "/words/custom", body: Body(word: word, meaning: meaning, pos: pos, questionId: questionId))
+    }
+
+    func removeWord(_ id: String) async throws {
+        let _: OK = try await send("DELETE", "/words/custom/\(escape(id))")
+    }
+
     /// Trade the one-time code from `lingo://auth?code=…` (plus our PKCE verifier) for a session token.
     func appToken(code: String, verifier: String) async throws -> String {
         struct Body: Encodable { var code: String; var verifier: String }

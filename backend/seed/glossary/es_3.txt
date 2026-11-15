@@ -1,0 +1,279 @@
+# Spanish quiz words not in the course word list: i–p
+!columns zh en
+ibiza|Ibiza|name|伊维萨岛|Ibiza
+ibérico|ibérico|adj|伊比利亚的（jamón ibérico 伊比利亚火腿）|Iberian
+ida|la ida|n|去程（ida y vuelta 往返）|outward trip
+identidad|la identidad|n|身份|identity
+impacto|el impacto|n|影响；冲击|impact
+importancia|la importancia|n|重要性|importance
+importaría|importar|v|介意（¿te importaría…? 你介意……吗）|would mind
+importe|el importe|n|金额|amount
+imposible|imposible|adj|不可能的|impossible
+impreso|el impreso|n|表格|form
+inauguró|inaugurar|v|揭幕了；开幕了|inaugurated
+inditex|Inditex|name|Inditex（西班牙服装集团）|Inditex (company)
+inesperado|inesperado|adj|意外的|unexpected
+infinito|infinito|adj|无限的|infinite
+inmediatamente|inmediatamente|adv|立即|immediately
+inmediato|inmediato|adj|立即的（de inmediato 马上）|immediate
+inmensa|inmenso|adj|巨大的（阴性）|immense
+inteligencia|la inteligencia|n|智能；智力|intelligence
+intensas|intenso|adj|强烈的（阴性复数）|intense
+intenta|intentar|v|尝试|tries; try
+interesa|interesar|v|感兴趣（me interesa）|interests
+introduce|introducir|v|输入；放入|enter; insert
+investigan|investigar|v|他们调查；研究|they investigate
+inténtalo|intentar|v|试试看|try it
+iremos|ir|v|我们会去|we will go
+iré|ir|v|我会去|I will go
+iría|ir|v|会去|would go
+iva|el IVA|n|增值税|VAT
+jarabe|el jarabe|n|糖浆；止咳糖浆|syrup
+javier|Javier|name|哈维尔（人名）|Javier (name)
+juega|jugar|v|玩；踢（球）|plays
+juegan|jugar|v|他们玩|they play
+juegas|jugar|v|你玩|you play
+jugaban|jugar|v|（以前）玩|used to play
+jóvenes|joven|n|年轻人（复数）|young people
+la|la|det|（阴性定冠词）；她/它（宾语）|the (feminine); her/it
+lamento|lamentar|v|我很遗憾|I regret; I'm sorry
+lanzaron|lanzar|v|他们推出了；发射了|they launched
+larga|largo|adj|长的（阴性）|long
+las|la|det|（阴性复数定冠词）；她们/它们|the (fem. plural); them
+lata|la lata|n|罐头；麻烦（俚语）|can; nuisance
+laura|Laura|name|劳拉（人名）|Laura (name)
+le|le|pron|（给）他/她/您|(to) him/her/you
+lectura|la lectura|n|阅读|reading
+lee|leer|v|读|reads
+legado|el legado|n|遗产|legacy
+lenta|lento|adj|慢的（阴性）|slow
+leo|leer|v|我读|I read
+les|les|pron|（给）他们/您们|(to) them
+levanta|levantar|v|举起；起床（levantarse）|lifts; gets up
+levantaba|levantarse|v|（以前）起床|used to get up
+levantas|levantarse|v|你起床|you get up
+levanto|levantarse|v|我起床|I get up
+levantó|levantar|v|举起了；起床了|raised; got up
+leyendo|leer|v|正在读|reading
+leí|leer|v|我读了|I read (past)
+leía|leer|v|（以前）读|used to read
+ligera|ligero|adj|轻的（阴性）|light
+lima|Lima|name|利马（秘鲁首都）|Lima
+limpia|limpiar|v|清洁；打扫|cleans
+llama|llamar|v|打电话；叫（se llama 名叫）|calls; is called
+llamas|llamarse|v|你叫（名字）|you're called
+llamen|llamar|v|打电话（虚拟式）|call (subj.)
+llamo|llamarse|v|我叫（名字）；我打电话|my name is; I call
+llamé|llamar|v|我打了电话|I called
+llega|llegar|v|到达|arrives
+llegado|llegar|v|到达了|arrived
+llegamos|llegar|v|我们到达；我们到了|we arrive; we arrived
+llegaron|llegar|v|他们到了|they arrived
+llegará|llegar|v|会到达|will arrive
+llegas|llegar|v|你到达|you arrive
+llegaste|llegar|v|你到了|you arrived
+llego|llegar|v|我到达|I arrive
+llegue|llegar|v|到达（虚拟式）|arrives (subj.)
+llegues|llegar|v|你到达（虚拟式）|you arrive (subj.)
+llegué|llegar|v|我到了|I arrived
+llegó|llegar|v|到了|arrived
+llena|lleno|adj|满的（阴性）|full
+lleva|llevar|v|带；穿；（时间）已经……|carries; wears; has been
+llevamos|llevar|v|我们带；我们已经……|we carry; we've been
+llevarse|llevar|v|（llevarse bien 相处融洽）|get along (llevarse bien)
+lleve|llevar|v|带（虚拟式/您命令式）|take (subj.)
+llevo|llevar|v|我带；我已经（多久）|I carry; I've been
+lloverá|llover|v|会下雨|it will rain
+llovió|llover|v|下雨了|it rained
+llovía|llover|v|（当时）在下雨|it was raining
+llueva|llover|v|下雨（虚拟式）|rains (subj.)
+llueve|llover|v|下雨|it rains
+llámame|llamar|v|给我打电话|call me
+llévalo|llevar|v|把它带走|take it
+lo|lo|pron|它；他（宾语）；……的事|it; him
+lorca|Lorca|name|洛尔卡（诗人）|Lorca (poet)
+los|el|det|（阳性复数定冠词）；他们/它们|the (masc. plural); them
+lotería|la lotería|n|彩票|lottery
+luchador|luchador|adj|有斗志的；斗士|fighter; fighting
+luchamos|luchar|v|我们奋斗|we fight
+luchan|luchar|v|他们奋斗|they fight
+lucía|Lucía|name|露西亚（人名）|Lucía (name)
+lávate|lavarse|v|洗（你自己）|wash (yourself)
+léeme|leer|v|读给我听|read to me
+lógica|la lógica|n|逻辑|logic
+lópez|López|name|洛佩斯（姓）|López (surname)
+madrid|Madrid|name|马德里|Madrid
+mala|malo|adj|坏的（阴性）|bad
+malestar|el malestar|n|不适|discomfort
+mallorca|Mallorca|name|马略卡岛|Mallorca
+mamá|la mamá|n|妈妈|mum
+mancha|la Mancha|name|拉曼恰（地区）；污渍|La Mancha; stain
+manchego|manchego|adj|拉曼恰的（queso manchego 曼切格奶酪）|from La Mancha
+mango|el mango|n|芒果|mango
+marta|Marta|name|玛尔塔（人名）|Marta (name)
+marte|Marte|name|火星|Mars
+maría|María|name|玛丽亚（人名）|María (name)
+mediterránea|mediterráneo|adj|地中海的（阴性）|Mediterranean
+mejora|mejorar|v|改善；好转|improves
+mejorado|mejorar|v|改善了|improved
+menuda|menudo|adj|好一个……（感叹）|what a…!
+menudo|menudo|adj|（a menudo 经常）|(a menudo = often)
+metas|la meta|n|目标（复数）|goals
+mete|meter|v|放进；塞进|puts in
+mexicana|mexicano|adj|墨西哥的（阴性）|Mexican
+miembro|el miembro|n|成员|member
+minas|la mina|n|矿（复数）|mines
+mira|mirar|v|看；你看|look; looks
+mires|mirar|v|你看（虚拟式）|you look (subj.)
+miro|mirar|v|我看|I look
+miró|Miró|name|米罗（画家）；看了|Miró (painter); looked
+misterio|el misterio|n|谜|mystery
+mixta|mixto|adj|混合的（阴性）|mixed
+moderna|moderno|adj|现代的（阴性）|modern
+molesta|molestar|v|打扰；使烦恼|bothers
+molestias|la molestia|n|不便；麻烦（复数）|inconvenience
+montañosa|montañoso|adj|多山的（阴性）|mountainous
+monto|montar|v|我骑（monto en bici）|I ride
+morena|moreno|adj|深色头发/皮肤的（阴性）|dark-haired; tanned
+mucha|mucho|det|很多（阴性）|a lot of
+muchas|mucho|det|很多（阴性复数）（muchas gracias 非常感谢）|many (muchas gracias = many thanks)
+mudaste|mudarse|v|你搬家了|you moved
+mude|mudarse|v|搬家（虚拟式）|move (subj.)
+málaga|Málaga|name|马拉加|Málaga
+mándame|mandar|v|发给我|send me
+médica|la médica|n|（女）医生|doctor (female)
+méxico|México|name|墨西哥|Mexico
+mí|mí|pron|我（介词后）|me
+mío|mío|pron|我的|mine
+nacimiento|el nacimiento|n|出生|birth
+nació|nacer|v|出生了|was born
+nadamos|nadar|v|我们游泳|we swim
+necesaria|necesario|adj|必要的（阴性）|necessary
+necesita|necesitar|v|需要|needs
+necesitamos|necesitar|v|我们需要|we need
+necesitas|necesitar|v|你需要|you need
+necesito|necesitar|v|我需要|I need
+negociador|negociador|adj|谈判的；谈判者|negotiator
+negra|negro|adj|黑色的（阴性）|black
+nuestra|nuestro|det|我们的（阴性）|our
+nueva|nuevo|adj|新的（阴性）|new
+nuevas|nuevo|adj|新的（阴性复数）|new
+obligatoria|obligatorio|adj|必须的（阴性）|compulsory
+obstante|obstante|adv|（no obstante 然而）|(no obstante = nevertheless)
+odio|odiar|v|我讨厌|I hate
+oigan|oír|v|听着（虚拟式/您们命令式）|listen; hear (subj.)
+ojalá|ojalá|interj|但愿|I hope; hopefully
+oliva|la oliva|n|橄榄（aceite de oliva 橄榄油）|olive
+olivos|el olivo|n|橄榄树（复数）|olive trees
+olvidaré|olvidar|v|我会忘记|I will forget
+olvides|olvidar|v|（别）忘了（no olvides）|(don't) forget
+olvidé|olvidar|v|我忘了|I forgot
+olvidó|olvidar|v|忘了|forgot
+olímpicos|olímpico|adj|奥运的（Juegos Olímpicos 奥运会）|Olympic
+onda|la onda|n|波；（俚语）事情|wave; (slang) vibe
+online|online|adv|在线|online
+opciones|la opción|n|选项（复数）|options
+operaron|operar|v|他们给……做了手术|they operated on
+opinas|opinar|v|你认为|you think
+orador|el orador|n|演说者|speaker
+origen|el origen|n|起源；来源|origin
+otra|otro|det|另一个（阴性）|another
+otras|otro|det|别的（阴性复数）|other
+oye|oír|v|嘿；听着|hey; listen
+oí|oír|v|我听到了|I heard
+pablo|Pablo|name|巴勃罗（人名）|Pablo (name)
+pacífico|el Pacífico|name|太平洋|Pacific
+paga|pagar|v|付钱|pays
+pagamos|pagar|v|我们付钱|we pay
+pago|pagar|v|我付钱|I pay
+pague|pagar|v|付钱（虚拟式）|pay (subj.)
+paja|la paja|n|稻草；吸管|straw
+palacio|el palacio|n|宫殿|palace
+papá|el papá|n|爸爸|dad
+parece|parecer|v|看起来；觉得（me parece）|seems
+parecen|parecer|v|（它们）看起来|they seem
+participaran|participar|v|参加（虚拟式过去时）|took part (subj.)
+parís|París|name|巴黎|Paris
+paró|parar|v|停了|stopped
+pasa|pasar|v|发生；经过（¿qué pasa? 怎么了）|happens; passes
+pasamos|pasar|v|我们度过；我们经过|we spend; we pass
+pasas|pasar|v|你度过；你经过|you spend; you pass
+paseamos|pasear|v|我们散步|we go for a walk
+pasé|pasar|v|我度过了|I spent; I passed
+pasó|pasar|v|发生了；过去了|happened; passed
+pata|la pata|n|（动物的）腿（meter la pata 搞砸）|leg (of an animal)
+pedimos|pedir|v|我们点（菜）；我们要求|we order; we ask for
+pedí|pedir|v|我点了；我要了|I ordered; I asked for
+pekín|Pekín|name|北京|Beijing
+penalti|el penalti|n|点球|penalty
+pequeña|pequeño|adj|小的（阴性）|small
+perdida|perdido|adj|迷路的；丢失的（阴性）|lost
+perdí|perder|v|我丢了；我错过了|I lost; I missed
+permite|permitir|v|允许|allows
+perú|Perú|name|秘鲁|Peru
+pesa|pesar|v|有……重|weighs
+pesada|pesado|adj|重的；烦人的（阴性）|heavy; annoying
+pesca|la pesca|n|钓鱼；捕鱼|fishing
+piadosa|piadoso|adj|善意的（mentira piadosa 善意的谎言）|white (lie); pious
+picó|picar|v|叮了；咬了|stung; bit
+pide|pedir|v|点（菜）；要求|orders; asks for
+pidió|pedir|v|要求了；点了|asked for; ordered
+pido|pedir|v|我点；我要求|I order; I ask for
+pienso|pensar|v|我想；我认为|I think
+pierdas|perder|v|（别）错过（no te lo pierdas）|(don't) miss
+pinta|la pinta|n|外观（tener buena pinta 看起来不错）|look (tener buena pinta = look good)
+pitó|pitar|v|吹哨了；判罚了|whistled; called
+poca|poco|det|很少的（阴性）|little
+podemos|poder|v|我们可以|we can
+podrías|poder|v|你可以……吗（礼貌）|could you
+polen|el polen|n|花粉|pollen
+pon|poner|v|放（命令式）|put
+pone|poner|v|放；（电影等）上映|puts
+pongo|poner|v|我放|I put
+ponlo|poner|v|把它放好|put it
+ponte|ponerse|v|穿上（命令式）|put on
+portátil|el portátil|n|笔记本电脑|laptop
+pozo|el pozo|n|井|well
+precedente|el precedente|n|先例|precedent
+preciosa|precioso|adj|漂亮的（阴性）|lovely
+prefieres|preferir|v|你更喜欢|you prefer
+prefiero|preferir|v|我更喜欢|I prefer
+preocupa|preocupar|v|担心（me preocupa 我担心）|worries
+preocupes|preocuparse|v|（别）担心（no te preocupes）|(don't) worry
+preocupéis|preocuparse|v|你们（别）担心|(don't) worry (you all)
+prepara|preparar|v|准备|prepares
+presento|presentar|v|我介绍|I introduce
+presión|la presión|n|压力；血压|pressure
+prestas|prestar|v|你借给（我）|you lend
+prestigiosa|prestigioso|adj|著名的；有声望的（阴性）|prestigious
+presto|prestar|v|我借给|I lend
+primer|primero|adj|第一（阳性名词前）|first
+primera|primero|adj|第一（阴性）|first
+primeras|primero|adj|第一批（阴性复数）|first
+probable|probable|adj|可能的|likely
+probamos|probar|v|我们尝试；我们尝|we try
+probármelo|probar|v|试穿它|try it on
+procesiones|la procesión|n|游行（复数）|processions
+profesora|la profesora|n|（女）老师|teacher (female)
+prohíbe|prohibir|v|禁止|forbids
+prometo|prometer|v|我保证|I promise
+propia|propio|adj|自己的（阴性）|own
+propongo|proponer|v|我提议|I propose
+propósito|el propósito|n|目的（a propósito 顺便说）|purpose (a propósito = by the way)
+próxima|próximo|adj|下一个（阴性）|next
+pude|poder|v|我能够（过去）|I could; I managed
+pudiera|poder|v|能（虚拟式过去时）|could (subj.)
+pudo|poder|v|能够（过去）|could; managed
+puedas|poder|v|你能（虚拟式）|you can (subj.)
+puede|poder|v|可以；可能|can; may
+pueden|poder|v|他们可以|they can
+puedes|poder|v|你可以|you can
+puedo|poder|v|我可以|I can
+pues|pues|conj|那么；嗯|well; then
+puse|poner|v|我放了|I put
+pusieron|poner|v|他们放了|they put
+pusiste|poner|v|你放了|you put
+puso|poner|v|放了|put
+página|la página|n|页；网页|page
+pásame|pasar|v|递给我|pass me
+pública|público|adj|公共的（阴性）|public

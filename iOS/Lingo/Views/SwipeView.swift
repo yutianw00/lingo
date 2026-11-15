@@ -294,7 +294,7 @@ struct CardFace: View {
             HStack(spacing: 6) {
                 Text(t.pos[card.pos] ?? card.pos).font(.system(size: 14)).foregroundStyle(Theme.muted)
                 if card.gender != .none, let g = t.gender[card.gender] { GenderBadge(gender: card.gender, label: g) }
-                if !card.topic.isEmpty { LvTag(text: t.lv(card.difficultyLevel)) }
+                if !card.topic.isEmpty { LvTag(text: card.custom == true ? t.custom : t.lv(card.difficultyLevel)) }
             }
             Spacer(minLength: 0)
         }

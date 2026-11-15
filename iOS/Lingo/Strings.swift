@@ -62,6 +62,13 @@ struct Strings {
     var correct: String
     var correctAnswer: String
     var `continue`: String
+    var yourChoice: String
+    var tapWordHint: String
+    var addWord: String
+    var wordAdded: String
+    var noGloss: String
+    var custom: String
+    var remove: String
     var quizDone: String
     var accuracy: (Int) -> String
     var quizDoneHint: String
@@ -87,7 +94,7 @@ struct Strings {
 
     static let zh = Strings(
         langName: [.zh: "简体中文", .en: "英语", .fr: "法语", .es: "西班牙语"],
-        pos: ["n": "名词", "v": "动词", "adj": "形容词", "adv": "副词", "pron": "代词", "prep": "介词", "conj": "连词", "num": "数词", "interj": "叹词", "phr": "短语"],
+        pos: ["n": "名词", "v": "动词", "adj": "形容词", "adv": "副词", "pron": "代词", "prep": "介词", "conj": "连词", "num": "数词", "interj": "叹词", "phr": "短语", "det": "限定词", "name": "专有名词", "part": "助词"],
         level: [.new: "新词", .learning: "学习中", .familiar: "熟悉", .mastered: "已掌握"],
         gender: [.m: "阳性", .f: "阴性", .mf: "阴阳同形"],
         skill: [.vocab: "单词填空", .form: "词形变化", .context: "情景对话"],
@@ -146,6 +153,13 @@ struct Strings {
         correct: "太棒了！",
         correctAnswer: "正确答案：",
         continue: "继续",
+        yourChoice: "你的选择",
+        tapWordHint: "点句子里的单词可查看释义",
+        addWord: "加入我的单词",
+        wordAdded: "已加入 ✓",
+        noGloss: "暂无释义",
+        custom: "自定义",
+        remove: "删除",
         quizDone: "练习完成",
         accuracy: { "正确率 \($0)%" },
         quizDoneHint: "答错的题会更快再出现",
@@ -163,7 +177,7 @@ struct Strings {
 
     static let en = Strings(
         langName: [.zh: "Chinese", .en: "English", .fr: "French", .es: "Spanish"],
-        pos: ["n": "noun", "v": "verb", "adj": "adj.", "adv": "adv.", "pron": "pron.", "prep": "prep.", "conj": "conj.", "num": "number", "interj": "interj.", "phr": "phrase"],
+        pos: ["n": "noun", "v": "verb", "adj": "adj.", "adv": "adv.", "pron": "pron.", "prep": "prep.", "conj": "conj.", "num": "number", "interj": "interj.", "phr": "phrase", "det": "det.", "name": "name", "part": "particle"],
         level: [.new: "New", .learning: "Learning", .familiar: "Familiar", .mastered: "Mastered"],
         gender: [.m: "masculine", .f: "feminine", .mf: "m/f"],
         skill: [.vocab: "Vocabulary", .form: "Word forms", .context: "Conversation"],
@@ -222,6 +236,13 @@ struct Strings {
         correct: "Great job!",
         correctAnswer: "Correct answer: ",
         continue: "Continue",
+        yourChoice: "Your choice",
+        tapWordHint: "Tap any word to see what it means",
+        addWord: "Add to my words",
+        wordAdded: "Added ✓",
+        noGloss: "No translation available",
+        custom: "Custom",
+        remove: "Remove",
         quizDone: "Practice complete",
         accuracy: { "\($0)% correct" },
         quizDoneHint: "Questions you missed will come back sooner",
@@ -239,7 +260,7 @@ struct Strings {
 
     static let fr = Strings(
         langName: [.zh: "chinois", .en: "anglais", .fr: "français", .es: "espagnol"],
-        pos: ["n": "nom", "v": "verbe", "adj": "adj.", "adv": "adv.", "pron": "pron.", "prep": "prép.", "conj": "conj.", "num": "nombre", "interj": "interj.", "phr": "expression"],
+        pos: ["n": "nom", "v": "verbe", "adj": "adj.", "adv": "adv.", "pron": "pron.", "prep": "prép.", "conj": "conj.", "num": "nombre", "interj": "interj.", "phr": "expression", "det": "dét.", "name": "nom propre", "part": "particule"],
         level: [.new: "Nouveau", .learning: "En cours", .familiar: "Connu", .mastered: "Maîtrisé"],
         gender: [.m: "masculin", .f: "féminin", .mf: "m/f"],
         skill: [.vocab: "Vocabulaire", .form: "Formes", .context: "Dialogue"],
@@ -298,6 +319,13 @@ struct Strings {
         correct: "Bravo !",
         correctAnswer: "Bonne réponse : ",
         continue: "Continuer",
+        yourChoice: "Votre choix",
+        tapWordHint: "Touchez un mot pour voir sa traduction",
+        addWord: "Ajouter à mes mots",
+        wordAdded: "Ajouté ✓",
+        noGloss: "Pas de traduction disponible",
+        custom: "Perso",
+        remove: "Retirer",
         quizDone: "Entraînement terminé",
         accuracy: { "\($0) % de bonnes réponses" },
         quizDoneHint: "Les questions ratées reviendront plus vite",
@@ -315,7 +343,7 @@ struct Strings {
 
     static let es = Strings(
         langName: [.zh: "chino", .en: "inglés", .fr: "francés", .es: "español"],
-        pos: ["n": "sust.", "v": "verbo", "adj": "adj.", "adv": "adv.", "pron": "pron.", "prep": "prep.", "conj": "conj.", "num": "número", "interj": "interj.", "phr": "expresión"],
+        pos: ["n": "sust.", "v": "verbo", "adj": "adj.", "adv": "adv.", "pron": "pron.", "prep": "prep.", "conj": "conj.", "num": "número", "interj": "interj.", "phr": "expresión", "det": "det.", "name": "nombre propio", "part": "partícula"],
         level: [.new: "Nueva", .learning: "Aprendiendo", .familiar: "Conocida", .mastered: "Dominada"],
         gender: [.m: "masculino", .f: "femenino", .mf: "m/f"],
         skill: [.vocab: "Vocabulario", .form: "Formas", .context: "Diálogo"],
@@ -374,6 +402,13 @@ struct Strings {
         correct: "¡Muy bien!",
         correctAnswer: "Respuesta correcta: ",
         continue: "Continuar",
+        yourChoice: "Tu elección",
+        tapWordHint: "Toca una palabra para ver qué significa",
+        addWord: "Añadir a mis palabras",
+        wordAdded: "Añadida ✓",
+        noGloss: "No hay traducción",
+        custom: "Personal",
+        remove: "Quitar",
         quizDone: "Práctica completada",
         accuracy: { "\($0) % de aciertos" },
         quizDoneHint: "Las preguntas falladas volverán antes",

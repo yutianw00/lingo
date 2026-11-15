@@ -1,0 +1,247 @@
+# Spanish quiz words not in the course word list: d–h
+!columns zh en
+da|dar|v|给；（me da igual 我无所谓）|gives
+dado|dar|v|给了|given
+dame|dar|v|给我|give me
+damos|dar|v|我们给（damos un paseo 散步）|we give
+dan|dar|v|他们给|they give
+darse|dar|v|（darse cuenta 意识到）|to realize (darse cuenta)
+das|dar|v|你给|you give
+daña|dañar|v|损害|damages
+daño|el daño|n|伤害；损害|harm; damage
+debe|deber|v|应该；必须|must; should
+deberías|deber|v|你应该|you should
+debes|deber|v|你必须；你应该|you must
+debo|deber|v|我必须；我应该|I must
+decidieron|decidir|v|他们决定了|they decided
+decidió|decidir|v|他/她决定了|he/she decided
+definitiva|definitivo|adj|最终的（en definitiva 总之）|final (en definitiva = in short)
+deja|dejar|v|留下；让；别再（deja de）|leaves; lets; stops
+dejaban|dejar|v|（以前）让；允许|they used to let
+dejamos|dejar|v|我们留下；我们放|we leave
+dejaría|dejar|v|会让；会留下|would let; would leave
+dejas|dejar|v|你留下；你让|you leave; you let
+dejaste|dejar|v|你留下了；你放了|you left
+deje|dejar|v|留下（虚拟式/您命令式）|leave (subj.)
+dejes|dejar|v|（你）别留下（no dejes）|don't leave
+del|del|det|……的；de + el 的缩合|of the (de + el)
+demasiada|demasiado|det|太多的（阴性）|too much
+demasiadas|demasiado|det|太多的（阴性复数）|too many
+den|dar|v|给（虚拟式）|give (subj.)
+depende|depender|v|取决于|depends
+depósito|el depósito|n|押金；油箱|deposit; tank
+derritiendo|derretir|v|正在融化|melting
+descansa|descansar|v|休息|rests; rest
+descansara|descansar|v|休息（虚拟式过去时）|rested (subj.)
+descansas|descansar|v|你休息|you rest
+descanso|el descanso|n|休息|rest; break
+descarga|descargar|v|下载|downloads
+despejado|despejado|adj|晴朗的|clear (sky)
+destruyendo|destruir|v|正在破坏|destroying
+destruyó|destruir|v|摧毁了|destroyed
+detective|el detective|n|侦探|detective
+detuvieron|detener|v|他们逮捕了；拦下了|they arrested; stopped
+devolvemos|devolver|v|我们退还|we return; we refund
+devuelvan|devolver|v|（他们）退还（虚拟式）|return (subj.)
+devuelvas|devolver|v|（你）还（虚拟式）|you return (subj.)
+di|decir|v|我给了（dar）；说（命令式，decir）|I gave (dar); say! (decir)
+dibuja|dibujar|v|画画|draws
+dicen|decir|v|他们说|they say
+dicho|decir|v|说过了|said
+dieron|dar|v|他们给了|they gave
+diga|decir|v|说（虚拟式/您命令式）；喂（接电话）|say (subj.); hello (phone)
+digo|decir|v|我说|I say
+dije|decir|v|我说了|I said
+dijo|decir|v|他/她说了|he/she said
+dilo|decir|v|说出来|say it
+dime|decir|v|告诉我|tell me
+dimitió|dimitir|v|辞职了|resigned
+dio|dar|v|他/她给了|he/she gave
+director|el director|n|导演；主任|director
+disculpe|disculpar|v|打扰一下；对不起（您）|excuse me
+discurso|el discurso|n|演讲|speech
+diseñador|el diseñador|n|设计师|designer
+diste|dar|v|你给了|you gave
+diálogo|el diálogo|n|对话|dialogue
+dni|el DNI|n|身份证（西班牙）|ID card (Spain)
+donó|donar|v|捐赠了|donated
+dormimos|dormir|v|我们睡觉；我们睡了|we sleep; we slept
+dormía|dormir|v|（以前）睡；正在睡|was sleeping
+doy|dar|v|我给|I give
+duchamos|ducharse|v|我们洗澡|we shower
+dudo|dudar|v|我怀疑|I doubt
+duele|doler|v|疼|hurts
+duerman|dormir|v|（他们）睡（虚拟式）|sleep (subj.)
+duerme|dormir|v|睡觉|sleeps
+duermo|dormir|v|我睡觉|I sleep
+dura|durar|v|持续|lasts
+duras|duro|adj|硬的；艰难的（阴性复数）|hard; tough
+e|e|conj|和（用于 i- 开头的词前）|and (before i-)
+económica|económico|adj|经济的；便宜的（阴性）|economic; cheap
+ejemplar|ejemplar|adj|模范的|exemplary
+el|el|det|（阳性定冠词）|the (masculine)
+embargo|el embargo|n|（sin embargo 然而）|(sin embargo = however)
+embarque|el embarque|n|登机（tarjeta de embarque 登机牌）|boarding
+emociones|la emoción|n|情感（复数）|emotions
+empecé|empezar|v|我开始了|I started
+empezado|empezar|v|开始了|started
+empezaste|empezar|v|你开始了|you started
+empezó|empezar|v|开始了|started
+empieza|empezar|v|开始|starts
+empiezan|empezar|v|他们开始|they start
+empiezo|empezar|v|我开始|I start
+empleo|el empleo|n|工作；就业|job; employment
+encanta|encantar|v|非常喜欢（me encanta 我很喜欢）|love (me encanta = I love)
+encantaban|encantar|v|（以前）很喜欢|used to love
+encantado|encantado|adj|很高兴（认识你）|delighted; nice to meet you
+encantaría|encantar|v|很乐意（me encantaría）|would love
+encantó|encantar|v|很喜欢了|loved
+encendimos|encender|v|我们点燃了；打开了|we lit; we turned on
+enciende|encender|v|打开（灯等）|turn on; turns on
+encuentro|encontrar|v|我找到；我觉得|I find
+enemigo|el enemigo|n|敌人|enemy
+enfermera|la enfermera|n|（女）护士|nurse
+enhorabuena|enhorabuena|interj|恭喜|congratulations
+entendemos|entender|v|我们理解|we understand
+entiende|entender|v|理解；懂|understands
+entiendo|entender|v|我明白|I understand
+entrega|entregar|v|交付；递交|delivers; hands in
+entró|entrar|v|进去了|went in
+envié|enviar|v|我寄了；我发了|I sent
+envía|enviar|v|发送；寄|sends
+envío|el envío|n|寄送；运费|shipping
+era|ser|v|（以前）是|was
+eras|ser|v|你（以前）是|you were
+eres|ser|v|你是|you are
+es|ser|v|是|is
+esa|ese|det|那个（阴性）|that
+escapó|escapar|v|逃走了|escaped
+escribe|escribir|v|写|writes
+escribiendo|escribir|v|正在写|writing
+escribió|escribir|v|他/她写了|wrote
+escribo|escribir|v|我写|I write
+escribí|escribir|v|我写了|I wrote
+escucho|escuchar|v|我听|I listen
+eso|eso|pron|那个；那件事|that
+españa|España|name|西班牙|Spain
+española|español|adj|西班牙的（阴性）|Spanish
+especialidad|la especialidad|n|特色菜；专业|speciality
+espera|esperar|v|等待；希望|waits; wait
+esperaba|esperar|v|（我/他）原以为；在等|was expecting; was waiting
+espero|esperar|v|我希望；我等|I hope; I wait
+esta|este|det|这个（阴性）|this
+estaba|estar|v|（当时）在；是|was
+estado|estar|v|待过；（一直）在|been
+estamos|estar|v|我们在；我们是|we are
+estas|este|det|这些（阴性）|these
+estate|estar|v|保持（estate quieto 别动）|be (imperative)
+esto|esto|pron|这个|this
+estos|este|det|这些|these
+estoy|estar|v|我在；我（处于某状态）|I am
+estrecha|estrecho|adj|窄的；紧的（阴性）|narrow; tight
+estropeado|estropeado|adj|坏了的|broken
+estudia|estudiar|v|学习|studies
+estudiado|estudiar|v|学习了|studied
+estudias|estudiar|v|你学习|you study
+estudio|estudiar|v|我学习|I study
+estuve|estar|v|我（曾）在|I was
+está|estar|v|在；是（状态）|is
+están|estar|v|他们在；是|they are
+estás|estar|v|你在；你（好吗）|you are
+esté|estar|v|在；是（虚拟式）|is (subj.)
+estés|estar|v|你在；你是（虚拟式）|you are (subj.)
+evita|evitar|v|避免|avoids
+exagerado|exagerado|adj|夸张的|exaggerated
+excelente|excelente|adj|极好的|excellent
+exijo|exigir|v|我要求|I demand
+existiendo|existir|v|存在着|existing
+explicación|la explicación|n|解释|explanation
+expresa|expresar|v|表达|expresses
+exámenes|el examen|n|考试（复数）|exams
+factor|el factor|n|因素|factor
+falsa|falso|adj|假的（阴性）|false
+falta|faltar|v|缺少；差（hace falta 需要）|is missing; is needed
+famosa|famoso|adj|著名的（阴性）|famous
+fascina|fascinar|v|非常着迷（me fascina）|fascinates
+favorita|favorito|adj|最喜欢的（阴性）|favourite
+flamenco|el flamenco|n|弗拉明戈|flamenco
+folleto|el folleto|n|小册子；宣传单|brochure
+frita|frito|adj|油炸的（阴性）|fried
+frito|frito|adj|油炸的|fried
+frágil|frágil|adj|易碎的|fragile
+fría|frío|adj|冷的（阴性）|cold
+fríela|freír|v|把它炸一下|fry it
+fue|ser / ir|v|是（过去）；去了|was; went
+fueron|ser / ir|v|他们是（过去）；他们去了|were; went
+fui|ser / ir|v|我去了；我是（过去）|I went; I was
+fuimos|ser / ir|v|我们去了|we went; we were
+fumo|fumar|v|我抽烟|I smoke
+funciona|funcionar|v|运转；好用|works
+funciones|la función|n|功能（复数）|functions
+gallego|gallego|adj|加利西亚的；加利西亚语|Galician
+ganaba|ganar|v|（以前）赚；赢|used to earn; was winning
+ganamos|ganar|v|我们赢；我们赢了|we win; we won
+ganaron|ganar|v|他们赢了|they won
+ganas|la gana|n|欲望（tener ganas de 想要）|desire (tener ganas de = to feel like)
+ganaste|ganar|v|你赢了|you won
+ganó|ganar|v|赢了|won
+garantía|la garantía|n|保修；保证|warranty; guarantee
+garcía|García|name|加西亚（姓）|García (surname)
+gazpacho|el gazpacho|n|西班牙冷汤|gazpacho
+genial|genial|adj|太棒了|great
+gira|la gira|n|巡演；巡回|tour
+global|global|adj|全球的|global
+golpeé|golpear|v|我撞了；我打了|I hit
+goya|Goya|name|戈雅（画家）|Goya (painter)
+gótica|gótico|adj|哥特式的（阴性）|Gothic
+gran|grande|adj|伟大的；大的（名词前）|great; big
+grano|el grano|n|颗粒；粉刺（ir al grano 直奔主题）|grain (ir al grano = get to the point)
+guacamole|el guacamole|n|牛油果酱|guacamole
+guardo|guardar|v|我保存；我收好|I keep
+guardé|guardar|v|我保存了；我放好了|I kept; I put away
+gusta|gustar|v|喜欢（me gusta 我喜欢）|like (me gusta = I like)
+gustan|gustar|v|喜欢（复数事物）|like (plural things)
+gustaría|gustar|v|想要（me gustaría 我想）|would like
+güey|güey|interj|哥们（墨西哥俚语）|dude (Mexican slang)
+ha|haber|v|（他/她）已经……（完成时）|has
+haber|haber|v|有；（完成时助动词）|to have (auxiliary); there to be
+habitaciones|la habitación|n|房间（复数）|rooms
+habla|hablar|v|说；讲|speaks
+hablamos|hablar|v|我们说；我们谈|we speak
+hablaras|hablar|v|你说（虚拟式过去时）|you spoke (subj.)
+hablaría|hablar|v|会说|would speak
+hablas|hablar|v|你说|you speak
+hablaste|hablar|v|你说了|you spoke
+hable|hablar|v|说（虚拟式/您命令式）|speak (subj.)
+hables|hablar|v|你说（虚拟式）|you speak (subj.)
+hablo|hablar|v|我说|I speak
+habría|haber|v|会已经……；会有|would have
+había|haber|v|有（过去）；已经（过去完成）|there was; had
+hace|hacer|v|做；（天气）是；……以前（hace dos años）|does; makes; (time) ago
+hacemos|hacer|v|我们做|we do
+haces|hacer|v|你做|you do
+haciendo|hacer|v|正在做|doing
+hacía|hacer|v|（以前）做；（天气）是|used to do; it was (weather)
+haga|hacer|v|做（虚拟式/您命令式）|do (subj.)
+hago|hacer|v|我做|I do
+haremos|hacer|v|我们会做|we will do
+harás|hacer|v|你会做|you will do
+haría|hacer|v|会做|would do
+harías|hacer|v|你会做|you would do
+has|haber|v|你已经……（完成时）|you have
+haya|haber|v|有；已经（虚拟式）|there is; has (subj.)
+haz|hacer|v|做（命令式）|do!
+hazlo|hacer|v|做吧|do it
+he|haber|v|我已经……（完成时）|I have
+hemos|haber|v|我们已经……（完成时）|we have
+hice|hacer|v|我做了|I did
+hicieron|hacer|v|他们做了|they did
+hicimos|hacer|v|我们做了|we did
+hiciste|hacer|v|你做了|you did
+hizo|hacer|v|做了；（天气）是|did; it was (weather)
+honesto|honesto|adj|诚实的|honest
+hubiera|haber|v|本来会……（虚拟式过去完成）|had (subj.)
+hubieras|haber|v|你本来……（虚拟式）|you had (subj.)
+hubo|haber|v|有（过去发生）|there was
+humanidad|la humanidad|n|人类|humanity
+humano|humano|adj|人类的|human

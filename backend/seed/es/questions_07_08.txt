@@ -8,81 +8,209 @@
 es Cuando yo era niño, [vivía] en el campo. | viviré, viva, vivían
 zh 我小时候住在乡下。
 en When I was a child, I lived in the countryside.
+why es.zh vivía | 小时候的习惯/背景用未完成过去时；yo → vivía
+why es.zh viviré | 将来时
+why es.zh viva | 虚拟式
+why es.zh vivían | ellos 的形式
+why es.en vivía | childhood background → imperfect; yo → vivía
+why es.en viviré | future
+why es.en viva | subjunctive
+why es.en vivían | the ellos form
 
 @f702 fill 7 imperfect
 es Antes nosotros [íbamos] a la playa cada verano. | iremos, vayamos, iban
 zh 以前我们每年夏天都去海边。
 en We used to go to the beach every summer.
+why es.zh íbamos | 过去的习惯（每年夏天）用未完成过去时；ir → íbamos
+why es.zh iremos | 将来时
+why es.zh vayamos | 虚拟式
+why es.zh iban | ellos 的形式
+why es.en íbamos | past habit → imperfect; ir → íbamos
+why es.en iremos | future
+why es.en vayamos | subjunctive
+why es.en iban | the ellos form
 
 @f703 fill 7 imperfect
 es Mi abuela [era] muy alta. | será, sea, eran
 zh 我奶奶以前个子很高。
 en My grandmother was very tall.
+why es.zh era | 过去的描述（外貌）用未完成过去时 era
+why es.zh será | 将来时
+why es.zh sea | 虚拟式
+why es.zh eran | 复数，主语是 mi abuela
+why es.en era | describing the past → imperfect: era
+why es.en será | future
+why es.en sea | subjunctive
+why es.en eran | plural; the subject is singular
 
 @f704 fill 7 imperfect-preterite
 es Mientras yo [leía], sonó el teléfono. | leeré, lea, leían
 zh 我正在看书的时候，电话响了。
 en While I was reading, the phone rang.
+why es.zh leía | 被打断的进行中的动作用未完成过去时
+why es.zh leeré | 将来时
+why es.zh lea | 虚拟式
+why es.zh leían | ellos 的形式
+why es.en leía | an ongoing action that gets interrupted → imperfect
+why es.en leeré | future
+why es.en lea | subjunctive
+why es.en leían | the ellos form
 
 @f705 fill 7 imperfect-preterite
 es Yo dormía cuando mi hermano [llegó]. | llegará, llegue, llegaron
 zh 我哥哥到的时候我在睡觉。
 en I was asleep when my brother arrived.
+why es.zh llegó | 打断背景的单次动作用简单过去时；él → llegó
+why es.zh llegará | 将来时
+why es.zh llegue | 虚拟式
+why es.zh llegaron | 复数，主语是 mi hermano
+why es.en llegó | the one-off event that interrupts → preterite; él → llegó
+why es.en llegará | future
+why es.en llegue | subjunctive
+why es.en llegaron | plural; the subject is singular
 
 @f706 fill 7 imperfect
 es Hacía sol y los niños [jugaban] en el parque. | jugarán, jueguen, jugaba
 zh 天气晴朗，孩子们在公园里玩。
 en It was sunny and the children were playing in the park.
+why es.zh jugaban | 过去的场景描写用未完成过去时；los niños → jugaban
+why es.zh jugarán | 将来时
+why es.zh jueguen | 虚拟式
+why es.zh jugaba | 单数，主语是复数
+why es.en jugaban | scene-setting → imperfect; los niños → jugaban
+why es.en jugarán | future
+why es.en jueguen | subjunctive
+why es.en jugaba | singular; the subject is plural
 
 @f707 fill 7 imperfect
 es De pequeña, ella [tenía] un perro. | tendrá, tenga, tenían
 zh 她小时候养过一只狗。
 en As a little girl, she had a dog.
+why es.zh tenía | 小时候的状态用未完成过去时；ella → tenía
+why es.zh tendrá | 将来时
+why es.zh tenga | 虚拟式
+why es.zh tenían | 复数形式
+why es.en tenía | childhood state → imperfect; ella → tenía
+why es.en tendrá | future
+why es.en tenga | subjunctive
+why es.en tenían | plural form
 
 @f708 fill 7 object-pronoun
 es ¿Tienes el libro? Sí, [lo] tengo. | la, le, los
 zh 你有那本书吗？有，我有。
 en Do you have the book? Yes, I have it.
+why es.zh lo | 代替 el libro（阳性单数直接宾语）→ lo
+why es.zh la | 阴性，libro 是阳性
+why es.zh le | le 是间接宾语（给他）
+why es.zh los | 复数，只有一本书
+why es.en lo | replaces el libro (masc. sing. direct object) → lo
+why es.en la | feminine; libro is masculine
+why es.en le | "le" is an indirect object
+why es.en los | plural; there's one book
 
 @f709 fill 7 object-pronoun
 es ¿Ves a María? Sí, [la] veo. | lo, las, les
 zh 你看到玛丽亚了吗？看到了。
 en Can you see María? Yes, I can see her.
+why es.zh la | 代替 María（阴性单数直接宾语）→ la
+why es.zh lo | 阳性
+why es.zh las | 复数
+why es.zh les | 间接宾语复数
+why es.en la | replaces María (fem. sing. direct object) → la
+why es.en lo | masculine
+why es.en las | plural
+why es.en les | plural indirect object
 
 @f710 fill 7 object-pronoun
 es Compré unas flores y [las] puse en la mesa. | los, la, les
 zh 我买了些花，把它们放在桌上。
 en I bought some flowers and put them on the table.
+why es.zh las | 代替 unas flores（阴性复数）→ las
+why es.zh los | 阳性复数，flores 是阴性
+why es.zh la | 单数，花是复数
+why es.zh les | 间接宾语，这里是直接宾语
+why es.en las | replaces unas flores (fem. plural) → las
+why es.en los | masculine; flores is feminine
+why es.en la | singular; flores is plural
+why es.en les | indirect object; here it's direct
 
 @f711 fill 7 object-pronoun
 es [Le] escribí una carta a mi abuelo. | Lo, La, Les
 zh 我给我爷爷写了一封信。
 en I wrote a letter to my grandfather.
+why es.zh Le | “给祖父写信”：间接宾语 → le
+why es.zh Lo | lo 是直接宾语，信才是直接宾语
+why es.zh La | la 是阴性直接宾语
+why es.zh Les | 复数，只有一位祖父
+why es.en Le | "to my grandfather" is an indirect object → le
+why es.en Lo | "lo" is direct object; the letter is the direct object
+why es.en La | "la" is a feminine direct object
+why es.en Les | plural; there's one grandfather
 
 @f712 fill 7 object-pronoun
 es ¿Les diste el regalo a tus padres? Sí, [se lo] di. | le lo, les lo, lo se
 zh 你把礼物给你父母了吗？给了。
 en Did you give the present to your parents? Yes, I gave it to them.
+why es.zh se lo | le/les 在 lo 前变成 se：se lo di
+why es.zh le lo | le 在 lo 前必须变成 se
+why es.zh les lo | les 在 lo 前必须变成 se
+why es.zh lo se | 顺序错：间接宾语在前
+why es.en se lo | le/les becomes "se" before lo: se lo di
+why es.en le lo | le must become se before lo
+why es.en les lo | les must become se before lo
+why es.en lo se | wrong order: indirect object comes first
 
 @f713 fill 7 object-pronoun
 es ¿Me puedes ayudar? Claro, [te] ayudo. | me, se, nos
 zh 你能帮我吗？当然，我帮你。
 en Can you help me? Sure, I'll help you.
+why es.zh te | “我帮你”：你是宾语 → te
+why es.zh me | me 是“我”
+why es.zh se | se 是反身/第三人称
+why es.zh nos | nos 是“我们”
+why es.en te | "I'll help you" → te
+why es.en me | "me" is me
+why es.en se | "se" is reflexive/3rd person
+why es.en nos | "nos" is us
 
 @f714 fill 7 object-pronoun
 es Este jersey es precioso. ¿Puedo [probármelo]? | probármela, probarlolo, probarmelos
 zh 这件毛衣真漂亮。我能试一下吗？
 en This jumper is lovely. Can I try it on?
+why es.zh probármelo | probar + me（给我）+ lo（el jersey，阳性）
+why es.zh probármela | la 是阴性，jersey 是阳性
+why es.zh probarlolo | 代词重复，不存在
+why es.zh probarmelos | 复数，只有一件毛衣（也缺重音）
+why es.en probármelo | probar + me + lo (el jersey, masculine)
+why es.en probármela | "la" is feminine; jersey is masculine
+why es.en probarlolo | repeated pronoun; doesn't exist
+why es.en probarmelos | plural; there's one jumper (and missing accent)
 
 @f715 fill 7 imperfect
 es Todos los días yo [me levantaba] a las seis. | me levanten, me levantar, se levantaba
 zh 我以前每天六点起床。
 en I used to get up at six every day.
+why es.zh me levantaba | 过去的日常习惯用未完成过去时；yo → me levantaba
+why es.zh me levanten | 虚拟式复数
+why es.zh me levantar | 动词原形不能这样变位
+why es.zh se levantaba | se 是第三人称，主语是 yo
+why es.en me levantaba | past daily habit → imperfect; yo → me levantaba
+why es.en me levanten | plural subjunctive
+why es.en me levantar | an infinitive can't be used like this
+why es.en se levantaba | "se" is 3rd person; the subject is yo
 
 @f716 fill 7 imperfect-preterite
 es Ayer, cuando salí de casa, [llovía] mucho. | lloverá, llueva, llover
 zh 昨天我出门的时候，雨下得很大。
 en Yesterday, when I left home, it was raining hard.
+why es.zh llovía | 背景天气用未完成过去时
+why es.zh lloverá | 将来时
+why es.zh llueva | 虚拟式
+why es.zh llover | 动词原形
+why es.en llovía | background weather → imperfect
+why es.en lloverá | future
+why es.en llueva | subjunctive
+why es.en llover | infinitive
 
 # ---------- L7 dialogues
 @d701 next 7 childhood
@@ -150,81 +278,209 @@ en Did your parents let you go out at night? >> No, I had to be home by ten.
 es Este año yo [he viajado] mucho. | ha viajado, he viajar, haber viajado
 zh 今年我旅行了很多次。
 en I've travelled a lot this year.
+why es.zh he viajado | este año（还没结束）→ 现在完成时；yo → he viajado
+why es.zh ha viajado | 第三人称，主语是 yo
+why es.zh he viajar | 完成时要用过去分词 viajado
+why es.zh haber viajado | 原形，没有变位
+why es.en he viajado | "this year" (not over) → present perfect; yo → he viajado
+why es.en ha viajado | 3rd person; the subject is yo
+why es.en he viajar | the perfect needs the participle viajado
+why es.en haber viajado | not conjugated
 
 @f802 fill 8 perfect
 es ¿[Has visto] la nueva película? | Has veído, Ha visto, Haber visto
 zh 你看过那部新电影吗？
 en Have you seen the new film?
+why es.zh Has visto | ver 的过去分词不规则：visto；tú → has
+why es.zh Has veído | veído 不存在
+why es.zh Ha visto | 第三人称/您
+why es.zh Haber visto | 原形，没有变位
+why es.en Has visto | ver's participle is irregular: visto; tú → has
+why es.en Has veído | "veído" doesn't exist
+why es.en Ha visto | 3rd person / usted
+why es.en Haber visto | not conjugated
 
 @f803 fill 8 perfect
 es Nosotros todavía no [hemos comido]. | han comido, hemos comer, hemos comiendo
 zh 我们还没吃饭。
 en We haven't eaten yet.
+why es.zh hemos comido | todavía no → 现在完成时；nosotros → hemos comido
+why es.zh han comido | ellos 的形式
+why es.zh hemos comer | 要用过去分词 comido
+why es.zh hemos comiendo | comiendo 是现在分词
+why es.en hemos comido | "not yet" → present perfect; nosotros → hemos comido
+why es.en han comido | the ellos form
+why es.en hemos comer | needs the participle comido
+why es.en hemos comiendo | "comiendo" is the gerund
 
 @f804 fill 8 perfect
 es ¿Quién [ha roto] el vaso? | ha rompido, han roto, he rompido
 zh 谁把杯子打碎了？
 en Who has broken the glass?
+why es.zh ha roto | romper 的过去分词不规则：roto
+why es.zh ha rompido | rompido 不存在
+why es.zh han roto | 复数，quién 用单数
+why es.zh he rompido | 人称和分词都错
+why es.en ha roto | romper's participle is irregular: roto
+why es.en ha rompido | "rompido" doesn't exist
+why es.en han roto | plural; quién takes singular
+why es.en he rompido | wrong person and participle
 
 @f805 fill 8 future
 es Mañana [lloverá] en el norte. | llueva, llover, lloviendo
 zh 明天北方会下雨。
 en It will rain in the north tomorrow.
+why es.zh lloverá | mañana → 将来时
+why es.zh llueva | 虚拟式
+why es.zh llover | 动词原形
+why es.zh lloviendo | 现在分词
+why es.en lloverá | "mañana" → future
+why es.en llueva | subjunctive
+why es.en llover | infinitive
+why es.en lloviendo | gerund
 
 @f806 fill 8 future
 es El año que viene yo [tendré] treinta años. | teneré, tenga, tendrá
 zh 明年我就三十岁了。
 en Next year I'll be thirty.
+why es.zh tendré | tener 将来时不规则：tendr-；yo → tendré
+why es.zh teneré | 不规则词根应为 tendr-
+why es.zh tenga | 虚拟式
+why es.zh tendrá | 第三人称
+why es.en tendré | tener's future is irregular: tendr-; yo → tendré
+why es.en teneré | the stem should be tendr-
+why es.en tenga | subjunctive
+why es.en tendrá | 3rd person
 
 @f807 fill 8 future
 es Te prometo que nosotros [haremos] todo lo posible. | haceremos, hagamos, harán
 zh 我向你保证我们会尽一切努力。
 en I promise you we'll do everything possible.
+why es.zh haremos | hacer 将来时词根 har-；nosotros → haremos
+why es.zh haceremos | 词根应为 har-
+why es.zh hagamos | 虚拟式
+why es.zh harán | ellos 的形式
+why es.en haremos | hacer's future stem is har-; nosotros → haremos
+why es.en haceremos | the stem should be har-
+why es.en hagamos | subjunctive
+why es.en harán | the ellos form
 
 @f808 fill 8 future
 es ¿Crees que ellos [vendrán] a la boda? | venirán, vengan, vendrá
 zh 你觉得他们会来参加婚礼吗？
 en Do you think they'll come to the wedding?
+why es.zh vendrán | venir 将来时词根 vendr-；ellos → vendrán
+why es.zh venirán | 词根应为 vendr-
+why es.zh vengan | creer que（肯定）后不用虚拟式
+why es.zh vendrá | 单数，主语是 ellos
+why es.en vendrán | venir's future stem is vendr-; ellos → vendrán
+why es.en venirán | the stem should be vendr-
+why es.en vengan | "creer que" (affirmative) doesn't take subjunctive
+why es.en vendrá | singular; the subject is ellos
 
 @f809 fill 8 conditional
 es Me [gustaría] un café, por favor. | gustaré, gusten, gustar
 zh 我想要一杯咖啡。
 en I'd like a coffee, please.
+why es.zh gustaría | 礼貌请求用条件式：me gustaría
+why es.zh gustaré | 将来时，而且人称不对
+why es.zh gusten | 虚拟式复数
+why es.zh gustar | 动词原形
+why es.en gustaría | polite requests use the conditional: me gustaría
+why es.en gustaré | future, and wrong person
+why es.en gusten | plural subjunctive
+why es.en gustar | infinitive
 
 @f810 fill 8 conditional
 es ¿[Podrías] ayudarme con esto? | Poderías, Puedas, Podiste
 zh 你能帮我弄一下这个吗？
 en Could you help me with this?
+why es.zh Podrías | 礼貌请求用条件式；poder → podr-，tú → podrías
+why es.zh Poderías | 条件式词根是 podr-
+why es.zh Puedas | 虚拟式
+why es.zh Podiste | 过去时应为 pudiste，且意思不对
+why es.en Podrías | polite request → conditional; poder → podrías
+why es.en Poderías | the conditional stem is podr-
+why es.en Puedas | subjunctive
+why es.en Podiste | the past is pudiste, and the meaning is wrong
 
 @f811 fill 8 conditional
 es Yo en tu lugar [hablaría] con él. | hable, hablar, hablé
 zh 我要是你，就跟他谈谈。
 en If I were you, I'd talk to him.
+why es.zh hablaría | 给建议“如果我是你，我会……”用条件式
+why es.zh hable | 虚拟式
+why es.zh hablar | 动词原形
+why es.zh hablé | 过去时
+why es.en hablaría | "if I were you, I'd…" → conditional
+why es.en hable | subjunctive
+why es.en hablar | infinitive
+why es.en hablé | past tense
 
 @f812 fill 8 por-para
 es Este regalo es [para] ti. | por, de, en
 zh 这个礼物是给你的。
 en This present is for you.
+why es.zh para | 礼物“给某人”用 para（目的/对象）
+why es.zh por | por 表示原因/交换，不表示接收者
+why es.zh de | de ti 是“你的/来自你”
+why es.zh en | en 是“在……里”
+why es.en para | a present "for" someone → para (recipient)
+why es.en por | "por" is cause/exchange, not recipient
+why es.en de | "de ti" = of/from you
+why es.en en | "en" = in/on
 
 @f813 fill 8 por-para
 es Gracias [por] tu ayuda. | para, de, con
 zh 谢谢你的帮助。
 en Thanks for your help.
+why es.zh por | 感谢的原因用 por：gracias por
+why es.zh para | para 表示目的，不和 gracias 连用
+why es.zh de | gracias de 不是标准用法
+why es.zh con | con 是“和……一起”
+why es.en por | the reason you thank → gracias por
+why es.en para | "para" is purpose; not with gracias
+why es.en de | "gracias de" isn't standard
+why es.en con | "con" = with
 
 @f814 fill 8 por-para
 es Estudio español [para] trabajar en México. | por, de, en
 zh 我学西班牙语是为了去墨西哥工作。
 en I'm studying Spanish to work in Mexico.
+why es.zh para | 目的“为了……”用 para + 原形
+why es.zh por | por 表示原因，不表示目的
+why es.zh de | de 不表示目的
+why es.zh en | en 不表示目的
+why es.en para | purpose "in order to" → para + infinitive
+why es.en por | "por" is cause, not purpose
+why es.en de | "de" doesn't express purpose
+why es.en en | "en" doesn't express purpose
 
 @f815 fill 8 por-para
 es Paseamos [por] el centro toda la tarde. | para, a, de
 zh 我们整个下午都在市中心闲逛。
 en We strolled around the centre all afternoon.
+why es.zh por | 在某处到处走（穿过/在……一带）用 por
+why es.zh para | para 表示目的地或目的
+why es.zh a | a 是“去到某处”
+why es.zh de | de 是“从”
+why es.en por | moving around/through a place → por
+why es.en para | "para" is destination/purpose
+why es.en a | "a" = to (a destination)
+why es.en de | "de" = from
 
 @f816 fill 8 por-para
 es Te llamo [por] teléfono esta noche. | para, en, de
 zh 我今晚给你打电话。
 en I'll phone you tonight.
+why es.zh por | 通讯方式：por teléfono
+why es.zh para | para 表示目的
+why es.zh en | 不说 en teléfono
+why es.zh de | 不说 de teléfono 表示方式
+why es.en por | means of communication → por teléfono
+why es.en para | "para" is purpose
+why es.en en | not "en teléfono"
+why es.en de | not "de teléfono" for the means
 
 # ---------- L8 dialogues
 @d801 next 8 polite-request

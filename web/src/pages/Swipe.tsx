@@ -104,7 +104,7 @@ function CardFace({ card }: { card: WordCard }) {
       <div className="pos">
         {t.pos[card.pos] ?? card.pos}
         {card.gender && <span className={`gender g-${card.gender}`}>{t.gender[card.gender]}</span>}
-        {card.topic && <span className="lvtag">{t.lv(card.difficulty_level)}</span>}
+        {card.topic && <span className="lvtag">{card.custom ? t.custom : t.lv(card.difficulty_level)}</span>}
       </div>
     </>
   )

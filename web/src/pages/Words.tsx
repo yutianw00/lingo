@@ -22,7 +22,7 @@ export default function Words() {
   const [err, setErr] = useState(false)
   const [filter, setFilter] = useState<Filter>('all')
   const [q, setQ] = useState('')
-  const [lv, setLv] = useState(0) // 0 = all difficulty levels
+  const [lv, setLv] = useState(0) // 0 = all difficulty levels, -1 = the learner's own words
   const [limit, setLimit] = useState(PAGE)
 
   useEffect(() => {
@@ -35,7 +35,7 @@ export default function Words() {
     const needle = q.trim().toLowerCase()
     return words.filter((w) => {
       if (filter === 'due' ? !(w.due !== null && w.due <= now) : filter !== 'all' && w.level !== filter) return false
-      if (lv && w.difficulty_level !== lv) return false
+      if (lv === -1 ? !w.custom : lv && w.difficulty_level !== lv) return false
       return !needle || w.word.toLowerCase().includes(needle) || w.meaning.toLowerCase().includes(needle)
     })
   }, [words, filter, q, now, lv])
@@ -43,6 +43,16 @@ export default function Words() {
 
   if (err) return <Centered>{t.error}</Centered>
   if (!words) return <Centered>{t.loading}</Centered>
+
+  const remove = (w: WordCard) => {
+    if (!window.confirm(t.removeWord(w.word))) return
+    api.removeWord(w.id).then(
+      () => setWords((ws) => ws && ws.filter((x) => x.id !== w.id)),
+      () => {},
+    )
+  }
+  const leveled = words.some((w) => w.topic && !w.custom)
+  const hasCustom = words.some((w) => w.custom)
 
   const label = (f: Filter) => (f === 'all' ? t.all : f === 'due' ? t.dueNow : t.level[f])
 
@@ -56,14 +66,16 @@ export default function Words() {
       </div>
       <div className="search-row">
         <input className="search" placeholder={`🔍 ${t.search}`} value={q} onChange={(e) => setQ(e.target.value)} />
-        {words.some((w) => w.topic) && (
+        {(leveled || hasCustom) && (
           <select className="lv-select" value={lv} onChange={(e) => setLv(+e.target.value)} aria-label="level">
             <option value={0}>{t.all}</option>
-            {Array.from({ length: 10 }, (_, i) => (
-              <option key={i + 1} value={i + 1}>
-                {t.lv(i + 1)}
-              </option>
-            ))}
+            {hasCustom && <option value={-1}>{t.custom}</option>}
+            {leveled &&
+              Array.from({ length: 10 }, (_, i) => (
+                <option key={i + 1} value={i + 1}>
+                  {t.lv(i + 1)}
+                </option>
+              ))}
           </select>
         )}
       </div>
@@ -83,7 +95,7 @@ export default function Words() {
               <div className="grow">
                 <div className="w">{w.word}</div>
                 <div className="z">
-                  {w.topic && <span className="lvtag">{t.lv(w.difficulty_level)}</span>}
+                  {w.topic && <span className={`lvtag${w.custom ? ' custom' : ''}`}>{w.custom ? t.custom : t.lv(w.difficulty_level)}</span>}
                   {w.gender && <span className={`gender g-${w.gender}`}>{w.gender === 'mf' ? 'm/f' : w.gender}</span>}
                   {w.meaning}
                 </div>
@@ -97,6 +109,18 @@ export default function Words() {
                   {w.level !== 'new' && ` ${w.mastery}`} · {d.text}
                 </div>
               </div>
+              {w.custom && (
+                <button
+                  className="icon-btn"
+                  aria-label="remove"
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    remove(w)
+                  }}
+                >
+                  ✕
+                </button>
+              )}
             </div>
           )
         })}

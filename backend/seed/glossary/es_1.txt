@@ -1,0 +1,202 @@
+# Spanish quiz words not in the course word list: a–c
+!columns zh en
+abierta|abierto|adj|开着的（阴性）|open
+abre|abrir|v|（他/她）打开；开门|opens
+abrieron|abrir|v|（他们）开了；开业了|they opened
+absoluto|absoluto|adj|绝对的|absolute
+aburrida|aburrido|adj|无聊的（阴性）|boring; bored
+acabo|acabar|v|（我）刚刚……（acabo de）；结束|I've just (acabo de); I finish
+acabó|acabar|v|结束了|it ended
+academia|la academia|n|学院；培训学校|academy; school
+aceptan|aceptar|v|（他们/您们）接受|they accept
+aceptaría|aceptar|v|（我/他）会接受|I/he would accept
+aceptaríamos|aceptar|v|我们会接受|we would accept
+acondicionado|acondicionado|adj|调节的（aire acondicionado 空调）|conditioned (aire acondicionado = air conditioning)
+aconsejo|aconsejar|v|（我）建议|I advise
+activo|activo|adj|活跃的；积极的|active
+acuestas|acostarse|v|（你）上床睡觉|you go to bed
+acuesto|acostarse|v|（我）上床睡觉|I go to bed
+adjuntamos|adjuntar|v|我们附上|we attach
+adora|adorar|v|（他/她）非常喜欢|he/she adores
+afectó|afectar|v|影响了|it affected
+afrontó|afrontar|v|面对了；应对了|he/she faced
+afuera|afuera|adv|外面|outside
+al|al|det|到……；a + el 的缩合|to the (a + el)
+alcohol|el alcohol|n|酒精；酒|alcohol
+alegro|alegrarse|v|（我）很高兴（me alegro）|I'm glad (me alegro)
+alguna|alguno|det|某个；一些（阴性）|some; any
+almendros|el almendro|n|杏树（复数）|almond trees
+alta|alto|adj|高的（阴性）|tall; high
+altavoz|el altavoz|n|扬声器；喇叭|loudspeaker
+amazónica|amazónico|adj|亚马孙的（阴性）|Amazonian
+ana|Ana|name|安娜（人名）|Ana (name)
+analizamos|analizar|v|我们分析|we analyze
+andando|andar|v|走着（ir andando 步行去）|walking (ir andando = to go on foot)
+anoche|anoche|adv|昨晚|last night
+antigua|antiguo|adj|古老的（阴性）|old; ancient
+anunciaron|anunciar|v|他们宣布了|they announced
+anunció|anunciar|v|宣布了|he/she announced
+análisis|el análisis|n|分析；化验|analysis; test
+apaga|apagar|v|关掉（命令式）；他关掉|turn off; he/she turns off
+apagado|apagar|v|关掉的；已关闭|turned off
+apagó|apagar|v|关掉了|he/she turned off
+apetece|apetecer|v|想要（me apetece 我想）|feel like (me apetece = I feel like)
+aplaude|aplaudir|v|鼓掌|applauds
+apostamos|apostar|v|我们押注；我们致力于|we bet; we commit to
+app|la app|n|应用程序|app
+aprende|aprender|v|（他/她）学习|learns
+aprendo|aprender|v|（我）学习|I learn
+aprieta|apretar|v|（鞋等）挤脚；按紧|it's tight; presses
+aprobado|aprobar|v|通过了（考试）|passed
+aprobaron|aprobar|v|他们通过了；批准了|they passed; they approved
+aprobarás|aprobar|v|你会通过|you will pass
+aprobé|aprobar|v|我通过了|I passed
+aprobó|aprobar|v|通过了；批准了|he/she passed; approved
+argentina|Argentina|name|阿根廷|Argentina
+arregló|arreglar|v|修好了|he/she fixed
+arriesgado|arriesgado|adj|冒险的|risky
+artificial|artificial|adj|人工的|artificial
+asada|asado|adj|烤的（阴性）|roasted
+ata|atar|v|系上；绑（命令式）|tie
+aumentado|aumentar|v|增加了|increased
+autoridad|la autoridad|n|权威；当局|authority
+avanza|avanzar|v|前进；进展|advances
+avanzado|avanzado|adj|先进的；高级的|advanced
+aviones|el avión|n|飞机（复数）|planes
+avisas|avisar|v|（你）通知|you let know
+ayudado|ayudar|v|帮助了|helped
+ayudan|ayudar|v|（他们）帮助|they help
+ayudarme|ayudar|v|帮我|help me
+ayudaré|ayudar|v|我会帮忙|I'll help
+ayudo|ayudar|v|（我）帮助|I help
+ayudó|ayudar|v|帮助了|he/she helped
+ayúdame|ayudar|v|帮帮我|help me
+aísla|aislar|v|隔离；隔音|insulates; isolates
+añade|añadir|v|加；添加|add; adds
+baja|bajar|v|下来；降低；（他）下去|comes down; goes down
+bajado|bajar|v|下降了|gone down
+baje|bajar|v|下（虚拟式/您命令式）|get off; go down (subj.)
+bajó|bajar|v|下降了；下来了|went down
+bancaria|bancario|adj|银行的（阴性）|bank (adj.)
+barcelona|Barcelona|name|巴塞罗那|Barcelona
+barre|barrer|v|扫地|sweeps
+barroca|barroco|adj|巴洛克的（阴性）|baroque
+bebo|beber|v|（我）喝|I drink
+bebéis|beber|v|你们喝|you (all) drink
+bella|bello|adj|美丽的（阴性）|beautiful
+beso|el beso|n|吻|kiss
+blanca|blanco|adj|白色的（阴性）|white
+blando|blando|adj|软的|soft
+bonita|bonito|adj|漂亮的（阴性）|pretty
+borges|Borges|name|博尔赫斯（阿根廷作家）|Borges (writer)
+bronce|el bronce|n|青铜|bronze
+buen|bueno|adj|好的（用于阳性单数名词前）|good (before a masculine noun)
+buena|bueno|adj|好的（阴性）|good
+buenas|bueno|adj|好的（阴性复数）；你好|good; hi (buenas)
+busca|buscar|v|找；寻找|looks for
+buscamos|buscar|v|我们找|we look for
+busco|buscar|v|（我）找|I'm looking for
+básica|básico|adj|基础的（阴性）|basic
+básico|básico|adj|基础的|basic
+cabo|el cabo|n|末端（al fin y al cabo 毕竟）|end (al fin y al cabo = after all)
+cae|caer|v|掉落；落下|falls
+caen|caer|v|（它们）掉落|they fall
+caigas|caer|v|（你）摔倒（虚拟式）|you fall (subj.)
+calentamiento|el calentamiento|n|变暖（calentamiento global 全球变暖）|warming
+calienta|calentar|v|加热|heat; heats
+calma|la calma|n|冷静；平静|calm
+cambia|cambiar|v|改变；变化|changes
+cambiado|cambiar|v|改变了|changed
+cambiamos|cambiar|v|我们换；我们改变|we change
+cambiarlos|cambiar|v|换掉它们|change them
+cambiará|cambiar|v|将会改变|will change
+cambiemos|cambiar|v|我们改变（虚拟式）|we change (subj.)
+cambió|cambiar|v|改变了|changed
+camina|caminar|v|走路|walks
+campanada|la campanada|n|钟声|chime
+caribe|el Caribe|name|加勒比|Caribbean
+carlos|Carlos|name|卡洛斯（人名）|Carlos (name)
+carnaval|el carnaval|n|狂欢节|carnival
+carné|el carné|n|证件（carné de conducir 驾照）|card; licence
+carril|el carril|n|车道（carril bici 自行车道）|lane
+casamos|casarse|v|我们结婚|we get married
+casco|el casco|n|头盔|helmet
+cayó|caer|v|掉了；摔倒了|fell
+caí|caer|v|我摔倒了|I fell
+cebra|la cebra|n|斑马（paso de cebra 斑马线）|zebra; zebra crossing
+celebran|celebrar|v|（他们）庆祝|they celebrate
+celebrarlo|celebrar|v|庆祝它|celebrate it
+cenamos|cenar|v|我们吃晚饭|we have dinner
+ceno|cenar|v|（我）吃晚饭|I have dinner
+cepillo|el cepillo|n|刷子（cepillo de dientes 牙刷）|brush
+cerrada|cerrado|adj|关着的（阴性）|closed
+cervantes|Cervantes|name|塞万提斯（作家）|Cervantes (writer)
+chile|Chile|name|智利|Chile
+china|China|name|中国|China
+ciento|ciento|num|一百（用于101–199）|hundred
+cierra|cerrar|v|关门；关闭|closes
+cierran|cerrar|v|（他们）关门|they close
+cierro|cerrar|v|（我）关|I close
+clara|claro|adj|清楚的；浅色的（阴性）|clear; light
+clic|el clic|n|点击|click
+climático|climático|adj|气候的|climate (adj.)
+co|co-|det|共同（co-）|co-
+cocino|cocinar|v|（我）做饭|I cook
+coge|coger|v|拿；乘坐|takes; catches
+come|comer|v|（他/她）吃|eats
+comemos|comer|v|我们吃|we eat
+comen|comer|v|他们吃|they eat
+comentario|el comentario|n|评论|comment
+comes|comer|v|（你）吃|you eat
+comido|comer|v|吃过了|eaten
+comimos|comer|v|我们吃了|we ate
+comiste|comer|v|你吃了|you ate
+como|como|conj|像；作为；因为|like; as; since
+completa|completo|adj|完整的；满的（阴性）|complete; full
+completamente|completamente|adv|完全地|completely
+complicada|complicado|adj|复杂的（阴性）|complicated
+compra|comprar|v|（他/她）买|buys
+compras|comprar|v|（你）买；购物（ir de compras）|you buy; shopping
+compro|comprar|v|（我）买|I buy
+compré|comprar|v|我买了|I bought
+compró|comprar|v|他/她买了|he/she bought
+comunicación|la comunicación|n|沟通；交流|communication
+comí|comer|v|我吃了|I ate
+común|común|adj|共同的；普通的|common
+concurso|el concurso|n|比赛；竞赛|contest
+conocida|conocido|adj|有名的（阴性）|well-known
+conozco|conocer|v|（我）认识；了解|I know
+consiguiente|consiguiente|adj|随之而来的（por consiguiente 因此）|consequent (por consiguiente = therefore)
+construido|construir|v|建造了|built
+contacto|el contacto|n|联系|contact
+contesta|contestar|v|回答；接（电话）|answers
+contestaste|contestar|v|你回答了|you answered
+contigo|contigo|pron|和你一起|with you
+continúa|continuar|v|继续|continues
+copa|la copa|n|酒杯；奖杯|glass; cup
+coreana|coreano|adj|韩国的（阴性）|Korean
+corrompe|corromper|v|腐蚀；使腐败|corrupts
+corría|correr|v|（以前）跑|used to run; was running
+corta|cortar|v|切；剪|cuts
+cortada|cortar|v|被切断的（阴性）|cut off
+corté|cortar|v|我切了；我剪了|I cut
+coña|la coña|n|玩笑（俚语）|joke (slang)
+crece|crecer|v|生长|grows
+creciendo|crecer|v|正在增长|growing
+creció|crecer|v|长大了|grew up
+cree|creer|v|（他/她）认为；相信|believes; thinks
+crees|creer|v|（你）认为|you think
+crema|la crema|n|乳霜；奶油|cream
+creo|creer|v|（我）认为；相信|I think; I believe
+critica|criticar|v|批评|criticizes
+cruza|cruzar|v|穿过；过（马路）|crosses
+cruzamos|cruzar|v|我们穿过|we cross
+cuanto|cuanto|adv|越……越（cuanto más…）|the more…
+cuelga|colgar|v|挂断（电话）；挂|hangs up; hangs
+cuesta|costar|v|花费；值（多少钱）|costs
+cuestión|la cuestión|n|问题；事情|question; matter
+culpa|la culpa|n|过错；责任|fault; blame
+cuyo|cuyo|pron|其；……的（关系词）|whose
+cuántas|cuánto|det|多少（阴性复数）|how many
+cuéntame|contar|v|告诉我；讲给我听|tell me
+cómoda|cómodo|adj|舒适的（阴性）|comfortable

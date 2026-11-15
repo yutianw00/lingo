@@ -7,81 +7,209 @@
 es Quiero [la] manzana roja. | el, los, un
 zh 我要那个红苹果。
 en I want the red apple.
+why es.zh la | manzana 是阴性单数名词，用 la
+why es.zh el | el 是阳性冠词，manzana 是阴性
+why es.zh los | los 是阳性复数，这里只有一个苹果
+why es.zh un | un 是阳性不定冠词，而且这里指特定的“那个”苹果
+why es.en la | manzana is feminine singular, so "la"
+why es.en el | "el" is masculine; manzana is feminine
+why es.en los | "los" is masculine plural; there's one apple
+why es.en un | "un" is masculine and means "a", not "the"
 
 @f302 fill 3 articles
 es Es [un] libro muy bueno. | una, la, unos
 zh 这是一本很好的书。
 en It's a very good book.
+why es.zh un | libro 是阳性名词，“一本”用 un
+why es.zh una | una 是阴性，libro 是阳性
+why es.zh la | la 是阴性定冠词，libro 是阳性
+why es.zh unos | unos 是复数，这里只有一本书
+why es.en un | libro is masculine, so "a" is "un"
+why es.en una | "una" is feminine; libro is masculine
+why es.en la | "la" is feminine; libro is masculine
+why es.en unos | "unos" is plural; there's one book
 
 @f303 fill 3 articles
 es [El] agua está fría. | La, Las, Una
 zh 水很凉。
 en The water is cold.
+why es.zh El | agua 是阴性，但以重读 a 开头，单数用 el
+why es.zh La | 重读 a 开头的阴性名词单数不用 la（la agua 是错的）
+why es.zh Las | las 是复数，agua 这里是单数
+why es.zh Una | una 是“一个”，而且同样不能用在重读 a 前
+why es.en El | agua is feminine but starts with stressed a, so it takes "el"
+why es.en La | feminine nouns with stressed a- take "el", not "la"
+why es.en Las | "las" is plural; agua is singular here
+why es.en Una | "una" means "a", and isn't used before stressed a-
 
 @f304 fill 3 agreement
 es La casa es muy [bonita]. | bonito, bonitos, bonitas
 zh 房子很漂亮。
 en The house is very pretty.
+why es.zh bonita | casa 是阴性单数，形容词用 -a
+why es.zh bonito | -o 是阳性形式，casa 是阴性
+why es.zh bonitos | 阳性复数，casa 是阴性单数
+why es.zh bonitas | 复数形式，这里只有一座房子
+why es.en bonita | casa is feminine singular, so -a
+why es.en bonito | -o is masculine; casa is feminine
+why es.en bonitos | masculine plural; casa is feminine singular
+why es.en bonitas | plural; there's one house
 
 @f305 fill 3 agreement
 es Mis hermanos son [altos]. | alto, alta, altas
 zh 我的兄弟们个子都很高。
 en My brothers are tall.
+why es.zh altos | hermanos 是阳性复数，形容词用 -os
+why es.zh alto | 单数，主语是复数
+why es.zh alta | 阴性单数，hermanos 是阳性复数
+why es.zh altas | 阴性复数，hermanos 是阳性
+why es.en altos | hermanos is masculine plural, so -os
+why es.en alto | singular; the subject is plural
+why es.en alta | feminine singular; hermanos is masculine plural
+why es.en altas | feminine plural; hermanos is masculine
 
 @f306 fill 3 agreement
 es Tengo dos gatos [negros]. | negro, negra, negras
 zh 我有两只黑猫。
 en I have two black cats.
+why es.zh negros | gatos 是阳性复数，形容词用 -os
+why es.zh negro | 单数，gatos 是复数
+why es.zh negra | 阴性单数，gatos 是阳性复数
+why es.zh negras | 阴性复数，gatos 是阳性
+why es.en negros | gatos is masculine plural, so -os
+why es.en negro | singular; gatos is plural
+why es.en negra | feminine singular; gatos is masculine plural
+why es.en negras | feminine plural; gatos is masculine
 
 @f307 fill 3 ser-estar
 es Yo [soy] de China. | estoy, es, está
 zh 我来自中国。
 en I'm from China.
+why es.zh soy | 说来自哪里（来源）用 ser，yo → soy
+why es.zh estoy | estar 表示状态或位置，不表示来源
+why es.zh es | es 是第三人称，主语是 yo
+why es.zh está | estar 的第三人称，人称和用法都不对
+why es.en soy | origin uses ser; yo → soy
+why es.en estoy | estar is for states/location, not origin
+why es.en es | "es" is 3rd person; the subject is yo
+why es.en está | estar, 3rd person: wrong verb and person
 
 @f308 fill 3 ser-estar
 es Hoy [estoy] muy cansado. | soy, es, eres
 zh 我今天很累。
 en I'm very tired today.
+why es.zh estoy | 暂时的状态（累）用 estar，yo → estoy
+why es.zh soy | ser 表示本质特征，不表示“今天累”
+why es.zh es | ser 的第三人称，动词和人称都不对
+why es.zh eres | ser 的“你”形式，主语是“我”
+why es.en estoy | temporary state (tired) uses estar; yo → estoy
+why es.en soy | ser is for lasting traits, not "tired today"
+why es.en es | ser, 3rd person: wrong verb and person
+why es.en eres | ser for "you"; the subject is "I"
 
 @f309 fill 3 ser-estar
 es El banco [está] cerca de aquí. | es, son, soy
 zh 银行离这里很近。
 en The bank is near here.
+why es.zh está | 说位置用 estar，el banco → está
+why es.zh es | ser 不用来表示位置
+why es.zh son | ser 的复数形式，用法和数都不对
+why es.zh soy | ser 的“我”形式
+why es.en está | location uses estar; el banco → está
+why es.en es | ser isn't used for location
+why es.en son | ser, plural: wrong verb and number
+why es.en soy | ser for "I"
 
 @f310 fill 3 ser-estar
 es Mi padre [es] médico. | está, estoy, están
 zh 我爸爸是医生。
 en My father is a doctor.
+why es.zh es | 职业用 ser，mi padre → es
+why es.zh está | estar 不用来说职业
+why es.zh estoy | estar 的“我”形式
+why es.zh están | estar 的复数形式
+why es.en es | professions use ser; mi padre → es
+why es.en está | estar isn't used for professions
+why es.en estoy | estar for "I"
+why es.en están | estar, plural
 
 @f311 fill 3 present
 es Nosotros [hablamos] español. | hablan, hablo, hablas
 zh 我们说西班牙语。
 en We speak Spanish.
+why es.zh hablamos | nosotros 的现在时是 -amos
+why es.zh hablan | ellos/ustedes 的形式
+why es.zh hablo | yo 的形式
+why es.zh hablas | tú 的形式
+why es.en hablamos | nosotros takes -amos
+why es.en hablan | the ellos/ustedes form
+why es.en hablo | the yo form
+why es.en hablas | the tú form
 
 @f312 fill 3 present
 es Ella [vive] en Madrid. | vivo, vives, vivimos
 zh 她住在马德里。
 en She lives in Madrid.
+why es.zh vive | ella（第三人称单数）→ vive
+why es.zh vivo | yo 的形式
+why es.zh vives | tú 的形式
+why es.zh vivimos | nosotros 的形式
+why es.en vive | ella (3rd person singular) → vive
+why es.en vivo | the yo form
+why es.en vives | the tú form
+why es.en vivimos | the nosotros form
 
 @f313 fill 3 present
 es ¿Tú [comes] carne? | como, come, comen
 zh 你吃肉吗？
 en Do you eat meat?
+why es.zh comes | tú → comes
+why es.zh como | yo 的形式
+why es.zh come | él/ella 的形式
+why es.zh comen | ellos 的形式
+why es.en comes | tú → comes
+why es.en como | the yo form
+why es.en come | the él/ella form
+why es.en comen | the ellos form
 
 @f314 fill 3 present
 es Ellos [trabajan] en un banco. | trabaja, trabajo, trabajamos
 zh 他们在银行工作。
 en They work in a bank.
+why es.zh trabajan | ellos → -an
+why es.zh trabaja | 第三人称单数
+why es.zh trabajo | yo 的形式
+why es.zh trabajamos | nosotros 的形式
+why es.en trabajan | ellos → -an
+why es.en trabaja | 3rd person singular
+why es.en trabajo | the yo form
+why es.en trabajamos | the nosotros form
 
 @f315 fill 3 present
 es Yo [estudio] por la tarde. | estudia, estudias, estudian
 zh 我下午学习。
 en I study in the afternoon.
+why es.zh estudio | yo → -o
+why es.zh estudia | él/ella 的形式
+why es.zh estudias | tú 的形式
+why es.zh estudian | ellos 的形式
+why es.en estudio | yo → -o
+why es.en estudia | the él/ella form
+why es.en estudias | the tú form
+why es.en estudian | the ellos form
 
 @f316 fill 3 present
 es ¿Vosotros [bebéis] vino? | beben, bebemos, bebes
 zh 你们喝葡萄酒吗？
 en Do you all drink wine?
+why es.zh bebéis | vosotros → -éis
+why es.zh beben | ellos/ustedes 的形式
+why es.zh bebemos | nosotros 的形式
+why es.zh bebes | tú 的形式
+why es.en bebéis | vosotros → -éis
+why es.en beben | the ellos/ustedes form
+why es.en bebemos | the nosotros form
+why es.en bebes | the tú form
 
 # ---------- L3 dialogues
 @d301 next 3 intro
@@ -149,81 +277,209 @@ en I'm very tired today. >> Why don't you rest a bit?
 es Yo [tengo] veinte años. | tiene, tienes, tenemos
 zh 我二十岁。
 en I'm twenty.
+why es.zh tengo | 年龄用 tener；yo → tengo（不规则）
+why es.zh tiene | él/ella 的形式
+why es.zh tienes | tú 的形式
+why es.zh tenemos | nosotros 的形式
+why es.en tengo | age uses tener; yo → tengo (irregular)
+why es.en tiene | the él/ella form
+why es.en tienes | the tú form
+why es.en tenemos | the nosotros form
 
 @f402 fill 4 irregular
 es Nosotros [vamos] al cine. | va, voy, van
 zh 我们去看电影。
 en We're going to the cinema.
+why es.zh vamos | ir 不规则，nosotros → vamos
+why es.zh va | él/ella 的形式
+why es.zh voy | yo 的形式
+why es.zh van | ellos 的形式
+why es.en vamos | ir is irregular; nosotros → vamos
+why es.en va | the él/ella form
+why es.en voy | the yo form
+why es.en van | the ellos form
 
 @f403 fill 4 irregular
 es ¿Qué [haces] tú el sábado? | hago, hace, hacen
 zh 你周六做什么？
 en What are you doing on Saturday?
+why es.zh haces | hacer，tú → haces
+why es.zh hago | yo 的形式
+why es.zh hace | él/ella 的形式
+why es.zh hacen | ellos 的形式
+why es.en haces | hacer, tú → haces
+why es.en hago | the yo form
+why es.en hace | the él/ella form
+why es.en hacen | the ellos form
 
 @f404 fill 4 irregular
 es Yo no [puedo] venir mañana. | puede, puedes, podemos
 zh 我明天来不了。
 en I can't come tomorrow.
+why es.zh puedo | poder 词根变 ue，yo → puedo
+why es.zh puede | él/ella 的形式
+why es.zh puedes | tú 的形式
+why es.zh podemos | nosotros 的形式
+why es.en puedo | poder changes o→ue; yo → puedo
+why es.en puede | the él/ella form
+why es.en puedes | the tú form
+why es.en podemos | the nosotros form
 
 @f405 fill 4 irregular
 es Ellos [quieren] una casa grande. | quiere, quiero, queremos
 zh 他们想要一栋大房子。
 en They want a big house.
+why es.zh quieren | querer 词根变 ie，ellos → quieren
+why es.zh quiere | 单数第三人称
+why es.zh quiero | yo 的形式
+why es.zh queremos | nosotros 的形式
+why es.en quieren | querer changes e→ie; ellos → quieren
+why es.en quiere | 3rd person singular
+why es.en quiero | the yo form
+why es.en queremos | the nosotros form
 
 @f406 fill 4 irregular
 es Yo [salgo] de casa a las ocho. | sale, sales, salimos
 zh 我八点出门。
 en I leave home at eight.
+why es.zh salgo | salir 的 yo 形式不规则：salgo
+why es.zh sale | él/ella 的形式
+why es.zh sales | tú 的形式
+why es.zh salimos | nosotros 的形式
+why es.en salgo | salir has an irregular yo form: salgo
+why es.en sale | the él/ella form
+why es.en sales | the tú form
+why es.en salimos | the nosotros form
 
 @f407 fill 4 irregular
 es ¿Tú [vienes] a la fiesta? | vengo, viene, vienen
 zh 你来参加派对吗？
 en Are you coming to the party?
+why es.zh vienes | venir，tú → vienes
+why es.zh vengo | yo 的形式
+why es.zh viene | él/ella 的形式
+why es.zh vienen | ellos 的形式
+why es.en vienes | venir, tú → vienes
+why es.en vengo | the yo form
+why es.en viene | the él/ella form
+why es.en vienen | the ellos form
 
 @f408 fill 4 irregular
 es Yo siempre [digo] la verdad. | dice, dices, decimos
 zh 我总是说真话。
 en I always tell the truth.
+why es.zh digo | decir 的 yo 形式不规则：digo
+why es.zh dice | él/ella 的形式
+why es.zh dices | tú 的形式
+why es.zh decimos | nosotros 的形式
+why es.en digo | decir has an irregular yo form: digo
+why es.en dice | the él/ella form
+why es.en dices | the tú form
+why es.en decimos | the nosotros form
 
 @f409 fill 4 irregular
 es Yo no [sé] su nombre. | sabe, sabes, sabemos
 zh 我不知道他的名字。
 en I don't know his name.
+why es.zh sé | saber 的 yo 形式是 sé
+why es.zh sabe | él/ella 的形式
+why es.zh sabes | tú 的形式
+why es.zh sabemos | nosotros 的形式
+why es.en sé | saber's yo form is sé
+why es.en sabe | the él/ella form
+why es.en sabes | the tú form
+why es.en sabemos | the nosotros form
 
 @f410 fill 4 irregular
 es Yo [conozco] a tu hermano. | conoce, conoces, conocen
 zh 我认识你哥哥。
 en I know your brother.
+why es.zh conozco | conocer 的 yo 形式是 conozco
+why es.zh conoce | él/ella 的形式
+why es.zh conoces | tú 的形式
+why es.zh conocen | ellos 的形式
+why es.en conozco | conocer's yo form is conozco
+why es.en conoce | the él/ella form
+why es.en conoces | the tú form
+why es.en conocen | the ellos form
 
 @f411 fill 4 gustar
 es Me [gusta] el chocolate. | gustan, gusto, gustas
 zh 我喜欢巧克力。
 en I like chocolate.
+why es.zh gusta | gustar 和被喜欢的东西一致：el chocolate 单数 → gusta
+why es.zh gustan | 复数，chocolate 是单数
+why es.zh gusto | 不是“我喜欢”的说法，要用 me gusta
+why es.zh gustas | 意思是“你讨人喜欢”，不对
+why es.en gusta | gustar agrees with the thing liked: el chocolate is singular → gusta
+why es.en gustan | plural; chocolate is singular
+why es.en gusto | not how to say "I like"; use me gusta
+why es.en gustas | means "you are liked"; wrong here
 
 @f412 fill 4 gustar
 es Me [gustan] los perros. | gusta, gusto, gustamos
 zh 我喜欢狗。
 en I like dogs.
+why es.zh gustan | los perros 是复数 → gustan
+why es.zh gusta | 单数，perros 是复数
+why es.zh gusto | me gusto 不对，要和被喜欢的东西一致
+why es.zh gustamos | 意思是“我们被喜欢”
+why es.en gustan | los perros is plural → gustan
+why es.en gusta | singular; perros is plural
+why es.en gusto | wrong; gustar agrees with the thing liked
+why es.en gustamos | means "we are liked"
 
 @f413 fill 4 gustar
 es A mi madre [le] gusta cocinar. | me, te, les
 zh 我妈妈喜欢做饭。
 en My mother likes cooking.
+why es.zh le | “给她”用 le（a mi madre = 她）
+why es.zh me | me 是“我”
+why es.zh te | te 是“你”
+why es.zh les | les 是复数“他们”
+why es.en le | "to her" is le (a mi madre)
+why es.en me | "me" is me
+why es.en te | "te" is you
+why es.en les | "les" is plural
 
 @f414 fill 4 gustar
 es ¿A vosotros [os] gusta el fútbol? | nos, les, te
 zh 你们喜欢足球吗？
 en Do you all like football?
+why es.zh os | a vosotros 对应 os
+why es.zh nos | nos 是“我们”
+why es.zh les | les 是“他们/您们”
+why es.zh te | te 是单数“你”
+why es.en os | a vosotros goes with os
+why es.en nos | "nos" is us
+why es.en les | "les" is them/you (formal pl.)
+why es.en te | "te" is singular you
 
 @f415 fill 4 hay-estar
 es [Hay] un supermercado cerca. | Está, Es, Tiene
 zh 附近有一家超市。
 en There's a supermarket nearby.
+why es.zh Hay | “有（某物存在）”用 hay
+why es.zh Está | está 说的是已知事物在哪里，un supermercado 是新信息
+why es.zh Es | es 不表示存在
+why es.zh Tiene | tiene 是“他有”，没有主语
+why es.en Hay | "there is" = hay
+why es.en Está | está locates known things; un supermercado is new info
+why es.en Es | "es" doesn't express existence
+why es.en Tiene | "tiene" = "he has"; there's no subject
 
 @f416 fill 4 hay-estar
 es El supermercado [está] en la plaza. | hay, es, son
 zh 超市在广场上。
 en The supermarket is in the square.
+why es.zh está | 特定的东西（el supermercado）在哪里用 está
+why es.zh hay | hay 用于不定的新事物，不和 el 连用
+why es.zh es | ser 不表示位置
+why es.zh son | ser 的复数，用法和数都不对
+why es.en está | a specific thing's location (el …) uses está
+why es.en hay | hay is for new, indefinite things, not "el"
+why es.en es | ser doesn't express location
+why es.en son | ser plural: wrong verb and number
 
 # ---------- L4 dialogues
 @d401 next 4 food

@@ -142,6 +142,25 @@ def word_card(row: sqlite3.Row, native: str, target: str, s: srs.State, now: flo
         "meaning": native_text(row, "{}", native),
         "example": row["ex_" + target],
         "example_translation": native_text(row, "ex_{}", native),
+        "custom": False,
+        **item_progress(s, now),
+    }
+
+
+def custom_card(row: sqlite3.Row, s: srs.State, now: float) -> dict:
+    """A word the learner added themselves: no difficulty score, shown as level "Custom"."""
+    return {
+        "id": row["id"],
+        "word": row["word"],
+        "pos": row["pos"],
+        "gender": "",
+        "difficulty": 0.0,
+        "difficulty_level": 0,
+        "topic": "custom",
+        "meaning": row["meaning"],
+        "example": row["example"],
+        "example_translation": row["example_translation"],
+        "custom": True,
         **item_progress(s, now),
     }
 
@@ -178,6 +197,14 @@ def question_payload(q: sqlite3.Row, native: str, target: str, s: srs.State, now
         options.append({"text": od[target]["answer"], "translation": _native(od, native)["answer"]})
     rng.shuffle(options)
     return {**base, "prompt": t["prompt"], "translation": n["prompt"], "options": options}
+
+
+def prompt_text(q: sqlite3.Row, target: str) -> str:
+    """The target-language text the learner reads (with ___ for a fill-in blank)."""
+    t = json.loads(q["data"])[target]
+    if q["kind"] == "fill":
+        return t["sentence"].replace(f"[{t['answer']}]", "___")
+    return t["prompt"]
 
 
 def question_answer(q: sqlite3.Row, native: str, target: str) -> dict:

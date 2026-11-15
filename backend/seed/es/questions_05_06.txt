@@ -7,91 +7,235 @@
 es Yo [quiero] un café, por favor. | quero, quieres, quiere
 zh 我要一杯咖啡。
 en I'd like a coffee, please.
+why es.zh quiero | querer：e→ie，yo → quiero
+why es.zh quero | 词根没变 ie，拼错了
+why es.zh quieres | tú 的形式
+why es.zh quiere | él/ella 的形式
+why es.en quiero | querer: e→ie, yo → quiero
+why es.en quero | missing the e→ie change
+why es.en quieres | the tú form
+why es.en quiere | the él/ella form
 
 @f502 fill 5 stem-change
 es Nosotros [podemos] ir mañana. | puedemos, pueden, puedo
 zh 我们明天可以去。
 en We can go tomorrow.
+why es.zh podemos | nosotros 形式词根不变：podemos
+why es.zh puedemos | nosotros 不变 ue，拼错了
+why es.zh pueden | ellos 的形式
+why es.zh puedo | yo 的形式
+why es.en podemos | nosotros keeps the stem: podemos
+why es.en puedemos | nosotros doesn't take ue
+why es.en pueden | the ellos form
+why es.en puedo | the yo form
 
 @f503 fill 5 stem-change
 es Ella [duerme] ocho horas. | dorme, duermo, dormimos
 zh 她睡八个小时。
 en She sleeps eight hours.
+why es.zh duerme | dormir：o→ue，ella → duerme
+why es.zh dorme | 缺少 o→ue 的变化
+why es.zh duermo | yo 的形式
+why es.zh dormimos | nosotros 的形式
+why es.en duerme | dormir: o→ue, ella → duerme
+why es.en dorme | missing the o→ue change
+why es.en duermo | the yo form
+why es.en dormimos | the nosotros form
 
 @f504 fill 5 stem-change
 es ¿A qué hora [empieza] la clase? | empeza, empiezo, empezamos
 zh 课几点开始？
 en What time does the class start?
+why es.zh empieza | empezar：e→ie，la clase → empieza
+why es.zh empeza | 缺少 e→ie 的变化
+why es.zh empiezo | yo 的形式
+why es.zh empezamos | nosotros 的形式
+why es.en empieza | empezar: e→ie, la clase → empieza
+why es.en empeza | missing the e→ie change
+why es.en empiezo | the yo form
+why es.en empezamos | the nosotros form
 
 @f505 fill 5 stem-change
 es Yo siempre [pido] pescado. | pedo, pide, piden
 zh 我总是点鱼。
 en I always order fish.
+why es.zh pido | pedir：e→i，yo → pido
+why es.zh pedo | 缺少 e→i 的变化（而且是另一个词）
+why es.zh pide | él/ella 的形式
+why es.zh piden | ellos 的形式
+why es.en pido | pedir: e→i, yo → pido
+why es.en pedo | missing e→i (and a different word!)
+why es.en pide | the él/ella form
+why es.en piden | the ellos form
 
 @f506 fill 5 stem-change
 es ¿Cuánto [cuesta] el billete? | costa, cuestan, cuesto
 zh 票多少钱？
 en How much is the ticket?
+why es.zh cuesta | costar：o→ue，el billete → cuesta
+why es.zh costa | 缺少 o→ue（costa 是“海岸”）
+why es.zh cuestan | 复数，billete 是单数
+why es.zh cuesto | yo 的形式
+why es.en cuesta | costar: o→ue, el billete → cuesta
+why es.en costa | missing o→ue (costa means coast)
+why es.en cuestan | plural; billete is singular
+why es.en cuesto | the yo form
 
 @f507 fill 5 stem-change
 es Mis padres [vuelven] el lunes. | volven, vuelve, volvemos
 zh 我父母周一回来。
 en My parents come back on Monday.
+why es.zh vuelven | volver：o→ue，mis padres → vuelven
+why es.zh volven | 缺少 o→ue 的变化
+why es.zh vuelve | 单数，主语是复数
+why es.zh volvemos | nosotros 的形式
+why es.en vuelven | volver: o→ue, mis padres → vuelven
+why es.en volven | missing the o→ue change
+why es.en vuelve | singular; the subject is plural
+why es.en volvemos | the nosotros form
 
 @f508 fill 5 reflexive
 es Yo [me] levanto a las siete. | te, se, nos
 zh 我七点起床。
 en I get up at seven.
+why es.zh me | 反身动词 levantarse，yo → me levanto
+why es.zh te | te 对应 tú
+why es.zh se | se 对应他/她/他们
+why es.zh nos | nos 对应 nosotros
+why es.en me | reflexive levantarse: yo → me levanto
+why es.en te | "te" goes with tú
+why es.en se | "se" goes with él/ellos
+why es.en nos | "nos" goes with nosotros
 
 @f509 fill 5 reflexive
 es ¿A qué hora [te] acuestas? | me, se, os
 zh 你几点睡觉？
 en What time do you go to bed?
+why es.zh te | acostarse，tú → te acuestas
+why es.zh me | me 对应 yo
+why es.zh se | se 对应第三人称
+why es.zh os | os 对应 vosotros
+why es.en te | acostarse: tú → te acuestas
+why es.en me | "me" goes with yo
+why es.en se | "se" goes with 3rd person
+why es.en os | "os" goes with vosotros
 
 @f510 fill 5 reflexive
 es Nosotros [nos] duchamos por la mañana. | se, os, me
 zh 我们早上洗澡。
 en We shower in the morning.
+why es.zh nos | ducharse，nosotros → nos duchamos
+why es.zh se | se 对应第三人称
+why es.zh os | os 对应 vosotros
+why es.zh me | me 对应 yo
+why es.en nos | ducharse: nosotros → nos duchamos
+why es.en se | "se" goes with 3rd person
+why es.en os | "os" goes with vosotros
+why es.en me | "me" goes with yo
 
 @f511 fill 5 reflexive
 es Mi hermano [se] llama Pablo. | me, te, le
 zh 我哥哥叫巴勃罗。
 en My brother's name is Pablo.
+why es.zh se | llamarse，mi hermano（他）→ se llama
+why es.zh me | me 对应 yo
+why es.zh te | te 对应 tú
+why es.zh le | le 是间接宾语，不是反身代词
+why es.en se | llamarse: mi hermano → se llama
+why es.en me | "me" goes with yo
+why es.en te | "te" goes with tú
+why es.en le | "le" is indirect object, not reflexive
 
 @f512 fill 5 possessive
 es Estas son [mis] llaves. | mi, mío, mías
 zh 这些是我的钥匙。
 en These are my keys.
+why es.zh mis | llaves 是复数 → mis
+why es.zh mi | 单数，llaves 是复数
+why es.zh mío | mío 放在名词后或单独用，且是阳性单数
+why es.zh mías | mías 不能放在名词前
+why es.en mis | llaves is plural → mis
+why es.en mi | singular; llaves is plural
+why es.en mío | "mío" goes after the noun and is masc. singular
+why es.en mías | "mías" can't go before the noun
 
 @f513 fill 5 possessive
 es Laura y [su] marido viven aquí. | sus, suyo, suya
 zh 劳拉和她丈夫住在这里。
 en Laura and her husband live here.
+why es.zh su | marido 是单数 → su（她的）
+why es.zh sus | 复数，marido 是单数
+why es.zh suyo | suyo 放在名词后或单独用
+why es.zh suya | suya 放在名词后，且是阴性
+why es.en su | marido is singular → su (her)
+why es.en sus | plural; marido is singular
+why es.en suyo | "suyo" goes after the noun
+why es.en suya | "suya" goes after the noun and is feminine
 
 @f514 fill 5 possessive
 es Esta es [nuestra] casa. | nuestro, nuestros, nosotros
 zh 这是我们的家。
 en This is our house.
+why es.zh nuestra | casa 是阴性单数 → nuestra
+why es.zh nuestro | 阳性，casa 是阴性
+why es.zh nuestros | 阳性复数
+why es.zh nosotros | nosotros 是“我们”，不是“我们的”
+why es.en nuestra | casa is feminine singular → nuestra
+why es.en nuestro | masculine; casa is feminine
+why es.en nuestros | masculine plural
+why es.en nosotros | "nosotros" is "we", not "our"
 
 @f515 fill 5 possessive
 es Ese libro no es mío, es [tuyo]. | tu, tuya, tus
 zh 那本书不是我的，是你的。
 en That book isn't mine, it's yours.
+why es.zh tuyo | 单独使用、指 libro（阳性）→ tuyo
+why es.zh tu | tu 只能放在名词前
+why es.zh tuya | 阴性，libro 是阳性
+why es.zh tus | 复数，而且要放在名词前
+why es.en tuyo | standing alone for libro (masc.) → tuyo
+why es.en tu | "tu" only goes before a noun
+why es.en tuya | feminine; libro is masculine
+why es.en tus | plural, and goes before a noun
 
 @f516 fill 5 future-ir
 es Mañana yo [voy] a estudiar. | vamos, va, vas
 zh 我明天要学习。
 en Tomorrow I'm going to study.
+why es.zh voy | ir a + 动词原形表示将来；yo → voy
+why es.zh vamos | nosotros 的形式
+why es.zh va | él/ella 的形式
+why es.zh vas | tú 的形式
+why es.en voy | ir a + infinitive = future; yo → voy
+why es.en vamos | the nosotros form
+why es.en va | the él/ella form
+why es.en vas | the tú form
 
 @f517 fill 5 future-ir
 es ¿Qué [vas] a hacer este verano? | va, voy, van
 zh 你今年夏天打算做什么？
 en What are you going to do this summer?
+why es.zh vas | ¿Qué vas a hacer? tú → vas
+why es.zh va | él/ella 的形式
+why es.zh voy | yo 的形式
+why es.zh van | ellos 的形式
+why es.en vas | tú → vas
+why es.en va | the él/ella form
+why es.en voy | the yo form
+why es.en van | the ellos form
 
 @f518 fill 5 future-ir
 es Va [a] llover esta tarde. | de, en, que
 zh 今天下午要下雨。
 en It's going to rain this afternoon.
+why es.zh a | 将来结构是 ir a + 动词原形
+why es.zh de | ir 后面不用 de
+why es.zh en | ir 后面不用 en
+why es.zh que | ir que 不存在
+why es.en a | the future structure is ir a + infinitive
+why es.en de | ir isn't followed by de here
+why es.en en | ir isn't followed by en here
+why es.en que | "ir que" doesn't exist
 
 # ---------- L5 dialogues
 @d501 next 5 plans
@@ -169,81 +313,209 @@ en Let me introduce my friend Javier. >> Nice to meet you, Javier. I'm Wei.
 es Ayer [comí] paella. | comemos, comeré, comer
 zh 我昨天吃了海鲜饭。
 en Yesterday I ate paella.
+why es.zh comí | ayer 表示过去某个完成的动作，用简单过去时；yo → comí
+why es.zh comemos | 现在时，nosotros 形式
+why es.zh comeré | 将来时，和 ayer 矛盾
+why es.zh comer | 动词原形，不能直接做谓语
+why es.en comí | "ayer" + completed action → preterite; yo → comí
+why es.en comemos | present tense, nosotros
+why es.en comeré | future; clashes with "ayer"
+why es.en comer | infinitive; needs a conjugated verb
 
 @f602 fill 6 preterite
 es El año pasado [viajamos] a Perú. | viajaremos, viajemos, viajar
 zh 去年我们去了秘鲁。
 en Last year we travelled to Peru.
+why es.zh viajamos | el año pasado → 简单过去时；nosotros → viajamos
+why es.zh viajaremos | 将来时，和“去年”矛盾
+why es.zh viajemos | 虚拟式，这里没有触发虚拟式的结构
+why es.zh viajar | 动词原形
+why es.en viajamos | "last year" → preterite; nosotros → viajamos
+why es.en viajaremos | future; clashes with "last year"
+why es.en viajemos | subjunctive; nothing here triggers it
+why es.en viajar | infinitive
 
 @f603 fill 6 preterite
 es ¿[Hablaste] con tu madre ayer? | Hablarás, Hables, Hablar
 zh 你昨天跟你妈妈说话了吗？
 en Did you speak to your mother yesterday?
+why es.zh Hablaste | ayer → 简单过去时；tú → hablaste
+why es.zh Hablarás | 将来时
+why es.zh Hables | 虚拟式
+why es.zh Hablar | 动词原形
+why es.en Hablaste | "ayer" → preterite; tú → hablaste
+why es.en Hablarás | future
+why es.en Hables | subjunctive
+why es.en Hablar | infinitive
 
 @f604 fill 6 preterite
 es Anoche ellos [llegaron] tarde a la fiesta. | llegarán, llegue, llegar
 zh 他们参加派对迟到了。
 en They arrived late at the party.
+why es.zh llegaron | anoche → 简单过去时；ellos → llegaron
+why es.zh llegarán | 将来时
+why es.zh llegue | 虚拟式单数
+why es.zh llegar | 动词原形
+why es.en llegaron | "anoche" → preterite; ellos → llegaron
+why es.en llegarán | future
+why es.en llegue | singular subjunctive
+why es.en llegar | infinitive
 
 @f605 fill 6 preterite
 es Ayer ella [escribió] una carta. | escribirá, escriba, escribí
 zh 她写了一封信。
 en She wrote a letter.
+why es.zh escribió | 过去完成的动作；ella → escribió
+why es.zh escribirá | 将来时
+why es.zh escriba | 虚拟式
+why es.zh escribí | yo 的过去时，主语是 ella
+why es.en escribió | completed past action; ella → escribió
+why es.en escribirá | future
+why es.en escriba | subjunctive
+why es.en escribí | yo form; the subject is ella
 
 @f606 fill 6 preterite-irregular
 es Ayer yo [fui] al médico. | iré, vaya, fue
 zh 我昨天去看了医生。
 en Yesterday I went to the doctor.
+why es.zh fui | ir 的过去时不规则，yo → fui
+why es.zh iré | 将来时
+why es.zh vaya | 虚拟式
+why es.zh fue | 第三人称，主语是 yo
+why es.en fui | ir's preterite is irregular; yo → fui
+why es.en iré | future
+why es.en vaya | subjunctive
+why es.en fue | 3rd person; the subject is yo
 
 @f607 fill 6 preterite-irregular
 es La película [fue] muy buena. | es, era, fui
 zh 那部电影很好看。
 en The film was very good.
+why es.zh fue | 评价一件已结束的事（电影）用 ser 的过去时 fue
+why es.zh es | 现在时，电影已经看完了
+why es.zh era | 未完成过去时，用于背景描述，不用于对整件事的总结
+why es.zh fui | yo 的形式
+why es.en fue | judging a finished event → preterite of ser: fue
+why es.en es | present; the film is over
+why es.en era | imperfect: for background, not a summing-up
+why es.en fui | the yo form
 
 @f608 fill 6 preterite-irregular
 es Anoche yo [tuve] un sueño raro. | tendré, tenga, tuvo
 zh 昨晚我做了个奇怪的梦。
 en Last night I had a strange dream.
+why es.zh tuve | tener 的过去时不规则，yo → tuve
+why es.zh tendré | 将来时
+why es.zh tenga | 虚拟式
+why es.zh tuvo | 第三人称，主语是 yo
+why es.en tuve | tener's preterite is irregular; yo → tuve
+why es.en tendré | future
+why es.en tenga | subjunctive
+why es.en tuvo | 3rd person; the subject is yo
 
 @f609 fill 6 preterite-irregular
 es ¿Qué [hiciste] tú el domingo? | harás, hizo, hagas
 zh 你周日做了什么？
 en What did you do on Sunday?
+why es.zh hiciste | hacer 过去时不规则，tú → hiciste
+why es.zh harás | 将来时
+why es.zh hizo | 第三人称，主语是 tú
+why es.zh hagas | 虚拟式
+why es.en hiciste | hacer's preterite is irregular; tú → hiciste
+why es.en harás | future
+why es.en hizo | 3rd person; the subject is tú
+why es.en hagas | subjunctive
 
 @f610 fill 6 preterite-irregular
 es Anoche yo no [pude] dormir bien. | podré, pueda, pudo
 zh 我没睡好。
 en I couldn't sleep well.
+why es.zh pude | poder 过去时不规则，yo → pude
+why es.zh podré | 将来时
+why es.zh pueda | 虚拟式
+why es.zh pudo | 第三人称，主语是 yo
+why es.en pude | poder's preterite is irregular; yo → pude
+why es.en podré | future
+why es.en pueda | subjunctive
+why es.en pudo | 3rd person; the subject is yo
 
 @f611 fill 6 preterite-irregular
 es Ayer mis amigos [vinieron] a casa. | vendrán, vengan, vino
 zh 我的朋友们来我家了。
 en My friends came over.
+why es.zh vinieron | venir 过去时不规则，ellos → vinieron
+why es.zh vendrán | 将来时
+why es.zh vengan | 虚拟式
+why es.zh vino | 单数，主语是复数
+why es.en vinieron | venir's preterite is irregular; ellos → vinieron
+why es.en vendrán | future
+why es.en vengan | subjunctive
+why es.en vino | singular; the subject is plural
 
 @f612 fill 6 preterite-irregular
 es ¿Dónde [pusiste] tú las llaves ayer? | pondrás, pongas, puso
 zh 你把钥匙放哪儿了？
 en Where did you put the keys?
+why es.zh pusiste | poner 过去时不规则，tú → pusiste
+why es.zh pondrás | 将来时
+why es.zh pongas | 虚拟式
+why es.zh puso | 第三人称，主语是 tú
+why es.en pusiste | poner's preterite is irregular; tú → pusiste
+why es.en pondrás | future
+why es.en pongas | subjunctive
+why es.en puso | 3rd person; the subject is tú
 
 @f613 fill 6 preterite-irregular
 es Ayer él me [dijo] la verdad. | dirá, diga, dije
 zh 他跟我说了实话。
 en He told me the truth.
+why es.zh dijo | decir 过去时不规则，él → dijo
+why es.zh dirá | 将来时
+why es.zh diga | 虚拟式
+why es.zh dije | yo 的形式，主语是 él
+why es.en dijo | decir's preterite is irregular; él → dijo
+why es.en dirá | future
+why es.en diga | subjunctive
+why es.en dije | yo form; the subject is él
 
 @f614 fill 6 preterite-irregular
 es Ayer yo [estuve] en casa todo el día. | estaré, esté, estuvo
 zh 我昨天一整天都在家。
 en Yesterday I was at home all day.
+why es.zh estuve | 过去一段完整的时间（一整天）用简单过去时；yo → estuve
+why es.zh estaré | 将来时
+why es.zh esté | 虚拟式
+why es.zh estuvo | 第三人称，主语是 yo
+why es.en estuve | a bounded past period → preterite; yo → estuve
+why es.en estaré | future
+why es.en esté | subjunctive
+why es.en estuvo | 3rd person; the subject is yo
 
 @f615 fill 6 time-markers
 es [Ayer] visité a mis abuelos. | Mañana, Ahora, Siempre
 zh 我昨天去看了爷爷奶奶。
 en Yesterday I visited my grandparents.
+why es.zh Ayer | visité 是过去时，需要过去的时间词
+why es.zh Mañana | “明天”和过去时矛盾
+why es.zh Ahora | “现在”和过去时矛盾
+why es.zh Siempre | “总是”通常配现在时或未完成过去时
+why es.en Ayer | "visité" is past, so it needs a past time word
+why es.en Mañana | "tomorrow" clashes with the past tense
+why es.en Ahora | "now" clashes with the past tense
+why es.en Siempre | "always" goes with present/imperfect
 
 @f616 fill 6 time-markers
 es Llegué a España [hace] dos años. | desde, por, durante
 zh 我两年前来到西班牙。
 en I arrived in Spain two years ago.
+why es.zh hace | “……以前”用 hace + 时间
+why es.zh desde | desde 是“自从”，表示到现在为止
+why es.zh por | por dos años 不表示“以前”
+why es.zh durante | durante 是“在……期间”
+why es.en hace | "… ago" = hace + time
+why es.en desde | "desde" = since, up to now
+why es.en por | "por" doesn't mean "ago"
+why es.en durante | "durante" = during/for
 
 # ---------- L6 dialogues
 @d601 next 6 past

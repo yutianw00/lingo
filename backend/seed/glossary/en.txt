@@ -1,0 +1,202 @@
+# English quiz words not in the word list
+!columns zh fr es
+a|a|det|一个|un, une|un, una
+about|about|prep|关于；大约|à propos de ; environ|sobre; unos
+again|again|adv|再一次|encore ; de nouveau|otra vez
+ahead|ahead|adv|向前（straight ahead 一直往前）|devant (straight ahead : tout droit)|adelante (straight ahead: todo recto)
+almost|almost|adv|几乎|presque|casi
+am|be|v|（我）是|suis|soy; estoy
+an|an|det|一个（元音前）|un, une|un, una
+are|be|v|是（you/we/they）|es ; sommes ; sont|eres; somos; son
+arrives|arrive|v|到达（第三人称）|arrive|llega
+at|at|prep|在（时间/地点）|à|a; en
+battery|the battery|n|电池；电量|la batterie|la batería
+be|be|v|是；成为|être|ser; estar
+been|be|v|（完成时）是；一直|été|sido; estado
+better|good|adj|更好|mieux ; meilleur|mejor
+bigger|big|adj|更大的|plus grand|más grande
+buy|buy|v|买|acheter|comprar
+by|by|prep|乘坐（by taxi）；被|en ; par|en; por
+café|the café|n|咖啡馆|le café|la cafetería
+can't|can|v|不能（cannot）|ne peux pas|no puedo
+card|the card|n|卡|la carte|la tarjeta
+caught|catch|v|得了（感冒）；抓住（过去式）|attrapé|cogí; pillé
+centre|the centre|n|中心（city centre 市中心）|le centre|el centro
+certainly|certainly|adv|当然|certainement|por supuesto
+children|the child|n|孩子们|les enfants|los niños
+coat|the coat|n|外套|le manteau|el abrigo
+come|come|v|来|venir|venir
+coming|come|v|（正在）来；来了|j'arrive ; venir|voy; venir
+congratulations|congratulations|interj|恭喜|félicitations|enhorabuena
+cooking|cook|v|正在做饭|cuisine ; en train de cuisiner|cocinando
+corner|the corner|n|拐角；路口|le coin|la esquina
+could|can|v|能……吗（礼貌）|pourrais|podrías
+course|the course|n|（of course 当然）|(of course : bien sûr)|(of course: claro)
+didn't|do|v|没有（did not）|n'ai pas|no
+dish|the dish|n|菜；一道菜|le plat|el plato
+do|do|v|做；（助动词）|faire|hacer
+does|do|v|做；（助动词，第三人称）|fait|hace
+doing|do|v|正在做|en train de faire|haciendo
+don't|do|v|不（do not）|ne … pas|no
+dress|the dress|n|连衣裙|la robe|el vestido
+drink|drink|v|喝|boire|beber
+early|early|adv|早|tôt|temprano
+eat|eat|v|吃|manger|comer
+eaten|eat|v|吃过|mangé|comido
+eight|eight|num|八|huit|ocho
+enter|enter|v|输入；进入|tapez ; entrer|introduzca; entrar
+euros|the euro|n|欧元|euros|euros
+every|every|det|每个|chaque ; tous les|cada; todos los
+exam|the exam|n|考试|l'examen|el examen
+excuse|excuse|v|原谅（excuse me 打扰一下）|excuser (excuse me : excusez-moi)|disculpar (excuse me: perdone)
+faster|fast|adj|更快|plus rapide|más rápido
+feel|feel|v|感觉|se sentir|sentirse
+finally|finally|adv|终于|enfin|por fin
+find|find|v|找到|trouver|encontrar
+fine|fine|adj|好的|bien|bien
+flight|the flight|n|航班|le vol|el vuelo
+floor|the floor|n|楼层|l'étage|la planta
+for|for|prep|为了；（时长）……了|pour ; depuis|para; desde hace
+forecast|the forecast|n|预报（weather forecast 天气预报）|les prévisions ; la météo|el pronóstico
+forget|forget|v|忘记|oublier|olvidar
+forty|forty|num|四十|quarante|cuarenta
+found|find|v|找到了|trouvé|encontré
+french|French|n|法语|le français|el francés
+full|full|adj|满的|plein|lleno
+get|get|v|得到；到达|obtenir ; arriver|conseguir; llegar
+go|go|v|去|aller|ir
+going|go|v|正要去；去（be going to）|aller|ir
+grandmother's|the grandmother|n|奶奶的|de ma grand-mère|de mi abuela
+grass|the grass|n|草|l'herbe|la hierba
+great|great|adj|太好了；很棒|génial|genial
+guitar|the guitar|n|吉他|la guitare|la guitarra
+has|have|v|有（第三人称）|a|tiene
+have|have|v|有；（完成时助动词）|avoir|tener; haber
+headache|the headache|n|头疼|le mal de tête|el dolor de cabeza
+help|help|n|帮助|l'aide|la ayuda
+here's|here is|phr|这是（给你）|voici|aquí tiene
+hi|hi|interj|嗨|salut|hola
+home|home|n|家（stay home 待在家）|la maison|casa
+hurts|hurt|v|疼|fait mal|duele
+i'd|I would|phr|我想（I'd like）|je voudrais|me gustaría
+i'll|I will|phr|我会|je vais|voy a
+i'm|I am|phr|我是；我（处于）|je suis|soy; estoy
+i've|I have|phr|我已经；我有|j'ai|he
+in|in|prep|在……里|dans ; en|en
+it|it|pron|它|il ; ça|lo; eso
+it's|it is|phr|它是|c'est|es
+just|just|adv|刚刚；只是|juste ; venir de|acabo de; solo
+know|know|v|知道|savoir|saber
+last|last|adj|上一个；最后的|dernier|pasado; último
+learning|learn|v|学习（进行时）|apprendre|aprendiendo
+leave|leave|v|离开；（飞机）起飞|partir|salir
+let's|let us|phr|我们……吧|allons ; on va|vamos a
+like|like|v|喜欢；想要（would like）|aimer ; vouloir|gustar; querer
+listening|listen|v|听（动名词）|écouter|escuchar
+little|little|adj|一点（a little 一点儿）|un peu|un poco
+live|live|v|住；生活|habiter|vivir
+living|live|v|谋生（for a living 以……为生）|dans la vie|para ganarse la vida
+look|look|v|看；看起来|regarder ; avoir l'air|mirar; parecer
+lot|a lot|phr|很多（a lot）|beaucoup|mucho
+lyon|Lyon|name|里昂|Lyon|Lyon
+marie|Marie|name|玛丽（人名）|Marie|Marie
+may|may|v|可以……吗（礼貌）|puis-je|puedo
+me|me|pron|我（宾格）|me ; moi|me; mí
+mean|mean|v|意思是|vouloir dire|significar
+means|mean|v|意思是（第三人称）|veut dire|significa
+medium|medium|adj|中号的|moyen ; M|mediano
+meet|meet|v|见面；认识|rencontrer ; se retrouver|conocer; quedar
+meeting|the meeting|n|会议|la réunion|la reunión
+minutes|the minute|n|分钟|minutes|minutos
+more|more|adv|更多；再|plus|más
+much|much|adv|很多（how much 多少钱）|beaucoup (how much : combien)|mucho (how much: cuánto)
+mum|mum|n|妈妈|maman|mamá
+my|my|det|我的|mon, ma, mes|mi
+need|need|v|需要|avoir besoin de|necesitar
+nice|nice|adj|好的；令人愉快的|agréable ; enchanté|agradable; encantado
+night|the night|n|夜晚|la nuit|la noche
+nights|the night|n|晚（住宿，复数）|nuits|noches
+nine|nine|num|九|neuf|nueve
+not|not|adv|不|ne … pas|no
+number|the number|n|号码；号|le numéro|el número
+nurse|the nurse|n|护士|l'infirmière|el enfermero
+o'clock|o'clock|adv|……点钟|heures|en punto
+of|of|prep|……的|de|de
+on|on|prep|在……上|sur|en; sobre
+only|only|adv|只|seulement|solo
+order|order|v|点（菜）|commander|pedir
+out|out|adv|出去；（battery ran out 没电了）|dehors ; épuisé|fuera; agotado
+outside|outside|adv|外面|dehors|fuera
+paris|Paris|name|巴黎|Paris|París
+paul|Paul|name|保罗（人名）|Paul|Paul
+pay|pay|v|付钱|payer|pagar
+pin|the PIN|n|密码（PIN 码）|le code PIN|el PIN
+play|play|v|弹（乐器）；玩|jouer|tocar; jugar
+put|put|v|放；穿上（put on）|mettre|poner
+raining|rain|v|下雨（进行时）|il pleut|llueve
+ready|ready|adj|准备好的|prêt|listo
+recipe|the recipe|n|菜谱|la recette|la receta
+rest|rest|v|休息|se reposer|descansar
+running|run|v|跑步|courir|correr
+salad|the salad|n|沙拉|la salade|la ensalada
+say|say|v|说|dire|decir
+says|say|v|说（第三人称）|dit|dice
+see|see|v|看见；见|voir|ver
+seven|seven|num|七|sept|siete
+shall|shall|v|……好吗（Shall we…? 我们……好吗）|on … ?|¿… ?
+shirt|the shirt|n|衬衫|la chemise|la camisa
+should|should|v|应该|devrais|deberías
+six|six|num|六|six|seis
+size|the size|n|尺码|la taille ; la pointure|la talla
+sleep|sleep|v|睡觉|dormir|dormir
+sleeping|sleep|v|正在睡觉|dort|durmiendo
+so|so|conj|所以|donc|así que
+some|some|det|一些|du ; des|algo de
+speak|speak|v|说|parler|hablar
+start|start|v|开始|commencer|empezar
+started|start|v|开始了|commencé|empecé
+starving|starving|adj|饿坏了|affamé|muerto de hambre
+station|the station|n|车站|la gare|la estación
+stay|stay|v|待；住|rester|quedarse
+straight|straight|adv|直（straight ahead 一直往前）|tout droit|recto
+study|study|v|学习|étudier|estudiar
+sunny|sunny|adj|晴朗的|ensoleillé|soleado
+sure|sure|adj|当然（of course）；确定的|bien sûr|claro
+swim|swim|v|游泳|nager|nadar
+take|take|v|拿；（时间）花；乘坐|prendre|tomar; tardar
+taxi|the taxi|n|出租车|le taxi|el taxi
+than|than|conj|比|que|que
+thank|thank|v|感谢（thank you 谢谢）|remercier (thank you : merci)|agradecer (thank you: gracias)
+thanks|thanks|interj|谢谢|merci|gracias
+that|that|pron|那个|ça ; ce|eso
+that's|that is|phr|那是|c'est|eso es
+the|the|det|这个；那个（定冠词）|le, la, les|el, la, los, las
+then|then|adv|然后；那么|puis ; alors|luego; entonces
+these|these|det|这些|ces|estos
+think|think|v|认为；觉得|penser ; croire|creer; pensar
+third|third|num|第三|troisième|tercero
+this|this|det|这个|ce, cette|este, esta
+to|to|prep|到；去|à|a
+tonight|tonight|adv|今晚|ce soir|esta noche
+too|too|adv|也；太|aussi ; trop|también; demasiado
+try|try|v|试（try on 试穿）|essayer|probar
+tuesday|Tuesday|n|星期二|mardi|martes
+turn|turn|v|转（turn left 左转）|tourner|girar
+twelve|twelve|num|十二|douze|doce
+twenty|twenty|num|二十|vingt|veinte
+up|up|adv|起来（get up 起床）|(get up : se lever)|(get up: levantarse)
+want|want|v|想要|vouloir|querer
+wash|wash|v|洗|laver|lavar
+wearing|wear|v|穿着|porte|lleva
+welcome|welcome|adj|（you're welcome 不客气）|(you're welcome : de rien)|(you're welcome: de nada)
+well|well|adv|好；（感冒）好起来|bien|bien
+went|go|v|去了|suis allé|fui
+what's|what is|phr|……是什么|qu'est-ce que|qué es
+which|which|det|哪一个|quel|cuál
+will|will|v|将会|va ; -ra (futur)|va a; -rá (futuro)
+worry|worry|v|担心|s'inquiéter|preocuparse
+would|would|v|想要（would like）；会|voudrais|gustaría
+wow|wow|interj|哇|waouh|vaya
+you'll|you will|phr|你会|tu vas|vas a
+you're|you are|phr|你是|tu es|eres; estás
+your|your|det|你的|ton, ta, tes ; votre|tu; su

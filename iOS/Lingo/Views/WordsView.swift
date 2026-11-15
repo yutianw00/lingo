@@ -59,12 +59,21 @@ struct WordsView: View {
         }
     }
 
+    private func remove(_ w: WordCard) async {
+        do {
+            try await API.shared.removeWord(w.id)
+            words?.removeAll { $0.id == w.id }
+        } catch {
+            _ = model.handle(error)
+        }
+    }
+
     private func shown(_ words: [WordCard]) -> [WordCard] {
         let needle = query.trimmingCharacters(in: .whitespaces).lowercased()
         return words.filter { w in
             if filter == .due { guard let d = w.due, d <= now else { return false } }
             else if let l = filter.level, w.level != l { return false }
-            if lv != 0, w.difficultyLevel != lv { return false }
+            if lv == -1 { if w.custom != true { return false } } else if lv != 0, w.difficultyLevel != lv { return false }
             return needle.isEmpty || w.word.lowercased().contains(needle) || w.meaning.lowercased().contains(needle)
         }
     }
@@ -79,7 +88,8 @@ struct WordsView: View {
 
     private func list(_ words: [WordCard], _ t: Strings) -> some View {
         let rows = shown(words)
-        let leveled = words.contains { !$0.topic.isEmpty }
+        let leveled = words.contains { !$0.topic.isEmpty && $0.custom != true }
+        let hasCustom = words.contains { $0.custom == true }
         return List {
             Section {
                 ScrollView(.horizontal, showsIndicators: false) {
@@ -96,10 +106,11 @@ struct WordsView: View {
                             }
                             .buttonStyle(.plain)
                         }
-                        if leveled {
+                        if leveled || hasCustom {
                             Picker("Lv", selection: $lv) {
                                 Text(t.all).tag(0)
-                                ForEach(1...10, id: \.self) { Text(t.lv($0)).tag($0) }
+                                if hasCustom { Text(t.custom).tag(-1) }
+                                if leveled { ForEach(1...10, id: \.self) { Text(t.lv($0)).tag($0) } }
                             }
                             .pickerStyle(.menu)
                         }
@@ -113,7 +124,13 @@ struct WordsView: View {
                 if rows.isEmpty {
                     Text(t.noMatch).foregroundStyle(Theme.muted)
                 }
-                ForEach(rows) { w in row(w, t) }
+                ForEach(rows) { w in
+                    row(w, t).swipeActions {
+                        if w.custom == true {
+                            Button(t.remove, role: .destructive) { Task { await remove(w) } }
+                        }
+                    }
+                }
             }
         }
         .listStyle(.insetGrouped)
@@ -130,7 +147,7 @@ struct WordsView: View {
                 VStack(alignment: .leading, spacing: 3) {
                     w.word.plain.font(.system(size: 17, weight: .heavy)).foregroundStyle(Theme.ink)
                     HStack(spacing: 4) {
-                        if !w.topic.isEmpty { LvTag(text: t.lv(w.difficultyLevel)) }
+                        if !w.topic.isEmpty { LvTag(text: w.custom == true ? t.custom : t.lv(w.difficultyLevel)) }
                         if w.gender != .none { GenderBadge(gender: w.gender, label: w.gender == .mf ? "m/f" : w.gender.rawValue) }
                         w.meaning.plain.font(.system(size: 13)).foregroundStyle(Theme.muted).lineLimit(1)
                     }

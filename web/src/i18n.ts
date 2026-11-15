@@ -66,6 +66,13 @@ export interface Strings {
   correct: string
   correctAnswer: string
   continue: string
+  yourChoice: string
+  tapWordHint: string
+  addWord: string
+  wordAdded: string
+  noGloss: string
+  custom: string
+  removeWord: (w: string) => string
   quizDone: string
   accuracy: (n: number) => string
   quizDoneHint: string
@@ -83,7 +90,7 @@ export interface Strings {
 
 const zh: Strings = {
   langName: { zh: '简体中文', en: '英语', fr: '法语', es: '西班牙语' },
-  pos: { n: '名词', v: '动词', adj: '形容词', adv: '副词', pron: '代词', prep: '介词', conj: '连词', num: '数词', interj: '叹词', phr: '短语' },
+  pos: { n: '名词', v: '动词', adj: '形容词', adv: '副词', pron: '代词', prep: '介词', conj: '连词', num: '数词', interj: '叹词', phr: '短语', det: '限定词', name: '专有名词', part: '助词' },
   level: { new: '新词', learning: '学习中', familiar: '熟悉', mastered: '已掌握' },
   gender: { m: '阳性', f: '阴性', mf: '阴阳同形' },
   skill: { vocab: '单词填空', form: '词形变化', context: '情景对话' },
@@ -143,6 +150,13 @@ const zh: Strings = {
   correct: '太棒了！',
   correctAnswer: '正确答案：',
   continue: '继续',
+  yourChoice: '你的选择',
+  tapWordHint: '点句子里的单词可查看释义',
+  addWord: '加入我的单词',
+  wordAdded: '已加入 ✓',
+  noGloss: '暂无释义',
+  custom: '自定义',
+  removeWord: (w) => `从我的单词中删除“${w}”？`,
   quizDone: '练习完成',
   accuracy: (n) => `正确率 ${n}%`,
   quizDoneHint: '答错的题会更快再出现',
@@ -159,7 +173,7 @@ const zh: Strings = {
 
 const en: Strings = {
   langName: { zh: 'Chinese', en: 'English', fr: 'French', es: 'Spanish' },
-  pos: { n: 'noun', v: 'verb', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prep.', conj: 'conj.', num: 'number', interj: 'interj.', phr: 'phrase' },
+  pos: { n: 'noun', v: 'verb', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prep.', conj: 'conj.', num: 'number', interj: 'interj.', phr: 'phrase', det: 'det.', name: 'name', part: 'particle' },
   level: { new: 'New', learning: 'Learning', familiar: 'Familiar', mastered: 'Mastered' },
   gender: { m: 'masculine', f: 'feminine', mf: 'm/f' },
   skill: { vocab: 'Vocabulary', form: 'Word forms', context: 'Conversation' },
@@ -219,6 +233,13 @@ const en: Strings = {
   correct: 'Great job!',
   correctAnswer: 'Correct answer: ',
   continue: 'Continue',
+  yourChoice: 'Your choice',
+  tapWordHint: 'Tap any word to see what it means',
+  addWord: 'Add to my words',
+  wordAdded: 'Added ✓',
+  noGloss: 'No translation available',
+  custom: 'Custom',
+  removeWord: (w) => `Remove “${w}” from your words?`,
   quizDone: 'Practice complete',
   accuracy: (n) => `${n}% correct`,
   quizDoneHint: 'Questions you missed will come back sooner',
@@ -235,7 +256,7 @@ const en: Strings = {
 
 const fr: Strings = {
   langName: { zh: 'chinois', en: 'anglais', fr: 'français', es: 'espagnol' },
-  pos: { n: 'nom', v: 'verbe', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prép.', conj: 'conj.', num: 'nombre', interj: 'interj.', phr: 'expression' },
+  pos: { n: 'nom', v: 'verbe', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prép.', conj: 'conj.', num: 'nombre', interj: 'interj.', phr: 'expression', det: 'dét.', name: 'nom propre', part: 'particule' },
   level: { new: 'Nouveau', learning: 'En cours', familiar: 'Connu', mastered: 'Maîtrisé' },
   gender: { m: 'masculin', f: 'féminin', mf: 'm/f' },
   skill: { vocab: 'Vocabulaire', form: 'Formes', context: 'Dialogue' },
@@ -295,6 +316,13 @@ const fr: Strings = {
   correct: 'Bravo !',
   correctAnswer: 'Bonne réponse : ',
   continue: 'Continuer',
+  yourChoice: 'Votre choix',
+  tapWordHint: 'Touchez un mot pour voir sa traduction',
+  addWord: 'Ajouter à mes mots',
+  wordAdded: 'Ajouté ✓',
+  noGloss: 'Pas de traduction disponible',
+  custom: 'Perso',
+  removeWord: (w) => `Retirer « ${w} » de vos mots ?`,
   quizDone: 'Entraînement terminé',
   accuracy: (n) => `${n} % de bonnes réponses`,
   quizDoneHint: 'Les questions ratées reviendront plus vite',
@@ -311,7 +339,7 @@ const fr: Strings = {
 
 const es: Strings = {
   langName: { zh: 'chino', en: 'inglés', fr: 'francés', es: 'español' },
-  pos: { n: 'sust.', v: 'verbo', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prep.', conj: 'conj.', num: 'número', interj: 'interj.', phr: 'expresión' },
+  pos: { n: 'sust.', v: 'verbo', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prep.', conj: 'conj.', num: 'número', interj: 'interj.', phr: 'expresión', det: 'det.', name: 'nombre propio', part: 'partícula' },
   level: { new: 'Nueva', learning: 'Aprendiendo', familiar: 'Conocida', mastered: 'Dominada' },
   gender: { m: 'masculino', f: 'femenino', mf: 'm/f' },
   skill: { vocab: 'Vocabulario', form: 'Formas', context: 'Diálogo' },
@@ -371,6 +399,13 @@ const es: Strings = {
   correct: '¡Muy bien!',
   correctAnswer: 'Respuesta correcta: ',
   continue: 'Continuar',
+  yourChoice: 'Tu elección',
+  tapWordHint: 'Toca una palabra para ver qué significa',
+  addWord: 'Añadir a mis palabras',
+  wordAdded: 'Añadida ✓',
+  noGloss: 'No hay traducción',
+  custom: 'Personal',
+  removeWord: (w) => `¿Quitar «${w}» de tus palabras?`,
   quizDone: 'Práctica completada',
   accuracy: (n) => `${n} % de aciertos`,
   quizDoneHint: 'Las preguntas falladas volverán antes',

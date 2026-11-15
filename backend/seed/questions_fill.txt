@@ -4,243 +4,1045 @@
 # Each language has its own blank and distractors (the grammar point differs per language);
 # the sentences are translations of each other so the native sentence works as a hint.
 # Distractors must be clearly wrong in the sentence, not just less likely.
+# `why <target>.<native> <option> | <reason>` lines explain every option (see seed/es/README.md);
+# needed for zh (in English) and for en/fr (in Chinese and English). The es lines here are never shown.
 
 @f01 fill food
 zh 我想要一[杯]咖啡。 | 本, 辆, 张
 en I would like a [cup] of coffee. | book, car, shoe
 fr Je voudrais une [tasse] de café. | voiture, fenêtre, chaussure
 es Quisiera una [taza] de café. | ventana, silla, calle
+why zh.en 杯 | 杯 is the measure word for drinks served in a cup
+why zh.en 本 | 本 is the measure word for books
+why zh.en 辆 | 辆 is the measure word for vehicles
+why zh.en 张 | 张 is for flat things like paper or tickets
+why en.zh cup | 咖啡装在杯子里：a cup of coffee
+why en.zh book | book 是“书”，不能装咖啡
+why en.zh car | car 是“汽车”
+why en.zh shoe | shoe 是“鞋”
+why en.en cup | coffee comes in a cup: "a cup of coffee"
+why en.en book | a book can't hold coffee
+why en.en car | "car" makes no sense here
+why en.en shoe | "shoe" makes no sense here
+why fr.zh tasse | tasse 是“杯子”：une tasse de café
+why fr.zh voiture | voiture 是“汽车”
+why fr.zh fenêtre | fenêtre 是“窗户”
+why fr.zh chaussure | chaussure 是“鞋”
+why fr.en tasse | une tasse de café = a cup of coffee
+why fr.en voiture | voiture means car
+why fr.en fenêtre | fenêtre means window
+why fr.en chaussure | chaussure means shoe
 
 @f02 fill grammar
 zh 我们今晚[去]电影院。 | 吃, 喝, 睡
 en We [are going] to the cinema tonight. | is going, am going, goes
 fr Nous [allons] au cinéma ce soir. | allez, va, vont
 es Esta noche [vamos] al cine. | vas, van, voy
+why zh.en 去 | 去 = go, as in going to the cinema
+why zh.en 吃 | 吃 means eat
+why zh.en 喝 | 喝 means drink
+why zh.en 睡 | 睡 means sleep
+why en.zh are going | 主语 we 用 are：we are going
+why en.zh is going | is 用于 he/she/it
+why en.zh am going | am 只用于 I
+why en.zh goes | goes 是第三人称单数，主语是 we
+why en.en are going | "we" takes "are": we are going
+why en.en is going | "is" is for he/she/it
+why en.en am going | "am" is only for I
+why en.en goes | "goes" is 3rd person singular
+why fr.zh allons | aller，nous → allons
+why fr.zh allez | vous 的形式
+why fr.zh va | il/elle 的形式
+why fr.zh vont | ils 的形式
+why fr.en allons | aller: nous → allons
+why fr.en allez | the vous form
+why fr.en va | the il/elle form
+why fr.en vont | the ils form
 
 @f03 fill home
 zh 猫在[沙发]上睡觉。 | 天空, 星期一, 咖啡
 en The cat is sleeping on the [sofa]. | sky, Monday, coffee
 fr Le chat dort sur le [canapé]. | ciel, lundi, café
 es El gato duerme en el [sofá]. | cielo, lunes, café
+why zh.en 沙发 | 沙发 = sofa
+why zh.en 天空 | 天空 means sky
+why zh.en 星期一 | 星期一 means Monday
+why zh.en 咖啡 | 咖啡 means coffee
+why en.zh sofa | 猫睡在沙发上
+why en.zh sky | sky 是“天空”
+why en.zh Monday | Monday 是“星期一”，不是地方
+why en.zh coffee | coffee 是“咖啡”
+why en.en sofa | the cat sleeps on the sofa
+why en.en sky | a cat can't sleep on the sky
+why en.en Monday | Monday isn't a place
+why en.en coffee | "coffee" makes no sense here
+why fr.zh canapé | canapé 是“沙发”
+why fr.zh ciel | ciel 是“天空”
+why fr.zh lundi | lundi 是“星期一”
+why fr.zh café | café 是“咖啡”
+why fr.en canapé | canapé means sofa
+why fr.en ciel | ciel means sky
+why fr.en lundi | lundi means Monday
+why fr.en café | café means coffee
 
 @f04 fill weather
 zh 下雨了，别忘了带[雨伞]。 | 面包, 牛奶, 椅子
 en It's raining, don't forget your [umbrella]. | bread, milk, chair
 fr Il pleut, n'oublie pas ton [parapluie]. | pain, lait, lit
 es Llueve, no olvides tu [paraguas]. | pan, leche, cama
+why zh.en 雨伞 | 雨伞 = umbrella
+why zh.en 面包 | 面包 means bread
+why zh.en 牛奶 | 牛奶 means milk
+why zh.en 椅子 | 椅子 means chair
+why en.zh umbrella | 下雨要带伞
+why en.zh bread | bread 是“面包”，和下雨无关
+why en.zh milk | milk 是“牛奶”
+why en.zh chair | chair 是“椅子”
+why en.en umbrella | rain → umbrella
+why en.en bread | bread has nothing to do with rain
+why en.en milk | milk has nothing to do with rain
+why en.en chair | a chair has nothing to do with rain
+why fr.zh parapluie | 下雨要带伞
+why fr.zh pain | pain 是“面包”
+why fr.zh lait | lait 是“牛奶”
+why fr.zh lit | lit 是“床”
+why fr.en parapluie | rain → parapluie (umbrella)
+why fr.en pain | pain means bread
+why fr.en lait | lait means milk
+why fr.en lit | lit means bed
 
 @f05 fill grammar
 zh 我[有]两个孩子。 | 是, 在, 去
 en I [have] two children. | has, am, is
 fr J'[ai] deux enfants. | as, a, suis
 es [Tengo] dos hijos. | Tienes, Tiene, Soy
+why zh.en 有 | 有 means "have"
+why zh.en 是 | 是 means "to be"
+why zh.en 在 | 在 means "to be at"
+why zh.en 去 | 去 means "go"
+why en.zh have | 主语 I 用 have
+why en.zh has | has 用于 he/she/it
+why en.zh am | am 是“是”，不是“有”
+why en.zh is | is 是“是”，且用于第三人称
+why en.en have | "I" takes "have"
+why en.en has | "has" is for he/she/it
+why en.en am | "am" means "to be", not "have"
+why en.en is | "is" is "to be", 3rd person
+why fr.zh ai | avoir，je → j'ai
+why fr.zh as | tu 的形式
+why fr.zh a | il/elle 的形式
+why fr.zh suis | suis 是 être（是），不是“有”
+why fr.en ai | avoir: je → j'ai
+why fr.en as | the tu form
+why fr.en a | the il/elle form
+why fr.en suis | suis is être (to be), not "have"
 
 @f06 fill grammar
 zh 我妹妹十[岁]。 | 个, 本, 张
 en My sister is ten years [old]. | big, long, tall
 fr Ma sœur [a] dix ans. | est, fait, va
 es Mi hermana [tiene] diez años. | es, está, hace
+why zh.en 岁 | 岁 = years (of age)
+why zh.en 个 | 个 is a general measure word
+why zh.en 本 | 本 is for books
+why zh.en 张 | 张 is for flat things
+why en.zh old | 年龄说 ten years old
+why en.zh big | 年龄不用 big
+why en.zh long | long 是“长”
+why en.zh tall | tall 是“高”
+why en.en old | age: "ten years old"
+why en.en big | age doesn't use "big"
+why en.en long | "long" is for length
+why en.en tall | "tall" is for height
+why fr.zh a | 法语用 avoir 说年龄：elle a dix ans
+why fr.zh est | 法语年龄不用 être
+why fr.zh fait | faire 不用于年龄
+why fr.zh va | aller 不用于年龄
+why fr.en a | French uses avoir for age: elle a dix ans
+why fr.en est | French doesn't use être for age
+why fr.en fait | faire isn't used for age
+why fr.en va | aller isn't used for age
 
 @f07 fill shopping
 zh 我去[超市]买牛奶。 | 学校, 河, 山
 en I'm going to the [supermarket] to buy milk. | river, mountain, school
 fr Je vais au [supermarché] acheter du lait. | cinéma, parc, bureau
 es Voy al [supermercado] a comprar leche. | cine, parque, río
+why zh.en 超市 | 超市 = supermarket
+why zh.en 学校 | 学校 means school
+why zh.en 河 | 河 means river
+why zh.en 山 | 山 means mountain
+why en.zh supermarket | 在超市买牛奶
+why en.zh river | river 是“河”
+why en.zh mountain | mountain 是“山”
+why en.zh school | school 是“学校”
+why en.en supermarket | you buy milk at the supermarket
+why en.en river | you can't buy milk at a river
+why en.en mountain | you can't buy milk on a mountain
+why en.en school | you don't buy milk at school
+why fr.zh supermarché | 在超市买牛奶
+why fr.zh cinéma | cinéma 是“电影院”
+why fr.zh parc | parc 是“公园”
+why fr.zh bureau | bureau 是“办公室”
+why fr.en supermarché | supermarché = supermarket
+why fr.en cinéma | cinéma means cinema
+why fr.en parc | parc means park
+why fr.en bureau | bureau means office
 
 @f08 fill time
 zh 火车十点[到达]。 | 吃饭, 唱歌, 睡觉
 en The train arrives [at] ten o'clock. | in, on, of
 fr Le train arrive [à] dix heures. | en, sur, par
 es El tren llega [a] las diez. | en, con, sin
+why zh.en 到达 | 到达 = arrive
+why zh.en 吃饭 | trains don't eat
+why zh.en 唱歌 | trains don't sing
+why zh.en 睡觉 | trains don't sleep
+why en.zh at | 钟点前用 at
+why en.zh in | in 用于月份、年份等
+why en.zh on | on 用于日期、星期
+why en.zh of | of 不表示时间
+why en.en at | clock times take "at"
+why en.en in | "in" is for months/years
+why en.en on | "on" is for days/dates
+why en.en of | "of" doesn't express time
+why fr.zh à | 钟点前用 à
+why fr.zh en | en 用于月份、年份
+why fr.zh sur | sur 是“在……上面”
+why fr.zh par | par 是“通过；每”
+why fr.en à | clock times take à
+why fr.en en | en is for months/years
+why fr.en sur | sur means on (top of)
+why fr.en par | par means by/per
 
 @f09 fill colours
 zh 草是[绿]色的。 | 蓝, 黑, 白
 en The grass is [green]. | blue, black, white
 fr L'herbe est [verte]. | bleue, noire, blanche
 es La hierba es [verde]. | azul, negra, blanca
+why zh.en 绿 | 绿 = green
+why zh.en 蓝 | grass isn't blue
+why zh.en 黑 | grass isn't black
+why zh.en 白 | grass isn't white
+why en.zh green | 草是绿色的
+why en.zh blue | blue 是“蓝色”
+why en.zh black | black 是“黑色”
+why en.zh white | white 是“白色”
+why en.en green | grass is green
+why en.en blue | grass isn't blue
+why en.en black | grass isn't black
+why en.en white | grass isn't white
+why fr.zh verte | herbe 是阴性，用阴性 verte
+why fr.zh bleue | bleue 是“蓝色”
+why fr.zh noire | noire 是“黑色”
+why fr.zh blanche | blanche 是“白色”
+why fr.en verte | herbe is feminine → verte
+why fr.en bleue | bleue means blue
+why fr.en noire | noire means black
+why fr.en blanche | blanche means white
 
 @f10 fill grammar
 zh 我[不]喝咖啡，我喝茶。 | 也, 很, 都
 en I [don't] drink coffee, I drink tea. | doesn't, isn't, am not
 fr Je ne bois [pas] de café, je bois du thé. | très, aussi, beaucoup
 es [No] bebo café, bebo té. | Muy, También, Mucho
+why zh.en 不 | 不 = not
+why zh.en 也 | 也 means also
+why zh.en 很 | 很 means very
+why zh.en 都 | 都 means all
+why en.zh don't | I 的否定用 don't
+why en.zh doesn't | doesn't 用于 he/she/it
+why en.zh isn't | isn't 用于 be 动词
+why en.zh am not | drink 是实义动词，否定要用 don't
+why en.en don't | "I" takes "don't"
+why en.en doesn't | "doesn't" is for he/she/it
+why en.en isn't | "isn't" is for "be"
+why en.en am not | "drink" needs "don't", not "am not"
+why fr.zh pas | 否定是 ne … pas
+why fr.zh très | très 是“很”
+why fr.zh aussi | aussi 是“也”
+why fr.zh beaucoup | beaucoup 是“很多”
+why fr.en pas | negation is ne … pas
+why fr.en très | très means very
+why fr.en aussi | aussi means also
+why fr.en beaucoup | beaucoup means a lot
 
 @f11 fill grammar
 zh 你住在[哪里]？ | 什么时候, 为什么, 谁
 en [Where] do you live? | Who, What, When
 fr [Où] habites-tu ? | Qui, Quand, Quel
 es ¿[Dónde] vives? | Quién, Cuándo, Qué
+why zh.en 哪里 | 哪里 = where
+why zh.en 什么时候 | 什么时候 means when
+why zh.en 为什么 | 为什么 means why
+why zh.en 谁 | 谁 means who
+why en.zh Where | 问住在哪里用 where
+why en.zh Who | who 是“谁”
+why en.zh What | what 是“什么”
+why en.zh When | when 是“什么时候”
+why en.en Where | "where" asks about place
+why en.en Who | "who" asks about a person
+why en.en What | "what" asks about a thing
+why en.en When | "when" asks about time
+why fr.zh Où | où 是“哪里”
+why fr.zh Qui | qui 是“谁”
+why fr.zh Quand | quand 是“什么时候”
+why fr.zh Quel | quel 是“哪个”，后面要接名词
+why fr.en Où | où = where
+why fr.en Qui | qui = who
+why fr.en Quand | quand = when
+why fr.en Quel | quel = which, needs a noun
 
 @f12 fill hobby
 zh 我喜欢[听]音乐。 | 吃, 穿, 睡
 en I like [listening] to music. | eating, wearing, sleeping
 fr J'aime [écouter] de la musique. | manger, porter, dormir
 es Me gusta [escuchar] música. | comer, llevar, dormir
+why zh.en 听 | 听 = listen
+why zh.en 吃 | you don't eat music
+why zh.en 穿 | you don't wear music
+why zh.en 睡 | 睡 means sleep
+why en.zh listening | 听音乐：listen to music；like 后用 -ing
+why en.zh eating | eating 是“吃”
+why en.zh wearing | wearing 是“穿”
+why en.zh sleeping | sleeping 是“睡觉”
+why en.en listening | listen to music; "like" + -ing
+why en.en eating | you don't eat music
+why en.en wearing | you don't wear music
+why en.en sleeping | you don't sleep music
+why fr.zh écouter | écouter 是“听”
+why fr.zh manger | manger 是“吃”
+why fr.zh porter | porter 是“穿”
+why fr.zh dormir | dormir 是“睡”
+why fr.en écouter | écouter = listen
+why fr.en manger | manger means eat
+why fr.en porter | porter means wear
+why fr.en dormir | dormir means sleep
 
 @f13 fill grammar
 zh 我吃一[个]苹果。 | 条, 张, 本
 en I eat [an] apple. | a, many, two
 fr Je mange [une] pomme. | un, des, le
 es Me como [una] manzana. | un, unos, el
+why zh.en 个 | 个 = general measure word (apples)
+why zh.en 条 | 条 is for long, thin things
+why zh.en 张 | 张 is for flat things
+why zh.en 本 | 本 is for books
+why en.zh an | apple 以元音开头，用 an
+why en.zh a | 元音前用 an，不用 a
+why en.zh many | many 后要用复数
+why en.zh two | two 后要用复数 apples
+why en.en an | "apple" starts with a vowel → "an"
+why en.en a | use "an" before a vowel sound
+why en.en many | "many" needs a plural
+why en.en two | "two" needs "apples"
+why fr.zh une | pomme 是阴性 → une
+why fr.zh un | un 是阳性
+why fr.zh des | des 是复数
+why fr.zh le | le 是阳性定冠词
+why fr.en une | pomme is feminine → une
+why fr.en un | un is masculine
+why fr.en des | des is plural
+why fr.en le | le is masculine "the"
 
 @f14 fill grammar
 zh 我昨天去巴黎[了]。 | 吗, 呢, 着
 en Yesterday I [went] to Paris. | go, goes, going
 fr Hier, je [suis allé] à Paris. | vais, irai, allons
 es Ayer [fui] a París. | voy, iré, vamos
+why zh.en 了 | 了 marks completion
+why zh.en 吗 | 吗 makes a question
+why zh.en 呢 | 呢 is a question particle
+why zh.en 着 | 着 marks an ongoing state
+why en.zh went | yesterday → 过去式；go 的过去式是 went
+why en.zh go | 现在时
+why en.zh goes | 现在时第三人称
+why en.zh going | 现在分词，缺少 be 动词
+why en.en went | "yesterday" → past: went
+why en.en go | present tense
+why en.en goes | present, 3rd person
+why en.en going | -ing form without "be"
+why fr.zh suis allé | 过去发生的事用复合过去时：aller 用 être
+why fr.zh vais | 现在时
+why fr.zh irai | 将来时
+why fr.zh allons | nous 的现在时
+why fr.en suis allé | past event → passé composé; aller uses être
+why fr.en vais | present tense
+why fr.en irai | future
+why fr.en allons | nous, present
 
 @f15 fill food
 zh 我早餐吃两个[鸡蛋]。 | 椅子, 自行车, 护照
 en I eat two [eggs] for breakfast. | chairs, bikes, passports
 fr Je mange deux [œufs] au petit-déjeuner. | chaises, vélos, passeports
 es Como dos [huevos] en el desayuno. | sillas, bicicletas, pasaportes
+why zh.en 鸡蛋 | 鸡蛋 = eggs
+why zh.en 椅子 | you can't eat chairs
+why zh.en 自行车 | you can't eat bikes
+why zh.en 护照 | you can't eat passports
+why en.zh eggs | 早餐吃鸡蛋
+why en.zh chairs | chairs 是“椅子”
+why en.zh bikes | bikes 是“自行车”
+why en.zh passports | passports 是“护照”
+why en.en eggs | eggs are breakfast food
+why en.en chairs | you can't eat chairs
+why en.en bikes | you can't eat bikes
+why en.en passports | you can't eat passports
+why fr.zh œufs | œufs 是“鸡蛋”
+why fr.zh chaises | chaises 是“椅子”
+why fr.zh vélos | vélos 是“自行车”
+why fr.zh passeports | passeports 是“护照”
+why fr.en œufs | œufs = eggs
+why fr.en chaises | chaises means chairs
+why fr.en vélos | vélos means bikes
+why fr.en passeports | passeports means passports
 
 @f16 fill health
 zh 我[头]疼。 | 书, 门, 钱
 en My [head] hurts. | door, money, book
 fr J'ai mal à la [tête]. | porte, banque, table
 es Me duele la [cabeza]. | puerta, mesa, calle
+why zh.en 头 | 头 = head
+why zh.en 书 | 书 means book
+why zh.en 门 | 门 means door
+why zh.en 钱 | 钱 means money
+why en.zh head | 头疼：my head hurts
+why en.zh door | door 是“门”，不会疼
+why en.zh money | money 是“钱”
+why en.zh book | book 是“书”
+why en.en head | "my head hurts"
+why en.en door | a door can't hurt
+why en.en money | money can't hurt
+why en.en book | a book can't hurt
+why fr.zh tête | avoir mal à la tête = 头疼
+why fr.zh porte | porte 是“门”
+why fr.zh banque | banque 是“银行”
+why fr.zh table | table 是“桌子”
+why fr.en tête | avoir mal à la tête = headache
+why fr.en porte | porte means door
+why fr.en banque | banque means bank
+why fr.en table | table means table
 
 @f17 fill polite
 zh 请[说]慢一点。 | 买, 卖, 坐
 en Please [speak] more slowly. | buy, sell, sit
 fr [Parlez] plus lentement, s'il vous plaît. | Achetez, Vendez, Asseyez
 es [Hable] más despacio, por favor. | Compre, Venda, Pague
+why zh.en 说 | 说 = speak
+why zh.en 买 | 买 means buy
+why zh.en 卖 | 卖 means sell
+why zh.en 坐 | 坐 means sit
+why en.zh speak | 请说慢一点
+why en.zh buy | buy 是“买”，和 slowly 不搭
+why en.zh sell | sell 是“卖”
+why en.zh sit | sit 是“坐”
+why en.en speak | "speak more slowly"
+why en.en buy | "buy" doesn't fit "more slowly"
+why en.en sell | "sell" doesn't fit
+why en.en sit | "sit" doesn't fit
+why fr.zh Parlez | parlez 是“请说”
+why fr.zh Achetez | achetez 是“买”
+why fr.zh Vendez | vendez 是“卖”
+why fr.zh Asseyez | asseyez（vous）是“坐”
+why fr.en Parlez | parlez = speak
+why fr.en Achetez | achetez means buy
+why fr.en Vendez | vendez means sell
+why fr.en Asseyez | asseyez means sit
 
 @f18 fill travel
 zh 在路口向[左]转。 | 上, 里, 下
 en Turn [left] at the corner. | under, into, between
 fr Tourne à [gauche] au coin. | table, maison, bleu
 es Gira a la [izquierda] en la esquina. | mesa, casa, azul
+why zh.en 左 | 左 = left
+why zh.en 上 | 上 means up
+why zh.en 里 | 里 means inside
+why zh.en 下 | 下 means down
+why en.zh left | turn left = 左转
+why en.zh under | under 是“在……下面”
+why en.zh into | into 是“进入”
+why en.zh between | between 是“在……之间”
+why en.en left | turn left
+why en.en under | "under" isn't a direction to turn
+why en.en into | "into" isn't a direction to turn
+why en.en between | "between" isn't a direction
+why fr.zh gauche | à gauche = 向左
+why fr.zh table | table 是“桌子”
+why fr.zh maison | maison 是“房子”
+why fr.zh bleu | bleu 是“蓝色”
+why fr.en gauche | à gauche = left
+why fr.en table | table means table
+why fr.en maison | maison means house
+why fr.en bleu | bleu means blue
 
 @f19 fill grammar
 zh 我不去，[因为]我生病了。 | 但是, 或者, 如果
 en I'm not going [because] I'm sick. | but, or, than
 fr Je n'y vais pas [parce que] je suis malade. | mais, ou, avec
 es No voy [porque] estoy enfermo. | pero, o, con
+why zh.en 因为 | 因为 = because
+why zh.en 但是 | 但是 means but
+why zh.en 或者 | 或者 means or
+why zh.en 如果 | 如果 means if
+why en.zh because | 给出原因用 because
+why en.zh but | but 表示转折
+why en.zh or | or 表示选择
+why en.zh than | than 用于比较
+why en.en because | "because" gives the reason
+why en.en but | "but" shows contrast
+why en.en or | "or" gives a choice
+why en.en than | "than" is for comparisons
+why fr.zh parce que | 给出原因
+why fr.zh mais | mais 是“但是”
+why fr.zh ou | ou 是“或者”
+why fr.zh avec | avec 是“和……一起”
+why fr.en parce que | parce que = because
+why fr.en mais | mais means but
+why fr.en ou | ou means or
+why fr.en avec | avec means with
 
 @f20 fill time
 zh 一年有十二个[月]。 | 天, 小时, 星期
 en A year has twelve [months]. | days, hours, weeks
 fr Une année a douze [mois]. | jours, heures, semaines
 es Un año tiene doce [meses]. | días, horas, semanas
+why zh.en 月 | 月 = month
+why zh.en 天 | 天 = day
+why zh.en 小时 | 小时 = hour
+why zh.en 星期 | 星期 = week
+why en.zh months | 一年有十二个月
+why en.zh days | 一年有 365 天
+why en.zh hours | hours 是“小时”
+why en.zh weeks | 一年有 52 周
+why en.en months | twelve months
+why en.en days | a year has 365 days
+why en.en hours | hours is wrong
+why en.en weeks | a year has 52 weeks
+why fr.zh mois | mois 是“月”
+why fr.zh jours | jours 是“天”
+why fr.zh heures | heures 是“小时”
+why fr.zh semaines | semaines 是“星期”
+why fr.en mois | mois = months
+why fr.en jours | jours means days
+why fr.en heures | heures means hours
+why fr.en semaines | semaines means weeks
 
 @f21 fill shopping
 zh 我可以用卡[付钱]吗？ | 唱歌, 睡觉, 跳舞
 en Can I [pay] by card? | sing, sleep, dance
 fr Je peux [payer] par carte ? | chanter, dormir, danser
 es ¿Puedo [pagar] con tarjeta? | cantar, dormir, bailar
+why zh.en 付钱 | 付钱 = pay
+why zh.en 唱歌 | 唱歌 means sing
+why zh.en 睡觉 | 睡觉 means sleep
+why zh.en 跳舞 | 跳舞 means dance
+why en.zh pay | pay by card = 刷卡付款
+why en.zh sing | sing 是“唱歌”
+why en.zh sleep | sleep 是“睡觉”
+why en.zh dance | dance 是“跳舞”
+why en.en pay | pay by card
+why en.en sing | you don't sing by card
+why en.en sleep | you don't sleep by card
+why en.en dance | you don't dance by card
+why fr.zh payer | payer 是“付钱”
+why fr.zh chanter | chanter 是“唱歌”
+why fr.zh dormir | dormir 是“睡觉”
+why fr.zh danser | danser 是“跳舞”
+why fr.en payer | payer = pay
+why fr.en chanter | chanter means sing
+why fr.en dormir | dormir means sleep
+why fr.en danser | danser means dance
 
 @f22 fill grammar
 zh 我今天很[累]。 | 书, 桌子, 苹果
 en I am very [tired] today. | table, apple, book
 fr Je suis très [fatigué] aujourd'hui. | table, pomme, livre
 es Hoy [estoy] muy cansado. | soy, tengo, hago
+why zh.en 累 | 累 = tired
+why zh.en 书 | 书 is a noun
+why zh.en 桌子 | 桌子 is a noun
+why zh.en 苹果 | 苹果 is a noun
+why en.zh tired | very 后接形容词 tired
+why en.zh table | table 是名词“桌子”
+why en.zh apple | apple 是名词
+why en.zh book | book 是名词
+why en.en tired | "very" + adjective: tired
+why en.en table | "table" is a noun
+why en.en apple | "apple" is a noun
+why en.en book | "book" is a noun
+why fr.zh fatigué | fatigué 是“累”
+why fr.zh table | table 是名词
+why fr.zh pomme | pomme 是名词“苹果”
+why fr.zh livre | livre 是名词“书”
+why fr.en fatigué | fatigué = tired
+why fr.en table | table is a noun
+why fr.en pomme | pomme is a noun
+why fr.en livre | livre is a noun
 
 @f23 fill grammar
 zh 树上[有]一只鸟。 | 喝, 去, 吃
 en [There is] a bird in the tree. | There are, They is, It are
 fr Il [y a] un oiseau dans l'arbre. | est, fait, va
 es [Hay] un pájaro en el árbol. | Es, Tiene, Está
+why zh.en 有 | 有 = there is
+why zh.en 喝 | 喝 means drink
+why zh.en 去 | 去 means go
+why zh.en 吃 | 吃 means eat
+why en.zh There is | 表示“有”用 there is；a bird 是单数
+why en.zh There are | there are 后接复数
+why en.zh They is | they 不和 is 搭配，也不表示“有”
+why en.zh It are | it 不和 are 搭配
+why en.en There is | "there is" + singular "a bird"
+why en.en There are | "there are" needs a plural
+why en.en They is | "they" doesn't take "is"
+why en.en It are | "it" doesn't take "are"
+why fr.zh y a | il y a = 有
+why fr.zh est | il est 是“他是”
+why fr.zh fait | il fait 用于天气
+why fr.zh va | il va 是“他去”
+why fr.en y a | il y a = there is
+why fr.en est | il est = he is
+why fr.en fait | il fait is for weather
+why fr.en va | il va = he goes
 
 @f24 fill food
 zh 我[饿]了，我们吃饭吧。 | 蓝, 慢, 贵
 en I'm [hungry], let's eat. | blue, slow, expensive
 fr J'ai [faim], mangeons. | bleu, lent, cher
 es Tengo [hambre], vamos a comer. | azul, lento, caro
+why zh.en 饿 | 饿 = hungry
+why zh.en 蓝 | 蓝 means blue
+why zh.en 慢 | 慢 means slow
+why zh.en 贵 | 贵 means expensive
+why en.zh hungry | 饿了，所以去吃饭
+why en.zh blue | blue 是“蓝色”
+why en.zh slow | slow 是“慢”
+why en.zh expensive | expensive 是“贵”
+why en.en hungry | hungry → let's eat
+why en.en blue | "blue" doesn't lead to eating
+why en.en slow | "slow" doesn't fit
+why en.en expensive | "expensive" doesn't fit
+why fr.zh faim | 法语说 avoir faim（有饿）
+why fr.zh bleu | bleu 是“蓝色”
+why fr.zh lent | lent 是“慢”
+why fr.zh cher | cher 是“贵”
+why fr.en faim | French says avoir faim
+why fr.en bleu | bleu means blue
+why fr.en lent | lent means slow
+why fr.en cher | cher means expensive
 
 @f25 fill time
 zh 今天是星期一，明天是星期[二]。 | 一, 五, 日
 en Today is Monday, tomorrow is [Tuesday]. | Monday, Friday, Sunday
 fr Aujourd'hui c'est lundi, demain c'est [mardi]. | lundi, vendredi, dimanche
 es Hoy es lunes, mañana es [martes]. | lunes, viernes, domingo
+why zh.en 二 | 星期二 = Tuesday
+why zh.en 一 | that's today
+why zh.en 五 | 星期五 is Friday
+why zh.en 日 | 星期日 is Sunday
+why en.zh Tuesday | 星期一的明天是星期二
+why en.zh Monday | Monday 是今天
+why en.zh Friday | Friday 是“星期五”
+why en.zh Sunday | Sunday 是“星期日”
+why en.en Tuesday | the day after Monday is Tuesday
+why en.en Monday | Monday is today
+why en.en Friday | Friday isn't tomorrow
+why en.en Sunday | Sunday isn't tomorrow
+why fr.zh mardi | mardi 是“星期二”
+why fr.zh lundi | lundi 是今天
+why fr.zh vendredi | vendredi 是“星期五”
+why fr.zh dimanche | dimanche 是“星期日”
+why fr.en mardi | mardi = Tuesday
+why fr.en lundi | lundi is today
+why fr.en vendredi | vendredi is Friday
+why fr.en dimanche | dimanche is Sunday
 
 @f26 fill home
 zh 太热了，请打开[窗户]。 | 天空, 太阳, 早餐
 en It's too hot, please open the [window]. | sky, sun, breakfast
 fr Il fait trop chaud, ouvre la [fenêtre]. | pluie, musique, semaine
 es Hace demasiado calor, abre la [ventana]. | lluvia, música, semana
+why zh.en 窗户 | 窗户 = window
+why zh.en 天空 | 天空 = sky
+why zh.en 太阳 | 太阳 = sun
+why zh.en 早餐 | 早餐 = breakfast
+why en.zh window | 热了就开窗
+why en.zh sky | sky 是“天空”，打不开
+why en.zh sun | sun 是“太阳”
+why en.zh breakfast | breakfast 是“早餐”
+why en.en window | hot → open the window
+why en.en sky | you can't open the sky
+why en.en sun | you can't open the sun
+why en.en breakfast | you don't open breakfast
+why fr.zh fenêtre | fenêtre 是“窗户”
+why fr.zh pluie | pluie 是“雨”
+why fr.zh musique | musique 是“音乐”
+why fr.zh semaine | semaine 是“星期”
+why fr.en fenêtre | fenêtre = window
+why fr.en pluie | pluie means rain
+why fr.en musique | musique means music
+why fr.en semaine | semaine means week
 
 @f27 fill grammar
 zh 飞机比火车[快]。 | 饿, 渴, 难过
 en A plane is [faster] than a train. | fast, fastest, more fast
 fr L'avion est plus [rapide] que le train. | rapides, rapidement, vitesse
 es El avión es más [rápido] que el tren. | rápida, rápidos, rápidamente
+why zh.en 快 | 快 = fast
+why zh.en 饿 | 饿 means hungry
+why zh.en 渴 | 渴 means thirsty
+why zh.en 难过 | 难过 means sad
+why en.zh faster | 比较用比较级：fast → faster（than）
+why en.zh fast | 原级，后面有 than 要用比较级
+why en.zh fastest | 最高级“最快”
+why en.zh more fast | 单音节词用 -er，不用 more
+why en.en faster | comparison → faster … than
+why en.en fast | "than" needs the comparative
+why en.en fastest | superlative, not comparative
+why en.en more fast | one-syllable adjectives take -er
+why fr.zh rapide | plus rapide que；avion 是单数
+why fr.zh rapides | 复数，avion 是单数
+why fr.zh rapidement | 副词，这里需要形容词
+why fr.zh vitesse | vitesse 是名词“速度”
+why fr.en rapide | plus rapide que; avion is singular
+why fr.en rapides | plural; avion is singular
+why fr.en rapidement | adverb; an adjective is needed
+why fr.en vitesse | vitesse is a noun (speed)
 
 @f28 fill grammar
 zh 这本书是[谁]的？ | 什么, 哪里, 怎么
 en This is [my] book. | I, me, mine
 fr C'est [mon] livre. | ma, mes, moi
 es Es [mi] libro. | yo, mis, me
+why zh.en 谁 | 谁 = who (谁的 = whose)
+why zh.en 什么 | 什么 means what
+why zh.en 哪里 | 哪里 means where
+why zh.en 怎么 | 怎么 means how
+why en.zh my | 名词前用形容词性物主代词 my
+why en.zh I | I 是主格“我”
+why en.zh me | me 是宾格
+why en.zh mine | mine 单独使用，不放在名词前
+why en.en my | before a noun → "my"
+why en.en I | "I" is a subject pronoun
+why en.en me | "me" is an object pronoun
+why en.en mine | "mine" stands alone
+why fr.zh mon | livre 是阳性 → mon
+why fr.zh ma | ma 是阴性
+why fr.zh mes | mes 是复数
+why fr.zh moi | moi 是“我”，不是“我的”
+why fr.en mon | livre is masculine → mon
+why fr.en ma | ma is feminine
+why fr.en mes | mes is plural
+why fr.en moi | moi means me
 
 @f29 fill grammar
 zh 我每天[学习]法语。 | 吃, 喝, 睡
 en I [study] French every day. | studies, studying, to study
 fr J'[étudie] le français tous les jours. | étudies, étudient, étudier
 es [Estudio] francés todos los días. | Estudias, Estudian, Estudiar
+why zh.en 学习 | 学习 = study
+why zh.en 吃 | you don't eat French
+why zh.en 喝 | you don't drink French
+why zh.en 睡 | 睡 means sleep
+why en.zh study | I 用动词原形 study
+why en.zh studies | studies 用于 he/she
+why en.zh studying | -ing 形式缺少 am
+why en.zh to study | 不定式不能直接做谓语
+why en.en study | "I" takes the base form: study
+why en.en studies | "studies" is for he/she
+why en.en studying | -ing needs "am"
+why en.en to study | an infinitive can't be the main verb
+why fr.zh étudie | je → j'étudie
+why fr.zh étudies | tu 的形式
+why fr.zh étudient | ils 的形式
+why fr.zh étudier | 动词原形
+why fr.en étudie | je → j'étudie
+why fr.en étudies | the tu form
+why fr.en étudient | the ils form
+why fr.en étudier | infinitive
 
 @f30 fill time
 zh 一天有二十四个[小时]。 | 月, 年, 星期
 en A day has twenty-four [hours]. | months, years, weeks
 fr Un jour a vingt-quatre [heures]. | mois, ans, semaines
 es Un día tiene veinticuatro [horas]. | meses, años, semanas
+why zh.en 小时 | 小时 = hour
+why zh.en 月 | 月 means month
+why zh.en 年 | 年 means year
+why zh.en 星期 | 星期 means week
+why en.zh hours | 一天 24 小时
+why en.zh months | months 是“月”
+why en.zh years | years 是“年”
+why en.zh weeks | weeks 是“星期”
+why en.en hours | 24 hours in a day
+why en.en months | a day doesn't have months
+why en.en years | a day doesn't have years
+why en.en weeks | a day doesn't have weeks
+why fr.zh heures | heures 是“小时”
+why fr.zh mois | mois 是“月”
+why fr.zh ans | ans 是“年”
+why fr.zh semaines | semaines 是“星期”
+why fr.en heures | heures = hours
+why fr.en mois | mois means months
+why fr.en ans | ans means years
+why fr.en semaines | semaines means weeks
 
 @f31 fill grammar
 zh 我[和]朋友一起去。 | 但, 或者, 因为
 en I'm going [with] a friend. | of, at, than
 fr J'y vais [avec] un ami. | de, sur, que
 es Voy [con] un amigo. | de, sobre, que
+why zh.en 和 | 和 = with/and
+why zh.en 但 | 但 means but
+why zh.en 或者 | 或者 means or
+why zh.en 因为 | 因为 means because
+why en.zh with | 和朋友一起：with a friend
+why en.zh of | of 是“……的”
+why en.zh at | at 表示地点/时间
+why en.zh than | than 用于比较
+why en.en with | with a friend
+why en.en of | "of" means belonging
+why en.en at | "at" is place/time
+why en.en than | "than" is for comparisons
+why fr.zh avec | avec 是“和……一起”
+why fr.zh de | de 是“……的；从”
+why fr.zh sur | sur 是“在……上”
+why fr.zh que | que 是连接词/比
+why fr.en avec | avec = with
+why fr.en de | de means of/from
+why fr.en sur | sur means on
+why fr.en que | que means that/than
 
 @f32 fill grammar
 zh 你[会]游泳吗？ | 是, 有, 给
 en [Can] you swim? | Are, Does, Has
 fr Tu [sais] nager ? | es, as, fais
 es ¿[Sabes] nadar? | Eres, Tienes, Haces
+why zh.en 会 | 会 = can (learned skill)
+why zh.en 是 | 是 means "to be"
+why zh.en 有 | 有 means "to have"
+why zh.en 给 | 给 means "to give"
+why en.zh Can | 问能力用 can
+why en.zh Are | are 后面不接动词原形 swim
+why en.zh Does | you 用 do，不用 does
+why en.zh Has | has 不用于提问能力
+why en.en Can | ability → "can"
+why en.en Are | "are" can't be followed by "swim"
+why en.en Does | "you" takes "do", not "does"
+why en.en Has | "has" doesn't ask about ability
+why fr.zh sais | 学会的技能用 savoir：tu sais nager
+why fr.zh es | es 是 être（是）
+why fr.zh as | as 是 avoir（有）
+why fr.zh fais | fais 是 faire（做）
+why fr.en sais | learned skills use savoir
+why fr.en es | es is être (to be)
+why fr.en as | as is avoir (to have)
+why fr.en fais | fais is faire (to do)
 
 @f33 fill shopping
 zh 她穿着一条红[裙子]。 | 苹果, 汽车, 桌子
 en She is wearing a red [dress]. | apple, car, table
 fr Elle porte une [robe] rouge. | pomme, voiture, table
 es Ella lleva un [vestido] rojo. | coche, libro, perro
+why zh.en 裙子 | 裙子 = dress/skirt
+why zh.en 苹果 | 苹果 = apple
+why zh.en 汽车 | 汽车 = car
+why zh.en 桌子 | 桌子 = table
+why en.zh dress | 穿裙子
+why en.zh apple | 苹果不能穿
+why en.zh car | 汽车不能穿
+why en.zh table | 桌子不能穿
+why en.en dress | you wear a dress
+why en.en apple | you can't wear an apple
+why en.en car | you can't wear a car
+why en.en table | you can't wear a table
+why fr.zh robe | robe 是“连衣裙”
+why fr.zh pomme | pomme 是“苹果”
+why fr.zh voiture | voiture 是“汽车”
+why fr.zh table | table 是“桌子”
+why fr.en robe | robe = dress
+why fr.en pomme | pomme means apple
+why fr.en voiture | voiture means car
+why fr.en table | table means table
 
 @f34 fill grammar
 zh 商店九点[开门]。 | 唱歌, 下雨, 游泳
 en The shop [opens] at nine. | open, opening, to open
 fr Le magasin [ouvre] à neuf heures. | ouvres, ouvrent, ouvrir
 es La tienda [abre] a las nueve. | abro, abren, abrir
+why zh.en 开门 | 开门 = open (for business)
+why zh.en 唱歌 | shops don't sing
+why zh.en 下雨 | 下雨 means rain
+why zh.en 游泳 | shops don't swim
+why en.zh opens | the shop 是第三人称单数 → opens
+why en.zh open | 第三人称单数要加 -s
+why en.zh opening | -ing 缺少 is
+why en.zh to open | 不定式不能做谓语
+why en.en opens | "the shop" is 3rd person → opens
+why en.en open | 3rd person needs -s
+why en.en opening | -ing needs "is"
+why en.en to open | an infinitive can't be the main verb
+why fr.zh ouvre | le magasin（il）→ ouvre
+why fr.zh ouvres | tu 的形式
+why fr.zh ouvrent | ils 的形式
+why fr.zh ouvrir | 动词原形
+why fr.en ouvre | le magasin (il) → ouvre
+why fr.en ouvres | the tu form
+why fr.en ouvrent | the ils form
+why fr.en ouvrir | infinitive
 
 @f35 fill grammar
 zh 我[也]想去。 | 吗, 呢, 的
 en I want to go [too]. | two, very, much
 fr Je veux y aller [aussi]. | très, assez, beaucoup
 es Yo [también] quiero ir. | muy, mucho, más
+why zh.en 也 | 也 = also
+why zh.en 吗 | 吗 makes a question
+why zh.en 呢 | 呢 is a particle
+why zh.en 的 | 的 marks possession
+why en.zh too | too 放在句尾表示“也”
+why en.zh two | two 是数字“二”，发音相同
+why en.zh very | very 是“很”，要接形容词
+why en.zh much | much 不表示“也”
+why en.en too | "too" at the end = also
+why en.en two | "two" is the number
+why en.en very | "very" needs an adjective
+why en.en much | "much" doesn't mean "also"
+why fr.zh aussi | aussi 是“也”
+why fr.zh très | très 是“很”
+why fr.zh assez | assez 是“足够”
+why fr.zh beaucoup | beaucoup 是“很多”
+why fr.en aussi | aussi = also
+why fr.en très | très means very
+why fr.en assez | assez means enough
+why fr.en beaucoup | beaucoup means a lot
 
 @f36 fill grammar
 zh 我[已经]吃过了。 | 明天, 将要, 正在
 en I have [already] eaten. | tomorrow, soon, next
 fr J'ai [déjà] mangé. | demain, bientôt, prochain
 es Ya [he] comido. | has, ha, hemos
+why zh.en 已经 | 已经 = already
+why zh.en 明天 | 明天 = tomorrow
+why zh.en 将要 | 将要 = about to
+why zh.en 正在 | 正在 = in progress
+why en.zh already | 现在完成时常用 already
+why en.zh tomorrow | tomorrow 和完成时矛盾
+why en.zh soon | soon 指将来
+why en.zh next | next 后要接名词
+why en.en already | present perfect often takes "already"
+why en.en tomorrow | "tomorrow" clashes with the perfect
+why en.en soon | "soon" refers to the future
+why en.en next | "next" needs a noun
+why fr.zh déjà | déjà 是“已经”
+why fr.zh demain | demain 是“明天”
+why fr.zh bientôt | bientôt 是“很快”
+why fr.zh prochain | prochain 是“下一个”
+why fr.en déjà | déjà = already
+why fr.en demain | demain means tomorrow
+why fr.en bientôt | bientôt means soon
+why fr.en prochain | prochain means next
 
 @f37 fill home
 zh 我的手机没[电]了。 | 水, 书, 门
 en My phone is out of [battery]. | water, books, doors
 fr Mon téléphone n'a plus de [batterie]. | livres, portes, pain
 es Mi teléfono no tiene [batería]. | libros, puertas, pan
+why zh.en 电 | 电 = electricity/battery
+why zh.en 水 | 水 means water
+why zh.en 书 | 书 means book
+why zh.en 门 | 门 means door
+why en.zh battery | 手机没电：out of battery
+why en.zh water | water 是“水”
+why en.zh books | books 是“书”
+why en.zh doors | doors 是“门”
+why en.en battery | out of battery
+why en.en water | phones don't run on water
+why en.en books | doesn't fit
+why en.en doors | doesn't fit
+why fr.zh batterie | batterie 是“电池/电量”
+why fr.zh livres | livres 是“书”
+why fr.zh portes | portes 是“门”
+why fr.zh pain | pain 是“面包”
+why fr.en batterie | batterie = battery
+why fr.en livres | livres means books
+why fr.en portes | portes means doors
+why fr.en pain | pain means bread
 
 @f38 fill travel
 zh 我要一张去里昂的[票]。 | 苹果, 牛奶, 狗
 en I'd like a [ticket] to Lyon. | apple, milk, dog
 fr Je voudrais un [billet] pour Lyon. | chien, lait, fromage
 es Quisiera un [billete] para Lyon. | perro, queso, huevo
+why zh.en 票 | 票 = ticket
+why zh.en 苹果 | 苹果 means apple
+why zh.en 牛奶 | 牛奶 means milk
+why zh.en 狗 | 狗 means dog
+why en.zh ticket | 去里昂的票
+why en.zh apple | apple 是“苹果”
+why en.zh milk | milk 是“牛奶”
+why en.zh dog | dog 是“狗”
+why en.en ticket | a ticket to Lyon
+why en.en apple | an apple doesn't go "to Lyon"
+why en.en milk | doesn't fit
+why en.en dog | doesn't fit
+why fr.zh billet | billet 是“票”
+why fr.zh chien | chien 是“狗”
+why fr.zh lait | lait 是“牛奶”
+why fr.zh fromage | fromage 是“奶酪”
+why fr.en billet | billet = ticket
+why fr.en chien | chien means dog
+why fr.en lait | lait means milk
+why fr.en fromage | fromage means cheese
 
 @f39 fill health
 zh 我生病了，需要看[医生]。 | 鞋, 面包, 河
 en I'm sick, I need to see a [doctor]. | shoe, bread, river
 fr Je suis malade, je dois voir un [médecin]. | pain, sac, vélo
 es Estoy enfermo, necesito ver a un [médico]. | pan, zapato, río
+why zh.en 医生 | 医生 = doctor
+why zh.en 鞋 | 鞋 means shoe
+why zh.en 面包 | 面包 means bread
+why zh.en 河 | 河 means river
+why en.zh doctor | 生病要看医生
+why en.zh shoe | shoe 是“鞋”
+why en.zh bread | bread 是“面包”
+why en.zh river | river 是“河”
+why en.en doctor | sick → see a doctor
+why en.en shoe | doesn't fit
+why en.en bread | doesn't fit
+why en.en river | doesn't fit
+why fr.zh médecin | médecin 是“医生”
+why fr.zh pain | pain 是“面包”
+why fr.zh sac | sac 是“包”
+why fr.zh vélo | vélo 是“自行车”
+why fr.en médecin | médecin = doctor
+why fr.en pain | pain means bread
+why fr.en sac | sac means bag
+why fr.en vélo | vélo means bike
 
 @f40 fill home
 zh 妈妈在[厨房]里做饭。 | 银行, 公交车, 机场
 en Mum is cooking in the [kitchen]. | bank, bus, airport
 fr Maman cuisine dans la [cuisine]. | banque, rue, gare
 es Mamá cocina en la [cocina]. | calle, estación, biblioteca
+why zh.en 厨房 | 厨房 = kitchen
+why zh.en 银行 | 银行 means bank
+why zh.en 公交车 | 公交车 means bus
+why zh.en 机场 | 机场 means airport
+why en.zh kitchen | 在厨房做饭
+why en.zh bank | bank 是“银行”
+why en.zh bus | bus 是“公交车”
+why en.zh airport | airport 是“机场”
+why en.en kitchen | cooking happens in the kitchen
+why en.en bank | you don't cook in a bank
+why en.en bus | you don't cook on a bus
+why en.en airport | you don't cook at the airport
+why fr.zh cuisine | la cuisine 是“厨房”（cuisiner = 做饭）
+why fr.zh banque | banque 是“银行”
+why fr.zh rue | rue 是“街道”
+why fr.zh gare | gare 是“火车站”
+why fr.en cuisine | la cuisine = kitchen
+why fr.en banque | banque means bank
+why fr.en rue | rue means street
+why fr.en gare | gare means station

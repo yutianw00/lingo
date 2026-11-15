@@ -82,6 +82,8 @@ struct WordCard: Codable, Identifiable, Equatable {
     var meaning: String
     var example: String
     var exampleTranslation: String
+    /// Added by the learner from a quiz: level "Custom", swipe deck only.
+    var custom: Bool?
     var mastery: Int
     var level: Level
     var due: Double?
@@ -119,8 +121,28 @@ struct AnswerResult: Codable {
     var answer: String
     var fullSentence: String
     var translation: String
+    /// Why the correct answer is right.
+    var explanation: String?
+    /// Why the learner's choice is wrong (nil when they were right).
+    var choiceExplanation: String?
     var before: Progress
     var after: Progress
+}
+
+/// Tap-to-translate: the prompt cut into plain text and words with their meanings.
+struct WordToken: Codable, Hashable {
+    var text: String
+    var word: Bool
+    var lemma: String?
+    var meaning: String?
+    var lemmaMeaning: String?
+    var pos: String?
+    var added: Bool?
+}
+
+struct QuestionWords: Codable {
+    var text: String
+    var tokens: [WordToken]
 }
 
 struct ReviewResult: Codable {

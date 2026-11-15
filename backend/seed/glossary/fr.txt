@@ -1,0 +1,264 @@
+# French quiz words not in the word list
+!columns zh en es
+a|avoir|v|有（il/elle a）|has|tiene
+aide|l'aide|n|帮助|help|la ayuda
+aimes|aimer|v|（你）喜欢|you like|te gusta
+allez|aller|v|你们/您去|you go|vais; va usted
+allons|aller|v|我们去|we go|vamos
+allé|aller|v|去了（过去分词）|gone|ido
+alors|alors|adv|那么；那|so; then|entonces
+ami|l'ami|n|朋友|friend|el amigo
+année|l'année|n|年|year|el año
+ans|l'an|n|岁；年（复数）|years|años
+apprends|apprendre|v|（我/你）学|learn|aprendo; aprendes
+arrive|arriver|v|到达；来了（j'arrive）|arrives; I'm coming|llega; ya voy
+as|avoir|v|（你）有|you have|tienes
+attrapé|attraper|v|得了（感冒）；抓住|caught|cogido
+au|au|det|到；在（à + le）|to the; at the|al
+batterie|la batterie|n|电池|battery|la batería
+beaucoup|beaucoup|adv|很多|a lot|mucho
+besoin|le besoin|n|需要（avoir besoin de）|need|la necesidad
+bibliothèque|la bibliothèque|n|图书馆|library|la biblioteca
+bien|bien|adv|好|well; good|bien
+billet|le billet|n|票|ticket|el billete
+bois|boire|v|（我）喝|I drink|bebo
+bonne|bon|adj|好的（阴性）|good|buena
+bus|le bus|n|公交车|bus|el autobús
+c'est|ce + être|phr|这是|it is; that's|es
+café|le café|n|咖啡；咖啡馆|coffee; café|el café
+canapé|le canapé|n|沙发|sofa|el sofá
+carte|la carte|n|卡|card|la tarjeta
+ce|ce|det|这个；这|this|este
+centre|le centre|n|中心（centre-ville 市中心）|centre|el centro
+ces|ce|det|这些|these|estos
+cette|ce|det|这个（阴性）|this|esta
+chambre|la chambre|n|房间；卧室|room|la habitación
+chat|le chat|n|猫|cat|el gato
+chaussures|la chaussure|n|鞋（复数）|shoes|los zapatos
+chemise|la chemise|n|衬衫|shirt|la camisa
+cinéma|le cinéma|n|电影院|cinema|el cine
+clés|la clé|n|钥匙（复数）|keys|las llaves
+code|le code|n|密码|code|el código
+coin|le coin|n|角；拐角|corner|la esquina
+commander|commander|v|点（菜）|to order|pedir
+commence|commencer|v|开始|starts|empieza
+commencé|commencer|v|开始了|started|empezado
+coûte|coûter|v|值（多少钱）|costs|cuesta
+crois|croire|v|（我）认为|I think|creo
+cuisine|la cuisine|n|厨房；烹饪|kitchen; cooking|la cocina
+d'accord|d'accord|phr|好的；同意|OK; agreed|de acuerdo
+dans|dans|prep|在……里|in|en
+de|de|prep|……的；从|of; from|de
+dehors|dehors|adv|外面|outside|fuera
+depuis|depuis|prep|自从；……以来|since; for|desde hace
+dernier|dernier|adj|上一个；最后的|last|pasado; último
+devant|devant|prep|在……前面|in front of|delante de
+devrais|devoir|v|（你）应该|you should|deberías
+dire|dire|v|说；意思是（veut dire）|to say; to mean|decir
+dit|dire|v|说|says|dice
+dois|devoir|v|（我）必须|I must|debo
+donc|donc|conj|所以|so|así que
+dormi|dormir|v|睡了|slept|dormido
+dort|dormir|v|睡觉|sleeps|duerme
+douze|douze|num|十二|twelve|doce
+droit|droit|adv|直（tout droit 一直往前）|straight|recto
+du|du|det|一些；……的（de + le）|some; of the|del
+déjeuner|le déjeuner|n|午餐（petit-déjeuner 早餐）|lunch (petit-déjeuner: breakfast)|el almuerzo
+dîner|le dîner|n|晚饭|dinner|la cena
+en|en|prep|在；乘；（代词）其中|in; by; of it|en
+enchanté|enchanté|adj|很高兴认识你|nice to meet you|encantado
+end|week-end|n|周末（week-end）|weekend|el fin de semana
+enfants|l'enfant|n|孩子（复数）|children|los niños
+enfin|enfin|adv|终于|finally|por fin
+environ|environ|adv|大约|about|unos
+est|être|v|是|is|es; está
+euros|l'euro|n|欧元|euros|euros
+examen|l'examen|n|考试|exam|el examen
+excusez|excuser|v|对不起（excusez-moi）|excuse (me)|disculpe
+faim|la faim|n|饿（avoir faim 饿了）|hunger (avoir faim: be hungry)|el hambre
+fais|faire|v|（我/你）做|do|hago; haces
+fait|faire|v|做；（天气）是|does; makes; it is (weather)|hace
+faites|faire|v|你们/您做|you do|hacéis; hace usted
+faut|falloir|v|需要（il faut）|it takes; you need|hace falta
+fenêtre|la fenêtre|n|窗户|window|la ventana
+fera|faire|v|（天气）将会是|will be (weather)|hará
+film|le film|n|电影|film|la película
+français|le français|n|法语|French|el francés
+félicitations|félicitations|interj|恭喜|congratulations|enhorabuena
+gare|la gare|n|火车站|station|la estación
+gauche|gauche|adj|左边|left|izquierda
+guitare|la guitare|n|吉他|guitar|la guitarra
+génial|génial|adj|太棒了|great|genial
+habites|habiter|v|（你）住|you live|vives
+heure|l'heure|n|小时；点钟|hour; o'clock|la hora
+heures|l'heure|n|小时；点（复数）|hours; o'clock|las horas
+huit|huit|num|八|eight|ocho
+idée|l'idée|n|主意|idea|la idea
+infirmière|l'infirmière|n|（女）护士|nurse|la enfermera
+j'ai|avoir|v|我有；我已经|I have|tengo; he
+j'aime|aimer|v|我喜欢|I like|me gusta
+j'arrive|arriver|v|我到；来了|I arrive; coming|llego; ya voy
+j'y|y|pron|我（去）那里|I (go) there|yo (voy)
+j'étudie|étudier|v|我学习|I study|estudio
+jour|le jour|n|天|day|el día
+jours|le jour|n|天（复数）|days|días
+l'air|l'air|n|样子（avoir l'air 看起来）|look (avoir l'air: to look)|el aspecto
+l'avez|avoir|v|您有（它）（vous l'avez）|you have it|lo tiene
+l'herbe|l'herbe|n|草|grass|la hierba
+la|la|det|（阴性定冠词）|the|la
+lait|le lait|n|牛奶|milk|la leche
+lave|laver|v|洗（je me lave 我洗）|wash|lavo
+le|le|det|（阳性定冠词）|the|el
+les|les|det|（复数定冠词）|the|los; las
+lever|lever|v|起来（se lever 起床）|to get up|levantarse
+livre|le livre|n|书|book|el libro
+longtemps|longtemps|adv|很久|a long time|mucho tiempo
+lyon|Lyon|name|里昂|Lyon|Lyon
+là|là|adv|那里|there|allí
+m|m-|pron|（Puis-je m'… 的一部分）|(part of m')|(parte de m')
+m'appelle|appeler|v|我叫（名字）|my name is|me llamo
+m'ouvrir|ouvrir|v|给我开（门）|open for me|abrirme
+ma|mon|det|我的（阴性）|my|mi
+magasin|le magasin|n|商店|shop|la tienda
+mains|la main|n|手（复数）|hands|las manos
+maison|la maison|n|家；房子|house; home|la casa
+mal|mal|adv|疼（avoir mal 疼）；不好|pain; badly|dolor; mal
+maman|maman|n|妈妈|mum|mamá
+mange|manger|v|（我/他）吃|eat; eats|como; come
+mangeons|manger|v|我们吃|we eat|comemos
+mangé|manger|v|吃了|eaten|comido
+manteau|le manteau|n|外套|coat|el abrigo
+mardi|mardi|n|星期二|Tuesday|martes
+marie|Marie|name|玛丽（人名）|Marie|Marie
+matin|le matin|n|早上|morning|la mañana
+me|me|pron|我（宾语）|me|me
+mes|mon|det|我的（复数）|my|mis
+mets|mettre|v|穿上；放（命令式）|put on|ponte
+mieux|mieux|adv|更好|better|mejor
+minutes|la minute|n|分钟|minutes|minutos
+moi|moi|pron|我|me|yo; mí
+mois|le mois|n|月|month|el mes
+mon|mon|det|我的|my|mi
+mot|le mot|n|词|word|la palabra
+musique|la musique|n|音乐|music|la música
+mère|la mère|n|母亲|mother|la madre
+médecin|le médecin|n|医生|doctor|el médico
+médicament|le médicament|n|药|medicine|el medicamento
+météo|la météo|n|天气预报|weather forecast|el tiempo
+n'a|avoir|v|没有（n'a plus 不再有）|has no|no tiene
+n'oublie|oublier|v|别忘了（n'oublie pas）|don't forget|no olvides
+n'y|y|pron|不去（那里）（je n'y vais pas）|not (go) there|no (voy)
+ne|ne|adv|不（ne … pas）|not|no
+neuf|neuf|num|九|nine|nueve
+nuit|la nuit|n|夜晚|night|la noche
+nuits|la nuit|n|晚（复数）|nights|noches
+oiseau|l'oiseau|n|鸟|bird|el pájaro
+on|on|pron|我们；人们|we; one|nosotros; se
+ouvre|ouvrir|v|开门|opens|abre
+par|par|prep|通过；每|by; per|por
+parapluie|le parapluie|n|雨伞|umbrella|el paraguas
+parc|le parc|n|公园|park|el parque
+parce|parce que|conj|因为（parce que）|because|porque
+parlez|parler|v|你们/您说|you speak|habla usted; habláis
+paris|Paris|name|巴黎|Paris|París
+part|partir|v|出发；离开|leaves|sale
+pas|pas|adv|不（ne … pas）|not|no
+passeport|le passeport|n|护照|passport|el pasaporte
+paul|Paul|name|保罗（人名）|Paul|Paul
+peu|peu|adv|一点（un peu）|a little|un poco
+peux|pouvoir|v|（我/你）可以|can|puedo; puedes
+plat|le plat|n|菜|dish|el plato
+plaît|plaire|v|（s'il vous plaît 请）|(please)|(por favor)
+pleines|plein|adj|满的（阴性复数）|full|llenas
+pleut|pleuvoir|v|下雨|it rains|llueve
+plus|plus|adv|更；不再（ne … plus）|more; no longer|más; ya no
+pointure|la pointure|n|鞋码|shoe size|la talla (de zapato)
+poisson|le poisson|n|鱼|fish|el pescado
+pomme|la pomme|n|苹果|apple|la manzana
+porte|la porte / porter|n|门；穿着（elle porte）|door; wears|la puerta; lleva
+pour|pour|prep|为了；去往|for; to|para
+prends|prendre|v|拿；要；乘坐|take; have|tomo; tomas
+presque|presque|adv|几乎|almost|casi
+prêt|prêt|adj|准备好的|ready|listo
+prêts|prêt|adj|准备好的（复数）|ready|listos
+puis|pouvoir / puis|v|我可以（puis-je）；然后|may I; then|puedo; luego
+qu'est|qu'est-ce que|phr|什么（qu'est-ce que）|what|qué
+qu'il|que + il|phr|（que il）|that it|que
+quarante|quarante|num|四十|forty|cuarenta
+que|que|conj|（连接词）；比；什么|that; than; what|que
+quel|quel|det|哪个；什么|which; what|qué; cuál
+quelle|quel|det|哪个；什么（阴性）|which; what|qué; cuál
+recette|la recette|n|菜谱|recipe|la receta
+regarde|regarder|v|看|look|mira
+reposer|se reposer|v|休息|to rest|descansar
+rester|rester|v|待；留|to stay|quedarse
+retrouve|se retrouver|v|见面（on se retrouve）|meet|quedamos
+rhume|le rhume|n|感冒|cold|el resfriado
+rien|rien|pron|没什么（de rien 不客气）|nothing (de rien: you're welcome)|nada
+robe|la robe|n|连衣裙|dress|el vestido
+répéter|répéter|v|重复|to repeat|repetir
+réserver|réserver|v|预订|to book|reservar
+réunion|la réunion|n|会议|meeting|la reunión
+réussir|réussir|v|成功；考好|to succeed; to pass|aprobar
+s'il|si + il|phr|如果（s'il vous plaît 请）|if (please)|si (por favor)
+sais|savoir|v|（我/你）会；知道|know; can|sé; sabes
+salade|la salade|n|沙拉|salad|la ensalada
+salle|la salle|n|厅；室（salle de réunion 会议室）|room|la sala
+se|se|pron|（反身代词）|oneself; each other|se
+sens|sentir|v|（我）感觉|I feel|me siento
+sept|sept|num|七|seven|siete
+serai|être|v|我将会是；我会在|I will be|estaré
+six|six|num|六|six|seis
+soir|le soir|n|晚上|evening|la noche
+suis|être|v|我是|I am|soy; estoy
+supermarché|le supermarché|n|超市|supermarket|el supermercado
+sur|sur|prep|在……上|on|sobre; en
+sûr|sûr|adj|当然（bien sûr）|sure|claro
+sœur|la sœur|n|姐妹|sister|la hermana
+t|t-|det|（a-t-il 中的连接音）|(linking t)|(t de enlace)
+t'inquiète|s'inquiéter|v|（别）担心（ne t'inquiète pas）|(don't) worry|(no) te preocupes
+table|la table|n|桌子|table|la mesa
+taille|la taille|n|尺码|size|la talla
+tapez|taper|v|输入（命令式）|type; enter|introduzca
+tasse|la tasse|n|杯子|cup|la taza
+taxi|le taxi|n|出租车|taxi|el taxi
+te|te|pron|你（宾语）|you|te
+temps|le temps|n|时间；天气|time; weather|el tiempo
+thé|le thé|n|茶|tea|el té
+toi|toi|pron|你|you|tú; ti
+ton|ton|det|你的|your|tu
+tourne|tourner|v|转|turn|gira
+tournez|tourner|v|转（您/你们命令式）|turn|gire
+tous|tout|det|所有；每（tous les jours 每天）|all; every|todos
+tout|tout|adv|完全（tout droit 一直往前）|all; quite|todo
+train|le train|n|火车|train|el tren
+travail|le travail|n|工作|work; job|el trabajo
+trop|trop|adv|太|too|demasiado
+trouve|trouver|v|找到；觉得|find|encuentro
+trouvé|trouver|v|找到了|found|encontrado
+troisième|troisième|num|第三|third|tercero
+téléphone|le téléphone|n|电话；手机|phone|el teléfono
+tête|la tête|n|头|head|la cabeza
+tôt|tôt|adv|早|early|temprano
+une|un|det|一个（阴性）|a; an|una
+va|aller|v|去；（ça va 还好）|goes|va
+vais|aller|v|我去|I go|voy
+vas|aller|v|你去|you go|vas
+verte|vert|adj|绿色的（阴性）|green|verde
+veut|vouloir|v|想要（veut dire 意思是）|wants (veut dire: means)|quiere
+veux|vouloir|v|（我/你）想要|want|quiero; quieres
+vie|la vie|n|生活；生命|life|la vida
+ville|la ville|n|城市|city|la ciudad
+vingt|vingt|num|二十|twenty|veinte
+voici|voici|adv|这是；给您|here is|aquí tiene
+vol|le vol|n|航班|flight|el vuelo
+votre|votre|det|您的；你们的|your|su; vuestro
+voudrais|vouloir|v|我想要（礼貌）|I would like|quisiera
+vous|vous|pron|您；你们|you|usted; vosotros
+week|week-end|n|周末（week-end）|weekend|el fin de semana
+y|y|pron|那里|there|allí
+à|à|prep|在；到|at; to|a; en
+ça|ça|pron|这；那|that; it|eso
+étage|l'étage|n|楼层|floor|la planta
+êtes|être|v|您是；你们是|you are|es usted; sois
+œufs|l'œuf|n|鸡蛋（复数）|eggs|los huevos

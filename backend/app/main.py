@@ -5,8 +5,10 @@ every /api call needs a session — a cookie for the web app, or `Authorization:
 Bearer <token>` for other clients. Without it the app runs as a single local user
 identified by the `X-User-Id` header (default "demo"), which is also what tests use.
 """
+import json
 import math
 import random
+import secrets
 import sqlite3
 import time
 from pathlib import Path
@@ -21,6 +23,7 @@ from pydantic import BaseModel, Field
 import httpx
 
 from . import auth, config, db, logic, seed, srs
+from . import explain as explaining
 from .config import AuthConfig
 
 Lang = Literal["zh", "en", "fr", "es"]
@@ -53,6 +56,13 @@ class AppToken(BaseModel):
 class QuizAnswer(BaseModel):
     choice: str
     elapsed_ms: int | None = Field(default=None, ge=0)
+
+
+class CustomWord(BaseModel):
+    word: str = Field(min_length=1, max_length=80)
+    meaning: str = Field(min_length=1, max_length=200)
+    pos: str = Field(default="", max_length=10)
+    question_id: str | None = None  # the quiz question it was found in: its sentence becomes the example
 
 
 def create_app(db_path: str | None = None, clock: Callable[[], float] = time.time,
@@ -210,6 +220,10 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         ids = {r["id"] for r in rows}
         return {k: v for k, v in logic.all_states(conn, user["id"], "word", user["target"]).items() if k in ids}
 
+    def custom_words(conn, user):
+        return conn.execute("SELECT * FROM custom_words WHERE user_id=? AND lang=? ORDER BY created_at",
+                            (user["id"], user["target"])).fetchall()
+
     def learner_level(rows, wstates) -> tuple[int, float]:
         """The learner's level = the hardest word they have been introduced to (words come in level order)."""
         scores = [r["score"] for r in rows if r["id"] in wstates]
@@ -234,6 +248,47 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         pool = [r for r in rows if (r["word_id"] in wstates if r["skill"] == "vocab" else r["level"] <= level)]
         return pool, next_pool
 
+    # ------------------------------------------------------------ dictionary
+
+    conn0 = db.connect(db_path)
+    try:
+        dictionaries = explaining.build_dictionaries(conn0)
+    finally:
+        conn0.close()
+
+    def lookup(target: str, native: str) -> explaining.Lookup:
+        return explaining.make_lookup(dictionaries, target, native)
+
+    # ------------------------------------------------------------ explanations
+
+    def explain(conn, q, native: str, target: str, choice: str, correct: bool) -> tuple[str | None, str | None]:
+        """(why the answer is right, why the learner's choice is wrong — None when they were right)."""
+        data = json.loads(q["data"])
+        t = data[target]
+        if q["kind"] == "fill" and q["skill"] == "vocab":
+            find = lookup(target, native)
+
+            def line(name, word):
+                e = find(word)
+                return explaining.template(name, native, w=word, m=e["lemma_meaning"]) if e else None
+
+            return line("vocab_right", t["answer"]), None if correct else line("vocab_wrong", choice)
+        if q["kind"] == "fill":
+            why = t.get("why") or {}
+            reasons = why.get(native) or why.get("en") or next(iter(why.values()), {})
+            return reasons.get(t["answer"]), None if correct else reasons.get(choice)
+        right = explaining.template("next_right", native, a=t["answer"], p=t["prompt"])
+        if correct:
+            return right, None
+        wrong = None
+        for o in conn.execute("SELECT data FROM questions WHERE kind='next' AND course=?", (q["course"],)):
+            od = json.loads(o["data"])
+            if od.get(target, {}).get("answer") == choice:
+                wrong = explaining.template("next_wrong", native, p=od[target]["prompt"],
+                                            pn=logic._native(od, native)["prompt"])
+                break
+        return right, wrong
+
     # ------------------------------------------------------------ home
 
     @app.get("/api/home")
@@ -241,11 +296,13 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         now, lang = clock(), user["target"]
         words = course_words(conn, lang)
         ws = word_states(conn, user, words)
+        level, score = learner_level(words, ws)  # custom words have no level: course words only
+        words = [*words, *custom_words(conn, user)]
+        ws = word_states(conn, user, words)
         pool, _ = quiz_pool(conn, user)
         q_ids = {r["id"] for r in pool}
         qs = {k: v for k, v in logic.all_states(conn, user["id"], "question", lang).items() if k in q_ids}
         streak, done = logic.streak_and_today(conn, user["id"], now, tz)
-        level, score = learner_level(words, ws)
         return {
             "native": user["native"], "target": user["target"],
             "leveled": course_of(lang) != "all", "level": level, "level_score": round(score, 1),
@@ -260,23 +317,36 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
 
     # ------------------------------------------------------------ words
 
-    def word_row(conn, word_id):
+    def word_row(conn, word_id, user=None):
         row = conn.execute("SELECT * FROM words WHERE id=?", (word_id,)).fetchone()
+        if row is None and user is not None:
+            row = conn.execute("SELECT * FROM custom_words WHERE id=? AND user_id=?", (word_id, user["id"])).fetchone()
         if row is None:
             raise HTTPException(404, "word not found")
         return row
 
+    def deck(conn, user) -> tuple[dict[str, Callable[[srs.State, float], dict]], list[str]]:
+        """Every word in the learner's swipe deck: their own words first (newest additions are
+        introduced before the curriculum's next words), then the course in curriculum order."""
+        native, target = user["native"], user["target"]
+        cards: dict[str, Callable[[srs.State, float], dict]] = {}
+        for r in custom_words(conn, user):
+            cards[r["id"]] = lambda s, now, r=r: logic.custom_card(r, s, now)
+        for r in course_words(conn, target):
+            cards[r["id"]] = lambda s, now, r=r: logic.word_card(r, native, target, s, now)
+        return cards, list(cards)
+
     @app.get("/api/words/session")
     def word_session(user: User, conn: Conn, size: int = Query(20, ge=1, le=100)):
-        now, native, target = clock(), user["native"], user["target"]
-        rows = {r["id"]: r for r in course_words(conn, target)}
-        states = word_states(conn, user, rows.values())
-        ids = logic.pick_session(states, list(rows), size, now, rng)
-        return [logic.word_card(rows[i], native, target, states.get(i, srs.State()), now) for i in ids]
+        now = clock()
+        cards, order = deck(conn, user)
+        states = {k: v for k, v in logic.all_states(conn, user["id"], "word", user["target"]).items() if k in cards}
+        ids = logic.pick_session(states, order, size, now, rng)
+        return [cards[i](states.get(i, srs.State()), now) for i in ids]
 
     @app.post("/api/words/{word_id}/review")
     def review_word(word_id: str, body: WordReview, user: User, conn: Conn):
-        word_row(conn, word_id)
+        word_row(conn, word_id, user)
         grade = ("swipe_known_peeked" if body.peeked else "swipe_known") if body.known else "swipe_unknown"
         now = clock()
         before, after = logic.record_review(conn, user["id"], "word", word_id, user["target"], grade, now,
@@ -285,7 +355,7 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
 
     @app.post("/api/words/{word_id}/undo")
     def undo_word(word_id: str, user: User, conn: Conn):
-        word_row(conn, word_id)
+        word_row(conn, word_id, user)
         restored = logic.undo_last(conn, user["id"], "word", word_id, user["target"])
         if restored is None:
             raise HTTPException(409, "nothing to undo")
@@ -295,13 +365,14 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
     def list_words(user: User, conn: Conn,
                    level: Literal["new", "learning", "familiar", "mastered", "due"] | None = None,
                    q: str | None = None):
-        now, native, target = clock(), user["native"], user["target"]
-        states = logic.all_states(conn, user["id"], "word", target)
+        now = clock()
+        states = logic.all_states(conn, user["id"], "word", user["target"])
         out = []
         needle = (q or "").strip().lower()
-        for r in course_words(conn, target):
-            s = states.get(r["id"], srs.State())
-            card = logic.word_card(r, native, target, s, now)
+        cards, order = deck(conn, user)
+        for wid in order:
+            s = states.get(wid, srs.State())
+            card = cards[wid](s, now)
             if level == "due" and not (s.due is not None and s.due <= now):
                 continue
             if level and level != "due" and card["level"] != level:
@@ -310,6 +381,40 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
                 continue
             out.append(card)
         return out
+
+    @app.post("/api/words/custom")
+    def add_custom_word(body: CustomWord, user: User, conn: Conn):
+        """Add a word to the learner's own deck (level "Custom"). Adding the same word twice is a no-op."""
+        word, target = body.word.strip(), user["target"]
+        existing = conn.execute("SELECT * FROM custom_words WHERE user_id=? AND lang=? AND lower(word)=lower(?)",
+                                (user["id"], target, word)).fetchone()
+        if existing is None:
+            example = translation = ""
+            if body.question_id:
+                sol = logic.question_answer(question_row(conn, body.question_id), user["native"], target)
+                example, translation = sol["full_sentence"], sol["translation"]
+            wid = "c-" + secrets.token_hex(8)
+            conn.execute(
+                "INSERT INTO custom_words (id, user_id, lang, native, word, meaning, pos, example, "
+                "example_translation, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                (wid, user["id"], target, user["native"], word, body.meaning.strip(), body.pos.strip(), example,
+                 translation, clock()),
+            )
+            conn.commit()
+            existing = conn.execute("SELECT * FROM custom_words WHERE id=?", (wid,)).fetchone()
+        s = logic.get_state(conn, user["id"], "word", existing["id"], target)
+        return logic.custom_card(existing, s, clock())
+
+    @app.delete("/api/words/custom/{word_id}")
+    def delete_custom_word(word_id: str, user: User, conn: Conn):
+        row = conn.execute("SELECT * FROM custom_words WHERE id=? AND user_id=?", (word_id, user["id"])).fetchone()
+        if row is None:
+            raise HTTPException(404, "word not found")
+        conn.execute("DELETE FROM custom_words WHERE id=?", (word_id,))
+        conn.execute("DELETE FROM progress WHERE user_id=? AND item_type='word' AND item_id=?", (user["id"], word_id))
+        conn.execute("DELETE FROM review_log WHERE user_id=? AND item_type='word' AND item_id=?", (user["id"], word_id))
+        conn.commit()
+        return {"ok": True}
 
     # ------------------------------------------------------------ quiz
 
@@ -338,6 +443,19 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         return [logic.question_payload(rows[i], native, target, states.get(i, srs.State()), now, next_pool, rng)
                 for i in ids]
 
+    @app.get("/api/quiz/{qid}/words")
+    def question_words(qid: str, user: User, conn: Conn):
+        """Tap-to-translate: the prompt split into words, each with its meaning in the learner's language."""
+        q = question_row(conn, qid)
+        native, target = user["native"], user["target"]
+        text = logic.prompt_text(q, target)
+        tokens = explaining.tokens(text, target, lookup(target, native))
+        mine = {r["word"].lower() for r in custom_words(conn, user)}
+        for tok in tokens:
+            if tok["word"]:
+                tok["added"] = (tok["lemma"] or tok["text"]).lower() in mine
+        return {"text": text, "tokens": tokens}
+
     @app.post("/api/quiz/{qid}/answer")
     def answer_question(qid: str, body: QuizAnswer, user: User, conn: Conn):
         q = question_row(conn, qid)
@@ -346,7 +464,8 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         now = clock()
         before, after = logic.record_review(conn, user["id"], "question", qid, user["target"],
                                             "quiz_correct" if correct else "quiz_wrong", now, body.elapsed_ms)
-        return {"correct": correct, **solution,
+        why, why_not = explain(conn, q, user["native"], user["target"], body.choice.strip(), correct)
+        return {"correct": correct, **solution, "explanation": why, "choice_explanation": why_not,
                 "before": logic.item_progress(before, now), "after": logic.item_progress(after, now)}
 
     # ------------------------------------------------------------ web app
