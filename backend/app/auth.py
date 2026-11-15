@@ -11,8 +11,14 @@ Flow:
 The ID token comes straight from Google's token endpoint over TLS, authenticated
 with our client secret, so per OpenID Connect Core §3.1.3.7 TLS validation stands
 in for checking its signature; we still validate issuer, audience, expiry and
-email verification. (An iOS client sending us a token it got itself will need
-signature verification — add it when the iOS app arrives.)
+email verification. (A client sending us a Google token it got itself would need
+signature verification; the iOS app avoids that by going through this same flow.)
+
+Native apps (iOS) run the same flow in a system browser sheet: they pass the PKCE
+challenge of a verifier only they know (`app_challenge`), the callback redirects to
+`lingo://auth?code=…` with a one-time code instead of setting a cookie, and the app
+redeems code + verifier at POST /api/auth/app/token for a session token. A code that
+leaks through the URL scheme is useless without the verifier.
 
 Sessions are random 256-bit tokens; only their SHA-256 is stored. Web clients get
 them as a cookie, other clients can send `Authorization: Bearer <token>`.
@@ -22,6 +28,7 @@ from __future__ import annotations
 import base64
 import hashlib
 import json
+import re
 import secrets
 import sqlite3
 from typing import Callable
@@ -37,6 +44,9 @@ GOOGLE_ISSUERS = {"accounts.google.com", "https://accounts.google.com"}
 SESSION_COOKIE = "lingo_session"
 STATE_COOKIE = "lingo_oauth_state"
 STATE_TTL = 600  # seconds the user has to finish signing in at Google
+APP_REDIRECT = "lingo://auth"  # where native-app logins end (the iOS app's callback scheme)
+APP_CODE_TTL = 120  # seconds the app has to redeem its one-time code
+_CHALLENGE = re.compile(r"[A-Za-z0-9_-]{43}")  # base64url SHA-256, no padding
 
 
 class AuthError(Exception):
@@ -53,10 +63,17 @@ def token_hash(token: str) -> str:
     return hashlib.sha256(token.encode()).hexdigest()
 
 
+def pkce_challenge(verifier: str) -> str:
+    return base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b"=").decode()
+
+
 def pkce_pair() -> tuple[str, str]:
     verifier = secrets.token_urlsafe(48)
-    challenge = base64.urlsafe_b64encode(hashlib.sha256(verifier.encode()).digest()).rstrip(b"=").decode()
-    return verifier, challenge
+    return verifier, pkce_challenge(verifier)
+
+
+def valid_challenge(challenge: str) -> bool:
+    return bool(_CHALLENGE.fullmatch(challenge))
 
 
 def safe_next(path: str | None) -> str:
@@ -117,14 +134,15 @@ def id_token_claims(id_token: str, cfg: AuthConfig, now: float) -> dict:
 
 # ------------------------------------------------------------------ storage
 
-def start_login(conn: sqlite3.Connection, next_path: str, claim: str | None, now: float) -> tuple[str, str]:
+def start_login(conn: sqlite3.Connection, next_path: str, claim: str | None, now: float,
+                app_challenge: str | None = None) -> tuple[str, str]:
     """Remember a pending login; returns (state, PKCE challenge)."""
     state = new_token()
     verifier, challenge = pkce_pair()
     conn.execute("DELETE FROM oauth_states WHERE created_at < ?", (now - STATE_TTL,))
     conn.execute(
-        "INSERT INTO oauth_states (state, verifier, next, claim, created_at) VALUES (?, ?, ?, ?, ?)",
-        (state, verifier, safe_next(next_path), claim, now),
+        "INSERT INTO oauth_states (state, verifier, next, claim, app_challenge, created_at) VALUES (?, ?, ?, ?, ?, ?)",
+        (state, verifier, safe_next(next_path), claim, app_challenge, now),
     )
     conn.commit()
     return state, challenge
@@ -138,6 +156,36 @@ def take_login(conn: sqlite3.Connection, state: str, now: float) -> sqlite3.Row:
     if row is None or row["created_at"] < now - STATE_TTL:
         raise AuthError("login expired, please try again")
     return row
+
+
+def is_app_login(conn: sqlite3.Connection, state: str | None) -> bool:
+    """Whether this browser's pending login (by its state cookie) was started by the native app."""
+    if not state:
+        return False
+    row = conn.execute("SELECT app_challenge FROM oauth_states WHERE state=?", (state,)).fetchone()
+    return bool(row and row["app_challenge"])
+
+
+def create_app_code(conn: sqlite3.Connection, user_id: str, challenge: str, now: float) -> str:
+    code = new_token()
+    conn.execute("DELETE FROM app_codes WHERE created_at < ?", (now - APP_CODE_TTL,))
+    conn.execute("INSERT INTO app_codes (code_hash, user_id, challenge, created_at) VALUES (?, ?, ?, ?)",
+                 (token_hash(code), user_id, challenge, now))
+    conn.commit()
+    return code
+
+
+def redeem_app_code(conn: sqlite3.Connection, code: str, verifier: str, now: float) -> str:
+    """Consume a one-time app code (single use, even on a wrong verifier); returns the user id."""
+    h = token_hash(code)
+    row = conn.execute("SELECT * FROM app_codes WHERE code_hash=?", (h,)).fetchone()
+    conn.execute("DELETE FROM app_codes WHERE code_hash=?", (h,))
+    conn.commit()
+    if row is None or row["created_at"] < now - APP_CODE_TTL:
+        raise AuthError("code expired, please sign in again")
+    if not secrets.compare_digest(pkce_challenge(verifier), row["challenge"]):
+        raise AuthError("verifier does not match")
+    return row["user_id"]
 
 
 def upsert_google_user(conn: sqlite3.Connection, claims: dict, claim_id: str | None, now: float) -> str:

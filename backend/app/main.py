@@ -45,6 +45,11 @@ class WordReview(BaseModel):
     elapsed_ms: int | None = Field(default=None, ge=0)
 
 
+class AppToken(BaseModel):
+    code: str = Field(min_length=1, max_length=200)
+    verifier: str = Field(min_length=43, max_length=128)
+
+
 class QuizAnswer(BaseModel):
     choice: str
     elapsed_ms: int | None = Field(default=None, ge=0)
@@ -101,10 +106,12 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         return {"enabled": auth_cfg is not None, "providers": ["google"] if auth_cfg else []}
 
     @app.get("/api/auth/google/login", include_in_schema=False)
-    def google_login(conn: Conn, next: str = "/", claim: str | None = None):
+    def google_login(conn: Conn, next: str = "/", claim: str | None = None, app_challenge: str | None = None):
         if auth_cfg is None:
             raise HTTPException(404, "sign-in is not configured")
-        state, challenge = auth.start_login(conn, next, claim, clock())
+        if app_challenge is not None and not auth.valid_challenge(app_challenge):
+            raise HTTPException(422, "app_challenge must be a base64url SHA-256 (S256) PKCE challenge")
+        state, challenge = auth.start_login(conn, next, claim, clock(), app_challenge)
         resp = RedirectResponse(auth.authorization_url(auth_cfg, state, challenge), status_code=302)
         resp.set_cookie(auth.STATE_COOKIE, state, max_age=auth.STATE_TTL, httponly=True, samesite="lax",
                         secure=auth_cfg.cookie_secure, path="/api/auth")
@@ -116,8 +123,11 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         if auth_cfg is None:
             raise HTTPException(404, "sign-in is not configured")
 
+        app_login = auth.is_app_login(conn, request.cookies.get(auth.STATE_COOKIE))
+
         def fail(reason: str):
-            resp = RedirectResponse(f"{auth_cfg.frontend_url}/login?error={quote(reason)}", status_code=302)
+            target = auth.APP_REDIRECT if app_login else f"{auth_cfg.frontend_url}/login"
+            resp = RedirectResponse(f"{target}?error={quote(reason)}", status_code=302)
             resp.delete_cookie(auth.STATE_COOKIE, path="/api/auth")
             return resp
 
@@ -133,12 +143,30 @@ def create_app(db_path: str | None = None, clock: Callable[[], float] = time.tim
         except (auth.AuthError, httpx.HTTPError):
             return fail("failed")
         uid = auth.upsert_google_user(conn, claims, pending["claim"], now)
+        if pending["app_challenge"]:
+            code = auth.create_app_code(conn, uid, pending["app_challenge"], now)
+            resp = RedirectResponse(f"{auth.APP_REDIRECT}?code={quote(code)}", status_code=302)
+            resp.delete_cookie(auth.STATE_COOKIE, path="/api/auth")
+            return resp
         token = auth.create_session(conn, uid, now, auth_cfg.session_days)
         resp = RedirectResponse(auth_cfg.frontend_url + pending["next"], status_code=302)
         resp.set_cookie(auth.SESSION_COOKIE, token, max_age=auth_cfg.session_days * 86400, httponly=True,
                         samesite="lax", secure=auth_cfg.cookie_secure, path="/")
         resp.delete_cookie(auth.STATE_COOKIE, path="/api/auth")
         return resp
+
+    @app.post("/api/auth/app/token")
+    def app_token(body: AppToken, conn: Conn):
+        """Native apps: trade the one-time code from `lingo://auth?code=…` (plus the PKCE verifier) for a session."""
+        if auth_cfg is None:
+            raise HTTPException(404, "sign-in is not configured")
+        now = clock()
+        try:
+            uid = auth.redeem_app_code(conn, body.code, body.verifier, now)
+        except auth.AuthError as e:
+            raise HTTPException(400, str(e)) from None
+        token = auth.create_session(conn, uid, now, auth_cfg.session_days)
+        return {"token": token, "expires_in": auth_cfg.session_days * 86400}
 
     @app.post("/api/auth/logout")
     def logout(request: Request, conn: Conn):

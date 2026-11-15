@@ -166,3 +166,62 @@ def test_env_file_loading(tmp_path, monkeypatch):
     assert os.environ["LINGO_TEST_B"] == "quoted"
     assert "LINGO_TEST_C" not in os.environ
     monkeypatch.delenv("LINGO_TEST_B")
+
+
+# ---------------------------------------------------------------- native app (iOS)
+
+APP_VERIFIER = "v" * 64
+
+
+def app_sign_in(client, verifier=APP_VERIFIER):
+    r = client.get("/api/auth/google/login", params={"app_challenge": auth.pkce_challenge(verifier)})
+    assert r.status_code == 302
+    state = parse_qs(urlparse(r.headers["location"]).query)["state"][0]
+    return client.get("/api/auth/google/callback", params={"code": "the-code", "state": state})
+
+
+def test_app_sign_in_redirects_to_app_with_one_time_code(client):
+    r = app_sign_in(client)
+    loc = urlparse(r.headers["location"])
+    assert (loc.scheme, loc.netloc) == ("lingo", "auth")
+    assert auth.SESSION_COOKIE not in r.cookies  # the app gets a code, not a browser session
+    code = parse_qs(loc.query)["code"][0]
+
+    t = client.post("/api/auth/app/token", json={"code": code, "verifier": APP_VERIFIER})
+    assert t.status_code == 200
+    token = t.json()["token"]
+    client.cookies.clear()
+    me = client.get("/api/me", headers={"Authorization": f"Bearer {token}"})
+    assert me.status_code == 200 and me.json()["email"] == "learner@example.com"
+
+    # single use
+    again = client.post("/api/auth/app/token", json={"code": code, "verifier": APP_VERIFIER})
+    assert again.status_code == 400
+
+
+def test_app_code_needs_the_apps_verifier(client):
+    code = parse_qs(urlparse(app_sign_in(client).headers["location"]).query)["code"][0]
+    r = client.post("/api/auth/app/token", json={"code": code, "verifier": "x" * 64})
+    assert r.status_code == 400
+    # a wrong guess burns the code
+    assert client.post("/api/auth/app/token", json={"code": code, "verifier": APP_VERIFIER}).status_code == 400
+
+
+def test_app_code_expires(tmp_path, google):
+    now = [NOW]
+    app = create_app(str(tmp_path / "a.db"), clock=lambda: now[0], auth_cfg=CFG, exchange=google)
+    c = TestClient(app, follow_redirects=False)
+    code = parse_qs(urlparse(app_sign_in(c).headers["location"]).query)["code"][0]
+    now[0] += auth.APP_CODE_TTL + 1
+    assert c.post("/api/auth/app/token", json={"code": code, "verifier": APP_VERIFIER}).status_code == 400
+
+
+def test_app_login_errors_go_back_to_the_app(client):
+    r = client.get("/api/auth/google/login", params={"app_challenge": auth.pkce_challenge(APP_VERIFIER)})
+    state = parse_qs(urlparse(r.headers["location"]).query)["state"][0]
+    r = client.get("/api/auth/google/callback", params={"error": "access_denied", "state": state})
+    assert r.headers["location"] == "lingo://auth?error=cancelled"
+
+
+def test_app_challenge_must_be_s256(client):
+    assert client.get("/api/auth/google/login", params={"app_challenge": "short"}).status_code == 422

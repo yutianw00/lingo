@@ -86,6 +86,15 @@ CREATE TABLE IF NOT EXISTS oauth_states (
     verifier TEXT NOT NULL,
     next TEXT NOT NULL,
     claim TEXT,
+    app_challenge TEXT,           -- native-app logins: PKCE challenge of the app's own verifier
+    created_at REAL NOT NULL
+);
+-- Native-app logins end with a one-time code (handed to the app through its URL
+-- scheme) that the app redeems, together with its PKCE verifier, for a session.
+CREATE TABLE IF NOT EXISTS app_codes (
+    code_hash TEXT PRIMARY KEY,
+    user_id TEXT NOT NULL,
+    challenge TEXT NOT NULL,
     created_at REAL NOT NULL
 );
 """
@@ -123,3 +132,5 @@ def _migrate(conn: sqlite3.Connection) -> None:
         if col not in have:
             conn.execute(f"ALTER TABLE users ADD COLUMN {col} {typ}")
     conn.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_users_google ON users (google_sub)")
+    if "app_challenge" not in {r["name"] for r in conn.execute("PRAGMA table_info(oauth_states)")}:
+        conn.execute("ALTER TABLE oauth_states ADD COLUMN app_challenge TEXT")
