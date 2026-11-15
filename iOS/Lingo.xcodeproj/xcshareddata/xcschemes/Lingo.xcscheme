@@ -15,6 +15,10 @@
          <BuildableReference BuildableIdentifier = "primary" BlueprintIdentifier = "A10000000000000000000040" BuildableName = "Lingo.app" BlueprintName = "Lingo" ReferencedContainer = "container:Lingo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument argument = "-local" isEnabled = "NO">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction buildConfiguration = "Release" shouldUseLaunchSchemeArgsEnv = "YES" savedToolIdentifier = "" useCustomWorkingDirectory = "NO" debugDocumentVersioning = "YES">
       <BuildableProductRunnable runnableDebuggingMode = "0">

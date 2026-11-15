@@ -22,13 +22,21 @@ enum APIError: LocalizedError {
 final class API: @unchecked Sendable {
     static let shared = API()
 
-    static let defaultServer = "http://localhost:8000"
+    /// The deployed backend, used unless told otherwise.
+    static let defaultServer = "https://lingo-tiw0.onrender.com"
+    /// The backend on this Mac (from the simulator), selected with the `-local` launch flag.
+    static let localServer = "http://localhost:8000"
     static let serverKey = "serverURL"
 
-    /// Base URL of the backend. Change it in the app (sign-in screen / settings) or with
-    /// the launch argument `-serverURL http://…`.
+    /// Base URL of the backend, in order of precedence:
+    /// launch argument `-serverURL http://…`, launch flag `-local` (→ `localServer`),
+    /// the address saved in the app (sign-in screen / settings), then `defaultServer`.
     var server: String {
-        get { UserDefaults.standard.string(forKey: Self.serverKey) ?? Self.defaultServer }
+        get {
+            let args = ProcessInfo.processInfo.arguments
+            if !args.contains("-serverURL") && args.contains("-local") { return Self.localServer }
+            return UserDefaults.standard.string(forKey: Self.serverKey) ?? Self.defaultServer
+        }
         set { UserDefaults.standard.set(newValue, forKey: Self.serverKey) }
     }
 
