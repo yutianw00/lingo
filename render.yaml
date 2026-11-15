@@ -1,0 +1,25 @@
+# Render Blueprint: one web service (API + web app) with a persistent disk for SQLite.
+# Create it in the Render dashboard: New → Blueprint → pick this repo. See DEPLOY.md.
+services:
+  - type: web
+    name: lingo
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter            # paid plan: free instances can't attach a disk and sleep when idle
+    region: oregon           # can't be changed later; singapore / frankfurt / ohio / virginia also exist
+    healthCheckPath: /api/auth/config
+    autoDeployTrigger: checksPass   # deploy each push to main, but only once the CI checks pass
+    disk:
+      name: lingo-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: LINGO_DB
+        value: /data/lingo.db
+      # Secrets: Render asks for these when the Blueprint is created (never commit them).
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: GOOGLE_REDIRECT_URI   # https://<your domain>/api/auth/google/callback
+        sync: false

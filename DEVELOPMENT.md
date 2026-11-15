@@ -109,3 +109,10 @@ Native sign-in: `GET /api/auth/google/login?app_challenge=<S256 of an app-held v
 flow, but the callback redirects to `lingo://auth?code=…` (or `?error=…`) instead of setting a cookie. The app
 redeems the code with `POST /api/auth/app/token {code, verifier}` → `{token}`. Codes are single-use, expire after
 2 minutes and are worthless without the verifier, so a code intercepted from the URL scheme can't be used.
+
+## Deploy
+
+Production runs on Render: one Docker image ([Dockerfile](Dockerfile)) serves the API and the web app, with the
+SQLite database on a persistent disk ([render.yaml](render.yaml)). Pushes to `main` run CI
+([.github/workflows/ci.yml](.github/workflows/ci.yml)) and deploy once it passes. Step-by-step setup:
+[DEPLOY.md](DEPLOY.md).

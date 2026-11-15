@@ -1,0 +1,15 @@
+.git
+.github
+.claude
+**/.DS_Store
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+backend/.venv
+backend/.env
+backend/*.db
+backend/*.db-*
+web/dist
+iOS
+mockups
+docs
