@@ -198,3 +198,13 @@ struct FlowRow: Layout {
         }
     }
 }
+
+#if DEBUG
+#Preview("Home") {
+    HomeView().environment(AppModel.preview())
+}
+
+#Preview("Home, dark") {
+    HomeView().environment(AppModel.preview()).preferredColorScheme(.dark)
+}
+#endif

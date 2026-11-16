@@ -125,3 +125,13 @@ struct SetupView: View {
         }
     }
 }
+
+#if DEBUG
+#Preview("First run") {
+    SetupView(firstRun: true).environment(AppModel.preview())
+}
+
+#Preview("Settings") {
+    SetupView(firstRun: false).environment(AppModel.preview())
+}
+#endif

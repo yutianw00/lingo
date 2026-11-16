@@ -65,3 +65,13 @@ struct GoogleLogo: View {
         }
     }
 }
+
+#if DEBUG
+#Preview("Sign in") {
+    LoginView(error: nil).environment(AppModel.preview(.signedOut(error: nil)))
+}
+
+#Preview("Sign in failed") {
+    LoginView(error: "failed").environment(AppModel.preview(.signedOut(error: "failed")))
+}
+#endif

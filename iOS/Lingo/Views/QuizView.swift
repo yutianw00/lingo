@@ -340,3 +340,9 @@ struct QuizView: View {
 extension Array {
     subscript(safe i: Int) -> Element? { indices.contains(i) ? self[i] : nil }
 }
+
+#if DEBUG
+#Preview("Quiz") {
+    QuizView(goSwipe: {}).environment(AppModel.preview())
+}
+#endif

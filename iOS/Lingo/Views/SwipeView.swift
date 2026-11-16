@@ -300,3 +300,9 @@ struct CardFace: View {
         }
     }
 }
+
+#if DEBUG
+#Preview("Swipe") {
+    SwipeView(goQuiz: {}).environment(AppModel.preview())
+}
+#endif

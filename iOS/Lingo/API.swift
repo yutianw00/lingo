@@ -71,6 +71,12 @@ final class API: @unchecked Sendable {
 
     private func send<T: Decodable>(_ method: String, _ path: String, query: [URLQueryItem] = [],
                                     body: (some Encodable)? = Optional<Int>.none) async throws -> T {
+        #if DEBUG
+        if PreviewData.isActive {
+            let sent = try body.map { try encoder.encode($0) }
+            return try decoder.decode(T.self, from: PreviewData.respond(method, path, body: sent))
+        }
+        #endif
         var req = URLRequest(url: try url(path, query: query))
         req.httpMethod = method
         req.timeoutInterval = 15

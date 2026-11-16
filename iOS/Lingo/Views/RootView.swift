@@ -95,3 +95,13 @@ enum DebugLaunch {
         #endif
     }
 }
+
+#if DEBUG
+#Preview("App") {
+    RootView().environment(AppModel.preview())
+}
+
+#Preview("Server unreachable") {
+    RootView().environment(AppModel.preview(.unreachable("Could not connect to the server.")))
+}
+#endif

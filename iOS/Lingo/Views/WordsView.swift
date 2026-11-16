@@ -179,3 +179,9 @@ struct WordsView: View {
         return (t.inDays(Int((secs / 86400).rounded())), false)
     }
 }
+
+#if DEBUG
+#Preview("Words") {
+    WordsView().environment(AppModel.preview())
+}
+#endif
